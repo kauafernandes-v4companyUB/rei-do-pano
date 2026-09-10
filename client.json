@@ -2,7 +2,7 @@
   "meta": {
     "name": "Rei do Pano & Rainha Modas",
     "slug": "rei-do-pano",
-    "workspace_id": null,
+    "workspace_id": "e777abc6-0728-4dc2-a25d-3a88da73c857",
     "created_at": "2026-04-30",
     "modelo_venda": "pdv",
     "investidor": {
@@ -14,10 +14,22 @@
       "_comment": "Campo estendido (fora do schema oficial client.json) preservado para não perder a composição real do time. Confirmado diretamente pelo operador em 2026-09-10.",
       "unidade": "Leal Vieira & Co.",
       "membros": [
-        { "nome": "Kauã Fernandes", "papel": "Account Manager" },
-        { "nome": "Luciano", "papel": "Gestor de Tráfego" },
-        { "nome": "Leo", "papel": "Designer / Social Media" },
-        { "nome": "Nathalia", "papel": "Head de Squad" }
+        {
+          "nome": "Kauã Fernandes",
+          "papel": "Account Manager"
+        },
+        {
+          "nome": "Luciano",
+          "papel": "Gestor de Tráfego"
+        },
+        {
+          "nome": "Leo",
+          "papel": "Designer / Social Media"
+        },
+        {
+          "nome": "Nathalia",
+          "papel": "Head de Squad"
+        }
       ]
     }
   },
@@ -61,14 +73,24 @@
     },
     "competition": {
       "competitors": [
-        { "name": "Havan", "perceived_differential": "Megastore nacional, experiência de loja-passeio, mix amplo, maturidade digital alta (Pixel/GTM/GA4 ativos, +1.100 anúncios Meta, ~4.000 Google Ads)" },
-        { "name": "Lojas Avenida", "perceived_differential": "Moda popular e varejo, Cartão Avenida como âncora de fidelização, comunicação 100% promocional, sem crediário próprio nem especialidade em tecidos" }
+        {
+          "name": "Havan",
+          "perceived_differential": "Megastore nacional, experiência de loja-passeio, mix amplo, maturidade digital alta (Pixel/GTM/GA4 ativos, +1.100 anúncios Meta, ~4.000 Google Ads)"
+        },
+        {
+          "name": "Lojas Avenida",
+          "perceived_differential": "Moda popular e varejo, Cartão Avenida como âncora de fidelização, comunicação 100% promocional, sem crediário próprio nem especialidade em tecidos"
+        }
       ],
       "real_differential": "Crediário próprio sem juros (não replicável digitalmente por concorrentes nacionais ou e-commerce), especialidade em tecidos por metro sem concorrência direta em Vilhena, atendimento humanizado de 30+ anos, nota 4,6/5,0 no Google com 327+ avaliações",
       "why_choose_us": "Referência regional consolidada, crediário facilitado sem juros, variedade completa em um só lugar, resolução de problemas sem burocracia"
     },
     "brand": {
-      "adjectives": ["Familiar", "Prestativo", "Sólido"],
+      "adjectives": [
+        "Familiar",
+        "Prestativo",
+        "Sólido"
+      ],
       "voice_tone": "descontraido",
       "admired_brands": null,
       "current_colors": "Rei do Pano: vermelho #c20605/#E73333/#ff4d4d + dourado #c6a000/#ffe44d/#fff199 + marrom escuro/preto #281308/#000000. Rainha Modas: dourado (compartilhado) + cinza #b2b2b2/#dadada/#f6f6f6 + marrom escuro/preto.",
@@ -134,47 +156,307 @@
     }
   },
   "connectors": {
-    "fetched_at": null,
-    "integrations": null,
-    "_comment": "Sem workspace_id do V4MOS identificado nos materiais — integração de dados de mídia (Google Ads/Facebook Ads) ainda não configurada."
+    "fetched_at": "2026-09-10T19:50:08Z",
+    "period": {
+      "start": "2026-06-12T00:00:00Z",
+      "end": "2026-09-10T23:59:59Z"
+    },
+    "google_ads": {
+      "total_campaigns": 0,
+      "total_cost": 0,
+      "total_clicks": 0,
+      "total_impressions": 0,
+      "total_conversions": 0,
+      "avg_cpa": null,
+      "avg_ctr": 0,
+      "campaigns": [],
+      "monthly_evolution": [],
+      "day_of_week": [
+        {
+          "day": "Seg",
+          "clicks": 0,
+          "impressions": 0,
+          "cost": 0,
+          "conversions": 0,
+          "pct": 0.0,
+          "ctr": 0
+        },
+        {
+          "day": "Ter",
+          "clicks": 0,
+          "impressions": 0,
+          "cost": 0,
+          "conversions": 0,
+          "pct": 0.0,
+          "ctr": 0
+        },
+        {
+          "day": "Qua",
+          "clicks": 0,
+          "impressions": 0,
+          "cost": 0,
+          "conversions": 0,
+          "pct": 0.0,
+          "ctr": 0
+        },
+        {
+          "day": "Qui",
+          "clicks": 0,
+          "impressions": 0,
+          "cost": 0,
+          "conversions": 0,
+          "pct": 0.0,
+          "ctr": 0
+        },
+        {
+          "day": "Sex",
+          "clicks": 0,
+          "impressions": 0,
+          "cost": 0,
+          "conversions": 0,
+          "pct": 0.0,
+          "ctr": 0
+        },
+        {
+          "day": "Sáb",
+          "clicks": 0,
+          "impressions": 0,
+          "cost": 0,
+          "conversions": 0,
+          "pct": 0.0,
+          "ctr": 0
+        },
+        {
+          "day": "Dom",
+          "clicks": 0,
+          "impressions": 0,
+          "cost": 0,
+          "conversions": 0,
+          "pct": 0.0,
+          "ctr": 0
+        }
+      ],
+      "gender_breakdown": [],
+      "top_keywords": []
+    },
+    "facebook_ads": {
+      "total_campaigns": 0,
+      "total_ads": 0,
+      "total_creatives": 0,
+      "total_spend": 0,
+      "total_impressions": 0,
+      "total_clicks": 0,
+      "total_reach": 0,
+      "total_leads": 0,
+      "avg_cpm": 0,
+      "avg_ctr": 0,
+      "avg_cpl": null,
+      "leads_by_objective": [],
+      "campaigns": [],
+      "creatives": [],
+      "monthly_evolution": []
+    }
   },
   "progress": {
     "current_week": 4,
     "_comment": "Semana 3 (específica do modelo 'pdv') está pendente porque as skills ee-s3-pdv-* ainda são [STUB] na implementação do plugin — sem conteúdo executável disponível. A V4 avançou entregas de Semana 4 (Manual de Marca, Landing Page) em paralelo.",
     "skills": {
-      "ee-s1-persona-icp": { "status": "completed", "version": 1, "started_at": null, "completed_at": null, "fonte": "base-de-conhecimento/01-persona-icp-jtbd.md" },
-      "ee-s1-auditoria-comunicacao": { "status": "completed", "version": 1, "started_at": null, "completed_at": null, "fonte": "base-de-conhecimento/04-auditoria-comunicacao-redes-sociais.md" },
-      "ee-s1-swot": { "status": "completed", "version": 1, "started_at": null, "completed_at": null, "fonte": "base-de-conhecimento/02-mercado-swot-concorrentes.md" },
-      "ee-s2-pesquisa-mercado": { "status": "completed", "version": 1, "started_at": null, "completed_at": null, "fonte": "base-de-conhecimento/02-mercado-swot-concorrentes.md" },
-      "ee-s1-arquitetura-presenca": { "status": "pending", "version": 0, "started_at": null, "completed_at": null },
-
-      "ee-s2-diagnostico-midia": { "status": "completed", "version": 1, "started_at": null, "completed_at": "2026-05-30", "fonte": "base-de-conhecimento/05-diagnostico-midia-trafego-pago.md" },
-      "ee-s2-diagnostico-organico-ig": { "status": "completed", "version": 1, "started_at": null, "completed_at": null, "fonte": "base-de-conhecimento/04-auditoria-comunicacao-redes-sociais.md" },
-      "ee-s2-diagnostico-criativos": { "status": "in_progress", "version": 1, "started_at": null, "completed_at": null, "fonte": "base-de-conhecimento/04-auditoria-comunicacao-redes-sociais.md; base-de-conhecimento/06-landing-page-copy-criativos.md" },
-      "ee-s1-diagnostico-maturidade": { "status": "completed", "version": 1, "started_at": null, "completed_at": "2026-05-30", "fonte": "base-de-conhecimento/05-diagnostico-midia-trafego-pago.md" },
-      "ee-s2-posicionamento": { "status": "completed", "version": 1, "started_at": null, "completed_at": null, "fonte": "base-de-conhecimento/03-posicionamento-e-manual-de-marca.md" },
-
-      "ee-s3-pdv-base-ativa": { "status": "pending", "version": 0, "started_at": null, "completed_at": null },
-      "ee-s3-pdv-gmn": { "status": "pending", "version": 0, "started_at": null, "completed_at": null },
-      "ee-s3-pdv-experiencia": { "status": "pending", "version": 0, "started_at": null, "completed_at": null },
-      "ee-s3-pdv-regua-whatsapp": { "status": "pending", "version": 0, "started_at": null, "completed_at": null },
-
-      "ee-s3-manual-marca": { "status": "completed", "version": 1, "started_at": null, "completed_at": "2026-05-29", "fonte": "base-de-conhecimento/03-posicionamento-e-manual-de-marca.md" },
-      "ee-s3-landing-page": { "status": "completed", "version": 1, "started_at": null, "completed_at": null, "fonte": "base-de-conhecimento/06-landing-page-copy-criativos.md" },
-      "ee-s3-copy-anuncios": { "status": "in_progress", "version": 1, "started_at": null, "completed_at": null, "fonte": "base-de-conhecimento/05-diagnostico-midia-trafego-pago.md (Google Ads completo; Meta Ads ausente/truncado)" },
-      "ee-s3-criativos-anuncios": { "status": "in_progress", "version": 1, "started_at": null, "completed_at": null, "fonte": "base-de-conhecimento/06-landing-page-copy-criativos.md (Rei do Pano completo; Rainha Modas pendente)" },
-      "ee-s3-crm-setup": { "status": "pending", "version": 0, "started_at": null, "completed_at": null },
-      "ee-s5-scripts-sdr": { "status": "pending", "version": 0, "started_at": null, "completed_at": null },
-      "ee-s5-sdr-ia-config": { "status": "pending", "version": 0, "started_at": null, "completed_at": null },
-      "ee-s3-forecast-midia": { "status": "pending", "version": 0, "started_at": null, "completed_at": null }
+      "ee-s1-persona-icp": {
+        "status": "completed",
+        "version": 1,
+        "started_at": null,
+        "completed_at": null,
+        "fonte": "base-de-conhecimento/01-persona-icp-jtbd.md"
+      },
+      "ee-s1-auditoria-comunicacao": {
+        "status": "completed",
+        "version": 1,
+        "started_at": null,
+        "completed_at": null,
+        "fonte": "base-de-conhecimento/04-auditoria-comunicacao-redes-sociais.md"
+      },
+      "ee-s1-swot": {
+        "status": "completed",
+        "version": 1,
+        "started_at": null,
+        "completed_at": null,
+        "fonte": "base-de-conhecimento/02-mercado-swot-concorrentes.md"
+      },
+      "ee-s2-pesquisa-mercado": {
+        "status": "completed",
+        "version": 1,
+        "started_at": null,
+        "completed_at": null,
+        "fonte": "base-de-conhecimento/02-mercado-swot-concorrentes.md"
+      },
+      "ee-s1-arquitetura-presenca": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s2-diagnostico-midia": {
+        "status": "completed",
+        "version": 1,
+        "started_at": null,
+        "completed_at": "2026-05-30",
+        "fonte": "base-de-conhecimento/05-diagnostico-midia-trafego-pago.md"
+      },
+      "ee-s2-diagnostico-organico-ig": {
+        "status": "completed",
+        "version": 1,
+        "started_at": null,
+        "completed_at": null,
+        "fonte": "base-de-conhecimento/04-auditoria-comunicacao-redes-sociais.md"
+      },
+      "ee-s2-diagnostico-criativos": {
+        "status": "in_progress",
+        "version": 1,
+        "started_at": null,
+        "completed_at": null,
+        "fonte": "base-de-conhecimento/04-auditoria-comunicacao-redes-sociais.md; base-de-conhecimento/06-landing-page-copy-criativos.md"
+      },
+      "ee-s1-diagnostico-maturidade": {
+        "status": "completed",
+        "version": 1,
+        "started_at": null,
+        "completed_at": "2026-05-30",
+        "fonte": "base-de-conhecimento/05-diagnostico-midia-trafego-pago.md"
+      },
+      "ee-s2-posicionamento": {
+        "status": "completed",
+        "version": 1,
+        "started_at": null,
+        "completed_at": null,
+        "fonte": "base-de-conhecimento/03-posicionamento-e-manual-de-marca.md"
+      },
+      "ee-s3-pdv-base-ativa": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-pdv-gmn": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-pdv-experiencia": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-pdv-regua-whatsapp": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-manual-marca": {
+        "status": "completed",
+        "version": 1,
+        "started_at": null,
+        "completed_at": "2026-05-29",
+        "fonte": "base-de-conhecimento/03-posicionamento-e-manual-de-marca.md"
+      },
+      "ee-s3-landing-page": {
+        "status": "completed",
+        "version": 1,
+        "started_at": null,
+        "completed_at": null,
+        "fonte": "base-de-conhecimento/06-landing-page-copy-criativos.md"
+      },
+      "ee-s3-copy-anuncios": {
+        "status": "in_progress",
+        "version": 1,
+        "started_at": null,
+        "completed_at": null,
+        "fonte": "base-de-conhecimento/05-diagnostico-midia-trafego-pago.md (Google Ads completo; Meta Ads ausente/truncado)"
+      },
+      "ee-s3-criativos-anuncios": {
+        "status": "in_progress",
+        "version": 1,
+        "started_at": null,
+        "completed_at": null,
+        "fonte": "base-de-conhecimento/06-landing-page-copy-criativos.md (Rei do Pano completo; Rainha Modas pendente)"
+      },
+      "ee-s3-crm-setup": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s5-scripts-sdr": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s5-sdr-ia-config": {
+        "status": "pending",
+        "version": 0,
+        "started_at": null,
+        "completed_at": null
+      },
+      "ee-s3-forecast-midia": {
+        "status": "completed",
+        "version": 1,
+        "started_at": "2026-09-10",
+        "completed_at": "2026-09-10",
+        "fonte": "outputs/ee-s3-forecast-midia.json; base-de-conhecimento/08-forecast-midia-vilhena-2k.md"
+      }
     }
   },
   "history": [
-    { "ts": "2026-04-29T12:24:06Z", "skill": "pre-kickoff", "action": "completed", "note": "Formulário de pré-kick-off respondido (parcialmente) pelo cliente — dados financeiros e de estrutura comercial deixados em branco." },
-    { "ts": "2026-04-30T00:00:00Z", "skill": "kickoff", "action": "completed", "note": "Reunião de kick-off realizada com a equipe V4." },
-    { "ts": "2026-05-29T05:30:07-04:00", "skill": "ee-s3-manual-marca", "action": "completed", "note": "Manual de Marca / Key Visual entregue (31 páginas): manifesto, DNA de marca, arquétipos, pilares, paleta, tipografia e aplicações para Rei do Pano e Rainha Modas." },
-    { "ts": "2026-05-30T01:37:34-04:00", "skill": "ee-s2-diagnostico-midia", "action": "completed", "note": "Estruturação Estratégica de Tráfego Pago entregue (seções 01-07 completas; seções 08-Copy Meta Ads e 09-Fluxo truncadas no arquivo exportado)." },
-    { "ts": "2026-09-10T00:00:00Z", "skill": "ee-continuar", "action": "completed", "note": "Due diligence completa: leitura integral de todos os materiais brutos (01-05), cruzamento de fontes, resolução/documentação de divergências. Conhecimento consolidado em base-de-conhecimento/. Repositório Git criado e publicado em github.com/webkauadev/rei-do-pano (privado)." },
-    { "ts": "2026-09-10T00:00:00Z", "skill": "ee-novo-cliente", "action": "completed", "note": "Projeto migrado para a arquitetura oficial do sistema v4-estruturacao-ia (client.json + base-de-conhecimento/ + outputs/). modelo_venda definido como 'pdv'. Equipe V4 confirmada pelo operador: Kauã Fernandes (Account Manager), Luciano (Gestor de Tráfego), Leo (Designer/Social Media), Nathalia (Head de Squad) — unidade Leal Vieira & Co." }
+    {
+      "ts": "2026-04-29T12:24:06Z",
+      "skill": "pre-kickoff",
+      "action": "completed",
+      "note": "Formulário de pré-kick-off respondido (parcialmente) pelo cliente — dados financeiros e de estrutura comercial deixados em branco."
+    },
+    {
+      "ts": "2026-04-30T00:00:00Z",
+      "skill": "kickoff",
+      "action": "completed",
+      "note": "Reunião de kick-off realizada com a equipe V4."
+    },
+    {
+      "ts": "2026-05-29T05:30:07-04:00",
+      "skill": "ee-s3-manual-marca",
+      "action": "completed",
+      "note": "Manual de Marca / Key Visual entregue (31 páginas): manifesto, DNA de marca, arquétipos, pilares, paleta, tipografia e aplicações para Rei do Pano e Rainha Modas."
+    },
+    {
+      "ts": "2026-05-30T01:37:34-04:00",
+      "skill": "ee-s2-diagnostico-midia",
+      "action": "completed",
+      "note": "Estruturação Estratégica de Tráfego Pago entregue (seções 01-07 completas; seções 08-Copy Meta Ads e 09-Fluxo truncadas no arquivo exportado)."
+    },
+    {
+      "ts": "2026-09-10T00:00:00Z",
+      "skill": "ee-continuar",
+      "action": "completed",
+      "note": "Due diligence completa: leitura integral de todos os materiais brutos (01-05), cruzamento de fontes, resolução/documentação de divergências. Conhecimento consolidado em base-de-conhecimento/. Repositório Git criado e publicado em github.com/webkauadev/rei-do-pano (privado)."
+    },
+    {
+      "ts": "2026-09-10T00:00:00Z",
+      "skill": "ee-novo-cliente",
+      "action": "completed",
+      "note": "Projeto migrado para a arquitetura oficial do sistema v4-estruturacao-ia (client.json + base-de-conhecimento/ + outputs/). modelo_venda definido como 'pdv'. Equipe V4 confirmada pelo operador: Kauã Fernandes (Account Manager), Luciano (Gestor de Tráfego), Leo (Designer/Social Media), Nathalia (Head de Squad) — unidade Leal Vieira & Co."
+    },
+    {
+      "ts": "2026-09-10T19:50:08Z",
+      "skill": "v4mos-integration",
+      "action": "completed",
+      "note": "Integração V4MOS configurada (workspace_id/organizationId e777abc6-0728-4dc2-a25d-3a88da73c857; credenciais salvas fora do repo em ../.credentials/clients.json). Primeiro fetch (janela de 90 dias) retornou 0 campanhas em Google Ads e Facebook Ads — consistente com briefing.accesses (meta_business/google_ads: false) e briefing.digital_situation.paid_traffic: false. Nenhuma conta de mídia paga vinculada a este workspace no V4MOS ainda; conferir com o cliente/gestor de tráfego se as contas de anúncio foram conectadas na plataforma."
+    },
+    {
+      "ts": "2026-09-10T00:00:00Z",
+      "skill": "ee-s3-forecast-midia",
+      "action": "completed",
+      "note": "Forecast de mídia gerado especificamente para o Rei do Pano (Rainha Modas fora do escopo), verba fixa de R$2.000/mês, geo restrita a Vilhena (exclui Colorado do Oeste e Cerejeiras), split 80% Meta Ads / 20% Google Ads — parâmetros definidos em conversa direta com o operador, não em client.json.briefing. Projeção 6 meses: ~1.011 leads, CPL blended de R$18,02 (M1) a R$9,66 (M6), ~262 clientes atendidos, CAC de mídia de R$90,90 a R$32,26. Forecast é operacional (funil de mídia), não financeiro — briefing.product.ticket é null, então não há projeção de ROAS/faturamento. Saída: outputs/ee-s3-forecast-midia.json + base-de-conhecimento/08-forecast-midia-vilhena-2k.md."
+    }
   ]
 }

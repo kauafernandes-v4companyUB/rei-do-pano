@@ -1,0 +1,286 @@
+{
+  "client_name": "Rei do Pano",
+  "summary": "Forecast de mídia para o Rei do Pano com verba fixa de R$2.000/mês, restrita a Vilhena (exclui Colorado do Oeste e Cerejeiras), split 80% Meta Ads / 20% Google Ads. Em 6 meses projeta ~1.011 leads via WhatsApp/busca (CPL blended caindo de R$18,02 para R$9,66) e ~262 clientes efetivamente atendidos na loja (CAC de mídia caindo de R$90,90 para R$32,30). Como o budget não cresce ao longo do período, a evolução é só de eficiência — não há fase de escala de verba. Ticket médio e conversão loja não constam no client.json, então este forecast é operacional (funil de mídia), não financeiro — não projeta ROAS/faturamento.",
+  "summary_headline": "R$2.000/mês em Vilhena: ~1.011 leads e ~262 clientes atendidos em 6 meses, CPL blended de R$18,02 a R$9,66",
+  "horizon": "6 meses a partir do mês de lançamento das campanhas (não há data de início confirmada em client.json)",
+  "currency": "BRL",
+  "scenario_stance": "Conservador — maturidade digital V0 (sem Pixel/GTM/GA4, sem histórico próprio de campanhas em nenhuma das duas marcas), budget abaixo de R$2.000/mês (regra de benchmark: CPL 30-50% acima no aprendizado), e ticket médio/conversão-loja ausentes no briefing. Todas as métricas de funil (CPL, CAC de mídia) são estimadas [E] sem dado histórico do cliente.",
+  "channel_split": {
+    "total_monthly_budget": 2000,
+    "rationale": "Vilhena isolada tem baixíssimo volume de busca mensurável para o Rei do Pano (~200 buscas/mês: 110 'rei do pano vilhena' + 90 'aviamentos vilhena', 0 concorrentes disputando lance) — Google consegue capturar quase 100% dessa intenção com apenas R$400/mês (CPC mínimo por ausência de concorrência). O restante (R$1.600/mês) rende mais em Meta, criando demanda nova numa base ainda não digitalizada (maturidade V0) via WhatsApp — canal de menor fricção, sem depender de pixel/LP maduros.",
+    "channels": [
+      {
+        "channel": "Meta Ads",
+        "percentage": 80,
+        "monthly_value": 1600,
+        "primary_intent": "Geração de lead via WhatsApp (meio/fundo de funil) + engajamento de conteúdo orgânico (topo leve, aquece audiência para remarketing futuro)"
+      },
+      {
+        "channel": "Google Ads (Search)",
+        "percentage": 20,
+        "monthly_value": 400,
+        "primary_intent": "Captura da intenção de compra já existente em Vilhena — blindagem de marca + termos de categoria (aviamentos, tecidos, cortinas sob medida)"
+      }
+    ]
+  },
+  "campaigns": {
+    "concentration_note": "Budget concentrado em só 2 plataformas (regra: budget <R$3k/mês = 1-2 plataformas, nunca pulverizar) e, dentro delas, só 2 campanhas em Meta e 3 em Google — conta nova sem histórico não deve dividir aprendizado do algoritmo entre muitas campanhas simultâneas.",
+    "meta_ads": {
+      "monthly_budget": 1600,
+      "campaigns": [
+        {
+          "name": "Lead via WhatsApp — Público Frio Vilhena",
+          "objective": "Mensagens (Click-to-WhatsApp)",
+          "monthly_budget": 1300,
+          "funnel_stage": "Meio/Fundo",
+          "tecr": {
+            "topico": "Geração de lead qualificado direto no WhatsApp da loja, sem depender de LP ou pixel maduro — caminho de menor fricção, funciona desde a primeira semana.",
+            "estrategia": "Anúncio de Mensagens com público frio geo-segmentado em raio de 15-20km de Vilhena (Av. Major Amarante) — mais estreito que o raio de 120km do plano regional original, pois esta verba é só para Vilhena.",
+            "conjunto": "Mulheres 30-60 anos, classes B/C, interesses costura/decoração/moda/artesanato; 2-3 criativos testados em paralelo (produto + crediário como gancho principal); copies testando 'renovar o enxoval' vs 'tecido pra costurar' vs 'crediário sem juros'.",
+            "resultado_esperado": "CPL projetado de R$22,50 (Mês 1) caindo a R$14,50 (Mês 6); ~71 a 110 leads/mês."
+          }
+        },
+        {
+          "name": "Engajamento de Publicação — Amplificação Orgânica",
+          "objective": "Engajamento",
+          "monthly_budget": 300,
+          "funnel_stage": "Topo",
+          "tecr": {
+            "topico": "Amplificar o post orgânico de melhor desempenho da semana no Instagram do Rei do Pano.",
+            "estrategia": "Campanha de Engajamento de baixo custo e contínua, sem criativo novo — usa o post já validado organicamente, rotação semanal.",
+            "conjunto": "Público quente + interesses adjacentes (mesma base de interesses da campanha de Lead).",
+            "resultado_esperado": "Não gera lead direto — acumula o volume de engajamento/pixel necessário pra ativar remarketing (condição documentada: ≥1.000 pessoas engajadas OU ≥500 visitantes únicos no pixel)."
+          }
+        }
+      ]
+    },
+    "google_ads": {
+      "monthly_budget": 400,
+      "campaigns": [
+        {
+          "name": "Blindagem de Marca",
+          "monthly_budget": 80,
+          "funnel_stage": "Fundo",
+          "tecr": {
+            "topico": "Proteger o nome do Rei do Pano nos resultados de busca.",
+            "estrategia": "Correspondência exata/frase nos termos de marca.",
+            "conjunto": "rei do pano vilhena, rei do pano rondônia, rei do pano.",
+            "resultado_esperado": "CPC mínimo (concorrência baixa/nula nesses termos), praticamente 100% dos cliques convertem em lead — termo já indica quem está procurando a loja."
+          }
+        },
+        {
+          "name": "Core — Intenção de Compra (Vilhena)",
+          "monthly_budget": 260,
+          "funnel_stage": "Fundo",
+          "tecr": {
+            "topico": "Capturar buscas de categoria com intenção de compra direta.",
+            "estrategia": "Correspondência frase/ampla controlada nos termos de maior potencial.",
+            "conjunto": "aviamentos vilhena (+57% YoY), tecidos vilhena, loja de tecidos vilhena, cortinas sob medida vilhena, materiais para costura vilhena. Negativas: grátis, tutorial, curso de costura, online, atacado, fábrica de tecidos.",
+            "resultado_esperado": "Principal fonte de leads Google — maior parte do orçamento e do volume dessa plataforma."
+          }
+        },
+        {
+          "name": "Conquista — Termos de Concorrentes",
+          "monthly_budget": 60,
+          "funnel_stage": "Fundo",
+          "tecr": {
+            "topico": "Aparecer quando alguém busca diretamente pelos concorrentes regionais.",
+            "estrategia": "Ativada desde o Mês 1 (diferente do plano regional original, que recomendava só após a campanha Core estabilizada) — necessário para consumir o budget de R$400/mês, já que o volume nativo de busca em Vilhena é pequeno demais para gastar tudo só em Blindagem+Core.",
+            "conjunto": "lojas avenida vilhena, havan vilhena, lojas avenida tecidos, havan tecidos.",
+            "resultado_esperado": "Volume menor, mas intenção de compra comprovada — capturar com oferta de crediário próprio e variedade de tecidos que a Havan não tem."
+          }
+        }
+      ]
+    }
+  },
+  "tracking_metrics": {
+    "description": "Sem CRM/pixel maduro ainda (maturidade V0) — tracking inicial é manual até volume justificar automação (API de Conversões, integração Linx).",
+    "metrics": [
+      {
+        "id": "leads_whatsapp",
+        "metric": "Leads WhatsApp",
+        "definition": "Conversas iniciadas via clique no anúncio (Meta ou Google) que chegam no WhatsApp Business do Rei do Pano",
+        "source": "WhatsApp Business + evento Contact do Pixel Meta (após instalação via GTM)",
+        "frequency": "diária"
+      },
+      {
+        "id": "cpl_blended",
+        "metric": "CPL Blended (Custo por Lead)",
+        "definition": "Budget total gasto (Meta + Google) ÷ total de leads gerados no mês",
+        "source": "Gerenciador de Anúncios Meta + Google Ads (consolidado manualmente até dashboard existir)",
+        "frequency": "semanal"
+      },
+      {
+        "id": "mql_rate",
+        "metric": "Taxa de MQL (lead qualificado)",
+        "definition": "% de leads WhatsApp que são pessoa real com intenção de compra (não curioso/spam/engano)",
+        "source": "Triagem manual da equipe de atendimento no WhatsApp",
+        "frequency": "semanal"
+      },
+      {
+        "id": "conversao_loja",
+        "metric": "Taxa de conversão MQL → cliente atendido",
+        "definition": "% de leads qualificados que efetivamente compram (na loja física ou fecham pelo próprio WhatsApp com o crediário)",
+        "source": "Registro manual da equipe de vendas (Linx ainda não integrado ao funil de mídia)",
+        "frequency": "semanal"
+      },
+      {
+        "id": "cac_media",
+        "metric": "CAC de Mídia",
+        "definition": "Budget total do mês ÷ clientes efetivamente atendidos vindos da mídia paga (não inclui custo operacional/equipe, só verba de anúncio)",
+        "source": "Cálculo manual cruzando gasto de mídia com registro de vendas",
+        "frequency": "mensal"
+      }
+    ]
+  },
+  "forecast_6_months": {
+    "description": "Modelo blended (Meta + Google combinados) para verba fixa de R$2.000/mês em Vilhena, Rei do Pano isolado. Sem dado histórico do cliente — todas as taxas partem de benchmarks de varejo físico local ajustados pelas regras: budget <R$2k/mês → CPL 30-50% acima no Mês 1; cidade pequena/baixa concorrência → CPC tende a ser menor que médias nacionais.",
+    "evolution_logic": "Mês 1 = aprendizado (CPL 25-30% acima do patamar estável, conta nova sem pixel maduro). Mês 2-3 = otimização (pixel acumulando dados, criativos testados, Quality Score subindo no Google). Mês 4-6 = patamar estabilizado — SEM crescimento de budget (premissa explícita: R$2.000/mês fixo), a melhora vem só de eficiência (CPL e CAC caindo), não de escala de verba. Se os resultados do Mês 4-6 forem bons, a recomendação natural seria aumentar a verba — fora do escopo deste forecast específico.",
+    "monthly_evolution": [
+      {
+        "month": 1,
+        "label": "Mês 1 — Setup/Aprendizado",
+        "phase": "aprendizado",
+        "impressions": 87500,
+        "clicks": 1350,
+        "ctr_pct": 1.54,
+        "cpc": 1.48,
+        "leads": 111,
+        "cpl": 18.02,
+        "mql_rate_pct": 65,
+        "mqls": 72,
+        "served_clients": 22,
+        "cac_media": 90.90
+      },
+      {
+        "month": 2,
+        "label": "Mês 2 — Otimização inicial",
+        "phase": "otimizacao",
+        "impressions": 96600,
+        "clicks": 1535,
+        "ctr_pct": 1.59,
+        "cpc": 1.30,
+        "leads": 145,
+        "cpl": 13.79,
+        "mql_rate_pct": 68,
+        "mqls": 99,
+        "served_clients": 33,
+        "cac_media": 60.60
+      },
+      {
+        "month": 3,
+        "label": "Mês 3 — Otimização",
+        "phase": "otimizacao",
+        "impressions": 102800,
+        "clicks": 1767,
+        "ctr_pct": 1.72,
+        "cpc": 1.13,
+        "leads": 168,
+        "cpl": 11.90,
+        "mql_rate_pct": 70,
+        "mqls": 118,
+        "served_clients": 41,
+        "cac_media": 48.78
+      },
+      {
+        "month": 4,
+        "label": "Mês 4 — Patamar estabilizado",
+        "phase": "estabilizado",
+        "impressions": 105950,
+        "clicks": 1946,
+        "ctr_pct": 1.84,
+        "cpc": 1.03,
+        "leads": 183,
+        "cpl": 10.93,
+        "mql_rate_pct": 72,
+        "mqls": 132,
+        "served_clients": 49,
+        "cac_media": 40.82
+      },
+      {
+        "month": 5,
+        "label": "Mês 5 — Patamar estabilizado",
+        "phase": "estabilizado",
+        "impressions": 110200,
+        "clicks": 2120,
+        "ctr_pct": 1.92,
+        "cpc": 0.94,
+        "leads": 197,
+        "cpl": 10.15,
+        "mql_rate_pct": 74,
+        "mqls": 146,
+        "served_clients": 55,
+        "cac_media": 36.36
+      },
+      {
+        "month": 6,
+        "label": "Mês 6 — Patamar estabilizado",
+        "phase": "estabilizado",
+        "impressions": 113300,
+        "clicks": 2328,
+        "ctr_pct": 2.05,
+        "cpc": 0.86,
+        "leads": 207,
+        "cpl": 9.66,
+        "mql_rate_pct": 75,
+        "mqls": 155,
+        "served_clients": 62,
+        "cac_media": 32.26
+      }
+    ],
+    "totals_6_months": {
+      "total_investment": 12000,
+      "total_impressions": 616350,
+      "total_clicks": 11046,
+      "avg_ctr_pct": 1.79,
+      "avg_cpc": 1.09,
+      "total_leads": 1011,
+      "avg_cpl": 11.87,
+      "avg_mql_rate_pct": 71.4,
+      "total_mqls": 722,
+      "total_served_clients": 262,
+      "avg_cac_media": 45.80
+    }
+  },
+  "scenarios": {
+    "note": "Não faz parte do schema formal da skill — incluído como contexto adicional de sensibilidade.",
+    "realistic": { "total_leads": 1011, "avg_cpl": 11.87, "total_served_clients": 262, "avg_cac_media": 45.80 },
+    "optimistic": { "total_leads": 1250, "avg_cpl": 9.60, "total_served_clients": 340, "avg_cac_media": 35.29, "condition": "CPL 20% abaixo do realista + conversão MQL→venda 20% acima (criativos performam bem acima da média e/ou concorrência local não reage)" },
+    "pessimistic": { "total_leads": 780, "avg_cpl": 15.38, "total_served_clients": 175, "avg_cac_media": 68.57, "condition": "CPL 30% acima do realista + conversão 20% abaixo (aprendizado mais lento, criativos fracos, atendimento WhatsApp não treinado pra converter)" }
+  },
+  "assumptions_and_dependencies": [
+    "Budget fixo em R$2.000/mês ao longo dos 6 meses, sem crescimento — premissa explícita do operador. Diferente do padrão 'M4-M6 escala verba' de outros forecasts: aqui a evolução é só de eficiência.",
+    "Geo restrita a Vilhena (raio ~15-20km da Av. Major Amarante, 3295) — exclui Colorado do Oeste e Cerejeiras, diferente da segmentação regional de 120km do plano original da V4 (base-de-conhecimento/05-diagnostico-midia-trafego-pago.md).",
+    "Este forecast cobre só o Rei do Pano — Rainha Modas não está incluída nesta verba/plano.",
+    "CPL, CPC e taxas de conversão são estimativas [E] sem dado histórico do cliente — nenhuma campanha rodou até o momento (maturidade digital V0: sem Pixel, GTM, GA4 ou histórico de campanhas pagas em nenhuma das duas marcas).",
+    "Depende da instalação do Pixel Meta + GTM + evento Contact (WhatsApp) ANTES do lançamento das campanhas — sem isso, o Mês 1 real tende a performar abaixo do modelado (documentado como gargalo atual: 'sem Pixel, o Meta anuncia no escuro').",
+    "briefing.product.ticket é null no client.json — não há ticket médio, taxa de conversão loja histórica ou margem confirmados. Por isso este forecast é operacional (funil de mídia: leads/CPL/CAC), não financeiro — não projeta ROAS nem faturamento.",
+    "Google Ads consome o budget de R$400/mês via correspondência ampla controlada + campanha de Conquista desde o Mês 1 (não só depois de estabilizada, como no plano regional original) — necessário porque o volume nativo de busca em Vilhena (~200/mês medido: 110 'rei do pano vilhena' + 90 'aviamentos vilhena') é pequeno demais pra consumir R$400/mês só em Blindagem+Core.",
+    "served_clients e cac_media assumem taxa de conversão MQL→venda de 30% (Mês 1) a 40% (Mês 6) — não validada; baseada no nível de consciência 3 documentado em base-de-conhecimento/01-persona-icp-jtbd.md (público já decidiu que precisa comprar, só não decidiu onde).",
+    "Regras de benchmark aplicadas (references/benchmarks-forecast.md): budget <R$2k/mês → CPL 30-50% acima no aprendizado; cidade pequena → CPC/CPL tende a ser menor que médias nacionais, mas com menos volume disponível.",
+    "Remarketing/Reengajamento não entra neste forecast de 6 meses com verba fixa — só ativa quando o público de engajamento do Instagram atingir ≥1.000 pessoas OU visitantes únicos do pixel atingirem ≥500 (condição documentada), o que pode ou não ocorrer dentro da janela modelada dependendo do desempenho real."
+  ],
+  "summary_highlights": [
+    { "category": "oportunidade", "label": "CPL Google em Vilhena", "value": "R$10,00 → R$4,12/lead", "subtext": "0 concorrentes disputando os termos-chave; volume pequeno (~200/mês) mas 100% intenção de compra", "tone": "green" },
+    { "category": "maturidade", "label": "Ponto de partida", "value": "V0 — sem Pixel/GTM/GA4", "subtext": "Todas as métricas deste forecast são estimadas [E], sem histórico próprio de campanhas", "tone": "yellow" },
+    { "category": "risco", "label": "Budget fixo, sem escala", "value": "R$2.000/mês nos 6 meses", "subtext": "Forecast modela só ganho de eficiência — resultado tende a platô a partir do Mês 4", "tone": "yellow" },
+    { "category": "posicao", "label": "Clientes atendidos projetados (6m)", "value": "~262", "subtext": "estimativa [E] — depende de mql_rate e conversão loja ainda não validadas com dado real", "tone": "blue" },
+    { "category": "competicao", "label": "Havan (concorrente direto)", "value": "+1.100 anúncios Meta ativos", "subtext": "Rei do Pano entra do zero digital contra concorrente de maturidade alta, mas sem crediário próprio nem especialidade em tecidos", "tone": "red" }
+  ],
+  "summary_key_findings": [
+    { "category": "vantagem", "text": "Vilhena isolada tem 0 concorrentes ativos no Google Ads para os termos do Rei do Pano ('rei do pano vilhena', 'aviamentos vilhena') — qualquer investimento garante topo de página com CPC mínimo." },
+    { "category": "contexto", "text": "O público principal do Rei do Pano já está no nível 3 de consciência (Consciente da Solução, ver base-de-conhecimento/01-persona-icp-jtbd.md) — a comunicação não precisa criar desejo do zero, só apresentar a loja como escolha óbvia para uma necessidade que já existe." },
+    { "category": "ameaca", "text": "Sem ticket médio, conversão loja histórica ou margem no client.json (briefing.product.ticket: null), este forecast não projeta ROAS/faturamento — só o funil de mídia (leads, CPL, CAC de mídia). Qualquer decisão de budget baseada em retorno financeiro precisa desses dados primeiro." },
+    { "category": "acao", "text": "Pixel Meta + GTM + evento Contact precisam estar instalados e disparando ANTES do lançamento das campanhas — sem isso, o Mês 1 real tende a performar pior que o modelado (o próprio diagnóstico de mídia já identifica isso como o gargalo mais crítico do grupo)." },
+    { "category": "acao", "text": "Com verba fixa, o Mês 4-6 tende a um platô de eficiência (~R$9,66-10,93 de CPL, ~R$32-41 de CAC de mídia) — se os números reais confirmarem esse patamar, o próximo passo natural é reavaliar o teto de R$2.000/mês para escalar volume, não só eficiência." }
+  ],
+  "sheets_url": null,
+  "_metadata": {
+    "skill": "ee-s3-forecast-midia",
+    "version": 1,
+    "generated_at": "2026-09-10",
+    "version_notes": "Gerado a partir de base-de-conhecimento/ (não há outputs/*.json de skills dependentes ainda — projeto usa reconstrução retroativa em Markdown, ver outputs/README.md). Verba e geo (R$2.000/mês, Vilhena somente, Rei do Pano isolado, split 80/20 Meta/Google) definidos em conversa direta com o operador, não em client.json.",
+    "depends_on": ["ee-s2-diagnostico-midia"],
+    "next_iteration": "Recalibrar com CPL/CPC reais assim que as primeiras campanhas rodarem 2-4 semanas; incluir ticket médio e conversão loja reais assim que confirmados, para então projetar ROAS/faturamento."
+  }
+}
