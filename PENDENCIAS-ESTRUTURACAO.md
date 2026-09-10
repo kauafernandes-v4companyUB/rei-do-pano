@@ -1,72 +1,66 @@
 # Pendências da Estruturação Estratégica — Rei do Pano & Rainha Modas
 
-> Lista consolidada de informações que as skills da Estruturação Estratégica exigem (ou que enriqueceriam o trabalho já feito) e que **não foram encontradas** nos materiais analisados. Ausência de informação não é erro — é o que ainda precisa ser levantado com o cliente ou operador.
-> Ver os arquivos em `consolidado/` para o detalhamento completo de cada ponto e suas fontes.
+> Lista consolidada de informações que as skills da Estruturação Estratégica exigem e que **não foram encontradas** nos materiais analisados. Ausência de informação não é erro — é o que ainda precisa ser levantado com o cliente ou operador.
+> Ver os arquivos em `base-de-conhecimento/` para o detalhamento completo de cada ponto e suas fontes.
+>
+> **Revisão de 2026-09-10:** lista podada pelo operador — itens de baixa materialidade ou excessivamente específicos (nitpicks de formato de entrega, ou pontos já resolvidos por confirmação direta) foram removidos. A pendência de equipe/fornecedores foi **resolvida** (ver `base-de-conhecimento/07-equipe-e-fornecedores.md`) e a de arquitetura de sistema também (ver seção final deste arquivo).
 
-## Empresa e dados de negócio (`consolidado/00-empresa-e-contexto.md`)
+## Empresa e dados de negócio (`base-de-conhecimento/00-empresa-e-contexto.md`)
 
 - [ ] Razão social / CNPJ do grupo.
-- [ ] Data de fundação exata (fontes divergem entre "mais de 30 anos" e "quatro décadas" — ver divergência documentada).
+- [ ] Data de fundação exata (fontes divergem entre "mais de 30 anos" e "quatro décadas").
 - [ ] Headcount total do grupo (3 lojas Rei do Pano + Rainha Modas) — só há o número da unidade principal de Vilhena (~40 colaboradores).
 - [ ] Faturamento anual, detalhado mês a mês e por canal (online/offline) e por região.
 - [ ] Ticket médio de vendas.
 - [ ] Taxa de crescimento anual dos últimos 3 anos.
 - [ ] Verba mínima e máxima esperada de faturamento a partir do investimento em mídia.
 - [ ] Margem de contribuição atual (só existe a margem-alvo de 8–10%, que é uma meta, não o valor atual).
-- [ ] Confirmação formal do uso do sistema Linx como ERP/PDV (citado apenas em documentos posteriores ao pré-kick-off, que não mencionou nenhum sistema de gestão).
-- [ ] Estrutura de forças de vendas (não respondida no pré-kick-off: "Qual a estrutura da sua força de vendas? Gerente, SDR, Closer etc.").
-- [ ] Existência de programa de treinamento para a força de vendas.
+- [ ] Confirmação formal do uso do sistema Linx como ERP/PDV (citado apenas em documentos posteriores ao pré-kick-off).
+- [ ] Estrutura de forças de vendas (não respondida no pré-kick-off).
 
-## Persona / ICP (`consolidado/01-persona-icp-jtbd.md`)
+## Persona / ICP (`base-de-conhecimento/01-persona-icp-jtbd.md`)
 
 - [ ] Persona nomeada e JTBD estruturado para o segmento B2B (existe caracterização, mas não no mesmo nível de profundidade de Dona Aparecida/Camila).
-- [ ] Dimensionamento quantitativo dos segmentos de público (% de faturamento B2C vs. B2B).
 
-## Mercado, SWOT e concorrentes (`consolidado/02-mercado-swot-concorrentes.md`)
+## Mercado, SWOT e concorrentes (`base-de-conhecimento/02-mercado-swot-concorrentes.md`)
 
 - [ ] Matriz TOWS formal (cruzamento Forças×Oportunidades, Forças×Ameaças etc.) — hoje só existem os elementos brutos organizados em SWOT.
-- [ ] Gantt de priorização de 90 dias cobrindo todos os pilares do projeto (existe roadmap de implementação e prioridade de execução de mídia, mas não um Gantt único e completo).
 - [ ] TAM/SAM/SOM calculado (existe apenas a área de influência ~180 mil habitantes/raio de 120 km como proxy de TAM).
-- [ ] Classificação formal (direta/indireta/aspiracional) dos concorrentes usados como benchmark de criativo (Torra, Linda Casa, JLM Tecidos, Mundo do Enxoval, comercialtextilstore) — hoje só Havan e Lojas Avenida têm classificação explícita do próprio cliente.
 
-## Posicionamento e Manual de Marca (`consolidado/03-posicionamento-e-manual-de-marca.md`)
+## Posicionamento e Manual de Marca (`base-de-conhecimento/03-posicionamento-e-manual-de-marca.md`)
 
-- [ ] Canvas de Posicionamento formal (PUV estruturada, territórios de marca, taglines alternativas testadas) — hoje existe apenas o Manifesto/storytelling "O Novo Reinado" e a tagline única "Construindo um Novo Reinado" (usada na landing page).
+- [ ] Canvas de Posicionamento formal (PUV estruturada, territórios de marca, taglines alternativas testadas) — hoje existe apenas o Manifesto/storytelling "O Novo Reinado" e a tagline única "Construindo um Novo Reinado".
 - [ ] Esclarecer se o conteúdo duplicado nos "Pilares e Valores" da Rainha Modas (texto idêntico ao do Rei do Pano, falando de tecidos/3.000m²) é um erro de produção do Manual de Marca ou conteúdo intencional a ser revisado.
-- [ ] Regras formais de uso da marca (manual de identidade visual com proibições explícitas, ex. bancos de imagem) — hoje essas regras só aparecem implicitamente na Auditoria de Comunicação, referentes a criativos de concorrentes.
 
-## Auditoria de Comunicação (`consolidado/04-auditoria-comunicacao-redes-sociais.md`)
+## Auditoria de Comunicação (`base-de-conhecimento/04-auditoria-comunicacao-redes-sociais.md`)
 
 - [ ] Auditoria dedicada de WhatsApp Business (estrutura de catálogo, mensagens automáticas, etiquetas).
-- [ ] Auditoria dedicada de Facebook (se existir perfil separado do Instagram).
-- [ ] Matriz de gaps e quick wins consolidada com priorização por esforço/impacto (o material tem os gaps descritos em texto corrido, mas não em formato de matriz).
 - [ ] Handles reais de Instagram e número de WhatsApp Business das duas marcas (os materiais tratam apenas do formato recomendado, ex. @reidopanooficial, sem confirmar o handle real em uso).
-- [ ] Confirmar se existe canal de YouTube ativo (citado apenas uma vez, no cabeçalho do formulário de pré-kick-off, e nunca mais mencionado em nenhum outro material).
-- [ ] Capturas de tela do estado "antes" real dos perfis do Rei do Pano/Rainha Modas (os concorrentes têm prints fartos; as marcas do cliente, não).
 
-## Diagnóstico de Mídia / Tráfego Pago (`consolidado/05-diagnostico-midia-trafego-pago.md`)
+## Diagnóstico de Mídia / Tráfego Pago (`base-de-conhecimento/05-diagnostico-midia-trafego-pago.md`)
 
 - [ ] **Seção "08 — Copy para Meta Ads" do documento de Tráfego Pago está truncada** — apenas o cabeçalho aparece no PDF; nenhuma copy de anúncio Meta foi recuperada (distinto dos textos de Google Ads, que estão completos).
-- [ ] **Seção "09 — Fluxo" do mesmo documento está ausente** — não há conteúdo algum, apenas a referência na navegação do documento. Não foi possível inferir o escopo exato dessa seção.
+- [ ] **Seção "09 — Fluxo" do mesmo documento está ausente** — não há conteúdo algum, apenas a referência na navegação do documento.
 - [ ] Orçamento de mídia (budget mensal por plataforma).
 - [ ] Metas de CPA/CPL/ROAS esperadas e forecast de mídia (escopo da skill `ee-s3-forecast-midia`, sem material disponível neste projeto).
 - [ ] Confirmação de que as contas de anúncio (Meta Business Manager, Google Ads) já foram efetivamente criadas.
-- [ ] Decisão final sobre conta de anúncios da Rainha Modas: separada ou integrada ao Business Manager principal (distinto da decisão — já resolvida — sobre perfil de Instagram).
+- [ ] Decisão final sobre conta de anúncios da Rainha Modas: separada ou integrada ao Business Manager principal.
 
-## Landing Page, Copy e Criativos (`consolidado/06-landing-page-copy-criativos.md`)
+## Landing Page, Copy e Criativos (`base-de-conhecimento/06-landing-page-copy-criativos.md`)
 
-- [ ] Copy de anúncios Meta Ads (30+ variações por funil, conforme escopo da skill `ee-s3-copy-anuncios`) — não localizada (ver pendência da seção 08 do doc. de Tráfego Pago acima).
+- [ ] Copy de anúncios Meta Ads (30+ variações por funil, conforme escopo da skill `ee-s3-copy-anuncios`) — não localizada.
 - [ ] Criativos estáticos finalizados da **Rainha Modas** — só os 3 criativos do Rei do Pano foram encontrados como arquivos de imagem prontos.
 - [ ] Confirmação da configuração/extração do sistema Linx (pré-requisito citado tanto no roadmap quanto na estratégia de público para remarketing).
-- [ ] Briefing de vídeo/Reels para anúncios pagos (só existe estratégia de Reels orgânico).
 - [ ] Confirmação de quais eventos de conversão estão de fato configurados no Pixel/GTM da landing page (clique WhatsApp vs. envio de formulário de cotação, ou ambos).
 
-## Equipe e Fornecedores (`consolidado/07-equipe-e-fornecedores.md`)
+## Equipe e Fornecedores — RESOLVIDO ✅
 
-- [ ] Confirmação de qual é a equipe V4 de fato designada para esta conta (o material de kick-off traz 4 versões divergentes de roster de equipe).
-- [ ] Confirmação se "Renan" (Kuri & Co., responsável pela aprovação do Manual de Marca) é a mesma pessoa que "Renan Almeida" (Designer) citado em parte dos rosters de equipe do kick-off.
-- [ ] Natureza da relação entre a V4 Company e o estúdio Kuri & Co. (parceiro recorrente ou fornecedor pontual deste projeto).
+Equipe V4 final confirmada pelo operador (2026-09-10): Kauã Fernandes (Account Manager), Luciano (Gestor de Tráfego), Leo (Designer/Social Media), Nathalia (Head de Squad), unidade **Leal Vieira & Co.** Ver `base-de-conhecimento/07-equipe-e-fornecedores.md` para a reconciliação com o nome "Kuri & Co." visto no Manual de Marca.
 
-## Estrutura de sistema (fora do escopo dos materiais de conteúdo, mas relevante para reuso futuro)
+## Arquitetura de sistema — RESOLVIDO ✅
 
-- [ ] Este projeto **ainda não está estruturado como um cliente formal do sistema `v4-estruturacao-ia`** (não existe `client.json`, `base-de-conhecimento/` nem `outputs/` no padrão do plugin). Caso o operador deseje passar a usar as skills `ee-*` (ex. `/ee-continuar`, `/ee-s1-persona-icp`) diretamente sobre este cliente, será necessário migrar o conteúdo aqui consolidado para essa estrutura (via `/ee-novo-cliente` ou criação manual do `client.json`), preenchendo `meta.modelo_venda` (não identificado nos materiais — provavelmente "pdv" dado o forte componente de loja física, mas não confirmado) e os demais campos do schema.
+Este projeto agora está estruturado no padrão oficial de cliente do sistema `v4-estruturacao-ia`: `client.json` (fonte única de verdade), `base-de-conhecimento/` (conhecimento consolidado) e `outputs/` (aguardando geração de outputs formais por skill — ver `outputs/README.md`). `meta.modelo_venda` definido como `"pdv"` (loja física com crediário próprio, WhatsApp e base de clientes Linx — perfil que corresponde exatamente às skills de Semana 3 do modelo PDV).
+
+### Pendência remanescente da arquitetura
+- [ ] Os outputs formais em JSON (`outputs/{skill}.json`, validados pelo `schema.json` de cada skill) ainda não foram gerados — o que existe hoje em `base-de-conhecimento/` é a síntese em Markdown desta consolidação, que serve de insumo para gerar esses outputs quando cada skill for rodada/validada com o operador.
+- [ ] `workspace_id` do V4MOS não identificado nos materiais — sem ele, não há integração automática de dados de mídia (Google Ads/Facebook Ads) via API.

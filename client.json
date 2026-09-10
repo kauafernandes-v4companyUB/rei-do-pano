@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "name": "Rei do Pano & Rainha Modas",
+    "slug": "rei-do-pano",
+    "workspace_id": null,
+    "created_at": "2026-04-30",
+    "modelo_venda": "pdv",
+    "investidor": {
+      "nome": "Kauã Fernandes",
+      "cargo": "Account Manager · V4 Company (unidade Leal Vieira & Co.)",
+      "foto_url": null
+    },
+    "equipe_v4": {
+      "_comment": "Campo estendido (fora do schema oficial client.json) preservado para não perder a composição real do time. Confirmado diretamente pelo operador em 2026-09-10.",
+      "unidade": "Leal Vieira & Co.",
+      "membros": [
+        { "nome": "Kauã Fernandes", "papel": "Account Manager" },
+        { "nome": "Luciano", "papel": "Gestor de Tráfego" },
+        { "nome": "Leo", "papel": "Designer / Social Media" },
+        { "nome": "Nathalia", "papel": "Head de Squad" }
+      ]
+    }
+  },
+  "briefing": {
+    "identification": {
+      "name": "Rei do Pano & Rainha Modas",
+      "contact_name": "Luiz (Rei do Pano) e Terezinha (Rainha Modas)",
+      "contact_role": "Gestores/sócios do grupo",
+      "segment": "Varejo de tecidos, cama/mesa/banho e utilidades domésticas (Rei do Pano) + moda feminina, calçados e acessórios (Rainha Modas)",
+      "annual_revenue": null,
+      "years_in_market": "30+ anos (divergência entre fontes: 'mais de 30 anos' vs 'quatro décadas' — ver PENDENCIAS-ESTRUTURACAO.md)",
+      "location": "Vilhena, RO (sede, Av. Major Amarante 3295) + filiais em Colorado do Oeste e Cerejeiras",
+      "website": "https://rei-do-pano.vercel.app/",
+      "instagram": "@reidopano.com.br (handle atual auditado; troca para @reidopanooficial recomendada, não confirmada como aplicada)",
+      "whatsapp": null,
+      "gmb": true
+    },
+    "product": {
+      "main_product": "Tecidos por metro, cama/mesa/banho, utilidades domésticas e eletrodomésticos (Rei do Pano); moda feminina, calçados e acessórios (Rainha Modas). Crediário próprio sem juros em até 6x como diferencial estrutural.",
+      "ticket": null,
+      "billing_model": "unico",
+      "sales_cycle": null,
+      "active_customers": null,
+      "most_profitable": "Decoração e cortinas sob medida (categoria de margem elevada, posicionamento premium)",
+      "growth_potential": "Aviamentos B2B (único termo de busca com crescimento expressivo: +57% YoY) e o segmento profissional (costureiras, ateliês, tapeçarias)"
+    },
+    "icp": {
+      "best_customers": "B2C: mulheres 35-60 anos, classes B/C, precisam renovar enxoval/casa com crediário facilitado (persona 'Dona Aparecida', Rei do Pano) e mulheres 28-55 anos buscando moda acessível parcelada (persona 'Camila', Rainha Modas). B2B: costureiras autônomas, ateliês, tapeçarias automotivas e de móveis, alfaiates, confecções de pequeno porte, cortineiras.",
+      "not_customers": null,
+      "problems_before": [
+        "Precisa renovar enxoval/casa ou o guarda-roupa sem estourar o orçamento e sem burocracia de cartão",
+        "Não sabe onde encontrar variedade de tecidos/moda com atendimento humanizado na região",
+        "Desconfia de comprar por canal digital sem garantia de entrega e pós-venda"
+      ],
+      "results_after": [
+        "Consegue parcelar em até 6x sem juros no crediário próprio",
+        "Encontra variedade completa em um só lugar (do aviamento ao eletrodoméstico / do infantil ao adulto)",
+        "Recebe atendimento humanizado que resolve problemas sem burocracia"
+      ],
+      "churn_reasons": null
+    },
+    "competition": {
+      "competitors": [
+        { "name": "Havan", "perceived_differential": "Megastore nacional, experiência de loja-passeio, mix amplo, maturidade digital alta (Pixel/GTM/GA4 ativos, +1.100 anúncios Meta, ~4.000 Google Ads)" },
+        { "name": "Lojas Avenida", "perceived_differential": "Moda popular e varejo, Cartão Avenida como âncora de fidelização, comunicação 100% promocional, sem crediário próprio nem especialidade em tecidos" }
+      ],
+      "real_differential": "Crediário próprio sem juros (não replicável digitalmente por concorrentes nacionais ou e-commerce), especialidade em tecidos por metro sem concorrência direta em Vilhena, atendimento humanizado de 30+ anos, nota 4,6/5,0 no Google com 327+ avaliações",
+      "why_choose_us": "Referência regional consolidada, crediário facilitado sem juros, variedade completa em um só lugar, resolução de problemas sem burocracia"
+    },
+    "brand": {
+      "adjectives": ["Familiar", "Prestativo", "Sólido"],
+      "voice_tone": "descontraido",
+      "admired_brands": null,
+      "current_colors": "Rei do Pano: vermelho #c20605/#E73333/#ff4d4d + dourado #c6a000/#ffe44d/#fff199 + marrom escuro/preto #281308/#000000. Rainha Modas: dourado (compartilhado) + cinza #b2b2b2/#dadada/#f6f6f6 + marrom escuro/preto.",
+      "has_logo": true,
+      "restrictions": "Evitar posts sem legenda; música dessincronizada com o público (funk/eletrônico pesado); marca d'água de apps de edição (ex. CapCut); nome de usuário em formato de domínio (ex. @reidopano.com.br)."
+    },
+    "digital_situation": {
+      "paid_traffic": false,
+      "platforms": null,
+      "monthly_investment": null,
+      "current_results": null,
+      "crm": "Linx (ERP/PDV citado em documentos pós-briefing; uso formal não confirmado no pré-kick-off — ver pendências)",
+      "lead_sources": "Loja física (fluxo espontâneo/indicação), Instagram orgânico, WhatsApp",
+      "conversion_rate": null,
+      "biggest_pain": "Ausência de estratégia e identidade digital ('Instagram como panfleto de preços'); falta de estrutura para transformar o grande volume de clientes físicos e a base histórica de clientes em canal de receita digital"
+    },
+    "accesses": {
+      "meta_business": false,
+      "google_ads": false,
+      "google_analytics": false,
+      "google_search_console": false,
+      "instagram_admin": true,
+      "website_admin": true,
+      "crm": null,
+      "gmb": true,
+      "whatsapp_business": null
+    },
+    "sales_module": {
+      "active_sellers": null,
+      "sales_process": "Atendimento presencial nas 3 lojas Rei do Pano + loja Rainha Modas; WhatsApp como central de atendimento (em estruturação); crediário próprio como principal ferramenta de fechamento e fidelização",
+      "objections": [
+        "Dúvida sobre como funciona o crediário/compra pelo WhatsApp",
+        "Desconfiança sobre disponibilidade real do produto anunciado na loja",
+        "Preferência por ver/tocar o tecido pessoalmente antes de decidir"
+      ],
+      "conversion_rate": null,
+      "sales_cycle": null,
+      "has_scripts": false
+    }
+  },
+  "research": {
+    "fetched_at": null,
+    "_comment": "Não houve pesquisa automatizada via WebFetch/WebSearch (fluxo padrão de ee-novo-cliente). Esta seção foi preenchida manualmente a partir da due diligence dos materiais brutos do projeto (ver base-de-conhecimento/).",
+    "site_content": {
+      "resumo": "Landing page publicada e ativa em https://rei-do-pano.vercel.app/ — hero 'Construindo um Novo Reinado', vantagens (crediário, tradição, atendimento), mix de 4 categorias de produto, segmentação B2C/B2B, prova social (4,6/5,0, 327 avaliações), 3 lojas com endereço, formulário de cotação, FAQ.",
+      "fonte": "base-de-conhecimento/06-landing-page-copy-criativos.md"
+    },
+    "instagram": {
+      "resumo": "Auditoria detalhada das duas marcas: handles em formato de domínio, bios sem CTA/proposta de valor, feed sem identidade visual consistente, Reels com problemas técnicos recorrentes. Recomendações completas de bio, destaques, categoria e linha editorial.",
+      "fonte": "base-de-conhecimento/04-auditoria-comunicacao-redes-sociais.md"
+    },
+    "competitors": {
+      "resumo": "Havan (direto) e Lojas Avenida (indireto) com scorecard de rastreamento/mídia paga baseado em evidência real (Meta Ads Library, Google Ads Transparency). Benchmarks adicionais de criativo: Lojas Torra, Linda Casa, JLM Tecidos, Mundo do Enxoval, comercialtextilstore.",
+      "fonte": "base-de-conhecimento/02-mercado-swot-concorrentes.md"
+    },
+    "market": {
+      "resumo": "Área de influência ~180 mil habitantes / raio de 120km a partir de Vilhena-RO. Saturação baixa no nicho de tecidos, média em moda popular. ~410 buscas/mês combinadas no Google (0 concorrentes anunciando). Sazonalidade mapeada (picos: Maio, Novembro, Dezembro).",
+      "fonte": "base-de-conhecimento/02-mercado-swot-concorrentes.md"
+    },
+    "reputation": {
+      "resumo": "Google Meu Negócio: nota 4,6/5,0 com mais de 327 avaliações. Inadimplência do crediário próprio: 1,5%–2,5%.",
+      "fonte": "base-de-conhecimento/00-empresa-e-contexto.md"
+    }
+  },
+  "connectors": {
+    "fetched_at": null,
+    "integrations": null,
+    "_comment": "Sem workspace_id do V4MOS identificado nos materiais — integração de dados de mídia (Google Ads/Facebook Ads) ainda não configurada."
+  },
+  "progress": {
+    "current_week": 4,
+    "_comment": "Semana 3 (específica do modelo 'pdv') está pendente porque as skills ee-s3-pdv-* ainda são [STUB] na implementação do plugin — sem conteúdo executável disponível. A V4 avançou entregas de Semana 4 (Manual de Marca, Landing Page) em paralelo.",
+    "skills": {
+      "ee-s1-persona-icp": { "status": "completed", "version": 1, "started_at": null, "completed_at": null, "fonte": "base-de-conhecimento/01-persona-icp-jtbd.md" },
+      "ee-s1-auditoria-comunicacao": { "status": "completed", "version": 1, "started_at": null, "completed_at": null, "fonte": "base-de-conhecimento/04-auditoria-comunicacao-redes-sociais.md" },
+      "ee-s1-swot": { "status": "completed", "version": 1, "started_at": null, "completed_at": null, "fonte": "base-de-conhecimento/02-mercado-swot-concorrentes.md" },
+      "ee-s2-pesquisa-mercado": { "status": "completed", "version": 1, "started_at": null, "completed_at": null, "fonte": "base-de-conhecimento/02-mercado-swot-concorrentes.md" },
+      "ee-s1-arquitetura-presenca": { "status": "pending", "version": 0, "started_at": null, "completed_at": null },
+
+      "ee-s2-diagnostico-midia": { "status": "completed", "version": 1, "started_at": null, "completed_at": "2026-05-30", "fonte": "base-de-conhecimento/05-diagnostico-midia-trafego-pago.md" },
+      "ee-s2-diagnostico-organico-ig": { "status": "completed", "version": 1, "started_at": null, "completed_at": null, "fonte": "base-de-conhecimento/04-auditoria-comunicacao-redes-sociais.md" },
+      "ee-s2-diagnostico-criativos": { "status": "in_progress", "version": 1, "started_at": null, "completed_at": null, "fonte": "base-de-conhecimento/04-auditoria-comunicacao-redes-sociais.md; base-de-conhecimento/06-landing-page-copy-criativos.md" },
+      "ee-s1-diagnostico-maturidade": { "status": "completed", "version": 1, "started_at": null, "completed_at": "2026-05-30", "fonte": "base-de-conhecimento/05-diagnostico-midia-trafego-pago.md" },
+      "ee-s2-posicionamento": { "status": "completed", "version": 1, "started_at": null, "completed_at": null, "fonte": "base-de-conhecimento/03-posicionamento-e-manual-de-marca.md" },
+
+      "ee-s3-pdv-base-ativa": { "status": "pending", "version": 0, "started_at": null, "completed_at": null },
+      "ee-s3-pdv-gmn": { "status": "pending", "version": 0, "started_at": null, "completed_at": null },
+      "ee-s3-pdv-experiencia": { "status": "pending", "version": 0, "started_at": null, "completed_at": null },
+      "ee-s3-pdv-regua-whatsapp": { "status": "pending", "version": 0, "started_at": null, "completed_at": null },
+
+      "ee-s3-manual-marca": { "status": "completed", "version": 1, "started_at": null, "completed_at": "2026-05-29", "fonte": "base-de-conhecimento/03-posicionamento-e-manual-de-marca.md" },
+      "ee-s3-landing-page": { "status": "completed", "version": 1, "started_at": null, "completed_at": null, "fonte": "base-de-conhecimento/06-landing-page-copy-criativos.md" },
+      "ee-s3-copy-anuncios": { "status": "in_progress", "version": 1, "started_at": null, "completed_at": null, "fonte": "base-de-conhecimento/05-diagnostico-midia-trafego-pago.md (Google Ads completo; Meta Ads ausente/truncado)" },
+      "ee-s3-criativos-anuncios": { "status": "in_progress", "version": 1, "started_at": null, "completed_at": null, "fonte": "base-de-conhecimento/06-landing-page-copy-criativos.md (Rei do Pano completo; Rainha Modas pendente)" },
+      "ee-s3-crm-setup": { "status": "pending", "version": 0, "started_at": null, "completed_at": null },
+      "ee-s5-scripts-sdr": { "status": "pending", "version": 0, "started_at": null, "completed_at": null },
+      "ee-s5-sdr-ia-config": { "status": "pending", "version": 0, "started_at": null, "completed_at": null },
+      "ee-s3-forecast-midia": { "status": "pending", "version": 0, "started_at": null, "completed_at": null }
+    }
+  },
+  "history": [
+    { "ts": "2026-04-29T12:24:06Z", "skill": "pre-kickoff", "action": "completed", "note": "Formulário de pré-kick-off respondido (parcialmente) pelo cliente — dados financeiros e de estrutura comercial deixados em branco." },
+    { "ts": "2026-04-30T00:00:00Z", "skill": "kickoff", "action": "completed", "note": "Reunião de kick-off realizada com a equipe V4." },
+    { "ts": "2026-05-29T05:30:07-04:00", "skill": "ee-s3-manual-marca", "action": "completed", "note": "Manual de Marca / Key Visual entregue (31 páginas): manifesto, DNA de marca, arquétipos, pilares, paleta, tipografia e aplicações para Rei do Pano e Rainha Modas." },
+    { "ts": "2026-05-30T01:37:34-04:00", "skill": "ee-s2-diagnostico-midia", "action": "completed", "note": "Estruturação Estratégica de Tráfego Pago entregue (seções 01-07 completas; seções 08-Copy Meta Ads e 09-Fluxo truncadas no arquivo exportado)." },
+    { "ts": "2026-09-10T00:00:00Z", "skill": "ee-continuar", "action": "completed", "note": "Due diligence completa: leitura integral de todos os materiais brutos (01-05), cruzamento de fontes, resolução/documentação de divergências. Conhecimento consolidado em base-de-conhecimento/. Repositório Git criado e publicado em github.com/webkauadev/rei-do-pano (privado)." },
+    { "ts": "2026-09-10T00:00:00Z", "skill": "ee-novo-cliente", "action": "completed", "note": "Projeto migrado para a arquitetura oficial do sistema v4-estruturacao-ia (client.json + base-de-conhecimento/ + outputs/). modelo_venda definido como 'pdv'. Equipe V4 confirmada pelo operador: Kauã Fernandes (Account Manager), Luciano (Gestor de Tráfego), Leo (Designer/Social Media), Nathalia (Head de Squad) — unidade Leal Vieira & Co." }
+  ]
+}
