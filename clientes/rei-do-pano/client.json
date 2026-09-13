@@ -263,6 +263,7 @@
     "skills": {
       "ee-s1-persona-icp": {
         "status": "completed",
+        "checkpoint": 1,
         "version": 1,
         "started_at": null,
         "completed_at": null,
@@ -270,6 +271,7 @@
       },
       "ee-s1-auditoria-comunicacao": {
         "status": "completed",
+        "checkpoint": 1,
         "version": 1,
         "started_at": null,
         "completed_at": null,
@@ -277,6 +279,7 @@
       },
       "ee-s1-swot": {
         "status": "completed",
+        "checkpoint": 1,
         "version": 1,
         "started_at": null,
         "completed_at": null,
@@ -284,6 +287,7 @@
       },
       "ee-s2-pesquisa-mercado": {
         "status": "completed",
+        "checkpoint": 1,
         "version": 1,
         "started_at": null,
         "completed_at": null,
@@ -291,12 +295,14 @@
       },
       "ee-s1-arquitetura-presenca": {
         "status": "pending",
+        "checkpoint": 0,
         "version": 0,
         "started_at": null,
         "completed_at": null
       },
       "ee-s2-diagnostico-midia": {
         "status": "completed",
+        "checkpoint": 1,
         "version": 1,
         "started_at": null,
         "completed_at": "2026-05-30",
@@ -304,6 +310,7 @@
       },
       "ee-s2-diagnostico-organico-ig": {
         "status": "completed",
+        "checkpoint": 1,
         "version": 1,
         "started_at": null,
         "completed_at": null,
@@ -311,6 +318,7 @@
       },
       "ee-s2-diagnostico-criativos": {
         "status": "in_progress",
+        "checkpoint": 1,
         "version": 1,
         "started_at": null,
         "completed_at": null,
@@ -318,6 +326,7 @@
       },
       "ee-s1-diagnostico-maturidade": {
         "status": "completed",
+        "checkpoint": 1,
         "version": 1,
         "started_at": null,
         "completed_at": "2026-05-30",
@@ -325,6 +334,7 @@
       },
       "ee-s2-posicionamento": {
         "status": "completed",
+        "checkpoint": 1,
         "version": 1,
         "started_at": null,
         "completed_at": null,
@@ -332,30 +342,35 @@
       },
       "ee-s3-pdv-base-ativa": {
         "status": "pending",
+        "checkpoint": 0,
         "version": 0,
         "started_at": null,
         "completed_at": null
       },
       "ee-s3-pdv-gmn": {
         "status": "pending",
+        "checkpoint": 0,
         "version": 0,
         "started_at": null,
         "completed_at": null
       },
       "ee-s3-pdv-experiencia": {
         "status": "pending",
+        "checkpoint": 0,
         "version": 0,
         "started_at": null,
         "completed_at": null
       },
       "ee-s3-pdv-regua-whatsapp": {
         "status": "pending",
+        "checkpoint": 0,
         "version": 0,
         "started_at": null,
         "completed_at": null
       },
       "ee-s3-manual-marca": {
         "status": "completed",
+        "checkpoint": 1,
         "version": 1,
         "started_at": null,
         "completed_at": "2026-05-29",
@@ -363,6 +378,7 @@
       },
       "ee-s3-landing-page": {
         "status": "completed",
+        "checkpoint": 1,
         "version": 1,
         "started_at": null,
         "completed_at": null,
@@ -370,6 +386,7 @@
       },
       "ee-s3-copy-anuncios": {
         "status": "in_progress",
+        "checkpoint": 1,
         "version": 1,
         "started_at": null,
         "completed_at": null,
@@ -377,6 +394,7 @@
       },
       "ee-s3-criativos-anuncios": {
         "status": "in_progress",
+        "checkpoint": 1,
         "version": 1,
         "started_at": null,
         "completed_at": null,
@@ -384,24 +402,28 @@
       },
       "ee-s3-crm-setup": {
         "status": "pending",
+        "checkpoint": 0,
         "version": 0,
         "started_at": null,
         "completed_at": null
       },
       "ee-s5-scripts-sdr": {
         "status": "pending",
+        "checkpoint": 0,
         "version": 0,
         "started_at": null,
         "completed_at": null
       },
       "ee-s5-sdr-ia-config": {
         "status": "pending",
+        "checkpoint": 0,
         "version": 0,
         "started_at": null,
         "completed_at": null
       },
       "ee-s3-forecast-midia": {
         "status": "completed",
+        "checkpoint": 1,
         "version": 1,
         "started_at": "2026-09-10",
         "completed_at": "2026-09-10",
