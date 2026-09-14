@@ -1,0 +1,621 @@
+{
+  "client_name": "Rei do Pano & Rainha Modas",
+  "summary": "Rei do Pano & Rainha Modas seguem em maturidade digital V0 — 0 campanhas pagas confirmadas via fetch V4MOS (90 dias) e via briefing (accesses.meta_business/google_ads: false) — mas já existe um piloto de mídia aprovado com o operador (R$2.000/mês, só Rei do Pano, só Vilhena, split 80% Meta/20% Google), com estrutura de campanhas e copy de Google Ads prontas, faltando apenas Pixel/GTM/GA4 para ativar.",
+  "summary_headline": "V0 real (0 campanhas, confirmado 2x): plano de R$2.000/mês em Vilhena já aprovado, CPL projetado de R$18,02 a R$9,66 em 6 meses — falta só instalar Pixel/GTM.",
+  "summary_highlights": [
+    {
+      "category": "maturidade",
+      "label": "Ponto de partida",
+      "value": "V0 — 0 campanhas",
+      "subtext": "Confirmado no briefing (accesses false) E no fetch V4MOS de 90 dias",
+      "tone": "yellow"
+    },
+    {
+      "category": "risco",
+      "label": "Pré-requisito técnico",
+      "value": "Sem Pixel / GTM / GA4",
+      "subtext": "Bloqueia qualquer campanha — 'Meta anuncia no escuro' sem isso",
+      "tone": "red"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Piloto já aprovado",
+      "value": "R$2.000/mês — Vilhena",
+      "subtext": "80% Meta / 20% Google, definido com o operador em 10/09/2026",
+      "tone": "green"
+    },
+    {
+      "category": "posicao",
+      "label": "CPL projetado (6 meses)",
+      "value": "R$18,02 → R$9,66",
+      "subtext": "Estimativa [E] — nenhum histórico próprio de campanha",
+      "tone": "blue"
+    },
+    {
+      "category": "competicao",
+      "label": "Google Ads em Vilhena",
+      "value": "0 concorrentes ativos",
+      "subtext": "~200 buscas/mês para termos do Rei do Pano, CPC mínimo esperado",
+      "tone": "green"
+    },
+    {
+      "category": "risco",
+      "label": "Copy de Meta Ads",
+      "value": "Seção ausente no documento fonte",
+      "subtext": "Google Ads tem copy pronta; Meta Ads não",
+      "tone": "yellow"
+    }
+  ],
+  "summary_key_findings": [
+    {
+      "category": "vantagem",
+      "text": "Zero concorrentes disputando lance nos termos de busca do Rei do Pano em Vilhena (~200 buscas/mês combinadas: 'rei do pano vilhena' + 'aviamentos vilhena') — qualquer investimento em Google Ads garante topo de página com CPC mínimo [E]."
+    },
+    {
+      "category": "contexto",
+      "text": "A ausência de histórico de mídia paga é o estado real da conta, confirmado de duas formas independentes: briefing (accesses.meta_business=false, accesses.google_ads=false, digital_situation.paid_traffic=false) e fetch V4MOS de 90 dias (12/06/2026-10/09/2026), que retornou 0 campanhas em Google Ads e Facebook Ads para o workspace. Não é falha de integração — é o ponto de partida (classificação declarada 'V0 — Estruturação')."
+    },
+    {
+      "category": "ameaca",
+      "text": "A seção 08 (Copy para Meta Ads) do documento fonte está truncada — só o cabeçalho aparece, sem o conteúdo. A campanha Lead via WhatsApp (65% do budget aprovado, R$1.300 de R$2.000/mês) não tem copy de anúncio Meta validada e pronta, só o racional estratégico e os públicos definidos."
+    },
+    {
+      "category": "acao",
+      "text": "Instalar o Pixel da Meta via GTM (evento Contact no clique do WhatsApp) é a intervenção mais crítica antes de qualquer campanha — sem rastreamento, o algoritmo do Meta usa dados genéricos e o Mês 1 real tende a performar pior que o modelado."
+    },
+    {
+      "category": "acao",
+      "text": "Confirmar formalmente a criação das contas de anúncio (Meta Business Manager e Google Ads) antes do lançamento — o documento fonte trata isso como passo 1 do roadmap, mas nenhum material disponível confirma que já foi concluído."
+    }
+  ],
+  "segment": "Varejo de tecidos, cama/mesa/banho e utilidades domésticas (Rei do Pano) + moda feminina, calçados e acessórios (Rainha Modas) — varejo físico regional (Vilhena/RO), lead-gen via WhatsApp, não e-commerce",
+  "data_source": "v4mos_api",
+  "data_period": "Não há período de campanha ativa a analisar (0 dias rodados, maturidade V0). Fetch V4MOS cobriu janela de 90 dias (2026-06-12 a 2026-09-10) e confirmou 0 campanhas em Google Ads e Facebook Ads em ambas as marcas. Documento fonte da estruturação original (05-diagnostico-midia-trafego-pago.md) datado de maio/2026, mesmo diagnóstico V0. Forecast/plano de lançamento aprovado com o operador em 2026-09-10 (base-de-conhecimento/08-forecast-midia-vilhena-2k.md).",
+  "monthly_budget": 2000,
+  "platforms_active": [],
+  "integrations_status": {
+    "meta_ads": "not_configured",
+    "google_ads": "not_configured",
+    "google_analytics": "not_configured"
+  },
+  "current_metrics": {
+    "cpl": null,
+    "ctr": null,
+    "conversion_rate": null,
+    "roas": null,
+    "cpc": null,
+    "total_investment": 0,
+    "total_leads": 0,
+    "total_clicks": 0,
+    "impressions": 0,
+    "frequency": null
+  },
+  "benchmarks": {
+    "cpl": null,
+    "ctr": null,
+    "conversion_rate": null,
+    "roas": null,
+    "cpc": null,
+    "source": "unavailable_reason: nenhuma métrica atual de campanha existe para comparar (V0, 0 campanhas confirmadas), e a tabela de benchmarks por setor da skill (references/benchmarks-por-setor.md) não cobre varejo físico de tecidos/moda regional com conversão via WhatsApp (categorias mais próximas — E-commerce/Varejo Online, Construção/Reformas — pressupõem checkout online ou orçamento de serviço, não se aplicam sem ressalva). As únicas projeções numéricas confiáveis para este cliente são as estimativas [E] já modeladas em outputs/ee-s3-forecast-midia.json (CPL de R$18,02 no Mês 1 a R$9,66 no Mês 6, dentro do escopo aprovado de R$2.000/mês/Vilhena/Rei do Pano)."
+  },
+  "diagnosis_by_dimension": {
+    "account_structure": {
+      "organization": "nonexistent",
+      "segmentation": "Nenhuma conta de anúncios existe hoje para segmentar (0 campanhas). A segmentação PLANEJADA está definida em base-de-conhecimento/05-diagnostico-midia-trafego-pago.md §2: público frio (raio 120km regional, restrito a 15-20km de Vilhena no piloto aprovado; mulheres 30-60 anos, classes B/C; interesses costura/decoração/moda/artesanato; interesses B2B costureira/tapeceiro/alfaiataria), público quente (engajamento Instagram, contatos WhatsApp, visitantes do site pós-pixel) e público de lista/CRM (base Linx, ainda não extraída) — nenhuma dessas camadas está ativa em plataforma.",
+      "budget_allocation": "concentrated",
+      "observation": "O plano aprovado (R$2.000/mês) concentra deliberadamente o budget em só 2 plataformas e 5 campanhas no total (regra documentada: conta nova sem histórico não deve pulverizar aprendizado do algoritmo). Dentro de cada canal também há concentração: 81% do budget Meta (R$1.300 de R$1.600) na campanha Lead via WhatsApp, e 65% do budget Google (R$260 de R$400) na campanha Core."
+    },
+    "creatives": {
+      "active_count": 0,
+      "best_performer": "unavailable_reason: nenhuma campanha paga rodou até o momento (V0) — não há dado de performance de criativo pago para apontar melhor performer.",
+      "worst_performer": "unavailable_reason: nenhuma campanha paga rodou até o momento (V0) — não há dado de performance de criativo pago para apontar pior performer.",
+      "ab_testing_active": false,
+      "average_frequency": null,
+      "fatigue_detected": false,
+      "evaluation": "Nenhum criativo pago rodou ainda. Já existem 3 criativos finais prontos para o Rei do Pano (skill ee-s3-criativos-anuncios, status in_progress) e copy completa de Google Ads para as duas marcas — 10 títulos + 3 descrições + 4 sitelinks cada, prontos em base-de-conhecimento/05-diagnostico-midia-trafego-pago.md §5. Falta, no entanto, a copy específica de Meta Ads: a seção 08 ('Copy para Meta Ads') do documento fonte está truncada, restando só o racional dos ângulos de teste ('renovar o enxoval' vs. 'tecido pra costurar' vs. 'crediário sem juros')."
+    },
+    "landing_pages": {
+      "lp_count": 1,
+      "coherence_with_ads": "high",
+      "estimated_bounce_rate": null,
+      "evaluation": "A landing page (https://rei-do-pano.vercel.app/) já está publicada e ativa, com hero, vantagens (crediário, tradição, atendimento), mix de produto, segmentação B2C/B2B, prova social (4,6/5,0, 327+ avaliações) e formulário de cotação — coerente por construção com o racional de campanha planejado (crediário sem juros, variedade, atendimento humanizado), já que a LP foi produzida depois do posicionamento que também informa a copy de anúncios. Ainda assim, essa coerência nunca foi validada com tráfego pago real: sem GA4/Pixel instalados, não há taxa de rejeição ou comportamento pós-clique mensurável (unavailable_reason: GTM/GA4 ainda não instalados na LP)."
+    },
+    "audiences": {
+      "types_used": [
+        "broad",
+        "interest"
+      ],
+      "overlap_detected": null,
+      "retargeting_active": false,
+      "evaluation": "Nenhum público está ativo em plataforma hoje (0 campanhas). Os tipos listados ('broad', 'interest') refletem o público frio PLANEJADO para a campanha Lead via WhatsApp (geo 15-20km de Vilhena + interesses costura/decoração/moda/artesanato), não uma segmentação já rodando. Lookalike e retargeting estão nos planos, mas dependem de pré-requisitos ainda não atendidos: lookalike da base Linx (extração não confirmada como operacional) e remarketing só ativa quando o público de engajamento do Instagram atingir ≥1.000 pessoas OU visitantes únicos do pixel atingirem ≥500 — impossível de medir sem o pixel instalado."
+    }
+  },
+  "top_problems": [
+    {
+      "problem": "Ausência total de rastreamento (Pixel Meta + Google Tag Manager + GA4) impede qualquer campanha de aprender ou ser otimizada desde o dia 1",
+      "data_evidence": "base-de-conhecimento/05-diagnostico-midia-trafego-pago.md §1: 'não há pixel instalado, não há rastreamento de eventos, não há histórico de campanhas pagas'. Confirmado pelo briefing (accesses.meta_business, accesses.google_ads, accesses.google_analytics = false) e pelo fetch V4MOS (0 campanhas, 90 dias).",
+      "impact": "Sem Pixel, o algoritmo do Meta 'anuncia no escuro' — usa dados genéricos em vez de sinais reais de quem já visitou/comprou/mandou mensagem. O próprio forecast aprovado (ee-s3-forecast-midia.json) já assume um Mês 1 de aprendizado com CPL 25-30% acima do patamar estável (R$18,02 vs. ~R$14 de referência) por causa exatamente dessa lacuna.",
+      "dimension": "account_structure"
+    },
+    {
+      "problem": "Zero histórico de campanha paga em qualquer das duas marcas — estrutura está modelada mas nada está ativo, e a criação formal das contas de anúncio não está confirmada",
+      "data_evidence": "connectors.google_ads.total_campaigns = 0 e connectors.facebook_ads.total_campaigns = 0 no client.json (fetch de 2026-09-10, janela de 90 dias). handoff-account-manager.md §26: 'Nenhuma campanha paga está no ar' e §27 não confirma se as contas Meta Business Manager / Google Ads já foram de fato criadas.",
+      "impact": "Toda a modelagem de CPL/CAC do forecast é estimativa [E] sem dado próprio — o grupo começa do zero absoluto de aprendizado de algoritmo em ambas as plataformas, e o próprio lançamento pode atrasar se as contas ainda precisarem ser criadas.",
+      "dimension": "account_structure"
+    },
+    {
+      "problem": "Copy de anúncios Meta Ads ausente — só a estrutura de campanha e os públicos estão prontos, faltando o texto/criativo validado da campanha que concentra a maior fatia do budget",
+      "data_evidence": "base-de-conhecimento/05-diagnostico-midia-trafego-pago.md §6: 'seção 08 — Copy para Meta Ads: apenas o cabeçalho da seção aparece no PDF exportado; o conteúdo [...] não está presente no arquivo'. A copy de Google Ads, em contraste, está 100% pronta (10 títulos + 3 descrições + 4 sitelinks por marca).",
+      "impact": "A campanha Lead via WhatsApp (R$1.300 de R$2.000/mês, 65% do budget aprovado) só tem o racional dos ângulos de teste documentado ('renovar o enxoval' vs. 'tecido pra costurar' vs. 'crediário sem juros'), não copy finalizada — atraso de lançamento ou necessidade de gerar via ee-s3-copy-anuncios antes de subir a campanha.",
+      "dimension": "creatives"
+    }
+  ],
+  "action_plan": [
+    {
+      "action": "Instalar o Pixel da Meta via GTM, com o evento Contact disparando no clique do botão de WhatsApp",
+      "priority": "high",
+      "expected_impact": "Pré-requisito não-negociável — sem isso, o Meta anuncia sem sinal real de conversão e o Mês 1 real performa abaixo do modelado",
+      "responsible": "Luciano (Gestor de Tráfego)",
+      "deadline": "Semana 1"
+    },
+    {
+      "action": "Instalar Google Tag Manager + GA4 na landing page (rei-do-pano.vercel.app)",
+      "priority": "high",
+      "expected_impact": "Habilita mensuração de comportamento pós-clique e alimenta o Google Ads com dados reais de conversão",
+      "responsible": "Luciano (Gestor de Tráfego) / dev da LP",
+      "deadline": "Semana 1"
+    },
+    {
+      "action": "Confirmar/criar formalmente as contas Meta Business Manager e Google Ads, e decidir se a Rainha Modas mantém conta separada ou é integrada ao mesmo Business Manager",
+      "priority": "high",
+      "expected_impact": "Desbloqueia o lançamento das campanhas — hoje não há confirmação de que esse passo 1 do roadmap foi concluído",
+      "responsible": "Kauã Fernandes (Account Manager)",
+      "deadline": "Semana 1"
+    },
+    {
+      "action": "Gerar a copy de Meta Ads (seção 08 ausente no documento fonte) via ee-s3-copy-anuncios, cobrindo os 3 ângulos já definidos (enxoval / costura / crediário)",
+      "priority": "high",
+      "expected_impact": "Fecha a lacuna de criativo da campanha que concentra 65% do budget aprovado (Lead via WhatsApp)",
+      "responsible": "Kauã Fernandes / Leo (Designer)",
+      "deadline": "Semana 1-2"
+    },
+    {
+      "action": "Subir a campanha Lead via WhatsApp (Meta, R$1.300/mês) com público frio geo-segmentado (15-20km de Vilhena) e 2-3 criativos em teste paralelo",
+      "priority": "high",
+      "expected_impact": "Principal fonte de leads do piloto — ~71 a 110 leads/mês esperados [E] só nesta campanha",
+      "responsible": "Luciano (Gestor de Tráfego)",
+      "deadline": "Semana 2"
+    },
+    {
+      "action": "Subir as 3 campanhas de Google Ads (Blindagem R$80 + Core R$260 + Conquista R$60), com as negativas obrigatórias já definidas",
+      "priority": "high",
+      "expected_impact": "Captura a intenção de compra já existente em Vilhena (~200 buscas/mês, 0 concorrentes ativos) com CPC mínimo esperado",
+      "responsible": "Luciano (Gestor de Tráfego)",
+      "deadline": "Semana 2"
+    },
+    {
+      "action": "Ativar a campanha de Engajamento de Publicação (R$300/mês, Meta), amplificando semanalmente o post orgânico de melhor desempenho de cada marca",
+      "priority": "medium",
+      "expected_impact": "Acumula o volume de engajamento necessário para habilitar remarketing (condição: ≥1.000 pessoas engajadas OU ≥500 visitantes únicos no pixel)",
+      "responsible": "Leo (Designer / Social Media)",
+      "deadline": "Semana 2"
+    },
+    {
+      "action": "Monitorar semanalmente o volume de engajamento/pixel acumulado para avaliar quando a condição de ativação do remarketing é atingida",
+      "priority": "normal",
+      "expected_impact": "Evita ativar remarketing cedo demais (segmentação ainda ampla demais para ter eficiência) ou tarde demais (deixar oportunidade de reengajamento parada)",
+      "responsible": "Luciano (Gestor de Tráfego)",
+      "deadline": "Contínuo a partir da Semana 3"
+    }
+  ],
+  "realistic_goal": {
+    "target_cpl": 9.66,
+    "target_roas": null,
+    "justification": "Meta de CPL baseada inteiramente no forecast já aprovado com o operador (outputs/ee-s3-forecast-midia.json): R$9,66 é o CPL blended (Meta+Google) projetado para o Mês 6, patamar estabilizado dentro do escopo fixo de R$2.000/mês, só Rei do Pano, só Vilhena. Não há ROAS/faturamento projetável porque briefing.product.ticket é null — sem ticket médio, conversão-loja ou margem confirmados, este diagnóstico e o forecast que o acompanha são operacionais (funil de mídia), não financeiros.",
+    "assumptions": [
+      "Pixel Meta + GTM + evento Contact instalados e disparando antes do lançamento das campanhas",
+      "Budget fixo de R$2.000/mês sustentado pelos 6 meses (sem crescimento — premissa explícita do operador)",
+      "Contas Meta Business Manager e Google Ads criadas e confirmadas na Semana 1",
+      "Escopo restrito a Rei do Pano / Vilhena — Rainha Modas e as filiais de Colorado do Oeste e Cerejeiras ficam fora deste ciclo"
+    ],
+    "risk_factors": [
+      "Sem ticket médio, conversão-loja histórica ou margem no client.json, não é possível validar se o CAC de mídia projetado (R$32-91) é aceitável financeiramente",
+      "Budget fixo sem crescimento tende a um platô de eficiência a partir do Mês 4 — se o resultado for bom, o teto de R$2.000/mês vira o próprio limitador",
+      "Atraso na instalação do Pixel/GTM ou na criação das contas de anúncio atrasa toda a curva de aprendizado modelada"
+    ]
+  },
+  "realistic_goal_90d": {
+    "current_cpl": null,
+    "target_cpl": 11.90,
+    "current_cac": null,
+    "target_cac": 48.78,
+    "current_leads_month": 0,
+    "target_leads_month": 168,
+    "premissas": [
+      "Pixel Meta + GTM + evento Contact instalados e disparando até o fim da Semana 1",
+      "Contas Meta Business Manager e Google Ads confirmadas como criadas (Rei do Pano; decisão sobre Rainha Modas em aberto)",
+      "Copy de Meta Ads finalizada (gap da seção 08 do documento fonte) antes do lançamento da campanha Lead via WhatsApp",
+      "Budget de R$2.000/mês sustentado pelos 90 dias completos, sem interrupção",
+      "Escopo restrito a Rei do Pano / Vilhena, conforme aprovado com o operador em 10/09/2026"
+    ]
+  },
+  "keyword_clusters": [
+    {
+      "cluster": "Marca (Blindagem)",
+      "keywords": [
+        "rei do pano vilhena",
+        "rei do pano rondônia",
+        "rei do pano"
+      ],
+      "intent": "navigational",
+      "budget_allocation_pct": 20,
+      "expected_cpc_range": "unavailable_reason: sem histórico de lance real (V0) — nenhuma campanha rodou; racional documentado é 'CPC quase irrelevante' por ausência de concorrência direta nesses termos",
+      "bid_strategy": "Correspondência exata/frase, sem necessidade de lance agressivo (protege o nome, não compete por volume)",
+      "copy_angle": "Confirmação institucional: 30 anos em Vilhena, crediário próprio sem juros",
+      "risk": "Baixo — mas depende de a conta Google Ads já estar criada (pendente de confirmação)"
+    },
+    {
+      "cluster": "Core — Intenção de Compra (Vilhena)",
+      "keywords": [
+        "aviamentos vilhena",
+        "tecidos vilhena",
+        "loja de tecidos vilhena",
+        "cortinas sob medida vilhena",
+        "materiais para costura vilhena"
+      ],
+      "intent": "transactional",
+      "budget_allocation_pct": 65,
+      "expected_cpc_range": "unavailable_reason: sem histórico de CPC real (V0) — nenhum lance foi pago ainda para esses termos em Vilhena",
+      "bid_strategy": "Correspondência frase / ampla controlada, com negativas obrigatórias (grátis, tutorial, curso de costura, online, atacado, fábrica de tecidos)",
+      "copy_angle": "Funcional — variedade completa + crediário sem juros; 'aviamentos vilhena' é o termo de maior potencial (+57% YoY, único com crescimento expressivo no volume de busca regional)",
+      "risk": "Volume nativo de busca em Vilhena isolada é pequeno (~200 buscas/mês combinadas) — pode não sustentar R$260/mês sozinho, daí a Conquista entrar desde o Mês 1 para não deixar budget parado",
+      "opportunity_keywords": [
+        {
+          "keyword": "loja de roupas vilhena",
+          "intent": "transactional",
+          "search_volume_monthly": "170 buscas/mês (ver base-de-conhecimento/02-mercado-swot-concorrentes.md §1)",
+          "cpc_range": "unavailable_reason: sem histórico de lance para este termo",
+          "rationale": "Termo de moda com maior volume mapeado na região, mas pertence ao escopo da Rainha Modas — fora do piloto atual de R$2.000/mês (só Rei do Pano)"
+        }
+      ]
+    },
+    {
+      "cluster": "Conquista — Termos de Concorrentes",
+      "keywords": [
+        "lojas avenida vilhena",
+        "havan vilhena",
+        "lojas avenida tecidos",
+        "havan tecidos"
+      ],
+      "intent": "commercial",
+      "budget_allocation_pct": 15,
+      "expected_cpc_range": "unavailable_reason: sem histórico de lance real (V0)",
+      "bid_strategy": "Manual CPC — ativada desde o Mês 1 (ajuste em relação ao plano regional original, que recomendava só após a Core estabilizada), necessária porque o volume nativo de busca em Vilhena é pequeno demais para consumir R$400/mês só com Blindagem+Core",
+      "copy_angle": "Diferencial de crediário próprio sem juros, que nem Havan nem Lojas Avenida oferecem",
+      "risk": "Concorrentes de maturidade digital alta (Havan: Pixel/GTM/GA4 ativos, +1.100 anúncios Meta, ~4.000 Google Ads) podem reagir e elevar o CPC desses termos se entrarem no leilão"
+    }
+  ],
+  "opportunity_keywords": [
+    {
+      "keyword": "loja de roupas vilhena",
+      "cluster": "Rainha Modas (fora do escopo atual)",
+      "intent": "transactional",
+      "volume_estimate": "170 buscas/mês",
+      "expected_cpc": "unavailable_reason: sem histórico de lance para este termo",
+      "rationale": "Maior volume de busca de moda mapeado na região (base-de-conhecimento/02-mercado-swot-concorrentes.md §1), mas a Rainha Modas está fora do escopo do piloto atual de R$2.000/mês — oportunidade para quando a verba for expandida ou uma verba dedicada for aprovada."
+    },
+    {
+      "keyword": "moda feminina vilhena",
+      "cluster": "Rainha Modas (fora do escopo atual)",
+      "intent": "commercial",
+      "volume_estimate": "unavailable_reason: volume específico deste termo não quantificado nos materiais disponíveis, só citado como termo-exemplo da campanha Core regional para Rainha Modas",
+      "expected_cpc": "unavailable_reason: sem histórico de lance para este termo",
+      "rationale": "Termo de categoria já mapeado como parte da estrutura de campanha regional para Rainha Modas, mas não ativo no piloto atual restrito ao Rei do Pano."
+    }
+  ],
+  "budget_reallocation_scenarios": {
+    "description": "Não há budget de mídia ATUAL para realocar — o grupo está em V0 (0 campanhas). Os 3 cenários abaixo representam a decisão de budget de LANÇAMENTO para o piloto Rei do Pano/Vilhena. O Cenário B é o que foi efetivamente definido em conversa direta com o operador em 10/09/2026 e já tem forecast detalhado e aprovado em outputs/ee-s3-forecast-midia.json; os Cenários A e C são exercícios de sensibilidade (budget menor/maior) — estimativas [E] de modelagem, não testadas nem aprovadas.",
+    "scenario_a_conservative": {
+      "name": "Conservador",
+      "total_budget_monthly": 1200,
+      "google_split": 400,
+      "meta_split": 800,
+      "campaigns_structure": [
+        {
+          "campaign": "Lead via WhatsApp — Público Frio Vilhena",
+          "platform": "Meta Ads",
+          "budget_monthly": 800,
+          "objective": "Mensagens (Click-to-WhatsApp)"
+        },
+        {
+          "campaign": "Blindagem de Marca",
+          "platform": "Google Ads",
+          "budget_monthly": 100,
+          "objective": "Proteção de marca"
+        },
+        {
+          "campaign": "Core — Intenção de Compra",
+          "platform": "Google Ads",
+          "budget_monthly": 300,
+          "objective": "Geração de lead/conversão"
+        }
+      ],
+      "expected_leads_monthly": 65,
+      "expected_cpl": 18.46,
+      "delta_leads": "-61% vs. Cenário B (168 leads/mês em 90 dias)",
+      "effort_weeks": 1,
+      "confidence": "medium",
+      "risk_assessment": "Corta a campanha de Engajamento de Publicação (necessária para acumular o público que ativa remarketing) e a Conquista (termos de concorrentes) — atinge o teto de aprendizado mais devagar e adia a validação de duas frentes do plano original. Estimativa [E] de modelagem, não testada."
+    },
+    "scenario_b_realistic": {
+      "name": "Realista (recomendado — já aprovado com o operador)",
+      "total_budget_monthly": 2000,
+      "google_split": 400,
+      "meta_split": 1600,
+      "campaigns_structure": [
+        {
+          "campaign": "Lead via WhatsApp — Público Frio Vilhena",
+          "platform": "Meta Ads",
+          "budget_monthly": 1300,
+          "objective": "Mensagens (Click-to-WhatsApp)"
+        },
+        {
+          "campaign": "Engajamento de Publicação — Amplificação Orgânica",
+          "platform": "Meta Ads",
+          "budget_monthly": 300,
+          "objective": "Engajamento"
+        },
+        {
+          "campaign": "Blindagem de Marca",
+          "platform": "Google Ads",
+          "budget_monthly": 80,
+          "objective": "Proteção de marca"
+        },
+        {
+          "campaign": "Core — Intenção de Compra (Vilhena)",
+          "platform": "Google Ads",
+          "budget_monthly": 260,
+          "objective": "Geração de lead/conversão"
+        },
+        {
+          "campaign": "Conquista — Termos de Concorrentes",
+          "platform": "Google Ads",
+          "budget_monthly": 60,
+          "objective": "Captura de intenção comprovada"
+        }
+      ],
+      "expected_leads_monthly": 168,
+      "expected_cpl": 11.90,
+      "delta_leads": "n/a — não há baseline anterior (V0, 0 campanhas)",
+      "effort_weeks": 4,
+      "confidence": "medium",
+      "risk_assessment": "Cenário efetivamente aprovado com o operador em 10/09/2026 (ver base-de-conhecimento/08-forecast-midia-vilhena-2k.md). Depende integralmente da instalação prévia de Pixel+GTM+evento Contact — sem isso, o Mês 1 real performa abaixo do modelado. Budget fixo nos 6 meses (sem escala) tende a um platô de eficiência a partir do Mês 4. Sem ticket médio/conversão-loja, não projeta ROAS/faturamento."
+    },
+    "scenario_c_aggressive": {
+      "name": "Agressivo",
+      "total_budget_monthly": 3500,
+      "google_split": 700,
+      "meta_split": 2800,
+      "campaigns_structure": [
+        {
+          "campaign": "Lead via WhatsApp — Público Frio Vilhena (ampliado)",
+          "platform": "Meta Ads",
+          "budget_monthly": 2200,
+          "objective": "Mensagens (Click-to-WhatsApp)"
+        },
+        {
+          "campaign": "Engajamento de Publicação — Amplificação Orgânica",
+          "platform": "Meta Ads",
+          "budget_monthly": 600,
+          "objective": "Engajamento (acelera o volume que ativa remarketing)"
+        },
+        {
+          "campaign": "Blindagem de Marca",
+          "platform": "Google Ads",
+          "budget_monthly": 100,
+          "objective": "Proteção de marca"
+        },
+        {
+          "campaign": "Core — Intenção de Compra (Vilhena)",
+          "platform": "Google Ads",
+          "budget_monthly": 450,
+          "objective": "Geração de lead/conversão"
+        },
+        {
+          "campaign": "Conquista — Termos de Concorrentes",
+          "platform": "Google Ads",
+          "budget_monthly": 150,
+          "objective": "Captura de intenção comprovada"
+        }
+      ],
+      "expected_leads_monthly": 389,
+      "expected_cpl": 9.0,
+      "delta_leads": "+~131% vs. Cenário B (168 → 389 leads/mês [E])",
+      "effort_weeks": 3,
+      "confidence": "low",
+      "risk_assessment": "Escala budget antes de validar os dados reais dos primeiros 90 dias do Cenário B aprovado — não recomendado até confirmar CPL real. Também extrapola o escopo atualmente aprovado (só Rei do Pano/Vilhena), exigindo nova decisão sobre incluir Rainha Modas ou ampliar o raio geográfico. Estimativa [E] de modelagem, não testada."
+    },
+    "recommendation": "Cenário B (Realista) é o que foi efetivamente aprovado com o operador em 10/09/2026 e já tem forecast de 6 meses detalhado em outputs/ee-s3-forecast-midia.json. Cenários A e C são referência para decisões futuras (reduzir teste ou escalar), não alternativas ativas hoje."
+  },
+  "creative_testing_hypotheses": {
+    "description": "5 hipóteses de teste para a Semana 1-2 pós-instalação do Pixel, cobrindo os 3 ângulos de copy já documentados para a campanha Lead via WhatsApp (Meta) e o padrão de headline específica já escrito para o Google Ads.",
+    "hypotheses": [
+      {
+        "id": "H1",
+        "hypothesis": "Se o anúncio usar 'crediário sem juros' como gancho principal, então o CTR/CPL melhora, porque é o diferencial real do grupo que Havan e Lojas Avenida não replicam digitalmente.",
+        "angle": "Crediário / diferencial financeiro",
+        "format": "Single image ou carrossel (produto + crediário)",
+        "hook": "Crediário Próprio Sem Juros — Parcele em até 6x",
+        "body": "A maior loja de tecidos do Cone Sul. Crediário próprio sem juros. Visite-nos em Vilhena.",
+        "cta": "Fale no WhatsApp agora",
+        "target_audience": "Público frio — mulheres 30-60 anos, classes B/C, raio 15-20km de Vilhena",
+        "success_criteria": "CTR > 1,5% E CPL < R$20 (Mês 1)",
+        "testing_budget": 300,
+        "testing_duration_days": 7
+      },
+      {
+        "id": "H2",
+        "hypothesis": "Se o anúncio usar o ângulo 'renovar o enxoval' em vez de apresentar produto genérico, então o CTR melhora, porque fala diretamente com a necessidade que já move a persona 'Dona Aparecida'.",
+        "angle": "Necessidade / renovação de casa",
+        "format": "Single image ou vídeo curto",
+        "hook": "Hora de Renovar o Enxoval — Tecidos e Aviamentos em Vilhena",
+        "body": "Tecidos por metro, aviamentos, enxoval e cortinas sob medida. Atendimento humanizado.",
+        "cta": "Fale no WhatsApp agora",
+        "target_audience": "Público frio — mulheres 30-60 anos, classes B/C, raio 15-20km de Vilhena",
+        "success_criteria": "CTR > 1,5% E CPL < R$20 (Mês 1)",
+        "testing_budget": 300,
+        "testing_duration_days": 7
+      },
+      {
+        "id": "H3",
+        "hypothesis": "Se o anúncio usar o ângulo B2B 'tecido pra costurar' segmentado para costureiras/ateliês, então captura o segmento de maior crescimento (aviamentos +57% YoY), porque fala diretamente com quem compra para revenda/produção, não só para uso doméstico.",
+        "angle": "B2B / profissional",
+        "format": "Single image (variedade de aviamentos)",
+        "hook": "Aviamentos e Tecidos para Costureiras — Maior Variedade da Região",
+        "body": "Do aviamento ao tecido por metro. Atendimento especializado para costureiras, ateliês e tapeçarias.",
+        "cta": "Fale no WhatsApp agora",
+        "target_audience": "Interesses B2B — costureira, tapeceiro, alfaiataria, confecção",
+        "success_criteria": "CTR > 1,2% E CPL < R$25 (público B2B, volume menor)",
+        "testing_budget": 200,
+        "testing_duration_days": 10
+      },
+      {
+        "id": "H4",
+        "hypothesis": "Se amplificarmos semanalmente o post orgânico de melhor desempenho (sem criativo pago dedicado), então acumulamos o público de engajamento necessário para ativar remarketing mais rápido, porque usa conteúdo já validado organicamente em vez de aprender do zero.",
+        "angle": "Aquecimento de audiência / engajamento orgânico",
+        "format": "Impulsionamento de post existente",
+        "hook": "unavailable_reason: hook depende do post orgânico da semana, ainda não publicado no momento deste diagnóstico",
+        "body": "unavailable_reason: body depende do post orgânico da semana, ainda não publicado no momento deste diagnóstico",
+        "cta": "Variável (herda o CTA do post orgânico selecionado)",
+        "target_audience": "Público quente + interesses adjacentes",
+        "success_criteria": "Público de engajamento ≥1.000 pessoas OU visitantes únicos do pixel ≥500 em até 6 semanas [E]",
+        "testing_budget": 70,
+        "testing_duration_days": 30
+      },
+      {
+        "id": "H5",
+        "hypothesis": "Se as headlines de Search usarem termos de categoria específicos em vez de genéricos, então o Quality Score e o CTR sobem, porque a busca já tem intenção definida (aviamentos, cortinas sob medida).",
+        "angle": "Especificidade de categoria (Quality Score)",
+        "format": "Anúncio de texto (Google Search)",
+        "hook": "Aviamentos e Materiais | Cortinas Sob Medida",
+        "body": "Tecidos por metro, aviamentos, enxoval e cortinas sob medida. Atendimento humanizado.",
+        "cta": "Fale pelo WhatsApp Agora (sitelink)",
+        "target_audience": "Busca ativa — cluster Core (aviamentos/tecidos/cortinas vilhena)",
+        "success_criteria": "CTR Search > 4% E CPC < R$1,50",
+        "testing_budget": 65,
+        "testing_duration_days": 7
+      }
+    ],
+    "testing_budget_total_week_1": 935
+  },
+  "daypart_optimization": {
+    "description": "Ajustes de lance inferidos [E] a partir do contexto documentado do público (mulheres 30-60 anos, loja física de rua em cidade do interior, WhatsApp como canal de conversão) — sem dado de pixel/analytics próprio ainda, já que o rastreamento não está instalado.",
+    "adjustments": [
+      {
+        "day_time": "Segunda-Sexta 9h-12h",
+        "bid_adjustment_pct": 15,
+        "rationale": "Horário comercial da loja física — cliente já em rotina de compra/pesquisa diurna, maior disponibilidade para responder no WhatsApp durante o expediente [E]."
+      },
+      {
+        "day_time": "Segunda-Sexta 18h-21h",
+        "bid_adjustment_pct": 20,
+        "rationale": "Fim de tarde/noite, fora do horário comercial — público B2C feminino da faixa etária tende a navegar Instagram/WhatsApp com mais calma [E], sem dado próprio de pixel ainda para confirmar o padrão exato."
+      },
+      {
+        "day_time": "Sábado 9h-13h",
+        "bid_adjustment_pct": 10,
+        "rationale": "Pico histórico de fluxo em lojas físicas de rua em cidades do interior aos sábados [E] — reforça captação de quem já está no 'clima de compra'."
+      },
+      {
+        "day_time": "Domingo",
+        "bid_adjustment_pct": -30,
+        "rationale": "Comércio de rua tipicamente fechado aos domingos em cidades pequenas do interior [E] — menor intenção de conversão via WhatsApp nesse dia."
+      },
+      {
+        "day_time": "Segunda-feira (manhã)",
+        "bid_adjustment_pct": -10,
+        "rationale": "Início de semana costuma ter menor movimento pós-fim de semana no varejo de rua [E] — manter orçamento residual até o padrão real ser confirmado com dado de pixel."
+      }
+    ]
+  },
+  "google_ads": {
+    "integration": "Nenhuma conta Google Ads criada/conectada ao workspace V4MOS até o momento (accesses.google_ads: false no briefing; connectors.google_ads.total_campaigns: 0 no fetch de 90 dias)",
+    "budget_monthly_declared": 400,
+    "budget_monthly_actual": 0,
+    "total_campaigns": 0,
+    "active_campaigns": 0,
+    "paused_campaigns": 0,
+    "status": "broken",
+    "score": 0,
+    "score_classification": "critical",
+    "total_spend_90d": 0,
+    "total_clicks_90d": 0,
+    "total_impressions_90d": 0,
+    "total_conversions_90d": 0,
+    "avg_cpa": null,
+    "avg_ctr": 0,
+    "strategic_diagnosis": "Zero investimento em Google Ads até o momento — nem histórico, nem conta confirmada como criada. A estrutura de campanha, porém, já está 100% modelada e pronta para ativação: Blindagem de Marca (R$80/mês), Core — Intenção de Compra (R$260/mês) e Conquista — Termos de Concorrentes (R$60/mês, ativada desde o Mês 1 por ajuste ao volume nativo baixo de Vilhena). O cenário é favorável: ~200 buscas/mês combinadas para os termos do Rei do Pano em Vilhena, com 0 concorrentes ativos disputando lance — assim que Pixel/GTM/GA4 estiverem no ar e a conta confirmada, o CPC esperado é mínimo e a intenção de compra já existe, não precisa ser criada do zero como no Meta.",
+    "active_campaign": null,
+    "paused_campaigns_opportunity": [],
+    "monthly_evolution": [],
+    "day_of_week": [
+      { "day": "Seg", "clicks": 0, "impressions": 0, "cost": 0, "pct": 0.0, "ctr": 0 },
+      { "day": "Ter", "clicks": 0, "impressions": 0, "cost": 0, "pct": 0.0, "ctr": 0 },
+      { "day": "Qua", "clicks": 0, "impressions": 0, "cost": 0, "pct": 0.0, "ctr": 0 },
+      { "day": "Qui", "clicks": 0, "impressions": 0, "cost": 0, "pct": 0.0, "ctr": 0 },
+      { "day": "Sex", "clicks": 0, "impressions": 0, "cost": 0, "pct": 0.0, "ctr": 0 },
+      { "day": "Sáb", "clicks": 0, "impressions": 0, "cost": 0, "pct": 0.0, "ctr": 0 },
+      { "day": "Dom", "clicks": 0, "impressions": 0, "cost": 0, "pct": 0.0, "ctr": 0 }
+    ],
+    "gender_breakdown": [],
+    "top_keywords": []
+  },
+  "meta_ads": {
+    "integration": "Nenhuma conta Meta Business Manager criada/conectada até o momento (accesses.meta_business: false no briefing; connectors.facebook_ads.total_campaigns: 0 no fetch de 90 dias)",
+    "budget_monthly_declared": 1600,
+    "budget_monthly_actual": 0,
+    "total_campaigns": 0,
+    "total_ads": 0,
+    "total_creatives": 0,
+    "status": "broken",
+    "score": 0,
+    "score_classification": "critical",
+    "total_spend_90d": 0,
+    "total_clicks_90d": 0,
+    "total_impressions_90d": 0,
+    "total_reach_90d": 0,
+    "avg_ctr": 0,
+    "avg_cpm": null,
+    "strategic_diagnosis": "Zero investimento em Meta Ads até o momento. A estrutura de campanha está modelada (Lead via WhatsApp R$1.300/mês + Engajamento de Publicação R$300/mês) e os públicos frio/quente já definidos, mas faltam 3 pré-requisitos para ativar: (1) Pixel Meta via GTM com evento Contact — 'a intervenção mais crítica' segundo o próprio documento fonte; (2) confirmação de que a conta de anúncios foi de fato criada; (3) copy de anúncio Meta finalizada — a seção 08 do documento fonte está truncada, restando só o racional dos 3 ângulos de teste (enxoval / costura / crediário). Sem Pixel, o Meta 'anuncia no escuro': o algoritmo não tem dado de quem já comprou/visitou/mandou mensagem, então usa segmentação genérica até acumular sinal próprio.",
+    "critical_issues": [
+      "Sem Pixel Meta instalado — pré-requisito não-negociável antes de qualquer campanha",
+      "Nenhuma conta de anúncios (Business Manager) confirmada como criada",
+      "Copy de anúncios Meta (seção 08 do documento fonte) ausente/truncada — só a estrutura e o racional dos ângulos estão prontos",
+      "Decisão pendente: Rainha Modas em conta separada ou integrada ao Business Manager do Rei do Pano"
+    ],
+    "top_5_ads_by_spend": [],
+    "monthly_evolution": [],
+    "creative_gallery": [],
+    "creative_gallery_summary": {
+      "total_displayed": 0,
+      "total_ads": 0,
+      "manter": 0,
+      "otimizar": 0,
+      "eliminar": 0,
+      "note": "Nenhum anúncio publicado ainda (V0). 3 criativos finais do Rei do Pano já foram produzidos (ee-s3-criativos-anuncios, status in_progress) e aguardam ativação junto com o Pixel e a copy de Meta Ads."
+    }
+  },
+  "key_insight": {
+    "headline": "Instalar Pixel + GTM antes de qualquer campanha é o único destravamento que decide se o piloto de R$2.000/mês em Vilhena funciona.",
+    "context": "O grupo tem, pela primeira vez, um plano de mídia completo e aprovado (estrutura de campanha, públicos, copy de Google Ads, LP publicada) — mas está tecnicamente impedido de gerar dado de qualidade enquanto o Pixel Meta e o GTM/GA4 não estiverem instalados. Sem isso, cada real investido no Mês 1 ensina menos o algoritmo do que poderia, e o próprio forecast já embute esse custo (CPL de aprendizado 25-30% acima do patamar estável).",
+    "numbered_reasons": [
+      "(1) V0 confirmado 2x (briefing + fetch V4MOS) — não há atalho: o grupo precisa passar pela fase de aprendizado do zero em ambas as plataformas",
+      "(2) A estrutura de campanha, públicos e copy de Google Ads já estão prontos — o gargalo não é estratégico, é técnico (rastreamento) e de execução (copy de Meta Ads e confirmação das contas)",
+      "(3) Cada semana sem Pixel instalado é uma semana em que, quando a campanha subir, o Mês 1 vai custar mais caro do que precisaria"
+    ],
+    "discussion_anchor": "Antes de aprovar a data de lançamento das campanhas, o operador precisa confirmar com o cliente: as contas de anúncio (Meta Business Manager, Google Ads) já foram criadas? Se não, isso deve entrar na Semana 1 do cronograma, à frente até da instalação do Pixel."
+  },
+  "honesty_alert": "Este diagnóstico não tem nenhuma métrica de campanha real para reportar — o grupo está em maturidade V0 genuína, confirmada de duas formas independentes (briefing + fetch V4MOS de 90 dias). Todas as projeções de CPL/CAC/leads aqui e no forecast associado (outputs/ee-s3-forecast-midia.json) são estimativas [E] sem histórico próprio, aplicadas sobre um escopo estreito e específico (R$2.000/mês fixo, só Rei do Pano, só Vilhena — Rainha Modas e as filiais de Colorado do Oeste/Cerejeiras estão fora). Não há ticket médio, conversão-loja ou margem confirmados no client.json, então nenhuma cifra de ROAS ou faturamento pode ser projetada a partir deste diagnóstico — só o funil de mídia (leads, CPL, CAC de mídia). Além disso, a copy de Meta Ads está incompleta (seção 08 do documento fonte truncada) e não há confirmação formal de que as contas de anúncio (Meta Business Manager, Google Ads) já foram criadas — sem isso, mesmo o escopo aprovado não pode ser lançado.",
+  "is_launch_plan": true,
+  "completed_at": "2026-05-30T00:00:00Z"
+}

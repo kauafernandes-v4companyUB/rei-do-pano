@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rei do Pano &amp; Rainha Modas · Diagnóstico Estratégico</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body {
+    height: 100%; width: 100%; overflow: hidden;
+    background: #0a0a0a; color: #fff;
+    font-family: 'IBM Plex Sans', -apple-system, sans-serif;
+  }
+
+  .presentation { position: fixed; inset: 0; overflow: hidden; }
+  .slides-track {
+    display: flex; height: 100vh; width: 100vw;
+    transition: transform 0.5s cubic-bezier(0.7, 0, 0.3, 1);
+  }
+  .slide {
+    flex: 0 0 100vw; height: 100vh;
+    position: relative; overflow-y: auto; overflow-x: hidden;
+    padding: 4vh 5vw 8vh;
+    display: flex; flex-direction: column;
+    background: radial-gradient(ellipse at center, #ff3a1f 0%, #d61a0e 55%, #8a0d05 100%);
+  }
+  .slide--alt { background: linear-gradient(135deg, #ff5a2c 0%, #e6230e 60%, #8a0d05 100%); }
+  .slide--diag { background: radial-gradient(circle at 30% 50%, #ff6a3c 0%, #d61a0e 50%, #5a0802 100%); }
+  .slide--soft { background: linear-gradient(180deg, #b81409 0%, #f04823 100%); }
+
+  .slide__header { display: flex; align-items: center; margin-bottom: 2.5vh; }
+  .logo-v4 {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 64px; height: 64px; background: #fff;
+    border-radius: 14px; box-shadow: 0 6px 22px rgba(0,0,0,0.18);
+  }
+  .logo-v4 img { width: 72%; height: 72%; object-fit: contain; display: block; }
+
+  h1.title-mega {
+    font-weight: 700; font-size: clamp(3.5rem, 8vw, 7.5rem);
+    line-height: 0.95; letter-spacing: -0.03em;
+    background: linear-gradient(180deg, #ffe1c0 0%, #f5a665 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+  }
+  h2.title-section {
+    font-weight: 700; font-size: clamp(2.2rem, 4.5vw, 4rem);
+    line-height: 1.05; letter-spacing: -0.02em; color: #fff; margin-bottom: 2vh;
+  }
+  h3.subtitle { font-weight: 600; font-size: clamp(1.15rem, 1.7vw, 1.7rem); line-height: 1.2; color: #fff; }
+  .eyebrow {
+    display: inline-block; font-weight: 600; font-size: clamp(0.8rem, 0.95vw, 1rem);
+    letter-spacing: 0.08em; text-transform: uppercase; color: #ffd0a8;
+    padding: 8px 18px; border-radius: 100px;
+    background: rgba(255,220,180,0.12); border: 1px solid rgba(255,220,180,0.2);
+    backdrop-filter: blur(8px); margin-bottom: 1.6vh;
+  }
+  .subtitle-text {
+    font-weight: 500; font-size: clamp(1rem, 1.3vw, 1.35rem); line-height: 1.45;
+    color: rgba(255, 240, 220, 0.92); max-width: 900px;
+  }
+  .accent { color: #ffd0a8; font-weight: 700; }
+  .strong { color: #fff; font-weight: 700; }
+
+  .pill {
+    display: inline-block; padding: 10px 22px; border-radius: 100px;
+    background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.18);
+    backdrop-filter: blur(12px); font-weight: 600; font-size: 0.95rem; color: #fff;
+  }
+  .glass {
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.16);
+    backdrop-filter: blur(14px);
+    border-radius: 18px; padding: 22px;
+  }
+
+  .row-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+  .row-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+  .row-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+  .row-5 { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; }
+  .stack { display: flex; flex-direction: column; gap: 12px; }
+
+  .kpi__label {
+    font-weight: 600; font-size: 0.78rem;
+    letter-spacing: 0.06em; text-transform: uppercase;
+    color: rgba(255,220,180,0.85); margin-bottom: 6px;
+  }
+  .kpi__value {
+    font-weight: 700; font-size: clamp(1.9rem, 2.8vw, 2.6rem);
+    line-height: 1; color: #fff; letter-spacing: -0.02em; margin-bottom: 6px;
+  }
+  .kpi__hint { font-size: 0.9rem; color: rgba(255,255,255,0.75); line-height: 1.35; }
+
+  ul.bullets { list-style: none; padding: 0; }
+  ul.bullets li {
+    font-weight: 500; font-size: clamp(1rem, 1.18vw, 1.18rem);
+    line-height: 1.45; color: rgba(255,245,230,0.96);
+    padding: 9px 0 9px 28px; position: relative;
+  }
+  ul.bullets li::before {
+    content: ''; position: absolute; left: 0; top: 20px;
+    width: 16px; height: 2px; background: #ffd0a8; border-radius: 2px;
+  }
+  ul.bullets--check li::before {
+    content: '✓'; width: auto; height: auto; background: none;
+    left: 2px; top: 8px; color: #ffd0a8; font-weight: 700; font-size: 1.15rem;
+  }
+
+  .highlight-box {
+    background: linear-gradient(135deg, rgba(255,225,180,0.16), rgba(255,225,180,0.06));
+    border-left: 4px solid #ffd0a8; padding: 18px 22px; border-radius: 10px;
+  }
+  .highlight-box__label {
+    font-size: 0.78rem; letter-spacing: 0.1em; text-transform: uppercase;
+    color: #ffd0a8; font-weight: 700; margin-bottom: 6px;
+  }
+  .highlight-box__text {
+    font-weight: 600; font-size: clamp(1rem, 1.2vw, 1.25rem);
+    line-height: 1.45; color: #fff;
+  }
+
+  .compare { width: 100%; border-collapse: collapse; }
+  .compare th, .compare td {
+    padding: 13px 14px; text-align: left;
+    font-size: clamp(0.9rem, 1.05vw, 1.05rem);
+    color: rgba(255,245,230,0.94);
+  }
+  .compare th {
+    font-weight: 700; font-size: 0.78rem;
+    letter-spacing: 0.08em; text-transform: uppercase;
+    color: #ffd0a8; border-bottom: 1px solid rgba(255,255,255,0.18);
+  }
+  .compare td { border-bottom: 1px solid rgba(255,255,255,0.06); }
+  .compare tr:last-child td { border-bottom: none; }
+  .compare .accent-cell { color: #ffd0a8; font-weight: 700; }
+
+  .swot-grid {
+    display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr;
+    gap: 16px; flex: 1; min-height: 0;
+  }
+  .swot-quad {
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.16);
+    backdrop-filter: blur(14px); border-radius: 14px;
+    padding: 20px 22px; overflow: hidden;
+    display: flex; flex-direction: column;
+  }
+  .swot-quad__label {
+    font-size: 0.9rem; letter-spacing: 0.1em; text-transform: uppercase;
+    color: #ffd0a8; font-weight: 700; margin-bottom: 12px;
+  }
+  .swot-quad ul { list-style: none; padding: 0; }
+  .swot-quad ul li {
+    font-size: clamp(0.95rem, 1.05vw, 1.05rem);
+    line-height: 1.4; padding: 6px 0 6px 18px;
+    position: relative; color: rgba(255,245,230,0.95);
+  }
+  .swot-quad ul li::before {
+    content: '•'; position: absolute; left: 4px; top: 5px;
+    color: #ffd0a8; font-weight: 700;
+  }
+  .swot-quad--s { border-left: 3px solid #80ff9f; }
+  .swot-quad--w { border-left: 3px solid #ffb780; }
+  .swot-quad--o { border-left: 3px solid #80c8ff; }
+  .swot-quad--t { border-left: 3px solid #ff8080; }
+
+  .pillar-card {
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.16);
+    backdrop-filter: blur(14px); border-radius: 14px;
+    padding: 18px; text-align: center;
+  }
+  .pillar-card__score {
+    font-weight: 700; font-size: clamp(2.2rem, 3vw, 2.8rem);
+    line-height: 1; letter-spacing: -0.02em; margin-bottom: 4px;
+  }
+  .pillar-card__bar {
+    height: 8px; background: rgba(255,255,255,0.16);
+    border-radius: 6px; overflow: hidden; margin: 10px 0 10px;
+  }
+  .pillar-card__bar-fill { height: 100%; border-radius: 6px; }
+  .pillar-card__name {
+    font-weight: 600; font-size: 0.95rem;
+    letter-spacing: 0.04em; text-transform: uppercase;
+    color: rgba(255,220,180,0.9); margin-bottom: 4px;
+  }
+  .pillar-card__class {
+    font-size: 0.78rem; text-transform: uppercase;
+    letter-spacing: 0.08em; font-weight: 700;
+  }
+  .cls-critical { color: #ff8c8c; }
+  .cls-low { color: #ffb780; }
+  .cls-medium { color: #ffe18c; }
+  .cls-good { color: #80ff9f; }
+  .fill-critical { background: linear-gradient(90deg, #ff3a3a, #ff7a7a); }
+  .fill-low { background: linear-gradient(90deg, #ff7a3a, #ffb780); }
+  .fill-medium { background: linear-gradient(90deg, #ffb780, #ffe18c); }
+  .fill-good { background: linear-gradient(90deg, #80ff9f, #b8ffc8); }
+
+  .slide__content { flex: 1; display: flex; flex-direction: column; min-height: 0; }
+  .slide__footer {
+    margin-top: auto; display: flex; justify-content: space-between;
+    align-items: flex-end; font-size: 0.78rem;
+    color: rgba(255,220,180,0.5); font-weight: 500; padding-top: 1.5vh;
+  }
+
+  .controls {
+    position: fixed; bottom: 0; left: 0; right: 0;
+    display: flex; align-items: center; gap: 18px;
+    padding: 14px 24px;
+    background: linear-gradient(180deg, transparent 0%, rgba(0,0,0,0.55) 60%);
+    z-index: 10;
+  }
+  .control-btn {
+    width: 38px; height: 38px; border-radius: 50%;
+    background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.18);
+    backdrop-filter: blur(8px); color: #fff; font-size: 1.1rem;
+    display: inline-flex; align-items: center; justify-content: center;
+    cursor: pointer; user-select: none; transition: background .2s;
+  }
+  .control-btn:hover { background: rgba(255,255,255,0.18); }
+  .control-btn:disabled { opacity: 0.3; cursor: not-allowed; }
+  .progress-bar {
+    flex: 1; height: 4px; border-radius: 4px;
+    background: rgba(255,255,255,0.16); overflow: hidden;
+  }
+  .progress-bar__fill {
+    height: 100%; background: linear-gradient(90deg, #ffd0a8 0%, #f5a665 100%);
+    transition: width 0.4s cubic-bezier(0.7, 0, 0.3, 1); border-radius: 4px;
+  }
+  .counter {
+    font-weight: 600; font-size: 0.9rem;
+    color: rgba(255,255,255,0.85); letter-spacing: 0.04em;
+    min-width: 60px; text-align: center;
+  }
+
+  .deco-square {
+    position: absolute; border-radius: 18px;
+    background: linear-gradient(135deg, rgba(255,255,255,0.06), rgba(255,255,255,0.02));
+    border: 1px solid rgba(255,255,255,0.05); pointer-events: none;
+  }
+  .deco-s1 { width: 300px; height: 300px; top: -80px; right: -80px; transform: rotate(15deg); }
+  .deco-s2 { width: 200px; height: 200px; bottom: -60px; left: 6%; transform: rotate(-12deg); opacity: 0.5; }
+
+  .hint {
+    position: fixed; top: 14px; right: 18px;
+    font-size: 0.75rem; color: rgba(255,220,180,0.5);
+    font-weight: 500; pointer-events: none; z-index: 5;
+  }
+</style>
+</head>
+<body>
+
+<div class="hint">← → setas para navegar · F para tela cheia</div>
+
+<div class="presentation">
+  <div class="slides-track" id="track">
+
+    <section class="slide slide--alt">
+      <div class="slide__header"><span class="logo-v4"><img src="assets/logo-v4-vermelho.png" alt="V4"></span></div>
+      <div class="slide__content" style="justify-content:center;">
+        <span class="eyebrow">Diagnóstico Estratégico</span>
+        <h1 class="title-mega">Rei<br/>do Pano & Rainha Modas</h1>
+        <p class="subtitle-text" style="margin-top:24px; font-size:clamp(1.1rem, 1.5vw, 1.5rem);">
+          Diagnóstico Estratégico · Estruturação V4 · Semana 4
+        </p>
+      </div>
+      <div class="slide__footer">
+        <span>Setembro · 2026</span>
+        <span>V4 Company · Estruturação Estratégica</span>
+      </div>
+      <div class="deco-square deco-s1"></div>
+      <div class="deco-square deco-s2"></div>
+    </section>
+    
+
+    <section class="slide">
+      <div class="slide__header"><span class="logo-v4"><img src="assets/logo-v4-vermelho.png" alt="V4"></span></div>
+      <div class="slide__content" style="justify-content:center;">
+        <span class="eyebrow">Pauta de hoje</span>
+        <h2 class="title-section">O que vamos cobrir</h2>
+        <div class="row-2" style="margin-top:3vh;">
+          <div class="stack"><div class="pill">1 · Maturidade digital — scores por pilar</div><div class="pill">2 · Persona — ICP e jornada</div><div class="pill">3 · SWOT — forças, fraquezas, oportunidades, ameaças</div><div class="pill">4 · SWOT cruzada — estratégias derivadas</div><div class="pill">5 · Auditoria de comunicação — gaps por canal</div><div class="pill">6 · Pesquisa de mercado (TAM · SAM · SOM)</div></div>
+          <div class="stack"><div class="pill">7 · Concorrentes-chave</div><div class="pill">8 · Posicionamento aprovado</div><div class="pill">9 · Diagnóstico de mídia paga</div><div class="pill">10 · Conteúdo orgânico — Instagram</div><div class="pill">11 · Próximos passos do projeto</div></div>
+        </div>
+      </div>
+    </section>
+    
+
+    <section class="slide slide--alt">
+      <div class="slide__header"><span class="logo-v4"><img src="assets/logo-v4-vermelho.png" alt="V4"></span></div>
+      <div class="slide__content">
+        <span class="eyebrow">Maturidade digital</span>
+        <h2 class="title-section">Diagnóstico por pilar</h2>
+        <div style="display:flex; align-items:center; gap:24px; margin-top:1vh;">
+          <div class="glass" style="min-width: 220px; text-align:center; padding:22px;">
+            <div class="kpi__label">Score geral</div>
+            <div class="kpi__value cls-low" style="font-size:3.4rem;">28.5<span style="font-size:1.5rem; opacity:0.6">/100</span></div>
+            <div class="kpi__hint cls-low" style="font-weight:700; letter-spacing:0.08em; text-transform:uppercase;">baixo</div>
+          </div>
+          
+          <p class="subtitle-text" style="flex:1;">
+            Comparado ao setor (média 30), você está <span class="accent">2 pts abaixo</span>. O score geral (28,5) fica perto da média de Varejo Físico (30) — mas essa proximidade esconde o quadro real: Mídia Paga está 15 pontos abaixo até desse piso já baixo (0 campanhas rodadas), e CRM está 11 pontos abaixo. O…
+          </p>
+        </div>
+        <div class="row-5" style="margin-top:3vh;">
+          
+          <div class="pillar-card">
+            <div class="pillar-card__name">Mídia Paga</div>
+            <div class="pillar-card__score cls-critical">15</div>
+            <div class="pillar-card__bar"><div class="pillar-card__bar-fill fill-critical" style="width:15%;"></div></div>
+            <div class="pillar-card__class cls-critical">gap crítico</div>
+          </div>
+          <div class="pillar-card">
+            <div class="pillar-card__name">Criativos</div>
+            <div class="pillar-card__score cls-low">34</div>
+            <div class="pillar-card__bar"><div class="pillar-card__bar-fill fill-low" style="width:34%;"></div></div>
+            <div class="pillar-card__class cls-low">baixo</div>
+          </div>
+          <div class="pillar-card">
+            <div class="pillar-card__name">CRO</div>
+            <div class="pillar-card__score cls-medium">46</div>
+            <div class="pillar-card__bar"><div class="pillar-card__bar-fill fill-medium" style="width:46%;"></div></div>
+            <div class="pillar-card__class cls-medium">médio</div>
+          </div>
+          <div class="pillar-card">
+            <div class="pillar-card__name">CRM</div>
+            <div class="pillar-card__score cls-critical">14</div>
+            <div class="pillar-card__bar"><div class="pillar-card__bar-fill fill-critical" style="width:14%;"></div></div>
+            <div class="pillar-card__class cls-critical">gap crítico</div>
+          </div>
+          <div class="pillar-card">
+            <div class="pillar-card__name">SEO</div>
+            <div class="pillar-card__score cls-low">29</div>
+            <div class="pillar-card__bar"><div class="pillar-card__bar-fill fill-low" style="width:29%;"></div></div>
+            <div class="pillar-card__class cls-low">baixo</div>
+          </div>
+        </div>
+        <div class="highlight-box" style="margin-top:3vh;">
+          <div class="highlight-box__label">Leitura V4</div>
+          <div class="highlight-box__text">Rei do Pano &amp; Rainha Modas tem 28,5/100 de maturidade digital — V0 total em Mídia e CRM, GMB forte (4,6/327) isolado, ausência de tracking trava a ativação de mídia já planejada.</div>
+        </div>
+      </div>
+    </section>
+    
+
+    <section class="slide slide--diag">
+      <div class="slide__header"><span class="logo-v4"><img src="assets/logo-v4-vermelho.png" alt="V4"></span></div>
+      <div class="slide__content">
+        <span class="eyebrow">Análise SWOT</span>
+        <h2 class="title-section">Forças · Fraquezas · Oportunidades · Ameaças</h2>
+        <div class="swot-grid" style="margin-top:2vh;">
+          
+          <div class="swot-quad swot-quad--s">
+            <div class="swot-quad__label">F · Forças</div>
+            <ul><li>Parcelamento em até 6x sem juros, com inadimplência de apenas 1,5%-2,5% — indicando relação de confiança sólida com a base. Nem a Havan (depende 100% de cartão…</li><li>Saturação do nicho de tecidos em Vilhena é baixa — o Rei do Pano não enfrenta concorrência direta nesse segmento específico, ao contrário do nicho de moda…</li><li>Nota 4,6/5,0 no Google Meu Negócio, com mais de 327 avaliações — ativo de confiança relevante que hoje aparece pouco na comunicação ativa das duas marcas.</li><li>Loja sede de 3.000 m² com elevador, mais unidades em Colorado do Oeste e Cerejeiras — porte físico relevante numa região onde poucos concorrentes oferecem…</li><li>Reels frequentes nas duas marcas e uso de influenciadora local já em prática, segundo a auditoria de comunicação — o volume de captação é considerado ponto…</li></ul>
+          </div>
+          
+          <div class="swot-quad swot-quad--w">
+            <div class="swot-quad__label">W · Fraquezas</div>
+            <ul><li>Sem Pixel Meta instalado, sem Google Tag Manager, sem GA4 e sem histórico de campanhas pagas em nenhuma das duas marcas — confirmado tanto pelo briefing…</li><li>Mistura de estilos (arte gráfica de entrega, foto de produto, vídeo de influenciadora, cartaz de preço fotografado) — descrito nos próprios materiais como…</li><li>Marca d'água do CapCut, música desalinhada com o público, edições abruptas, formato horizontal em vez de vertical nativo, ausência de texto em tela e ausência…</li><li>Campos deixados em branco no formulário de pré-kick-off e não localizados em nenhuma fonte pública — impede dimensionar com precisão metas de crescimento e…</li><li>Handles @reidopano.com.br / rainhamodas.com.br dificultam busca e memorização; o Instagram do Rei do Pano tem proporção seguindo/seguidores desfavorável…</li></ul>
+          </div>
+          
+          <div class="swot-quad swot-quad--o">
+            <div class="swot-quad__label">O · Oportunidades</div>
+            <ul><li>Nenhum concorrente identificado está disputando lances no Google Ads nos termos específicos de tecidos/moda em Vilhena no momento da análise, mesmo com ~410…</li><li>Vilhena é polo regional de saúde, comércio e educação universitária, atraindo constantemente novos moradores sem vínculo com loja local, dentro de uma área de…</li><li>Comportamento de mercado já identificado: cliente pesquisa no Instagram e manda mensagem no WhatsApp antes de buscar o produto na loja — modelo que o grupo já…</li><li>Enquanto a maioria dos termos de categoria tem volume zero mensurável em Vilhena, 'aviamentos vilhena' cresceu 57% ano a ano — sinal de digitalização crescente…</li><li>Calendário anual consolidado com picos em Maio (Dia das Mães), Novembro (Black Friday) e Dezembro (Natal/Enxoval), e alta relevância em Julho (Férias/Inverno)…</li></ul>
+          </div>
+          
+          <div class="swot-quad swot-quad--t">
+            <div class="swot-quad__label">T · Ameaças</div>
+            <ul><li>Pixel Meta, GTM e GA4 ativos, +1.100 anúncios ativos no Meta Ads e ~4.000 anúncios ativos no Google Ads — impacta tanto o Rei do Pano (cama/mesa/banho,…</li><li>Shopee, Shein e concorrentes similares operam como 'ameaça difusa' — sem CNPJ ou endereço físico identificável, competindo por preço e conveniência enquanto o…</li><li>Atinge diretamente a Rainha Modas (moda, calçados, acessórios populares) e, secundariamente, o Rei do Pano (categorias de casa com preço agressivo), usando o…</li><li>O modelo de loja-passeio vem perdendo espaço para o autoatendimento de grandes redes, movimento já observado no comportamento de consumo regional.</li><li>Existe uma empresa 'O Rei do Pano' em Cerejeiras/RO (CNPJ 15.825.557/0001-39, razão social João Alves Querubim — mesmo sobrenome de família de Luiz, mas…</li></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <section class="slide">
+      <div class="slide__header"><span class="logo-v4"><img src="assets/logo-v4-vermelho.png" alt="V4"></span></div>
+      <div class="slide__content">
+        <span class="eyebrow">Persona principal</span>
+        <h2 class="title-section">Dona Aparecida (Rei do Pano)</h2>
+        <div class="row-2" style="margin-top:2vh; flex:1; align-items:stretch;">
+          <div class="glass">
+            <h3 class="subtitle" style="margin-bottom:14px; color:#ffd0a8;">Quem é</h3>
+            <p style="font-size:1.05rem; line-height:1.5; color:rgba(255,245,230,0.95);">Aos 48 anos, Dona Aparecida mora em Vilhena (RO), é casada e mãe de 2 filhos, e concilia o papel de dona de casa com um trabalho de auxiliar administrativo. Compra na Rei do Pano de 3 a 4 vezes por ano e usa o crediário próprio da loja há mais de 5 anos — mas fora dessas idas presenciais, não sabe que a marca também anuncia online: só entra na loja quando passa na frente ou quando alguém indica, e fica sem saber das novidades de tecido e enxoval entre uma visita e outra. Vê…</p>
+          </div>
+          <div class="glass">
+            <h3 class="subtitle" style="margin-bottom:14px; color:#ffd0a8;">Mensagem-chave</h3>
+            <p style="font-weight:600; font-size:clamp(1.05rem, 1.35vw, 1.35rem); line-height:1.35; color:#fff; margin:8px 0 18px;">
+              Posso comprar por WhatsApp mesmo? E o crediário, funciona assim?
+            </p>
+            <h3 class="subtitle" style="margin-bottom:8px; color:#ffd0a8; font-size:1.05rem;">Onde encontrar</h3>
+            <p style="color:rgba(255,245,230,0.92); font-size:1rem; line-height:1.45;">—</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <section class="slide slide--alt">
+      <div class="slide__header"><span class="logo-v4"><img src="assets/logo-v4-vermelho.png" alt="V4"></span></div>
+      <div class="slide__content">
+        <span class="eyebrow">Auditoria de comunicação</span>
+        <h2 class="title-section">Gaps por canal</h2>
+        <p class="subtitle-text" style="margin-bottom:1.5vh;">Rei do Pano &amp; Rainha Modas produzem Reels com frequência e têm nota 4,6 no Google, mas comunicam com score médio de 37/100 — maior vazamento estimado na Consideração via Instagram…</p>
+        <div class="row-2" style="margin-top:1.5vh; gap:18px;">
+          <div class="glass">
+            <h3 class="subtitle" style="color:#ffd0a8; margin-bottom:12px; font-size:1.1rem;">Achados principais</h3>
+            <ul class="bullets"><li>O grupo já tem prova social real e forte (nota 4,6/5,0 no Google com mais de 327 avaliações) e um diferencial que nenhum concorrente nacional replica digitalmente: o crediário próprio sem juros, com…</li><li>A Havan mantém Pixel Meta, GTM e GA4 ativos, com +1.100 anúncios ativos no Meta Ads e ~4.000 no Google Ads, enquanto o grupo segue em maturidade digital V0 — sem nenhum rastreamento instalado nem…</li><li>O público principal das duas marcas já está no nível 3 de consciência (já decidiu que quer comprar, falta decidir onde) — a comunicação não precisa criar desejo do zero, precisa eliminar a…</li><li>Trocar handles, reescrever bios, reduzir destaques e confirmar o número de WhatsApp são ações de menos de 2h cada, executáveis antes mesmo da instalação do Pixel/GTM.</li></ul>
+          </div>
+          <div class="glass" style="border-left:3px solid #80ff9f;">
+            <h3 class="subtitle" style="color:#80ff9f; margin-bottom:12px; font-size:1.1rem;">Quick wins</h3>
+            <ul class="bullets bullets--check"><li>Confirmar se o número de WhatsApp central (65) 99927-9546 é o correto e ativo; se não for, substituir pelo número certo com DDD 69 em todos os canais</li><li>Trocar o @ das duas marcas para formato limpo, a foto de perfil para o símbolo isolado (coroa/tiara) e a categoria de perfil (Compras e Varejo / Moda, Calçados…</li><li>Reescrever as bios das duas marcas com a estrutura já redigida na auditoria original (autoridade → posicionamento → diferencial → CTA)</li><li>Instalar Pixel Meta + Google Tag Manager + GA4 na landing page e confirmar o disparo dos eventos antes de qualquer campanha</li><li>Reduzir os destaques da Rainha Modas de 17 para no máximo 7 (nomes completos) e reorganizar os destaques do Rei do Pano na ordem Como Comprar → Avaliações →…</li></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <section class="slide slide--diag">
+      <div class="slide__header"><span class="logo-v4"><img src="assets/logo-v4-vermelho.png" alt="V4"></span></div>
+      <div class="slide__content">
+        <span class="eyebrow">Pesquisa de mercado</span>
+        <h2 class="title-section">TAM · SAM · SOM</h2>
+        <div class="row-3" style="margin-top:2.5vh;">
+          <div class="glass" style="text-align:center;">
+            <div class="kpi__label" style="font-size:1rem; letter-spacing:0.12em;">TAM</div>
+            <div class="kpi__value" style="font-size:clamp(2.4rem, 3.6vw, 3.4rem);">—</div>
+            <div class="kpi__hint" style="font-size:0.95rem;">TAM em R$ não pôde ser calculado a partir dos materiais originais do cliente. unavailable_reason: ausência de…</div>
+          </div>
+          <div class="glass" style="text-align:center; border: 2px solid rgba(255,208,168,0.4);">
+            <div class="kpi__label" style="font-size:1rem; letter-spacing:0.12em;">SAM</div>
+            <div class="kpi__value" style="font-size:clamp(2.4rem, 3.6vw, 3.4rem);">—</div>
+            <div class="kpi__hint" style="font-size:0.95rem;">SAM em R$ não pôde ser calculado pelo mesmo motivo do TAM (ausência de ticket médio/faturamento nas fontes).…</div>
+          </div>
+          <div class="glass" style="text-align:center;">
+            <div class="kpi__label" style="font-size:1rem; letter-spacing:0.12em;">SOM</div>
+            <div class="kpi__value" style="font-size:clamp(2.4rem, 3.6vw, 3.4rem);">—</div>
+            <div class="kpi__hint" style="font-size:0.95rem;">SOM em R$ não pôde ser calculado: não há triangulação possível pelos 3 métodos do framework (capacidade…</div>
+          </div>
+        </div>
+        <div class="highlight-box" style="margin-top:3vh;">
+          <div class="highlight-box__label">Insight estratégico</div>
+          <div class="highlight-box__text">Rei do Pano é o único especialista em tecidos do Cone Sul de RO (~180 mil hab., 0 concorrentes anunciando) — Havan e Avenida disputam preço, não especialização.</div>
+        </div>
+      </div>
+    </section>
+    
+
+    <section class="slide">
+      <div class="slide__header"><span class="logo-v4"><img src="assets/logo-v4-vermelho.png" alt="V4"></span></div>
+      <div class="slide__content">
+        <span class="eyebrow">Concorrentes-chave</span>
+        <h2 class="title-section">Quem disputa o mesmo território</h2>
+        <table class="compare" style="margin-top:2.5vh;">
+          <thead>
+            <tr>
+              <th>Concorrente</th><th style="width:120px;">Score digital</th><th>Posicionamento</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="strong">Havan</td>
+              <td class="accent-cell" style="white-space:nowrap;">9<span style="opacity:0.5; font-weight:400">/10</span></td>
+              <td>Megastore nacional de moda, casa, eletro, ferramentas e mais; imagem do dono (Luciano Hang) fortemente associada à marca; loja física como destino de passeio (grande diferencial…</td>
+            </tr>
+            <tr>
+              <td class="strong">Lojas Avenida</td>
+              <td class="accent-cell" style="white-space:nowrap;">6<span style="opacity:0.5; font-weight:400">/10</span></td>
+              <td>Moda popular e varejo com foco em produto + preço + sazonalidade; comunicação 100% promocional ('tempo limitado', 'a partir de R$49'); Cartão Avenida como âncora de fidelização e…</td>
+            </tr>
+            <tr>
+              <td class="strong">Lojas Torra (benchmark de criativos — não classificado formalmente como concorrente direto/indireto nos materiais originais)</td>
+              <td class="accent-cell" style="white-space:nowrap;">5<span style="opacity:0.5; font-weight:400">/10</span></td>
+              <td>Rede de moda íntima/vestuário usada nos materiais do cliente apenas como referência de boas práticas de criativo sazonal (Dia das Mães), não como concorrente mapeado…</td>
+            </tr></tbody>
+        </table>
+      </div>
+    </section>
+    
+
+    <section class="slide slide--soft">
+      <div class="slide__header"><span class="logo-v4"><img src="assets/logo-v4-vermelho.png" alt="V4"></span></div>
+      <div class="slide__content">
+        <span class="eyebrow">Posicionamento aprovado</span>
+        <h2 class="title-section">Como vamos ser percebidos</h2>
+        <div style="margin:3vh 0; text-align:center;">
+          <div style="display:inline-flex; gap:14px; flex-wrap:wrap; justify-content:center;"><span class="pill" style="font-size:clamp(1rem, 1.35vw, 1.35rem); padding:14px 32px; background:rgba(255,225,180,0.18); border-color:rgba(255,225,180,0.4);">Reinado</span><span class="pill" style="font-size:clamp(1rem, 1.35vw, 1.35rem); padding:14px 32px; background:rgba(255,225,180,0.18); border-color:rgba(255,225,180,0.4);">Legado</span><span class="pill" style="font-size:clamp(1rem, 1.35vw, 1.35rem); padding:14px 32px; background:rgba(255,225,180,0.18); border-color:rgba(255,225,180,0.4);">Facilidade</span></div>
+        </div>
+        <div class="row-2" style="gap:18px;">
+          <div class="glass">
+            <div class="highlight-box__label">PUV — Proposta Única de Valor</div>
+            <p style="font-weight:600; font-size:clamp(1rem, 1.2vw, 1.25rem); line-height:1.5; color:#fff; margin-top:10px;">
+              O único reinado regional de tecidos, casa e moda do Cone Sul de Rondônia que facilita a conquista da família com crediário próprio sem juros em até 6x — sem depender do limite do cartão e sem abrir mão do atendimento humano de mais de 30 anos — agora em dois tronos digitais dedicados: Rei do Pano e Rainha Modas.
+            </p>
+          </div>
+          <div class="glass" style="display:flex; flex-direction:column; justify-content:center;">
+            <div class="highlight-box__label">Tagline aprovada</div>
+            <h3 style="font-weight:700; font-size:clamp(1.5rem, 2.6vw, 2.4rem); color:#fff; margin-top:10px; line-height:1.1;">
+              Construindo um Novo Reinado
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <section class="slide slide--diag">
+      <div class="slide__header"><span class="logo-v4"><img src="assets/logo-v4-vermelho.png" alt="V4"></span></div>
+      <div class="slide__content">
+        <span class="eyebrow">Mídia paga · números atuais</span>
+        <h2 class="title-section">Diagnóstico de mídia paga</h2>
+        <p class="subtitle-text" style="margin-bottom:1.5vh;">V0 real (0 campanhas, confirmado 2x): plano de R$2.000/mês em Vilhena já aprovado, CPL projetado de R$18,02 a R$9,66 em 6 meses — falta só instalar Pixel/GTM.</p>
+        <div class="row-2" style="margin-top:1.5vh;">
+          
+          <div class="glass">
+            <div class="kpi__label">Investimento</div>
+            <div class="kpi__value">R$ 2.000<span style="font-size:1.1rem; opacity:0.6">/mês</span></div>
+            <div class="kpi__hint">Volume atual de mídia paga</div>
+          </div>
+          <div class="glass">
+            <div class="kpi__label">Leads (período)</div>
+            <div class="kpi__value">0</div>
+            <div class="kpi__hint">Conversões medidas</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <section class="slide">
+      <div class="slide__header"><span class="logo-v4"><img src="assets/logo-v4-vermelho.png" alt="V4"></span></div>
+      <div class="slide__content">
+        <span class="eyebrow">Mídia paga · cenários de escala</span>
+        <h2 class="title-section">Realocar e reestruturar a operação</h2>
+        <div class="row-3" style="margin-top:3vh;">
+          <div class="glass" style="">
+            <div class="kpi__label" style="">Cenário A · Conservador</div>
+            <div class="kpi__value" style="font-size:1.9rem; ">R$ 1.200<span style="font-size:1rem; opacity:0.6">/mês</span></div>
+            <div class="kpi__hint" style="margin-top:8px;">~65 leads/mês · -61% vs. Cenário B (168 leads/mês em 90 dias) · CPL R$ 18,46</div>
+          </div>
+          <div class="glass" style="border: 2px solid rgba(255,208,168,0.4);">
+            <div class="kpi__label" style="color:#ffd0a8;">Cenário B · Recomendado</div>
+            <div class="kpi__value" style="font-size:1.9rem; color:#ffd0a8;">R$ 2.000<span style="font-size:1rem; opacity:0.6">/mês</span></div>
+            <div class="kpi__hint" style="margin-top:8px;">~168 leads/mês · n/a — não há baseline anterior (V0, 0 campanhas) · CPL R$ 11,90</div>
+          </div>
+          <div class="glass" style="">
+            <div class="kpi__label" style="">Cenário C · Agressivo</div>
+            <div class="kpi__value" style="font-size:1.9rem; ">R$ 3.500<span style="font-size:1rem; opacity:0.6">/mês</span></div>
+            <div class="kpi__hint" style="margin-top:8px;">~389 leads/mês · +~131% vs. Cenário B (168 → 389 leads/mês [E]) · CPL R$ 9,00</div>
+          </div></div>
+        <div class="highlight-box" style="margin-top:3vh;">
+          <div class="highlight-box__label">Recomendação V4</div>
+          <div class="highlight-box__text">Não há budget de mídia ATUAL para realocar — o grupo está em V0 (0 campanhas). Os 3 cenários abaixo representam a decisão de budget de LANÇAMENTO para o piloto Rei do Pano/Vilhena. O Cenário B é o que foi efetivamente definido em conversa direta com o operador em 10/09/2026 e já tem forecast detalhado e aprovado em outputs/ee-s3-forecast-midia.json; os Cenários A e C são exercícios de sensibilidade (budget menor/maior) — estimativas [E] de modelagem, não testadas nem aprovadas.</div>
+        </div>
+      </div>
+    </section>
+    
+
+    <section class="slide slide--diag">
+      <div class="slide__header"><span class="logo-v4"><img src="assets/logo-v4-vermelho.png" alt="V4"></span></div>
+      <div class="slide__content">
+        <span class="eyebrow">Conteúdo orgânico · Instagram</span>
+        <h2 class="title-section">Você vs concorrentes</h2>
+        <table class="compare" style="margin-top:2.5vh;">
+          <thead>
+            <tr><th>Conta</th><th>Followers</th><th>Posts/sem</th><th>Engagement</th><th>Melhor formato</th></tr>
+          </thead>
+          <tbody>
+            <tr style="background:rgba(255,225,180,0.1);">
+              <td class="strong">@reidopano.com.br (você)</td>
+              <td>-1</td>
+              <td>-1,00</td>
+              <td class="accent-cell" style="font-size:1.15rem;">-1.00%</td>
+              <td>unavailable_reason: nao medido nesta auditoria manual</td>
+            </tr>
+            <tr>
+              <td>@unavailable_reason: handle real do Instagram da Lojas Avenida nao citado no documento-fonte (concorrente descrito apenas pelo nome da marca e pelos padroes de conteudo observados).</td>
+              <td>-1</td>
+              <td>—</td>
+              <td>—</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td>@unavailable_reason: handle real do Instagram da Havan nao citado no documento-fonte (concorrente direto descrito por nome, categoria de perfil e volume de midia paga, nao por auditoria propria de posts organicos).</td>
+              <td>-1</td>
+              <td>—</td>
+              <td>—</td>
+              <td>—</td>
+            </tr></tbody>
+        </table>
+        <div class="highlight-box" style="margin-top:3vh;">
+          <div class="highlight-box__label">Leitura V4 — Key Insight</div>
+          <div class="highlight-box__text">Rei do Pano e Rainha Modas gravam Reels com frequencia real, mas os mesmos 6 erros tecnicos (audio, marca d'agua, corte, formato, texto, legenda) anulam o esforco — dado quantitativo indisponivel (auditoria manual, sem…</div>
+        </div>
+      </div>
+    </section>
+    
+
+    <section class="slide slide--alt">
+      <div class="slide__header"><span class="logo-v4"><img src="assets/logo-v4-vermelho.png" alt="V4"></span></div>
+      <div class="slide__content">
+        <span class="eyebrow">Conteúdo orgânico · gaps</span>
+        <h2 class="title-section">Padrões dos concorrentes que você ainda não usa</h2>
+        <div class="row-5" style="margin-top:3vh; gap:14px; flex:1;">
+          <div class="glass" style="padding:18px;">
+            <div class="kpi__label" style="font-size:0.85rem;">1 · Bio que responde em 3 segundos 'o que e' e 'por que…</div>
+            <p style="font-size:1rem; line-height:1.45; margin-top:10px; color:rgba(255,245,230,0.95);">
+              Documento-fonte cita a bio 'loja mais alegre do Brasil / aqui tem promocao, produto e muito humor' como exemplo eficiente — comunica posicionamento e motivo para seguir…
+            </p>
+          </div>
+          <div class="glass" style="padding:18px;">
+            <div class="kpi__label" style="font-size:0.85rem;">2 · Hashtag propria recorrente como ativo de marca</div>
+            <p style="font-size:1rem; line-height:1.45; margin-top:10px; color:rgba(255,245,230,0.95);">
+              #NovidadeNaAvenida funciona como um ativo de marca reconhecivel e recorrente, facilitando indexacao interna do Instagram e criando um padrao editorial identificavel.
+            </p>
+          </div>
+          <div class="glass" style="padding:18px;">
+            <div class="kpi__label" style="font-size:0.85rem;">3 · Reels em formato POV com etiqueta de preco fixa na tela</div>
+            <p style="font-size:1rem; line-height:1.45; margin-top:10px; color:rgba(255,245,230,0.95);">
+              Resolve diretamente o problema 'sem texto/contexto na tela' hoje presente nos Reels do cliente (ex.: kit de bebe, ursos) — o espectador ve o preco e o produto ao mesmo tempo, sem…
+            </p>
+          </div>
+          <div class="glass" style="padding:18px;">
+            <div class="kpi__label" style="font-size:0.85rem;">4 · Identidade visual de cor aplicada com disciplina em todos…</div>
+            <p style="font-size:1rem; line-height:1.45; margin-top:10px; color:rgba(255,245,230,0.95);">
+              Torna a marca reconhecivel 'mesmo sem logo explicita' — o oposto do feed atual do Rei do Pano, descrito como sem padrao (arte grafica de entrega, foto de produto, video de…
+            </p>
+          </div>
+          <div class="glass" style="padding:18px;">
+            <div class="kpi__label" style="font-size:0.85rem;">5 · Prova visual do atributo fisico do produto nos primeiros…</div>
+            <p style="font-size:1rem; line-height:1.45; margin-top:10px; color:rgba(255,245,230,0.95);">
+              Demonstracao direta (ex.: sarja impermeavel em acao) convence pela evidencia sensorial do produto, algo especialmente relevante para tecidos, onde textura/caimento sao dificeis de…
+            </p>
+          </div></div>
+      </div>
+    </section>
+    
+
+    <section class="slide slide--alt">
+      <div class="slide__header"><span class="logo-v4"><img src="assets/logo-v4-vermelho.png" alt="V4"></span></div>
+      <div class="slide__content">
+        <span class="eyebrow">Próximos passos do projeto</span>
+        <h2 class="title-section">O que vamos executar na Semana 5</h2>
+        <div class="row-1" style="margin-top:3vh; gap:18px;">
+          <div class="glass">
+            <h3 class="subtitle" style="color:#ffd0a8; margin-bottom:14px; font-size:1.2rem;">Vendas</h3>
+            <ul class="bullets bullets--check" style="font-size:1.02rem;"><li>Scripts SDR</li><li>SDR IA · Config</li></ul>
+          </div></div>
+      </div>
+    </section>
+    
+
+    <section class="slide slide--soft">
+      <div class="slide__header"><span class="logo-v4"><img src="assets/logo-v4-vermelho.png" alt="V4"></span></div>
+      <div class="slide__content" style="justify-content:center; text-align:center;">
+        <h1 class="title-mega" style="margin:0 auto;">Obrigado.</h1>
+        <p class="subtitle-text" style="margin:32px auto 0; font-size:clamp(1.1rem, 1.4vw, 1.4rem); max-width:700px;">
+          Vamos juntos transformar contexto em escala.
+        </p>
+      </div>
+      <div class="slide__footer">
+        <span>V4 Company · Estruturação Estratégica</span>
+        <span></span>
+      </div>
+    </section>
+    
+  </div>
+
+  <div class="controls">
+    <button class="control-btn" id="prev" aria-label="Anterior">‹</button>
+    <div class="progress-bar"><div class="progress-bar__fill" id="progress"></div></div>
+    <span class="counter" id="counter">1 / 15</span>
+    <button class="control-btn" id="next" aria-label="Próximo">›</button>
+    <button class="control-btn" id="fullscreen" aria-label="Tela cheia">⛶</button>
+  </div>
+</div>
+
+<script>
+  (function() {
+    const track = document.getElementById('track');
+    const slides = track.querySelectorAll('.slide');
+    const total = slides.length;
+    const counter = document.getElementById('counter');
+    const progress = document.getElementById('progress');
+    const prevBtn = document.getElementById('prev');
+    const nextBtn = document.getElementById('next');
+    const fsBtn = document.getElementById('fullscreen');
+    let current = 0;
+
+    function render() {
+      track.style.transform = `translateX(-${current * 100}vw)`;
+      counter.textContent = `${current + 1} / ${total}`;
+      progress.style.width = `${((current + 1) / total) * 100}%`;
+      prevBtn.disabled = current === 0;
+      nextBtn.disabled = current === total - 1;
+    }
+
+    function next() { if (current < total - 1) { current++; render(); } }
+    function prev() { if (current > 0) { current--; render(); } }
+    function goto(i) { current = Math.max(0, Math.min(total - 1, i)); render(); }
+
+    prevBtn.addEventListener('click', prev);
+    nextBtn.addEventListener('click', next);
+    fsBtn.addEventListener('click', () => {
+      if (!document.fullscreenElement) document.documentElement.requestFullscreen();
+      else document.exitFullscreen();
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown') { e.preventDefault(); next(); }
+      else if (e.key === 'ArrowLeft' || e.key === 'PageUp') { e.preventDefault(); prev(); }
+      else if (e.key === 'Home') { e.preventDefault(); goto(0); }
+      else if (e.key === 'End') { e.preventDefault(); goto(total - 1); }
+      else if (e.key === 'f' || e.key === 'F') { fsBtn.click(); }
+    });
+
+    let touchStartX = 0;
+    document.addEventListener('touchstart', (e) => { touchStartX = e.changedTouches[0].screenX; }, {passive: true});
+    document.addEventListener('touchend', (e) => {
+      const dx = e.changedTouches[0].screenX - touchStartX;
+      if (Math.abs(dx) > 60) (dx < 0 ? next : prev)();
+    }, {passive: true});
+
+    render();
+  })();
+</script>
+
+</body>
+</html>

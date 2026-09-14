@@ -479,6 +479,12 @@
       "skill": "ee-s3-forecast-midia",
       "action": "completed",
       "note": "Forecast de mídia gerado especificamente para o Rei do Pano (Rainha Modas fora do escopo), verba fixa de R$2.000/mês, geo restrita a Vilhena (exclui Colorado do Oeste e Cerejeiras), split 80% Meta Ads / 20% Google Ads — parâmetros definidos em conversa direta com o operador, não em client.json.briefing. Projeção 6 meses: ~1.011 leads, CPL blended de R$18,02 (M1) a R$9,66 (M6), ~262 clientes atendidos, CAC de mídia de R$90,90 a R$32,26. Forecast é operacional (funil de mídia), não financeiro — briefing.product.ticket é null, então não há projeção de ROAS/faturamento. Saída: outputs/ee-s3-forecast-midia.json + base-de-conhecimento/08-forecast-midia-vilhena-2k.md."
+    },
+    {
+      "ts": "2026-09-13T23:00:00Z",
+      "skill": "formalizacao-outputs-retroativa",
+      "action": "completed",
+      "note": "Formalização retroativa de 13 outputs/{skill}.json (persona-icp, auditoria-comunicacao, swot, pesquisa-mercado, diagnostico-midia, diagnostico-organico-ig, diagnostico-criativos, diagnostico-maturidade, posicionamento, manual-marca, landing-page, copy-anuncios, criativos-anuncios) a partir do conteúdo já existente e aprovado em base-de-conhecimento/ — não é execução interativa nova das skills nem geração de fato novo, é extração/estruturação do trabalho já entregue ao cliente, no mesmo formato JSON validado por schema usado pelos demais clientes do sistema. completed_at de cada skill preserva a data real do trabalho original; esta entrada documenta apenas quando os outputs JSON foram formalizados. Validado via validate_output.py: 0 erros, 94 warnings (maioria: campos null sem nota irmã explícita, aceitável — comparável aos 42-103 warnings/erros observados em clientes reais como centrosj/medclinic). Duas skills seguem corretamente marcadas in_progress (copy-anuncios: falta copy de Meta Ads, seção truncada na fonte; criativos-anuncios/diagnostico-criativos: Rainha Modas sem assets finais)."
     }
   ]
 }

@@ -1,0 +1,368 @@
+{
+  "client_name": "Rei do Pano & Rainha Modas",
+  "segment": "Varejo de tecidos, cama/mesa/banho e utilidades domésticas (Rei do Pano) + moda feminina, calçados e acessórios (Rainha Modas)",
+  "icp_summary": "B2C Rei do Pano: 'Dona Aparecida', 48 anos, classe C, Vilhena, casada, quer renovar casa/enxoval sem estourar orçamento, usa o crediário próprio há 5+ anos. B2C Rainha Modas: 'Camila', 35 anos, classe B/C, professora, quer renovar guarda-roupa parcelado sem juros. B2B (ambas): costureiras autônomas, ateliês, tapeçarias, confecções pequenas — sem persona/JTBD aprofundado (gap documentado). Nível de consciência 3 (Awareness Ladder): já sabe que quer comprar, ainda não decidiu onde. Fontes: client.json (briefing.icp), handoff-account-manager.md seção 7.",
+  "total_creatives_analyzed": 3,
+  "average_score": 17.0,
+  "creative_matrix": [
+    {
+      "number": 1,
+      "type": "feed",
+      "description": "'GANHE 15% DE DESCONTO NA PRIMEIRA COMPRA' — mascote 3D do Rei do Pano ilustrado, 3 fotos de produto (jogo de cama, detalhe de tecido, roupa de cama azul), CTA 'Apresente este post na loja'. Objetivo: captação B2C via oferta-âncora. Arquivo-fonte: clientes/rei-do-pano/05/Criativos KV-assets/001.png.",
+      "hook_score": 3,
+      "hook_comment": "O mascote ilustrado e o número '15%' em destaque chamam atenção, mas é um hook de oferta genérica (desconto), não uma dor, dado ou demonstração específica do ICP — funciona, mas não é diferenciado frente a qualquer varejo que anuncie desconto.",
+      "clarity_score": 4,
+      "clarity_comment": "Em poucos segundos dá para entender a oferta (15% na primeira compra) e a marca; a única ambiguidade é o que fazer com o post fora da loja física, já que não há instrução de ação digital.",
+      "icp_coherence_score": 3,
+      "icp_coherence_comment": "O mascote medieval é lúdico e memorável (ativo do Manual de Marca), mas não retrata diretamente a persona 'Dona Aparecida' (48 anos, classe C) nem um cenário real de loja — é mais brand asset do que espelho do ICP.",
+      "cta_score": 2,
+      "cta_comment": "'Apresente este post na loja' é um CTA 100% offline, sem rastreamento digital e desalinhado com a estratégia de mídia paga aprovada, que depende do clique em WhatsApp como evento de conversão do Pixel (ver forecast de mídia).",
+      "visual_score": 4,
+      "visual_comment": "Produção de alta qualidade (mascote 3D, cores de marca consistentes, boa hierarquia visual), mas empilhar 3 fotos de produto diferentes numa peça só compete por atenção com o hook principal.",
+      "total_score": 16,
+      "verdict": "otimizar",
+      "verdict_reason": "Oferta clara e visual de qualidade, mas CTA offline e mensagem de ICP genérica pedem ajuste antes de rodar como anúncio pago digital.",
+      "performance_data": {
+        "ctr": null,
+        "cpl": null,
+        "impressions": null,
+        "clicks": null
+      },
+      "preview": {
+        "image_url": "05/Criativos KV-assets/001.png",
+        "thumbnail_url": null,
+        "video_url": null,
+        "ads_library_id": null,
+        "ads_library_url": null,
+        "start_date": null,
+        "platforms": [],
+        "cta_type": null,
+        "source": "uploaded",
+        "fetched_at": null
+      }
+    },
+    {
+      "number": 2,
+      "type": "feed",
+      "description": "'Realize o sonho da casa renovada com o CREDIÁRIO REI DO PANO' + 'COMPRAR AGORA' — foto de toalhas empilhadas em ambiente de banheiro decorado, selo/logo do Rei do Pano. Objetivo: institucional/autoridade, foco no crediário próprio. Arquivo-fonte: clientes/rei-do-pano/05/Criativos KV-assets/002.png.",
+      "hook_score": 2,
+      "hook_comment": "A foto still-life de toalhas é bem produzida, mas não tem gatilho de atenção imediato (sem rosto, sem dado, sem pergunta) — é um hook visual passivo, mais aspiracional que scroll-stopping.",
+      "clarity_score": 4,
+      "clarity_comment": "Mensagem central é muito clara: crediário próprio, ambiente de casa renovada, CTA de compra — cumpre a regra de comunicar 1 benefício por peça.",
+      "icp_coherence_score": 4,
+      "icp_coherence_comment": "Ataca diretamente o job funcional da persona 'Dona Aparecida' (renovar a casa sem estourar orçamento) e usa o único diferencial defensável do grupo — o crediário sem juros — como protagonista da copy.",
+      "cta_score": 3,
+      "cta_comment": "'Comprar Agora' é visível e está em botão de destaque, mas é um CTA genérico (posição fraca na hierarquia de CTAs do guia de boas práticas) e não especifica canal — falta indicar que a ação é via WhatsApp.",
+      "visual_score": 4,
+      "visual_comment": "Foto de produto com boa iluminação e composição profissional, mas o bloco de texto (faixa vermelha + fundo marrom escuro) é dividido de forma abrupta da foto, criando uma peça em '2 metades' visualmente desconectadas.",
+      "total_score": 17,
+      "verdict": "otimizar",
+      "verdict_reason": "Copy e coerência com ICP fortes (crediário como diferencial), mas hook passivo e CTA genérico pedem reforço antes de escalar em mídia paga.",
+      "performance_data": {
+        "ctr": null,
+        "cpl": null,
+        "impressions": null,
+        "clicks": null
+      },
+      "preview": {
+        "image_url": "05/Criativos KV-assets/002.png",
+        "thumbnail_url": null,
+        "video_url": null,
+        "ads_library_id": null,
+        "ads_library_url": null,
+        "start_date": null,
+        "platforms": [],
+        "cta_type": null,
+        "source": "uploaded",
+        "fetched_at": null
+      }
+    },
+    {
+      "number": 3,
+      "type": "feed",
+      "description": "'PANO MÁGICO — 15% DE DESCONTO' + 'COMPRAR AGORA' — foto de panos multicoloridos (laranja/verde/azul) sobre mesa de madeira, claim 'Não precisa de produtos químicos'. Objetivo: reengajamento de base inativa. Arquivo-fonte: clientes/rei-do-pano/05/Criativos KV-assets/003.png.",
+      "hook_score": 4,
+      "hook_comment": "Contraste de cores vibrantes (laranja/verde/azul) sobre madeira e fundo vermelho/amarelo da marca chama atenção no feed; o claim 'não precisa de produtos químicos' funciona como gancho de benefício específico, não genérico.",
+      "clarity_score": 4,
+      "clarity_comment": "Nome do produto, benefício (sem produtos químicos) e oferta (15% de desconto) estão legíveis e objetivos, sem sobrecarga de informação na peça.",
+      "icp_coherence_score": 3,
+      "icp_coherence_comment": "Bom encaixe para reengajamento de base já compradora (nível 4 de consciência), mas é produto de ticket baixo e cross-sell pontual — não conecta com o job central de 'renovar a casa/enxoval' da persona principal.",
+      "cta_score": 3,
+      "cta_comment": "'Comprar Agora' visível e consistente com o criativo #2, mas com a mesma limitação: não especifica canal (WhatsApp) nem cria urgência real para a oferta de reengajamento.",
+      "visual_score": 4,
+      "visual_comment": "Composição limpa, boa exploração da cor do produto contra fundo neutro, texto diagonal criativo — dos 3, é o que mais foge do formato 'banner de panfleto' criticado na auditoria de Instagram.",
+      "total_score": 18,
+      "verdict": "otimizar",
+      "verdict_reason": "Melhor hook visual dos 3 pelo contraste de cor e benefício específico, mas ainda falta CTA digital claro e reforço de relevância para o ICP principal.",
+      "performance_data": {
+        "ctr": null,
+        "cpl": null,
+        "impressions": null,
+        "clicks": null
+      },
+      "preview": {
+        "image_url": "05/Criativos KV-assets/003.png",
+        "thumbnail_url": null,
+        "video_url": null,
+        "ads_library_id": null,
+        "ads_library_url": null,
+        "start_date": null,
+        "platforms": [],
+        "cta_type": null,
+        "source": "uploaded",
+        "fetched_at": null
+      }
+    }
+  ],
+  "patterns_identified": [
+    {
+      "pattern": "CTA sem direcionamento digital explícito (WhatsApp) — incompatível com o evento de conversão que o Pixel Meta e o forecast de mídia paga (R$2.000/mês, aprovado 10/09/2026) exigem.",
+      "affected_creatives": [1, 2, 3],
+      "example": "Criativo #1 usa 'Apresente este post na loja' (ação 100% offline, não rastreável); #2 e #3 usam 'Comprar Agora' sem especificar canal de compra."
+    },
+    {
+      "pattern": "Nenhum criativo usa prova social, apesar do grupo ter nota 4,6/5,0 com 327+ avaliações no Google — ativo forte e ainda pouco explorado, citado no handoff de account management.",
+      "affected_creatives": [1, 2, 3],
+      "example": "Nenhum dos 3 PNGs finais menciona nota, número de avaliações ou depoimento de cliente."
+    },
+    {
+      "pattern": "Todos os 3 criativos são estáticos — nenhum vídeo/Reels pago, apesar do volume de captação orgânica já ser um ponto forte real do cliente ('o esforço existe, a estratégia falta').",
+      "affected_creatives": [1, 2, 3],
+      "example": "Reels só aparecem no diagnóstico de orgânico (04-auditoria-comunicacao-redes-sociais.md); os 3 assets pagos analisados são todos imagem estática."
+    },
+    {
+      "pattern": "Mix de produto disperso dentro da mesma peça, dificultando foco em uma única categoria.",
+      "affected_creatives": [1],
+      "example": "Criativo #1 combina 3 fotos de produto diferentes (jogo de cama, tecido, roupa de cama azul) numa única peça, competindo por atenção com o hook de desconto."
+    }
+  ],
+  "what_works": [
+    {
+      "element": "Paleta de marca consistente (vermelho #c20605→#ff4d4d e dourado #c6a000→#fff199) aplicada nos 3 criativos",
+      "seen_in": [1, 2, 3],
+      "reason": "Reforça reconhecimento de marca alinhado ao Manual de Marca já aprovado (29/05/2026) e evita a inconsistência visual apontada na auditoria de Instagram ('Instagram tratado como panfleto de mercado')."
+    },
+    {
+      "element": "Fotos reais de produto/loja (não banco de imagem genérico)",
+      "seen_in": [1, 2],
+      "reason": "Evita o red flag de 'foto de stock óbvia' do guia de boas práticas e o problema já identificado no feed da Rainha Modas (fotos de perfume de banco de imagem que 'passam o ar de golpe que qualquer loja online teme')."
+    },
+    {
+      "element": "Oferta percentual objetiva e em destaque tipográfico grande",
+      "seen_in": [1, 3],
+      "reason": "Cumpre o princípio de clareza em 5 segundos (o que é, para quem, o que fazer) descrito no guia de boas práticas de criativos."
+    }
+  ],
+  "competitor_analysis": [
+    {
+      "competitor": "Havan",
+      "active_ads_count": 1100,
+      "ads_library_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&q=Havan",
+      "creative_pattern": "Escala nacional com megastore/mix amplo, uso de influenciadora reconhecida (Camylla Miranda) e alto volume de veiculação (+1.100 anúncios Meta, ~4.000 Google Ads) — dado de auditoria anterior (base-de-conhecimento/02-mercado-swot-concorrentes.md via handoff-account-manager.md, seção 12), não re-verificado ao vivo nesta formalização.",
+      "what_works": "Uso de rosto conhecido/influenciador para gerar confiança rápida em escala; volume alto de anúncios permite teste contínuo de variações de criativo.",
+      "what_to_avoid": "Tentar competir em amplitude de mix ('presente em tudo, especialista em nada') — o diferencial defensável do cliente é a especialização em tecidos por metro, não a variedade tipo megastore.",
+      "gap_para_cliente": true,
+      "replication_idea": "Incorporar clipes da influenciadora local já usada no orgânico do Rei do Pano em criativos pagos de vídeo curto, ancorando na especialização em tecidos + crediário próprio (diferenciais que a Havan não replica), em vez de tentar copiar a escala de mix."
+    },
+    {
+      "competitor": "Lojas Avenida",
+      "active_ads_count": 110,
+      "ads_library_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&q=Lojas Avenida",
+      "creative_pattern": "Comunicação 100% promocional/genérica, CTA fraco ('vem conferir na Avenida mais próxima'), Cartão Avenida como âncora de fidelização — dado de auditoria anterior (mesma fonte acima), não re-verificado ao vivo nesta formalização.",
+      "what_works": "Cartão próprio como mecanismo de fidelização — mesma lógica do crediário do cliente, mas o crediário do grupo (sem juros, sem burocracia) é vantagem comparativa sobre esse concorrente.",
+      "what_to_avoid": "CTA vago que não indica canal digital nem ação clara — o mesmo erro que os criativos #2 e #3 do próprio cliente já cometem em menor grau ('Comprar Agora' sem canal especificado).",
+      "gap_para_cliente": false,
+      "replication_idea": null
+    }
+  ],
+  "competitor_patterns_missing": [
+    {
+      "pattern": "Oferta com âncora de quantidade + paleta sazonal exclusiva (ex: 'leve 3 pague 2')",
+      "seen_in_competitors": ["Lojas Torra"],
+      "why_it_works": "Cria percepção de ganho extra sem depender só de %desconto — para o público de classe B/C do ICP, jogo psicológico de quantidade converte mais do que desconto percentual isolado.",
+      "how_client_could_implement": "Criar um criativo de 'leve 2 jogos de cama/toalha, o 3º com desconto', usando o crediário próprio como reforço de acessibilidade da compra em maior volume.",
+      "priority": "media"
+    },
+    {
+      "pattern": "Identidade visual disciplinada + conteúdo gerado por usuário real (UGC)",
+      "seen_in_competitors": ["Linda Casa"],
+      "why_it_works": "Aumenta confiança porque mostra o produto real em uso doméstico, reduzindo a desconfiança sobre 'disponibilidade real do produto' — objeção recorrente já mapeada no handoff de account management.",
+      "how_client_could_implement": "Gravar clientes reais (ou a equipe da loja) usando os produtos em casa, seguindo o mesmo sistema de cores do Manual de Marca já aprovado.",
+      "priority": "alta"
+    },
+    {
+      "pattern": "Prova visual do produto em ação (textura/uso do tecido em tempo real)",
+      "seen_in_competitors": ["JLM Tecidos"],
+      "why_it_works": "Para a persona 'Dona Aparecida', que prefere ver/tocar o tecido pessoalmente antes de decidir (objeção documentada no handoff), um vídeo mostrando a textura reduz a barreira de compra remota.",
+      "how_client_could_implement": "Gravar vídeo curto vertical com close-up da mão passando no tecido antes de mostrar o produto montado (jogo de cama, cortina, toalha).",
+      "priority": "alta"
+    },
+    {
+      "pattern": "Hierarquia visual em blocos por categoria de produto",
+      "seen_in_competitors": ["Mundo do Enxoval"],
+      "why_it_works": "Facilita a decisão num mix de produto amplo (cama/mesa/banho/eletros/cortinas), evitando que o criativo tente comunicar tudo de uma vez — erro já visto no criativo #1, que empilha 3 fotos de produtos diferentes.",
+      "how_client_could_implement": "Dividir a comunicação por categoria: um criativo por categoria (ex.: só cama/mesa/banho) em vez de misturar múltiplos produtos numa única peça.",
+      "priority": "media"
+    },
+    {
+      "pattern": "Linha editorial por categoria real do estoque (não banco de imagem)",
+      "seen_in_competitors": ["comercialtextilstore"],
+      "why_it_works": "Reforça autenticidade e evita o problema já identificado no Instagram da Rainha Modas (fotos de banco de imagem de perfumes de terceiros que 'passam o ar de golpe que qualquer loja online teme').",
+      "how_client_could_implement": "Fotografar o estoque real disponível no momento do anúncio, atualizando o criativo conforme chegada de mercadoria ('chegou novidade').",
+      "priority": "alta"
+    }
+  ],
+  "production_briefing": {
+    "hook_direction": "Ancorar hooks em prova concreta (crediário próprio + nota 4,6/327 avaliações) e em demonstração real de produto (textura do tecido, produto nas mãos), em vez de apenas oferta percentual genérica — replicando o padrão 'mostra + conta' que já funciona no orgânico do cliente.",
+    "hook_examples": [
+      "Compra sem estourar o cartão: parcele em até 6x sem juros no crediário próprio do Rei do Pano.",
+      "Antes de comprar tecido sem tocar, veja de perto a textura que quem já comprou aqui aprovou — nota 4,6 com mais de 327 avaliações.",
+      "Chegou novidade na loja: a equipe mostra o jogo de cama que virou a queridinha da semana."
+    ],
+    "priority_format": "reels",
+    "format_justification": "O ICP já responde bem a Reels no orgânico (volume de captação é ponto forte real, apontado no handoff de account management); replicar esse formato em mídia paga aproveita um aprendizado já validado, corrige o problema atual de Reels publicados na horizontal (perda de até 30% da tela) e é o formato nativo de maior distribuição no algoritmo Meta hoje.",
+    "visual_elements": [
+      "Formato vertical 9:16 nativo (nunca horizontal)",
+      "Pessoa real da loja com o produto nas mãos, falando diretamente para a câmera ('mostra + conta')",
+      "Selo/menção da nota 4,6 com 327+ avaliações do Google",
+      "Cores da marca (vermelho #c20605 e dourado #c6a000 para Rei do Pano)",
+      "CTA único e visível direcionando explicitamente para WhatsApp"
+    ],
+    "avoid_elements": [
+      "Música funk/eletrônico ou qualquer trilha dessincronizada do público (regra de marca)",
+      "Marca d'água de apps de edição como CapCut",
+      "Cortes/edições abruptas",
+      "Empilhar mais de 1 categoria de produto no mesmo criativo (ex.: cama+mesa+banho+eletro juntos)",
+      "CTA que direciona só para presença física sem alternativa digital rastreável (ex.: 'apresente este post na loja') como único CTA"
+    ],
+    "copy_guidelines": {
+      "length": "short_15_words",
+      "tone": "Familiar, prestativo e sólido — autoridade de décadas com o carinho de quem conhece o cliente pelo nome, tom já aprovado no Manual de Marca. Nunca ancorar em preço baixo; sempre em crediário, atendimento ou variedade.",
+      "structure": "hook (prova ou demonstração) → dor (objeção real: crédito comprometido, medo de comprar sem ver/tocar o tecido) → solução (crediário próprio até 6x sem juros) → prova (nota 4,6/327 avaliações ou depoimento) → CTA único (falar no WhatsApp)",
+      "icp_keywords": [
+        "crediário sem juros",
+        "renovar a casa",
+        "enxoval",
+        "parcelar sem juros",
+        "atendimento humanizado",
+        "variedade"
+      ]
+    },
+    "recommended_quantity": 6,
+    "variation_plan": "3 hooks (crediário / prova social / demonstração de produto) x 2 formatos (Reels vertical + feed estático) para o Rei do Pano na Semana 3. A mesma estrutura deve ser replicada para a Rainha Modas assim que os assets finais estiverem prontos — hoje pendente (ver rainha_modas_pending_briefing e honesty_alert)."
+  },
+  "counts": {
+    "keep_count": 0,
+    "optimize_count": 3,
+    "eliminate_count": 0
+  },
+  "rainha_modas_pending_briefing": {
+    "status": "sem_assets_finais_para_analise_visual",
+    "unavailable_reason": "Nenhum arquivo de imagem finalizado da Rainha Modas foi localizado nos materiais do projeto (base-de-conhecimento/06-landing-page-copy-criativos.md, seção 5, e handoff-account-manager.md, seção 14) — apenas o texto de briefing original sobrevive. Sem asset visual, não é possível aplicar a matriz de avaliação multimodal (que exige análise de imagem) a estes 3 itens; por isso não entram em creative_matrix nem recebem score.",
+    "briefing_textual_preservado": [
+      {
+        "numero": 1,
+        "headline": "O melhor da moda",
+        "subheadline": "15% de desconto na compra de duas peças",
+        "cta": "Pedir agora",
+        "status": "briefing_pendente_sem_asset_final"
+      },
+      {
+        "numero": 2,
+        "headline": "As melhores marcas",
+        "subheadline": "No crediário",
+        "cta": "Pedir agora",
+        "status": "briefing_pendente_sem_asset_final"
+      },
+      {
+        "numero": 3,
+        "headline": "Vestido com renda",
+        "subheadline": "10% de desconto no crediário da loja",
+        "cta": null,
+        "status": "briefing_pendente_sem_asset_final"
+      }
+    ],
+    "next_step": "Confirmar com o cliente/estúdio de design (Kuri & Co.) se os 3 criativos da Rainha Modas já foram produzidos e apenas não foram anexados ao projeto, ou se seguem pendentes de produção."
+  },
+  "summary": "Rei do Pano tem 3 criativos finais prontos (score médio 17/25, todos na faixa 'otimizar'), com paleta de marca consistente mas nenhum CTA direcionado a WhatsApp — o evento que o Pixel do forecast de R$2.000/mês precisa capturar; a Rainha Modas segue com 0 de 3 criativos finalizados, apenas briefing textual preservado como pendência.",
+  "summary_headline": "Rei do Pano: 3 criativos prontos, todos em 'otimizar' (16-18/25) e sem CTA de WhatsApp — Rainha Modas segue sem nenhum asset final, só briefing.",
+  "summary_highlights": [
+    {
+      "category": "maturidade",
+      "label": "Score médio",
+      "value": "17/25",
+      "subtext": "3 criativos, todos na faixa 'otimizar' (13-19)",
+      "tone": "yellow"
+    },
+    {
+      "category": "posicao",
+      "label": "Veredito M/O/E",
+      "value": "0M · 3O · 0E",
+      "subtext": "Nenhum pronto para escalar sem ajuste",
+      "tone": "yellow"
+    },
+    {
+      "category": "risco",
+      "label": "CTA sem WhatsApp",
+      "value": "3 de 3 criativos",
+      "subtext": "Nenhum aponta para o evento de conversão do Pixel (forecast)",
+      "tone": "red"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Rainha Modas pendente",
+      "value": "0 de 3 finalizados",
+      "subtext": "Só briefing textual — sem asset visual localizado",
+      "tone": "red"
+    },
+    {
+      "category": "competicao",
+      "label": "Volume de ads da Havan",
+      "value": "~1.100 Meta",
+      "subtext": "Cliente ainda sem histórico de mídia paga própria",
+      "tone": "gray"
+    },
+    {
+      "category": "janela",
+      "label": "Campanha piloto",
+      "value": "Ainda não subiu",
+      "subtext": "R$2.000/mês aprovado, aguardando pixel + criativos ajustados",
+      "tone": "blue"
+    }
+  ],
+  "summary_key_findings": [
+    {
+      "category": "vantagem",
+      "text": "Os 3 criativos do Rei do Pano usam consistentemente a paleta de marca aprovada (vermelho/dourado) e fotos reais de produto/loja, evitando o red flag de 'foto de stock genérica'."
+    },
+    {
+      "category": "ameaca",
+      "text": "Nenhum dos 3 criativos direciona explicitamente para WhatsApp — o evento de conversão que o Pixel Meta precisa capturar para o forecast de R$2.000/mês funcionar como modelado."
+    },
+    {
+      "category": "contexto",
+      "text": "Não há histórico de mídia paga (0 campanhas Meta/Google confirmadas via V4MOS), então os scores desta matriz são avaliação qualitativa pré-veiculação — nenhum CTR/CPL real ainda existe para validar ou refutar o veredito."
+    },
+    {
+      "category": "acao",
+      "text": "Antes de escalar, ajustar o CTA dos 3 criativos existentes para WhatsApp explícito e produzir a leva equivalente da Rainha Modas, hoje com 0 assets finais (apenas briefing textual preservado)."
+    }
+  ],
+  "key_insight": {
+    "headline": "Nenhum dos 3 criativos prontos do Rei do Pano tem CTA que aponta para WhatsApp — o evento que o Pixel precisa capturar para o forecast de R$2.000/mês funcionar.",
+    "context": "O forecast de mídia aprovado (10/09/2026) modela a campanha piloto inteira em cima do evento 'Contact' disparado no clique do WhatsApp — pré-requisito técnico não-negociável do plano. Mas os 3 criativos já produzidos usam CTAs 'Apresente este post na loja' (offline, não rastreável) e 'Comprar Agora' (sem canal definido). Sem ajuste, o primeiro mês de veiculação real corre o risco de gerar tráfego sem conversão mensurável, mesmo com o pixel tecnicamente instalado.",
+    "numbered_reasons": [
+      "(1) 3 de 3 criativos usam CTA que não referencia WhatsApp diretamente — 0% de cobertura do evento de conversão que o forecast assume.",
+      "(2) O criativo #1 ('Ganhe 15%') direciona explicitamente para ação física ('apresente este post na loja'), útil para tráfego de loja mas invisível para qualquer métrica digital de campanha paga.",
+      "(3) Os criativos #2 e #3 usam 'Comprar Agora' — visualmente claro, mas sem instrução explícita de canal (WhatsApp vs. site vs. loja), deixando a interpretação em aberto para quem clica."
+    ],
+    "discussion_anchor": "Antes de subir a campanha de R$2.000/mês, o stakeholder precisa decidir: os 3 criativos atuais serão adaptados com um CTA de WhatsApp explícito, ou a V4 produz uma nova leva (Semana 3) já nascendo alinhada ao evento de conversão do Pixel?"
+  },
+  "honesty_alert": "Este diagnóstico foi formalizado a partir de documentos brutos (PDF/DOCX) já entregues ao cliente, não do fluxo interativo padrão da skill — por isso outputs formais de skills dependentes (ee-s1-persona-icp.json, ee-s2-posicionamento.json, ee-s2-diagnostico-midia.json) ainda não existem em outputs/, e o cross-reference foi feito diretamente com base-de-conhecimento/ e client.json. Três fragilidades adicionais: (1) não existe histórico de mídia paga em nenhuma das duas marcas (0 campanhas Meta/Google confirmadas via V4MOS), então os scores desta matriz são avaliação qualitativa pré-veiculação, sem CTR/CPL real que os valide; (2) a Rainha Modas está com 0 de 3 criativos finais localizados — apenas o briefing textual original sobrevive, preservado em rainha_modas_pending_briefing e não tratado como entregável pronto; (3) por esses dois motivos, este output permanece com status 'em andamento' (in_progress) no client.json, não 'completo' — não deve ser tratado como diagnóstico fechado.",
+  "source_outputs": [
+    "client.json (briefing)",
+    "base-de-conhecimento/04-auditoria-comunicacao-redes-sociais.md",
+    "base-de-conhecimento/06-landing-page-copy-criativos.md",
+    "handoff-account-manager.md (seções 12, 13 e 14)"
+  ]
+}

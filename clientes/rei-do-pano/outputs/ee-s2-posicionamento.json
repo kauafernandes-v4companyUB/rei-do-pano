@@ -1,0 +1,213 @@
+{
+  "client_name": "Rei do Pano & Rainha Modas",
+  "summary": "Posicionamento do Rei do Pano & Rainha Modas formalizado em torno do conceito já aprovado em kick-off 'O Novo Reinado' — duas coroas em tronos digitais separados, ancoradas no crediário próprio sem juros em até 6x (inadimplência de apenas 1,5%-2,5%) como diferencial real e não replicável pelos concorrentes mapeados (Havan, Lojas Avenida). Território de grupo: Reinado · Legado · Facilidade, com DNA e arquétipos distintos já validados por marca (Rei do Pano: Governante+Companheiro; Rainha Modas: Amante+Governante).",
+  "summary_headline": "Rei do Pano & Rainha Modas ocupam 'O Novo Reinado' — crediário próprio sem juros até 6x como diferencial único, janela aberta mas maturidade digital ainda V0.",
+  "summary_highlights": [
+    {
+      "category": "posicao",
+      "label": "Território de marca",
+      "value": "O Novo Reinado — Reinado · Legado · Facilidade",
+      "subtext": "Duas coroas, dois tronos digitais separados (Rei do Pano + Rainha Modas), conceito aprovado em kick-off",
+      "tone": "blue"
+    },
+    {
+      "category": "competicao",
+      "label": "Território do concorrente #1",
+      "value": "Havan: Mix amplo + Loja-passeio nacional",
+      "subtext": "Sem crediário próprio e sem vínculo regional — \"presente em tudo, especialista em nada\"",
+      "tone": "yellow"
+    },
+    {
+      "category": "janela",
+      "label": "Concorrentes anunciando os termos de categoria",
+      "value": "0 concorrentes",
+      "subtext": "~410 buscas/mês combinadas (Google Keyword Planner, 100% intenção de compra) sem nenhum concorrente disputando lances nesses termos",
+      "tone": "green"
+    },
+    {
+      "category": "oportunidade",
+      "label": "ICP + estágio de consciência",
+      "value": "Dona Aparecida (35-60a) e Camila (28-55a) — nível 3/5",
+      "subtext": "Já sabem que precisam comprar, só não decidiram onde; o crediário sem juros até 6x é o argumento que fecha essa decisão",
+      "tone": "green"
+    },
+    {
+      "category": "risco",
+      "label": "Separação dos perfis de Instagram",
+      "value": "Tratada como decidida, mas não validada com o cliente",
+      "subtext": "O Manual de Marca assume \"dois tronos\" separados como resolvido, mas essa decisão nunca foi formalmente confirmada em reunião com o cliente",
+      "tone": "yellow"
+    },
+    {
+      "category": "maturidade",
+      "label": "Maturidade digital",
+      "value": "V0 (Estruturação)",
+      "subtext": "Sem Pixel Meta, GTM, GA4 ou histórico de campanhas pagas em nenhuma das duas marcas — posicionamento aprovado, execução digital ainda não iniciada",
+      "tone": "red"
+    }
+  ],
+  "summary_key_findings": [
+    {
+      "category": "vantagem",
+      "text": "O crediário próprio sem juros em até 6x é o diferencial real e não replicável digitalmente por concorrentes nacionais ou e-commerce — a inadimplência de apenas 1,5%-2,5% comprova a solidez da relação de confiança com a base de clientes."
+    },
+    {
+      "category": "contexto",
+      "text": "O conceito 'O Novo Reinado' já foi aprovado pelo cliente em kick-off (30/04/2026) e materializado no Manual de Marca (31 páginas) e na Landing Page publicada ('Construindo um Novo Reinado') — este output formaliza uma direção já validada, não propõe uma nova."
+    },
+    {
+      "category": "ameaca",
+      "text": "A Havan já opera com maturidade digital alta (Pixel/GTM/GA4 ativos, +1.100 anúncios Meta, ~4.000 Google Ads) e pode consolidar presença digital regional antes de o grupo migrar de 'Instagram como panfleto de preço' para a execução consistente do posicionamento já aprovado."
+    },
+    {
+      "category": "acao",
+      "text": "Confirmar formalmente com o cliente a separação dos dois perfis de Instagram (Rei do Pano unificado nas 3 lojas x Rainha Modas com voz própria) — hoje tratada como decidida apenas dentro do Manual de Marca, sem validação explícita em reunião com o cliente."
+    }
+  ],
+  "positioning_map": {
+    "axis_x": "Mix amplo generalista ←→ Especialista regional",
+    "axis_y": "Autoatendimento/transacional ←→ Humanizado + crediário próprio",
+    "client_position": "Especialista regional + Humanizado com crediário próprio (quadrante superior direito)",
+    "justification": "Dos dois concorrentes citados pelo próprio cliente no pré-kick-off (Havan e Lojas Avenida), nenhum combina especialidade regional com crediário próprio sem juros: Havan tem escala nacional e mix amplo, mas é generalista ('presente em tudo, especialista em nada') e sem crediário; Lojas Avenida tem cartão próprio (Cartão Avenida), mas comunicação 100% promocional/genérica e sem especialidade em tecidos. O grupo já ocupa esse cruzamento na prática há 30+ anos — falta apenas comunicá-lo digitalmente.",
+    "competitor_positions": [
+      {
+        "name": "Havan",
+        "quadrant": "Mix amplo generalista + Autoatendimento (loja-passeio nacional, sem crediário próprio, sem vínculo regional)"
+      },
+      {
+        "name": "Lojas Avenida",
+        "quadrant": "Moda popular + Promocional (Cartão Avenida como âncora, comunicação 100% preço/urgência, sem especialidade em tecidos)"
+      }
+    ]
+  },
+  "positioning_statements": [
+    {
+      "label": "O Novo Reinado (direção aprovada em kick-off)",
+      "statement": "Para famílias e profissionais do Cone Sul de Rondônia que precisam renovar a casa ou o guarda-roupa sem estourar o orçamento, o Rei do Pano e a Rainha Modas são o reinado regional de tecidos, casa e moda que facilita a conquista com crediário próprio sem juros em até 6x, porque atendem a região há mais de 30 anos com o mesmo compromisso de sempre — agora em dois tronos digitais dedicados.",
+      "justification": "É a direção já aprovada pelo cliente em kick-off e materializada no Manifesto e no Manual de Marca ('Agora, o Rei do Pano e a Rainha Modas ocupam tronos separados na internet... unidas pelo mesmo compromisso de sempre'). Unifica a narrativa de grupo mantendo a especialização de cada marca, ancorada no único diferencial não replicável pelos concorrentes mapeados: o crediário próprio.",
+      "bet": "Prioriza consolidar uma narrativa de grupo unificada por trás de duas identidades digitais especializadas, ancoradas no crediário próprio e na tradição regional.",
+      "risk": "Exige sustentar execução consistente em duas frentes simultâneas (Rei do Pano e Rainha Modas) — inclusive a decisão de separar os perfis de Instagram, formalizada no Manual de Marca mas nunca confirmada explicitamente com o cliente (ver honesty_alert)."
+    },
+    {
+      "label": "O Especialista Regional em Tecidos (direção mais estreita, não escolhida)",
+      "statement": "Para donas de casa e profissionais da costura em Vilhena e região que não encontram variedade de tecidos com atendimento humanizado, o Rei do Pano é a maior loja especializada em tecidos por metro do Cone Sul de Rondônia, porque nenhum concorrente mapeado disputa esse nicho e o crediário próprio sem juros facilita a compra.",
+      "justification": "Apoiada em dado de mercado real (saturação baixa em tecidos, 0 concorrentes anunciando os termos de categoria pesquisados, crescimento de +57% YoY em aviamentos) — mas restrita ao Rei do Pano, deixando a Rainha Modas fora da narrativa. Não foi a direção escolhida pelo cliente, que já aprovou o conceito de grupo 'O Novo Reinado'.",
+      "bet": "Prioriza aprofundar a autoridade de nicho (tecidos) sobre a amplitude e a força de grupo.",
+      "risk": "Abandona a narrativa de grupo já validada e deixa a Rainha Modas sem território de marca comunicado — reduz o projeto a uma única das duas marcas do cliente."
+    },
+    {
+      "label": "O Concorrente por Preço/Passeio (direção explicitamente descartada)",
+      "statement": "Para o consumidor que compara preço e experiência de loja física, o grupo seria apenas mais uma opção de varejo popular no Cone Sul de Rondônia, competindo por promoção e menor preço, como Havan e Lojas Avenida.",
+      "justification": "Representa o posicionamento 'atual' que a própria Pesquisa de Mercado descreve como perdendo espaço no fator 'passeio/comodidade' para a Havan, e que o material recomenda explicitamente evitar: 'o antídoto estratégico não é reduzir preço'.",
+      "bet": "Nenhuma aposta estratégica real — é o caminho de menor diferenciação, incluído aqui apenas como contraste ao que foi decidido.",
+      "risk": "Altíssimo: o grupo não tem 'loja-passeio' de porte nacional para justificar essa disputa, abre mão do único diferencial não replicável (crediário) e entra numa guerra de preço contra concorrentes de maior escala e contra o showrooming do e-commerce nacional."
+    }
+  ],
+  "chosen_statement": "Para famílias e profissionais do Cone Sul de Rondônia que precisam renovar a casa ou o guarda-roupa sem estourar o orçamento, o Rei do Pano e a Rainha Modas são o reinado regional de tecidos, casa e moda que facilita a conquista com crediário próprio sem juros em até 6x, porque atendem a região há mais de 30 anos com o mesmo compromisso de sempre — agora em dois tronos digitais dedicados.",
+  "puv": "O único reinado regional de tecidos, casa e moda do Cone Sul de Rondônia que facilita a conquista da família com crediário próprio sem juros em até 6x — sem depender do limite do cartão e sem abrir mão do atendimento humano de mais de 30 anos — agora em dois tronos digitais dedicados: Rei do Pano e Rainha Modas.",
+  "canvas_4p": {
+    "product": {
+      "delivers": "Duas linhas de produto complementares sob uma mesma narrativa de grupo: no Rei do Pano, tecidos por metro (categoria-âncora sem concorrência direta), cama/mesa/banho, eletrodomésticos e utilidade doméstica, e decoração/cortinas sob medida; na Rainha Modas, moda feminina (foco 28-55 anos), calçados e acessórios. Em ambas as marcas, o crediário próprio sem juros em até 6x e o atendimento humanizado de mais de 30 anos.",
+      "transformation": "Antes: cliente com orçamento apertado, sem crédito disponível no cartão, que vê reformar a casa ou vestir a família como um peso ou burocracia, e às vezes compra online de fora sem confiar na entrega/pós-venda. Depois: parcela em até 6x sem juros no crediário próprio, encontra a variedade completa (do menor aviamento ao enxoval, do infantil ao adulto) em um só lugar, e é atendida por quem a conhece pelo nome — a compra vira, nas palavras do próprio Manifesto, 'a realização de um sonho facilitado', não um peso.",
+      "doesnt_deliver": "Não é a opção mais barata para quem compara apenas preço de prateleira sem considerar o crediário (Havan e e-commerce nacional como Shopee/Shein competem em preço puro e conveniência online); ainda não tem e-commerce transacional completo — a Landing Page atual gera lead/direciona ao WhatsApp, não é loja virtual com carrinho e checkout; e a Rainha Modas ainda não tem um discurso de moda tão robusto e distinto quanto o Rei do Pano tem em tecidos (o slide de 'Pilares e Valores' da Rainha Modas no Manual de Marca reaproveita, aparentemente por erro de produção, o texto do Rei do Pano — ver honesty_alert)."
+    },
+    "price": {
+      "positioning": "mid-market",
+      "justification": "Estratégia de preço segmentada por categoria, não um único posicionamento: premium de nicho em tecidos exclusivos (patchwork, tricoline estampada, Paninho Mágico), onde o Rei do Pano é referência única sem pressão competitiva; preço igual ou levemente abaixo da Havan em categorias de volume (cama, mesa, banho, eletrodomésticos), já que o grupo não tem 'loja-passeio' para justificar prêmio nessas linhas; na Rainha Modas, precificação baseada em giro e tendência. O crediário próprio sem juros é o argumento central de valor na comunicação, não o preço listado — é ele que neutraliza a vantagem de parcelamento dos marketplaces e do e-commerce nacional.",
+      "anchoring": "Ancorar a comunicação no custo-benefício do crediário próprio (parcela sem juros, sem burocracia, sem depender do limite do cartão) em vez de comparar preço unitário — especialmente contra o showrooming de e-commerce nacional, que não replica crediário local nem atendimento presencial."
+    },
+    "place": {
+      "main_channel": "WhatsApp",
+      "main_channel_justification": "É o canal que o ICP já usa e confia no comportamento pós-pandemia (pesquisa no Instagram → mensagem no WhatsApp → busca o produto na loja), e é onde o crediário próprio pode ser explicado e fechado sem burocracia — ainda que, no momento do briefing, esse atendimento estivesse 'em estruturação', sem setor dedicado.",
+      "support_channel": "Instagram (perfis dedicados por marca — Rei do Pano unificado nas 3 lojas + Rainha Modas com voz própria de moda) e Google Meu Negócio das unidades, para sustentar a prova social já existente (4,6/5,0, 327+ avaliações) e a busca local.",
+      "avoid_channels": [
+        {
+          "channel": "Marketplaces nacionais (Mercado Livre, Shopee) como canal principal",
+          "reason": "Citado como 'fase 2' na Pesquisa de Mercado — competir ali hoje dilui o diferencial do crediário próprio e expõe o grupo à guerra de preço/showrooming, já mapeada como ameaça e não como oportunidade imediata."
+        },
+        {
+          "channel": "Mídia paga ampla, sem segmentação geográfica de ~120 km",
+          "reason": "O diagnóstico de mídia já mapeia o raio de influência real (~180 mil habitantes); investir fora dele desperdiça verba e não sustenta o território 'regional' do posicionamento."
+        }
+      ]
+    },
+    "promotion": {
+      "tone": "Familiar, Prestativo e Sólido (Manual de Copy) — autoridade de quem tem mais de 30 anos de portas abertas, mas com o carinho de quem atende pelo nome; evita comunicação puramente promocional/preço, música dessincronizada do público e posts sem legenda/contexto.",
+      "top_funnel_message": "A maior variedade em tecidos e artigos para o lar da região do Cone Sul.",
+      "bottom_funnel_message": "Renove sua casa ou monte o enxoval completo em até 6x sem juros no nosso crediário próprio — sem estourar o limite do cartão."
+    }
+  },
+  "brand_territory": {
+    "three_words": ["Reinado", "Legado", "Facilidade"],
+    "description": "Território de grupo, construído a partir de termos já validados nas fontes: 'Reinado' vem diretamente do conceito de marca aprovado em kick-off ('O Novo Reinado'); 'Legado' é o núcleo de marca já validado do Rei do Pano (Legado · Sanidade · Vigor); 'Facilidade' vem do pilar de marca nomeado 'Autonomia e Facilidade' (crediário próprio em até 6x sem juros). Na prática: o grupo comunica um reinado regional consolidado há mais de 30 anos, que facilita — não burocratiza — a conquista da casa e do guarda-roupa via crediário próprio. Importante: este território de GRUPO convive com dois núcleos de marca distintos e já aprovados individualmente no Manual de Marca — ver 'brand_dna_by_brand' abaixo para a separação completa por arquétipo, exigida por não diluir a diferenciação entre Rei do Pano e Rainha Modas.",
+    "competitor_territories": [
+      {
+        "competitor": "Havan",
+        "territory": "Escala nacional + Loja-passeio/experiência de compra (sem crediário próprio, sem vínculo regional, mix amplo sem especialidade)"
+      },
+      {
+        "competitor": "Lojas Avenida",
+        "territory": "Preço popular + Humor/proximidade de marca (Cartão Avenida como âncora de fidelização, comunicação 100% promocional, sem especialidade em tecidos)"
+      }
+    ],
+    "availability_justification": "Nenhum dos dois concorrentes citados pelo cliente comunica um reinado regional com crediário próprio: a Havan tem escala e mix amplo, mas zero crediário e zero vínculo com Vilhena; a Lojas Avenida tem cartão próprio, mas nenhuma especialidade em tecidos nem legado de 30+ anos na região. O território está sustentado por evidência real (crediário com inadimplência de 1,5%-2,5%, nota 4,6/5,0 no Google com 327+ avaliações, 0 concorrentes disputando os termos de busca de categoria pesquisados) — não é aspiracional no diferencial em si, mas a execução digital que comunica esse território (Manual de Marca, Landing Page) ainda é recente e não plenamente distribuída, dado que a maturidade digital do grupo está em V0 (Estruturação).",
+    "brand_dna_by_brand": {
+      "rei_do_pano": {
+        "nucleo_3_palavras": ["Legado", "Sanidade", "Vigor"],
+        "anel_externo_atributos": ["Aconchegante", "Familiar", "Prestativa", "Robusta", "Confiável", "Justa", "Humana", "Completa", "Consultiva", "História"],
+        "arquetipo": "Governante + Companheiro",
+        "arquetipo_descricao": "O Governante: autoridade e liderança de quem domina o segmento há décadas, evocando poder, estabilidade e soberania de mercado para ser a referência absoluta na mente do consumidor regional. O Companheiro: remove a frieza corporativa e traz calor humano — trata cada cliente pelo nome, oferece crediário sem juros baseado em confiança, garante acolhimento familiar de quase 40 anos. Na prática: tom de voz imponente e seguro, mas familiar e prestativo, nunca puramente transacional; a marca não vende 'tecidos por metro', vende a estabilidade de uma história construída com a comunidade."
+      },
+      "rainha_modas": {
+        "nucleo_3_palavras": ["Elegante", "Antenada", "Acolhedora"],
+        "anel_externo_atributos": ["Desejada", "Moderna", "Confiável", "Acessível", "Familiar", "Consultiva", "Completa", "Expressiva", "Humana", "Autêntica"],
+        "arquetipo": "Amante + Governante",
+        "arquetipo_descricao": "O Amante: desperta autoestima, desejo e celebração da identidade feminina, criando uma atmosfera de atração e sofisticação onde cada peça é um convite para a cliente se sentir única. O Governante: o peso da tradição do grupo aplicado à moda — curadoria impecável, qualidade garantida e autoridade de quem dita tendências na região, vestindo a família do infantil ao adulto. Na prática: tom envolvente, sofisticado e inspirador; a marca não vende roupas, vende transformação visual e o poder de comandar o próprio estilo com a facilidade do crediário da casa."
+      },
+      "nota": "unavailable_reason: não há, nos materiais-fonte, uma versão customizada e revisada dos 'Pilares e Valores' específicos da Rainha Modas — o slide correspondente no Manual de Marca reaproveita o texto literal do Rei do Pano (incluindo '40 anos', '3.000 m²' e termos de tecidos/casa). Núcleo e arquétipo da Rainha Modas acima são válidos e distintos, mas os 'Pilares e Valores' específicos de moda dessa marca seguem pendentes de confirmação com o cliente/fornecedor."
+    }
+  },
+  "taglines": [
+    {
+      "tagline": "Construindo um Novo Reinado",
+      "tone": "aspiracional/institucional",
+      "justification": "Já é a headline oficial da Landing Page publicada (https://rei-do-pano.vercel.app/), derivada diretamente do conceito de marca aprovado em kick-off — não é uma tagline nova proposta por este canvas, é a formalização da que já está em uso real.",
+      "best_use": "Hero do site, assinatura institucional, materiais de apresentação do grupo"
+    },
+    {
+      "tagline": "Dois tronos, um só compromisso.",
+      "tone": "narrativo/emocional",
+      "justification": "Sintetiza literalmente a lógica dos 'tronos digitais separados' descrita no Manifesto e no storytelling 'O Novo Reinado' do Manual de Marca, reforçando a unidade de grupo por trás das duas marcas com identidades próprias.",
+      "best_use": "Bio do Instagram de ambas as marcas, campanhas de lançamento/apresentação dos perfis separados"
+    },
+    {
+      "tagline": "Reforme a casa, vista a família, em até 6x sem juros.",
+      "tone": "funcional/direto",
+      "justification": "Reaproveita a linguagem literal do Manifesto ('reformar a casa ou vestir a família... facilitado pelo nosso crediário próprio') e do Manual de Copy, atacando diretamente a dor de orçamento do ICP com prova concreta (crediário sem juros).",
+      "best_use": "Anúncios de fundo de funil (Meta Ads e Google Ads), assinatura de mensagens no WhatsApp"
+    }
+  ],
+  "recommended_tagline": "Construindo um Novo Reinado",
+  "operator_direction": {
+    "strongest_differential": "Crediário próprio sem juros em até 6x — o único diferencial competitivo que nenhum concorrente mapeado (Havan, Lojas Avenida) replica digitalmente; inadimplência de apenas 1,5%-2,5% comprova a solidez da relação de confiança com a base. Fonte: handoff-account-manager.md §11 ('Diferenciais') e Pesquisa de Mercado — não coletado em sessão ao vivo com o operador nesta formalização, e sim já documentado como diferencial validado nos materiais originais do projeto.",
+    "desired_position": "Referência absoluta (Top of Mind) no Cone Sul de Rondônia em tecidos e artigos para o lar, unindo crediário facilitado e presença digital humanizada — meta declarada de aumentar as vendas do grupo em 30% nos próximos 12 meses (fonte: Pesquisa de Mercado, Sumário Executivo).",
+    "positioning_restrictions": [
+      "Não competir por preço baixo puro nem tentar imitar o modelo de 'loja-passeio' da Havan — o antídoto estratégico documentado é o crediário e o atendimento, não o desconto.",
+      "Evitar tom corporativo frio/transacional — o Manifesto declara explicitamente que a marca não quer que o cliente se sinta 'apenas mais um número'."
+    ],
+    "desired_tone": "Familiar, Prestativo e Sólido (Manual de Copy), coerente com o voice_tone 'descontraído' declarado no briefing — autoridade de tradição regional sem soar distante."
+  },
+  "key_insight": {
+    "headline": "O território 'Reinado regional com crediário próprio' está vago — 0 concorrentes disputam os termos de busca de categoria em Vilhena, mas a janela fecha à medida que a Havan avança digitalmente e o grupo segue em maturidade digital V0.",
+    "context": "Nenhum dos dois concorrentes citados pelo próprio cliente (Havan, Lojas Avenida) combina tradição regional, especialidade e crediário próprio sem juros. O grupo já vive esse território na prática há mais de 30 anos e já aprovou a narrativa 'O Novo Reinado' em kick-off — mas ainda trata o digital como 'panfleto de preço' (maturidade V0: sem Pixel, GTM, GA4 ou campanhas pagas em nenhuma marca), enquanto a Havan já opera com rastreamento e volume de mídia paga muito superiores.",
+    "numbered_reasons": [
+      "(1) Evidência de que está vago: 0 concorrentes anunciando nos termos de busca de categoria pesquisados (~410 buscas/mês combinadas, 100% intenção de compra, Google Keyword Planner) e nenhum concorrente mapeado comunica crediário próprio sem juros.",
+      "(2) O que fecha a janela: a Havan já opera com Pixel Meta, GTM e GA4 ativos, +1.100 anúncios Meta e ~4.000 Google Ads, além do avanço estrutural do e-commerce nacional via showrooming — quanto mais tempo o grupo ficar apenas com 'Instagram como panfleto de preço', mais esses concorrentes capturam a atenção do ICP, que já está no nível 3 de consciência (Consciente da Solução, pronto para decidir onde comprar).",
+      "(3) O que o cliente ganha ao ocupar primeiro: tornar-se a resposta digital óbvia para o ICP regional já 'consciente da solução', consolidando 'O Novo Reinado' antes que a Havan feche sua lacuna de vínculo regional ou que outro concorrente comece a comunicar crediário próprio."
+    ],
+    "discussion_anchor": "O grupo já tem 40 colaboradores atendendo fisicamente, nota 4,6/5,0 no Google e um Manual de Marca de 31 páginas pronto — mas ainda não rodou uma campanha paga sequer em nenhuma das duas marcas. Cada mês sem comunicar digitalmente o crediário e a especialidade em tecidos é um mês a mais em que o cliente da região decide 'onde comprar' com base em quem aparece primeiro no feed, não em quem de fato é a melhor opção.",
+    "feasibility": "Alta — o conceito já está aprovado pelo cliente e materializado (Manual de Marca e Landing Page publicados); o que falta não é decisão estratégica, e sim consistência de execução digital (orgânico e mídia paga) nas duas marcas."
+  },
+  "honesty_alert": "Três pontos não devem ser tratados como 100% fechados: (1) a separação dos perfis de Instagram (Rei do Pano unificado nas 3 lojas + Rainha Modas com perfil próprio) foi debatida sem conclusão na Análise de Social Media e só depois passou a ser tratada como decidida no Manual de Marca e no plano de tráfego pago — é a informação mais recente disponível, mas nunca foi formalmente confirmada em reunião com o cliente; (2) o slide 'Pilares e Valores' da Rainha Modas no Manual de Marca reaproveita, aparentemente por erro de produção do fornecedor, o texto literal do Rei do Pano (incluindo '40 anos', '3.000 m²' e conceitos de tecidos/casa) — não deve ser usado em comunicação da Rainha Modas sem confirmar com o cliente/fornecedor se existe versão customizada; (3) o próprio tempo de mercado do grupo diverge entre fontes ('mais de 30 anos' em peças factuais/comerciais vs. 'quatro décadas'/quase 40 anos' no Manifesto e em Pilares e Valores) — recomenda-se validar a data de fundação exata antes de cravar um número específico em peças de comunicação formal.",
+  "completed_at": "2026-09-13T00:00:00Z"
+}

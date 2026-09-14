@@ -1,0 +1,752 @@
+{
+  "client_name": "Rei do Pano & Rainha Modas",
+  "summary": "Comunicação digital do grupo com score médio de 37/100: os dois perfis de Instagram não comunicam proposta de valor nem prova social, o WhatsApp central divulgado tem DDD de outro estado, e não há nenhum rastreamento ou mídia paga instalado — o maior vazamento estimado do funil está na etapa de Consideração via Instagram (~35% [E]).",
+  "summary_headline": "Rei do Pano & Rainha Modas produzem Reels com frequência e têm nota 4,6 no Google, mas comunicam com score médio de 37/100 — maior vazamento estimado na Consideração via Instagram (~35%).",
+  "icp_reference": "ICP dual: Rei do Pano B2C 'Dona Aparecida' (48 anos, classe C, Vilhena, usa o crediário próprio há 5+ anos, job funcional de renovar casa/enxoval sem estourar orçamento) + segmento B2B (costureiras, ateliês, tapeçarias); Rainha Modas B2C 'Camila' (35 anos, classe B/C, professora, compra moda 1-2x/mês, quer se sentir bonita, confiante e antenada). O público principal das duas marcas está no nível 3 da Awareness Ladder — Consciente da Solução: já sabe que quer renovar o enxoval, comprar tecido ou se vestir melhor, ainda não decidiu onde comprar (fonte: base-de-conhecimento/01-persona-icp-jtbd.md; sem output JSON de ee-s1-persona-icp gerado até o momento desta auditoria).",
+  "summary_highlights": [
+    {"category": "maturidade", "label": "Score médio de comunicação", "value": "37/100", "subtext": "6 canais auditados, coerência de voz 38/100", "tone": "red"},
+    {"category": "risco", "label": "Maior vazamento estimado", "value": "~35% na Consideração (Instagram)", "subtext": "Sem prova social ativa nos dois perfis [E]", "tone": "red"},
+    {"category": "oportunidade", "label": "Quick win prioritário", "value": "Confirmar/corrigir WhatsApp central", "subtext": "30min — elimina risco do DDD divergente (65 vs 69)", "tone": "green"},
+    {"category": "competicao", "label": "Gap em anúncios vs Havan", "value": "-90 pontos [E]", "subtext": "0 anúncios ativos vs +1.100 Meta / ~4.000 Google Ads da Havan", "tone": "red"},
+    {"category": "posicao", "label": "Ativo pouco explorado", "value": "GMB 4,6/5,0 (327+ avaliações)", "subtext": "Prova social forte, quase ausente no Instagram", "tone": "yellow"}
+  ],
+  "summary_key_findings": [
+    {"category": "vantagem", "text": "O grupo já tem prova social real e forte (nota 4,6/5,0 no Google com mais de 327 avaliações) e um diferencial que nenhum concorrente nacional replica digitalmente: o crediário próprio sem juros, com inadimplência de apenas 1,5%-2,5%."},
+    {"category": "ameaca", "text": "A Havan mantém Pixel Meta, GTM e GA4 ativos, com +1.100 anúncios ativos no Meta Ads e ~4.000 no Google Ads, enquanto o grupo segue em maturidade digital V0 — sem nenhum rastreamento instalado nem histórico de mídia paga (confirmado também pelo fetch V4MOS: 0 campanhas no período auditado)."},
+    {"category": "contexto", "text": "O público principal das duas marcas já está no nível 3 de consciência (já decidiu que quer comprar, falta decidir onde) — a comunicação não precisa criar desejo do zero, precisa eliminar a desconfiança que hoje aparece no Instagram da Rainha Modas (fotos de perfume de marcas terceiras) e no WhatsApp central (número com DDD de outro estado)."},
+    {"category": "acao", "text": "Trocar handles, reescrever bios, reduzir destaques e confirmar o número de WhatsApp são ações de menos de 2h cada, executáveis antes mesmo da instalação do Pixel/GTM."}
+  ],
+  "channels_audited": [
+    {
+      "name": "site",
+      "url_or_handle": "https://rei-do-pano.vercel.app/",
+      "score": 72,
+      "classification": "good",
+      "screenshots_analyzed": false,
+      "audit_details": {
+        "value_proposition": {
+          "present": true,
+          "clear": true,
+          "aligned_with_icp": true,
+          "notes": "Hero com headline 'Construindo um Novo Reinado', subtexto reforçando 'maior variedade de tecidos e decoração, agora a um clique' e 'há mais de 30 anos vestindo e decorando lares', com números-chave (30+ anos, 3 lojas, 3.000 m²) logo na primeira dobra."
+        },
+        "social_proof": {
+          "present": true,
+          "type": "Avaliação agregada do Google Meu Negócio (4,6/5,0, 327+ avaliações) + 3 depoimentos nominais de clientes reais com cidade",
+          "quality": "strong",
+          "notes": "Prova social robusta e específica, presente em seção dedicada da página."
+        },
+        "cta": {
+          "present": true,
+          "visible": true,
+          "action_oriented": true,
+          "notes": "CTA duplo no hero (WhatsApp + 'Ver Vantagens'), reforçado por CTA por categoria de produto, formulário de cotação estruturado e CTA final ('Renove a sua casa')."
+        },
+        "visual_consistency": {
+          "consistent": true,
+          "professional": true,
+          "notes": "Estrutura de 14 blocos coerente com o Manual de Marca/Key Visual (paleta vermelho/dourado, narrativa 'O Novo Reinado'); avaliação feita por leitura da estrutura documentada da página ao vivo, sem screenshot analisado nesta rodada."
+        },
+        "mobile_experience": {
+          "notes": "unavailable_reason: nenhuma fonte analisada aplicou ferramenta técnica de auditoria (PageSpeed Insights, teste de compatibilidade mobile) sobre esta landing page especificamente; não foi possível confirmar responsividade nem velocidade real."
+        },
+        "content_quality": {
+          "notes": "Não aplicável no mesmo sentido de um blog/feed — página é uma LP estática de conversão, com FAQ (6 perguntas) cobrindo objeções reais (crediário, canais de atendimento, condições B2B)."
+        },
+        "additional_notes": "A estrutura publicada expande a planejada no Briefing Mestre original (adiciona História, Segmentação B2C/B2B, Galeria, FAQ e formulário de cotação). Pendência confirmada no handoff (seção 18): não está confirmado quais eventos de conversão (clique em WhatsApp e/ou envio do formulário de cotação) estão de fato configurados no Pixel Meta/GTM da página — item crítico antes de atribuir qualquer lead a uma campanha específica."
+      },
+      "gaps": [
+        {
+          "gap": "Não há confirmação de quais eventos de conversão (clique em WhatsApp e/ou envio do formulário de cotação) estão de fato configurados no Pixel Meta/GTM da landing page",
+          "evidence": "handoff-account-manager.md, seção 18: 'Tracking pendente de confirmação. Não está confirmado quais eventos de conversão [...] estão de fato configurados no Pixel/GTM da página'",
+          "impact": "high"
+        },
+        {
+          "gap": "SEO técnico básico (title tag, meta description, H1 com palavra-chave) não foi auditado com ferramenta dedicada em nenhuma das fontes analisadas",
+          "evidence": "unavailable_reason: nenhum material do projeto reporta auditoria técnica de SEO desta landing page especificamente",
+          "impact": "medium"
+        }
+      ],
+      "recommendations": [
+        {
+          "action": "Confirmar no Events Manager (Meta) e no GA4/GTM quais eventos já disparam na LP (clique em WhatsApp e envio de formulário) antes de atribuir qualquer lead a uma campanha",
+          "priority": "immediate",
+          "effort": "low"
+        },
+        {
+          "action": "Auditar title tag, meta description e estrutura de H1 da LP assim que houver acesso ao Google Search Console",
+          "priority": "short_term",
+          "effort": "low"
+        }
+      ]
+    },
+    {
+      "name": "instagram_rei_do_pano",
+      "url_or_handle": "@reidopano.com.br (confirmado ao vivo em 13/09/2026 — troca para @reidopanooficial recomendada, ainda não aplicada)",
+      "score": 35,
+      "classification": "low",
+      "screenshots_analyzed": false,
+      "audit_details": {
+        "value_proposition": {
+          "present": false,
+          "clear": false,
+          "aligned_with_icp": false,
+          "notes": "Bio atual usa o espaço de 150 caracteres para horário de funcionamento — informação pós-decisão, não pré-venda. Sem autoridade, diferencial ou CTA."
+        },
+        "social_proof": {
+          "present": false,
+          "type": null,
+          "quality": "weak",
+          "notes": "Nenhum destaque dedicado a avaliações/prova social hoje; a auditoria original recomenda criar destaque 'Avaliações' com prints de WhatsApp e comentários reais."
+        },
+        "cta": {
+          "present": false,
+          "visible": false,
+          "action_oriented": false,
+          "notes": "Bio não tem CTA explícito de contato."
+        },
+        "visual_consistency": {
+          "consistent": false,
+          "professional": false,
+          "notes": "Feed sem padrão — mistura arte gráfica de entrega, foto de produto, vídeo de influenciadora, bandeira e cartaz de preço fotografado; 3 dos últimos posts são fotos de placas de promoção da loja física fotografadas diretamente."
+        },
+        "content_quality": {
+          "speaks_to_icp": false,
+          "frequency": "Alta — Reels gravados com regularidade (ponto forte real já existente)",
+          "engagement_level": "unavailable_reason: curtidas/comentários não expostos nas fontes analisadas",
+          "notes": "'O esforço existe, a estratégia falta': volume de publicação é real, mas execução técnica falha em 6 pontos recorrentes (ver gaps)."
+        },
+        "additional_notes": "Segue 'quase metade de quem o segue' (proporção desfavorável, sinaliza baixa autoridade); categoria de perfil não otimizada para 'Compras e Varejo'; nome de exibição sem palavra-chave de busca. Achado adicional (handoff §4, pesquisa pública 13/09/2026): a filial Colorado do Oeste mantém Instagram próprio (@reidopano.colorado) e Facebook próprio (reidopano.colorado.br), o que diverge da decisão documentada no Manual de Marca de unificar as 3 lojas num único perfil ('uma única voz forte para as três províncias') — pendência a confirmar com o cliente."
+      },
+      "gaps": [
+        {
+          "gap": "Nome de usuário em formato de domínio (@reidopano.com.br) em vez de handle de marca limpo",
+          "evidence": "04-auditoria-comunicacao-redes-sociais.md, seção 1; confirmado ainda vigente em 13/09/2026 (handoff-account-manager.md §1)",
+          "impact": "medium"
+        },
+        {
+          "gap": "Bio sem proposta de valor, autoridade, diferencial ou CTA — ocupa o espaço com horário de funcionamento",
+          "evidence": "04-auditoria-comunicacao-redes-sociais.md, tabela 'Diagnóstico do perfil'",
+          "impact": "high"
+        },
+        {
+          "gap": "Feed sem identidade visual única, tratado como extensão de panfleto da loja física",
+          "evidence": "04-auditoria-comunicacao-redes-sociais.md: '3 dos últimos posts são fotos de placas de promoção da loja física'",
+          "impact": "high"
+        },
+        {
+          "gap": "6 problemas técnicos recorrentes nos Reels: música desalinhada com o público, marca d'água do CapCut, edições abruptas, formato horizontal em vez de vertical nativo, sem texto/contexto na tela, sem legenda escrita",
+          "evidence": "04-auditoria-comunicacao-redes-sociais.md, seção 'Problemas recorrentes nos Reels (Rei do Pano)'",
+          "impact": "high"
+        },
+        {
+          "gap": "Categoria de perfil não otimizada e proporção seguindo/seguidores desfavorável",
+          "evidence": "04-auditoria-comunicacao-redes-sociais.md, tabela 'Diagnóstico do perfil'",
+          "impact": "medium"
+        },
+        {
+          "gap": "Filial Colorado do Oeste mantém Instagram e Facebook próprios, divergindo da decisão de perfil único documentada no Manual de Marca",
+          "evidence": "handoff-account-manager.md §4, achado de pesquisa pública em 13/09/2026",
+          "impact": "medium"
+        }
+      ],
+      "recommendations": [
+        {
+          "action": "Trocar @ para formato limpo (ex. @reidopanooficial), foto de perfil para o símbolo da coroa isolado, categoria para 'Compras e Varejo' e nome de exibição incluindo palavra-chave (ex. 'Tecidos, Cama, Mesa e Banho')",
+          "priority": "immediate",
+          "effort": "low"
+        },
+        {
+          "action": "Reescrever a bio com a estrutura autoridade → posicionamento → diferencial → CTA já redigida na auditoria original",
+          "priority": "immediate",
+          "effort": "low"
+        },
+        {
+          "action": "Reorganizar destaques na ordem: Como Comprar, Avaliações, Novidades, Dicas, Vendedoras",
+          "priority": "short_term",
+          "effort": "medium"
+        },
+        {
+          "action": "Corrigir os 6 problemas técnicos recorrentes dos Reels (trocar música, remover marca d'água, cortes mais suaves, formato vertical, texto na tela e legenda escrita em todo post)",
+          "priority": "short_term",
+          "effort": "medium"
+        },
+        {
+          "action": "Confirmar com o cliente se a filial Colorado do Oeste deve migrar para o perfil único ou manter conta separada por decisão local",
+          "priority": "short_term",
+          "effort": "low"
+        }
+      ]
+    },
+    {
+      "name": "instagram_rainha_modas",
+      "url_or_handle": "rainhamodas.com.br (confirmado ao vivo em 13/09/2026 — troca para handle limpo recomendada, ainda não aplicada)",
+      "score": 30,
+      "classification": "low",
+      "screenshots_analyzed": false,
+      "audit_details": {
+        "value_proposition": {
+          "present": false,
+          "clear": false,
+          "aligned_with_icp": false,
+          "notes": "Bio lista categorias como inventário ('Confecção, Calçados, Relógio, Acessórios, Utensílios, Perfumaria, Eletrodomésticos') sem proposta de valor, diferencial ou CTA."
+        },
+        "social_proof": {
+          "present": false,
+          "type": null,
+          "quality": "none",
+          "notes": "Nenhum dos 17 destaques atuais é dedicado a avaliações/prova social nomeada como tal."
+        },
+        "cta": {
+          "present": false,
+          "visible": false,
+          "action_oriented": false,
+          "notes": "Link na bio é bit.ly encurtado — passa desconfiança, especialmente para público com medo de golpe no Instagram."
+        },
+        "visual_consistency": {
+          "consistent": false,
+          "professional": false,
+          "notes": "Feed dominado por fotos de perfume de marcas terceiras (Carolina Herrera, Olympéa, 212 VIP, Calvin Klein) com estética de banco de imagem/divulgação de fabricante — 'nenhuma delas prova que o produto existe fisicamente na Rainha Modas [...] isso passa exatamente o ar de golpe que qualquer loja online teme'."
+        },
+        "content_quality": {
+          "speaks_to_icp": false,
+          "frequency": "unavailable_reason: volume de publicação da Rainha Modas não quantificado separadamente nas fontes (ao contrário do Rei do Pano)",
+          "engagement_level": "unavailable_reason: curtidas/comentários não expostos nas fontes analisadas",
+          "notes": "Ponto positivo real: já tem mais variedade de temas organizados que o Rei do Pano (Infantil, Novidade, Campanhas, Bolsas, Moda Feminina, Eletrodomésticos) — 'mostra intenção de organização, que já é melhor que a maioria dos perfis do nicho'."
+        },
+        "additional_notes": "17 destaques no total, muitos com nomes cortados ('Infantil/Enx...', 'Moda Femin...', 'Eletrodomé...'); categoria de perfil genérica ('Empreendedor(a)'); nome de exibição 'Rainha Modas Vilhena RO' desperdiça o campo de cidade (indexado por Google e busca interna do Instagram) repetindo o próprio @."
+      },
+      "gaps": [
+        {
+          "gap": "Feed dominado por fotos de perfume de marcas terceiras em estética de banco de imagem, sem prova de que o produto existe na loja física",
+          "evidence": "04-auditoria-comunicacao-redes-sociais.md, seção 2: 'isso passa exatamente o ar de golpe que qualquer loja online teme'",
+          "impact": "high"
+        },
+        {
+          "gap": "Bio sem proposta de valor, diferencial nem CTA — apenas lista categorias de produto como inventário",
+          "evidence": "04-auditoria-comunicacao-redes-sociais.md, tabela 'Diagnóstico do perfil'",
+          "impact": "high"
+        },
+        {
+          "gap": "17 destaques, muitos com nomes cortados/incompletos, sem curadoria clara",
+          "evidence": "04-auditoria-comunicacao-redes-sociais.md: 'ninguém vê tudo isso'",
+          "impact": "medium"
+        },
+        {
+          "gap": "Link da bio é bit.ly encurtado, aumentando a desconfiança de golpe",
+          "evidence": "04-auditoria-comunicacao-redes-sociais.md, tabela 'Diagnóstico do perfil'",
+          "impact": "medium"
+        },
+        {
+          "gap": "Categoria de perfil genérica ('Empreendedor(a)') sem conexão com comportamento de busca",
+          "evidence": "04-auditoria-comunicacao-redes-sociais.md, tabela 'Diagnóstico do perfil'",
+          "impact": "low"
+        },
+        {
+          "gap": "Nome de usuário em formato de domínio (rainhamodas.com.br)",
+          "evidence": "04-auditoria-comunicacao-redes-sociais.md; confirmado ainda vigente em 13/09/2026 (handoff-account-manager.md §1)",
+          "impact": "medium"
+        }
+      ],
+      "recommendations": [
+        {
+          "action": "Substituir fotos de perfume de terceiros por fotos reais do produto dentro da loja, com pessoas reais",
+          "priority": "immediate",
+          "effort": "medium"
+        },
+        {
+          "action": "Reescrever a bio com a estrutura sugerida na auditoria ('Moda para toda a família / Roupas, calçados, bolsas e muito mais / Do infantil ao adulto / Fale agora e veja as novidades')",
+          "priority": "immediate",
+          "effort": "low"
+        },
+        {
+          "action": "Reduzir destaques de 17 para no máximo 7, com nomes completos (Novidades, Looks, Calçados, Bolsas & Acessórios, Avaliações, Promoções, Clientes)",
+          "priority": "short_term",
+          "effort": "low"
+        },
+        {
+          "action": "Trocar o link da bio de bit.ly para link direto/personalizado com mensagem de WhatsApp pré-preenchida",
+          "priority": "immediate",
+          "effort": "low"
+        },
+        {
+          "action": "Trocar categoria do perfil para 'Moda, Calçados e Acessórios' e mover a cidade do nome de exibição para o campo correto",
+          "priority": "immediate",
+          "effort": "low"
+        }
+      ]
+    },
+    {
+      "name": "anuncios",
+      "url_or_handle": "unavailable_reason: sem contas de Meta Ads/Google Ads confirmadas como criadas — briefing.accesses (meta_business, google_ads) = false; fetch V4MOS (12/06/2026–10/09/2026) confirma 0 campanhas em ambas as plataformas.",
+      "score": 5,
+      "classification": "critical",
+      "screenshots_analyzed": false,
+      "audit_details": {
+        "additional_notes": "Sem anúncios ativos em nenhuma das duas marcas, confirmado por duas fontes independentes: (1) o diagnóstico de mídia classifica o grupo como 'V0 — Estruturação', sem Pixel Meta, GTM, GA4 nem histórico de campanhas; (2) o fetch V4MOS retornou 0 campanhas em Google Ads e Facebook Ads no período auditado. Já existem 3 criativos estáticos finalizados para o Rei do Pano (oferta de primeira compra, crediário, Pano Mágico) e copy completa de Google Ads para as duas marcas, prontos para uso assim que o tracking estiver instalado — mas copy de Meta Ads e criativos finalizados da Rainha Modas não foram localizados nas fontes."
+      },
+      "gaps": [
+        {
+          "gap": "Zero histórico de mídia paga em ambas as marcas — nenhum Pixel Meta, GTM ou GA4 instalado",
+          "evidence": "05-diagnostico-midia-trafego-pago.md §1: 'não há pixel instalado, não há rastreamento de eventos, não há histórico de campanhas pagas'; confirmado pelo fetch V4MOS com 0 campanhas",
+          "impact": "high"
+        },
+        {
+          "gap": "Ausência total de anúncios enquanto o concorrente direto (Havan) mantém +1.100 anúncios ativos no Meta e ~4.000 no Google Ads",
+          "evidence": "02-mercado-swot-concorrentes.md, seção 3.1",
+          "impact": "high"
+        },
+        {
+          "gap": "Copy de anúncios Meta Ads ausente (distinto dos textos de Google Ads, já completos) — seção correspondente do documento-fonte está truncada",
+          "evidence": "05-diagnostico-midia-trafego-pago.md, seção 6: apenas o cabeçalho '08 — Copy para Meta Ads' sobreviveu no PDF exportado",
+          "impact": "medium"
+        }
+      ],
+      "recommendations": [
+        {
+          "action": "Instalar Pixel Meta + GTM + GA4 antes de subir qualquer campanha (pré-requisito documentado no diagnóstico de mídia)",
+          "priority": "immediate",
+          "effort": "low"
+        },
+        {
+          "action": "Subir a primeira campanha 'Lead via WhatsApp' com público frio segmentado, já roteirizada no plano de tráfego pago",
+          "priority": "short_term",
+          "effort": "medium"
+        }
+      ]
+    },
+    {
+      "name": "google_meu_negocio",
+      "url_or_handle": "Perfil Google Meu Negócio — Rei do Pano / grupo (Vilhena/RO); perfil próprio e ativo da Rainha Modas não confirmado nas fontes",
+      "score": 60,
+      "classification": "medium",
+      "screenshots_analyzed": false,
+      "audit_details": {
+        "social_proof": {
+          "present": true,
+          "type": "reviews",
+          "quality": "strong",
+          "notes": "Nota 4,6/5,0 com mais de 327 avaliações — prova social forte já construída, citada de forma consistente em múltiplas fontes (briefing, landing page, pesquisa de mercado)."
+        },
+        "additional_notes": "A otimização para buscas locais é descrita como 'ainda incompleta' no handoff (seção 16), sem detalhamento de quais itens específicos faltam (fotos atualizadas, categorias, horários, posts). Não há confirmação nas fontes de atividade de posts recentes nem de rotina de resposta a avaliações."
+      },
+      "gaps": [
+        {
+          "gap": "Otimização para buscas locais descrita como incompleta, sem detalhamento de quais itens faltam",
+          "evidence": "handoff-account-manager.md, seção 16: 'Google Meu Negócio | Ativo e forte (nota 4,6/327), otimização para busca local ainda incompleta'",
+          "impact": "medium"
+        },
+        {
+          "gap": "Sem confirmação de perfil GMB próprio e ativo para a Rainha Modas, distinto do Rei do Pano",
+          "evidence": "unavailable_reason: nenhuma fonte analisada confirma ou audita um GMB separado para a Rainha Modas",
+          "impact": "medium"
+        },
+        {
+          "gap": "Sem evidência de atividade de posts ou de resposta do negócio às avaliações",
+          "evidence": "unavailable_reason: nenhuma fonte descreve o histórico de posts ou respostas do perfil",
+          "impact": "low"
+        }
+      ],
+      "recommendations": [
+        {
+          "action": "Auditar diretamente o perfil GMB (completude de categoria, horários, fotos, Q&A) e confirmar a existência de um perfil próprio para a Rainha Modas",
+          "priority": "immediate",
+          "effort": "low"
+        },
+        {
+          "action": "Ativar rotina de resposta a avaliações e posts periódicos citando o crediário próprio e a variedade de produtos",
+          "priority": "short_term",
+          "effort": "low"
+        }
+      ]
+    },
+    {
+      "name": "whatsapp",
+      "url_or_handle": "(65) 99927-9546 — localizado no site do cliente em 13/09/2026; DDD 65 é de Mato Grosso, divergente da região de operação (Rondônia, DDD 69)",
+      "score": 22,
+      "classification": "low",
+      "screenshots_analyzed": false,
+      "audit_details": {
+        "cta": {
+          "present": true,
+          "visible": true,
+          "action_oriented": false,
+          "notes": "WhatsApp é citado de forma consistente como canal central de venda em múltiplos materiais, mas descrito como 'em estruturação' no momento do briefing, sem confirmação de setor dedicado montado."
+        },
+        "additional_notes": "Sem confirmação nas fontes de saudação automática, catálogo ou etiquetas configuradas no WhatsApp Business. Objeções recorrentes já mapeadas pela equipe comercial: dúvida sobre como o crediário funciona por WhatsApp, desconfiança sobre disponibilidade real do produto anunciado, preferência por ver/tocar o tecido pessoalmente antes de decidir. Não há scripts de vendas/qualificação formalizados (briefing.sales_module.has_scripts = false)."
+      },
+      "gaps": [
+        {
+          "gap": "Número de WhatsApp central encontrado tem DDD de Mato Grosso (65), divergente da região de operação (Rondônia, DDD 69) — risco de desconfiança ou número incorreto",
+          "evidence": "handoff-account-manager.md, seção 1: '(65) 99927-9546 — nota: DDD 65 é de Mato Grosso, não de Rondônia (69); vale confirmar se é número correto/ativo'",
+          "impact": "high"
+        },
+        {
+          "gap": "Setor de atendimento via WhatsApp descrito como 'em estruturação', sem confirmação de equipe dedicada nem separação do atendimento de balcão",
+          "evidence": "00-empresa-e-contexto.md, seção 4; handoff-account-manager.md, seção 9 — recomendação de setor centralizado de 1-2 pessoas, sem confirmação de que foi montado",
+          "impact": "high"
+        },
+        {
+          "gap": "Sem scripts de vendas ou qualificação formalizados",
+          "evidence": "client.json, briefing.sales_module.has_scripts = false",
+          "impact": "medium"
+        },
+        {
+          "gap": "Sem confirmação de saudação automática, catálogo ou etiquetas configuradas no WhatsApp Business",
+          "evidence": "unavailable_reason: nenhuma fonte descreve a configuração técnica atual do WhatsApp Business do grupo",
+          "impact": "medium"
+        }
+      ],
+      "recommendations": [
+        {
+          "action": "Confirmar com o cliente se (65) 99927-9546 é o número correto e ativo antes de divulgá-lo em qualquer novo material",
+          "priority": "immediate",
+          "effort": "low"
+        },
+        {
+          "action": "Configurar saudação automática, catálogo e mensagem de ausência no WhatsApp Business",
+          "priority": "immediate",
+          "effort": "low"
+        },
+        {
+          "action": "Formalizar o setor de atendimento dedicado (1-2 pessoas) com script básico de qualificação e resposta às objeções mais comuns (crediário, disponibilidade de produto)",
+          "priority": "short_term",
+          "effort": "medium"
+        }
+      ]
+    }
+  ],
+  "gap_matrix": [
+    {"rank": 1, "channel": "whatsapp", "gap": "Número de WhatsApp central com DDD de outro estado (65, Mato Grosso, em vez de 69, Rondônia)", "impact": "high", "effort": "low", "recommended_action": "Confirmar com o cliente se o número é correto e ativo; corrigir em todos os canais se divergente", "quadrant": "quick_win"},
+    {"rank": 2, "channel": "anuncios", "gap": "Zero Pixel Meta / GTM / GA4 instalado nas duas marcas", "impact": "high", "effort": "low", "recommended_action": "Instalar Pixel + GTM + GA4 antes de subir qualquer campanha", "quadrant": "quick_win"},
+    {"rank": 3, "channel": "site", "gap": "Eventos de conversão não confirmados no Pixel/GTM da landing page", "impact": "high", "effort": "low", "recommended_action": "Validar no Events Manager/GA4 se os eventos de clique WhatsApp e envio de formulário disparam corretamente", "quadrant": "quick_win"},
+    {"rank": 4, "channel": "instagram_rei_do_pano", "gap": "Bio sem proposta de valor, autoridade ou CTA", "impact": "high", "effort": "low", "recommended_action": "Aplicar a nova bio já redigida na auditoria original (autoridade → posicionamento → diferencial → CTA)", "quadrant": "quick_win"},
+    {"rank": 5, "channel": "instagram_rainha_modas", "gap": "Bio lista categorias como inventário, sem CTA nem diferencial", "impact": "high", "effort": "low", "recommended_action": "Aplicar a nova bio já redigida na auditoria original", "quadrant": "quick_win"},
+    {"rank": 6, "channel": "instagram_rainha_modas", "gap": "Feed dominado por fotos de perfume de marcas terceiras, passando 'ar de golpe'", "impact": "high", "effort": "medium", "recommended_action": "Fotografar produto real dentro da loja, com pessoas reais, substituindo o banco de imagens de fabricante", "quadrant": "strategic_project"},
+    {"rank": 7, "channel": "whatsapp", "gap": "Setor de atendimento 'em estruturação', sem SDR dedicado nem script formalizado", "impact": "high", "effort": "high", "recommended_action": "Formalizar setor de 1-2 pessoas dedicadas ao WhatsApp com script básico de objeções", "quadrant": "strategic_project"},
+    {"rank": 8, "channel": "instagram_rei_do_pano", "gap": "6 problemas técnicos recorrentes nos Reels (música, marca d'água, corte, formato, texto, legenda)", "impact": "medium", "effort": "medium", "recommended_action": "Corrigir checklist técnico dos Reels conforme linha editorial sugerida na auditoria original", "quadrant": "strategic_project"},
+    {"rank": 9, "channel": "instagram_rainha_modas", "gap": "17 destaques com nomes cortados, sem curadoria clara", "impact": "medium", "effort": "low", "recommended_action": "Reduzir para no máximo 7 destaques com nomes completos", "quadrant": "quick_win"},
+    {"rank": 10, "channel": "google_meu_negocio", "gap": "Otimização para busca local incompleta, sem confirmação de posts/respostas a avaliações", "impact": "medium", "effort": "low", "recommended_action": "Auditar o perfil e ativar resposta a avaliações + posts periódicos", "quadrant": "quick_win"},
+    {"rank": 11, "channel": "anuncios", "gap": "Ausência de mídia paga enquanto a Havan mantém +1.100 anúncios ativos no Meta", "impact": "high", "effort": "high", "recommended_action": "Estruturar a primeira campanha 'Lead via WhatsApp' assim que o tracking estiver instalado", "quadrant": "strategic_project"}
+  ],
+  "executive_summary": {
+    "overall_assessment": "A comunicação digital do grupo hoje reflete exatamente o estágio 'V0 — Estruturação' descrito no diagnóstico de mídia: existe volume real de produção de conteúdo (Reels frequentes nas duas marcas) e um ativo de prova social forte (nota 4,6/5,0 no Google com 327+ avaliações), mas nenhum dos dois pontos fortes está sendo usado para gerar confiança na etapa em que o cliente decide onde comprar. O Instagram das duas marcas ainda funciona como extensão de panfleto (Rei do Pano) ou catálogo de fabricante terceiro (Rainha Modas), o WhatsApp central tem um número com DDD de outro estado, e não há nenhum rastreamento instalado que permita medir ou corrigir esse funil com dados reais. Nenhum desses problemas é de falta de argumento — o crediário próprio, a tradição de 30+ anos e a nota do Google já existem; o problema é de execução e de confiança na vitrine digital.",
+    "top_problems": [
+      {
+        "problem": "Zero rastreamento e zero mídia paga instalada em ambas as marcas (Pixel Meta, GTM e GA4 ausentes)",
+        "evidence": "05-diagnostico-midia-trafego-pago.md §1: 'não há pixel instalado, não há rastreamento de eventos, não há histórico de campanhas pagas'; confirmado pelo fetch V4MOS com 0 campanhas no período 12/06–10/09/2026",
+        "impact": "Impede que qualquer campanha futura seja otimizada com dados reais — o algoritmo do Meta 'anuncia no escuro' até esse pré-requisito ser resolvido, elevando o custo por resultado desde a primeira campanha",
+        "action": "Instalar Pixel Meta + GTM + GA4 antes de subir qualquer campanha — pré-requisito documentado, esforço baixo"
+      },
+      {
+        "problem": "Instagram das duas marcas sem identidade nem proposta de valor — Rei do Pano tratado como extensão de panfleto da loja física, Rainha Modas com feed de fotos de terceiros que 'passa o ar de golpe'",
+        "evidence": "04-auditoria-comunicacao-redes-sociais.md, seções 1 e 2: '3 dos últimos posts são fotos de placas de promoção da loja física' (Rei do Pano); 'isso passa exatamente o ar de golpe que qualquer loja online teme' (Rainha Modas)",
+        "impact": "Compromete a etapa de Consideração — o público principal já está no nível 3 de consciência (decidiu comprar, ainda escolhendo onde) e hoje não encontra confiança nem diferencial em nenhum dos dois perfis",
+        "action": "Reescrever bios, reorganizar/reduzir destaques e substituir imagens de terceiros por fotos reais do produto na loja — ações já detalhadas na auditoria original de social media"
+      },
+      {
+        "problem": "WhatsApp central com número de DDD divergente da região (65, Mato Grosso, em vez de 69, Rondônia) e sem setor dedicado nem script de atendimento",
+        "evidence": "handoff-account-manager.md, seção 1: '(65) 99927-9546 — nota: DDD 65 é de Mato Grosso, não de Rondônia (69)'; briefing.sales_module.has_scripts = false",
+        "impact": "O WhatsApp é o canal onde a decisão de compra é confirmada — desconfiança sobre o número ou demora/falta de script no primeiro contato pode custar a venda diretamente, especialmente porque 'preferência por ver/tocar o tecido pessoalmente' já é uma objeção natural do público",
+        "action": "Confirmar/corrigir o número divulgado em todos os canais e formalizar o setor de atendimento com script básico de objeções (crediário, disponibilidade de produto)"
+      }
+    ],
+    "communication_score": 37
+  },
+  "competitor_benchmark": {
+    "description": "Benchmark canal a canal contra os dois concorrentes citados explicitamente pelo próprio cliente no pré-kick-off e detalhados com evidência real (Meta Ads Library, Google Ads Transparency, Instagram) na Análise de Social Media e na Estruturação de Tráfego Pago.",
+    "groups": [
+      {
+        "name": "Rede nacional (megastore)",
+        "members": ["Havan"],
+        "positioning": "Megastore nacional (moda, casa, eletro, ferramentas e mais), maturidade digital alta (Pixel Meta, GTM e GA4 ativos, +1.100 anúncios ativos no Meta Ads, ~4.000 no Google Ads), imagem do dono fortemente associada à marca, experiência de loja-passeio, estratégia de influenciadora (Camylla Miranda)."
+      },
+      {
+        "name": "Varejo popular de moda",
+        "members": ["Lojas Avenida"],
+        "positioning": "Moda popular e varejo, comunicação 100% promocional (preço, urgência, múltiplos SKUs em carrossel), Cartão Avenida como âncora de fidelização e parcelamento, sem crediário próprio nem especialidade em tecidos."
+      }
+    ],
+    "benchmark_by_channel": [
+      {
+        "channel": "instagram",
+        "client_score": 33,
+        "best_in_class_score": 78,
+        "gap": 45,
+        "best_practice_observed": "[E] Lojas Avenida: bio que responde em 3 segundos o que é a loja e por que seguir ('a loja mais alegre do Brasil... aqui tem promoção, produto e muito humor'), hashtag própria (#NovidadeNaAvenida), identidade visual amarelo+preto aplicada com disciplina em feed/destaques/artes, posts fixados ancorando promoções vigentes, Reels em formato POV com etiqueta de preço fixa na tela. Havan usa a categoria de perfil 'Compras e Varejo' (mesma recomendada para o Rei do Pano) e mantém proporção seguindo/seguidores muito favorável.",
+        "opportunity_for_client": "Aplicar a mesma disciplina de identidade visual em 100% dos posts/destaques das duas marcas e criar um post fixado ancorando a promoção/crediário vigente — hoje nenhum dos dois perfis do grupo usa post fixado nem hashtag própria, brechas já identificadas nos benchmarks."
+      },
+      {
+        "channel": "anuncios",
+        "client_score": 5,
+        "best_in_class_score": 95,
+        "gap": 90,
+        "best_practice_observed": "Havan mantém Pixel Meta, GTM e GA4 ativos, com +1.100 anúncios ativos no Meta Ads e ~4.000 no Google Ads (Search, Display, Shopping, Vídeo e Local). Lojas Avenida, mesmo sem Pixel Meta instalado, já roda +110 anúncios no Meta e ~200 no Google Ads com conversões ativas via GTM.",
+        "opportunity_for_client": "Nenhum concorrente está disputando os termos de busca de categoria específicos de Vilhena hoje (0 concorrentes ativos em 'aviamentos vilhena', 'tecidos vilhena' etc., ~410 buscas/mês combinadas) — instalar o tracking mínimo e subir a campanha Google Ads de Blindagem de Marca + Core já roteirizada garante primeira posição com CPC mínimo antes que a concorrência reaja."
+      },
+      {
+        "channel": "site",
+        "client_score": 72,
+        "best_practice_observed": "unavailable_reason: nenhuma fonte analisada audita diretamente o site/e-commerce da Havan ou da Lojas Avenida — o benchmark de concorrentes deste projeto está documentado apenas para Instagram e mídia paga (ver 02-mercado-swot-concorrentes.md, seção 3).",
+        "opportunity_for_client": "unavailable_reason: sem benchmark de site de concorrente nas fontes para derivar uma oportunidade específica comparável."
+      },
+      {
+        "channel": "google_meu_negocio",
+        "client_score": 60,
+        "best_practice_observed": "unavailable_reason: nenhuma fonte documenta uma auditoria do perfil de Google Meu Negócio da Havan ou da Lojas Avenida.",
+        "opportunity_for_client": "unavailable_reason: sem dado comparável nas fontes analisadas."
+      },
+      {
+        "channel": "whatsapp",
+        "client_score": 22,
+        "best_practice_observed": "unavailable_reason: nenhuma fonte documenta como a Havan ou a Lojas Avenida operam o atendimento via WhatsApp.",
+        "opportunity_for_client": "unavailable_reason: sem dado comparável nas fontes analisadas."
+      }
+    ],
+    "strategic_read": "O grupo não está atrás por falta de argumento comercial — o crediário próprio, a tradição de 30+ anos e a nota 4,6/327 do Google são diferenciais reais que nem Havan nem Lojas Avenida replicam. A distância é de execução digital: a Havan vence hoje por volume e estrutura de rastreamento (maturidade V4 vs. V0 do grupo), enquanto a Lojas Avenida, mesmo sem Pixel Meta, já aplica disciplina de identidade visual e CTA que nenhuma das duas marcas do grupo aplica ainda no Instagram. Contra os dois concorrentes citados, a maior vantagem competitiva aberta e ainda não explorada é a ausência de qualquer anunciante nos termos de busca de categoria em Vilhena — uma janela que se fecha assim que qualquer concorrente decidir estruturar Google Ads local."
+  },
+  "journey_friction_map": {
+    "description": "Funil estimado das personas 'Dona Aparecida' (Rei do Pano) e 'Camila' (Rainha Modas) do primeiro contato até a compra/crediário. Não há volumes reais disponíveis (sem Pixel/GA4 instalado, sem métricas de funil comercial) — estimativas marcadas com [E], a validar quando o tracking for instalado e o diagnóstico comercial (ee-s4-diagnostico-comercial) for executado.",
+    "stages": [
+      {
+        "stage": "Exposição (Instagram / indicação / loja física)",
+        "current_volume": "não mensurado hoje — sem Pixel/GA4 instalado, sem métrica de alcance orgânico compartilhada nas fontes [E]",
+        "leakage_pct": 25,
+        "root_cause": "Feed sem identidade visual consistente e handles em formato de domínio dificultam reconhecimento e busca, mesmo com o público já no nível 3 de consciência (sabe o que quer, ainda não decidiu onde comprar)",
+        "fix_effort": "low",
+        "fix_impact_estimate": "Padronizar handle, bio e identidade visual das duas marcas tende a aumentar o reconhecimento e o clique para o perfil certo"
+      },
+      {
+        "stage": "Consideração (perfil do Instagram)",
+        "current_volume": "não mensurado [E]",
+        "leakage_pct": 35,
+        "root_cause": "Rainha Modas: feed de fotos de perfume de terceiros 'passa o ar de golpe'; Rei do Pano: bio e destaques sem prova social — nenhuma das duas marcas usa a nota 4,6/327 do Google no Instagram",
+        "fix_effort": "medium",
+        "fix_impact_estimate": "Adicionar destaque de Avaliações e substituir fotos de terceiros por produto real tende a reduzir esse abandono, replicando o padrão observado nos benchmarks de criativo (Linda Casa, JLM Tecidos)"
+      },
+      {
+        "stage": "Primeiro contato (WhatsApp)",
+        "current_volume": "não mensurado [E]",
+        "leakage_pct": 30,
+        "root_cause": "Número central com DDD divergente da região, setor de atendimento 'em estruturação', sem script de objeções nem confirmação de saudação automática",
+        "fix_effort": "medium",
+        "fix_impact_estimate": "Confirmar/corrigir o número e formalizar o setor dedicado tende a reduzir a perda por desconfiança ou demora de resposta no primeiro contato"
+      },
+      {
+        "stage": "Atendimento presencial + Crediário",
+        "current_volume": "não mensurado [E]",
+        "leakage_pct": 10,
+        "root_cause": "Objeções recorrentes já mapeadas ('posso comprar por WhatsApp mesmo? o crediário funciona assim?') sem script padronizado para neutralizá-las antes da visita à loja",
+        "fix_effort": "low",
+        "fix_impact_estimate": "Um script de resposta padrão sobre o funcionamento do crediário via WhatsApp tende a reduzir a hesitação residual antes da compra"
+      },
+      {
+        "stage": "Pós-venda / recompra",
+        "current_volume": "recompra média de 3-4x/ano confirmada no pré-kick-off, mas sem programa estruturado de reativação",
+        "leakage_pct": 0,
+        "root_cause": "Base de clientes do sistema Linx (apontada como 'ativo mais valioso subutilizado' em múltiplas fontes) ainda não confirmada como extraída/operacional para reativação via mídia paga",
+        "fix_effort": "high",
+        "fix_impact_estimate": "Reativar a base inativa (nível 4 de consciência — já comprou antes) tem custo de aquisição mais baixo que captar cliente frio, segundo o próprio diagnóstico de mídia"
+      }
+    ],
+    "biggest_leakage_summary": "O maior vazamento estimado [E] está na etapa de Consideração via Instagram (~35%): a Rainha Modas usa fotos de perfume de marcas terceiras que 'passam o ar de golpe que qualquer loja online teme', e o Rei do Pano não usa a nota 4,6/327 do Google como prova social no perfil — exatamente na etapa em que a persona (nível 3 de consciência, já decidida a comprar, ainda escolhendo onde) mais precisa de confiança. Sem tracking instalado, este número é uma estimativa qualificada a partir da evidência textual disponível, não uma medição real de plataforma."
+  },
+  "tone_of_voice_analysis": {
+    "description": "Comparação entre o tom de voz prometido pela marca (Familiar, Prestativo, Sólido — client.json briefing.brand) e o tom observado em cada canal auditado, incluindo os dois perfis de Instagram separadamente.",
+    "brand_voice_target": {
+      "pillars": ["Familiar", "Prestativo", "Sólido"],
+      "avoid": [
+        "Focar apenas em 'preço baixo' em vez do valor da entrega, suporte e facilidade",
+        "Tom frio/institucional de autoatendimento (o que o Manifesto de marca associa às 'grandes redes')",
+        "Postagens sem legenda, música dessincronizada do público (funk/eletrônico pesado), marca d'água de apps de edição (CapCut) e nomes de usuário em formato de domínio"
+      ]
+    },
+    "channel_drift": [
+      {
+        "channel": "site",
+        "actual_tone": "Institucional-emocional, alinhado ao conceito 'O Novo Reinado' — hero 'Construindo um Novo Reinado', reforça tradição (30+ anos) e crediário próprio",
+        "target_alignment": "bom",
+        "drift_notes": "Tom coerente com os pilares Familiar/Prestativo/Sólido; a maior distância aqui é técnica (tracking não confirmado), não de tom",
+        "example": "'Construindo um Novo Reinado' + 'há mais de 30 anos vestindo e decorando lares'"
+      },
+      {
+        "channel": "instagram_rei_do_pano",
+        "actual_tone": "Misto — Reels com sinais de edição amadora (música funk/eletrônica, cortes abruptos, marca d'água do CapCut) que contradizem a autoridade de '+30 anos de mercado'; posts sem legenda tiram o tom consultivo/prestativo",
+        "target_alignment": "baixa",
+        "drift_notes": "Marca d'água e música desalinhada rompem com 'Sólido'; ausência de legenda rompe com 'Prestativo' (sem contexto nem orientação ao cliente sobre o que fazer com a informação)",
+        "fix": "Aplicar a linha editorial sugerida: música suave, sem marca d'água, sempre com legenda e CTA",
+        "example": "Reels do kit de bebê e dos ursos citados na auditoria original, onde 'o cliente vê o vídeo mas não entende o que fazer com a informação'"
+      },
+      {
+        "channel": "instagram_rainha_modas",
+        "actual_tone": "Neutro/genérico — bio lista categorias como inventário, feed com estética de banco de imagem de fabricante de perfume",
+        "target_alignment": "desalinhado",
+        "drift_notes": "Nenhum dos atributos de marca (Familiar/Prestativo/Sólido, ou o DNA específico da Rainha Modas — Elegante/Antenada/Acolhedora) aparece; o feed hoje comunica um catálogo genérico, não uma curadoria de moda",
+        "fix": "Fotografar produto real na loja e aplicar o tom do arquétipo Amante + Governante (autoestima + curadoria)",
+        "example": "Fotos de perfumes Carolina Herrera/Olympéa/212 VIP/Calvin Klein em estética de banco de imagem, sem prova de que o produto existe fisicamente na loja"
+      },
+      {
+        "channel": "anuncios",
+        "actual_tone": "unavailable_reason: sem anúncios ativos em nenhuma das duas marcas para avaliar tom — mídia paga ainda não estruturada",
+        "target_alignment": "nenhum",
+        "drift_notes": "Sem base de comparação disponível; o tom real só poderá ser avaliado quando a primeira campanha ('Lead via WhatsApp') subir"
+      },
+      {
+        "channel": "google_meu_negocio",
+        "actual_tone": "O tom vem majoritariamente dos próprios clientes nos 327+ reviews (nota 4,6/5,0), reforçando organicamente o atendimento humanizado",
+        "target_alignment": "bom",
+        "drift_notes": "Os comentários já reforçam 'Familiar/Prestativo' de forma orgânica, mas não há confirmação nas fontes de que a loja responde ativamente para reforçar esse tom",
+        "fix": "Responder avaliações citando o crediário próprio e os 30+ anos de tradição"
+      },
+      {
+        "channel": "whatsapp",
+        "actual_tone": "unavailable_reason: não avaliado diretamente — nenhuma transcrição de atendimento disponível nas fontes",
+        "target_alignment": "baixa",
+        "drift_notes": "Sem script formalizado (has_scripts: false), o tom depende de quem atende no momento; o setor 'em estruturação' e o número com DDD divergente somam risco adicional de desalinhamento logo na primeira impressão",
+        "fix": "Criar script de abertura e respostas padrão para as objeções mais comuns (crediário, disponibilidade de produto), alinhado ao tom Familiar/Prestativo/Sólido"
+      }
+    ],
+    "coherence_score": 38
+  },
+  "url_audit": {
+    "description": "URLs e canais críticos a verificar pelo operador antes da produção da Semana 3, priorizando as pendências e divergências levantadas na due diligence de 13/09/2026.",
+    "urls": [
+      {
+        "url": "https://rei-do-pano.vercel.app/",
+        "purpose": "Landing page principal (Rei do Pano + Rainha Modas)",
+        "status_expected": "Deveria ter os eventos de conversão (clique em WhatsApp e envio do formulário de cotação) confirmados no Pixel Meta/GTM",
+        "verify_checklist": [
+          "Confirmar no Events Manager se o evento Contact dispara no clique do botão de WhatsApp",
+          "Confirmar no GA4/GTM se o envio do formulário de cotação está registrado como conversão",
+          "Conferir se os 3 endereços de loja exibidos na seção 'Presença Regional' estão corretos e atualizados"
+        ]
+      },
+      {
+        "url": "instagram.com/reidopano.com.br",
+        "purpose": "Perfil Instagram Rei do Pano (handle ainda em formato de domínio)",
+        "status_expected": "Deveria estar migrado para @reidopanooficial, com bio, foto de perfil e destaques atualizados conforme a auditoria",
+        "verify_checklist": [
+          "Confirmar se a troca de handle já foi feita",
+          "Verificar se a bio nova foi aplicada",
+          "Conferir se os destaques foram reorganizados na ordem sugerida"
+        ]
+      },
+      {
+        "url": "instagram.com/rainhamodas.com.br",
+        "purpose": "Perfil Instagram Rainha Modas (handle ainda em formato de domínio)",
+        "status_expected": "Deveria ter handle limpo, bio reescrita, categoria 'Moda, Calçados e Acessórios' e destaques reduzidos a no máximo 7",
+        "verify_checklist": [
+          "Confirmar se a troca de handle já foi feita",
+          "Verificar se as fotos de perfume de terceiros já foram substituídas por fotos reais da loja",
+          "Conferir quantidade atual de destaques"
+        ]
+      },
+      {
+        "url": "instagram.com/reidopano.colorado",
+        "purpose": "Perfil Instagram próprio da filial Colorado do Oeste — divergente da decisão de unificação documentada",
+        "status_expected": "Confirmar com o cliente se esta conta deve migrar para o perfil único do Rei do Pano ou permanecer separada por decisão local",
+        "verify_checklist": [
+          "Confirmar com o cliente a situação desta conta",
+          "Verificar volume de seguidores antes de qualquer decisão de unificação/desativação",
+          "Checar se o Facebook próprio da filial (reidopano.colorado.br) segue o mesmo padrão"
+        ]
+      },
+      {
+        "url": "WhatsApp (65) 99927-9546",
+        "purpose": "Número de WhatsApp central divulgado no site institucional",
+        "status_expected": "Deveria ter DDD 69 (Rondônia), coerente com a região de operação do grupo",
+        "verify_checklist": [
+          "Confirmar com o cliente se este é o número correto e ativo",
+          "Se incorreto, substituir em todos os canais (site, Instagram, GMB)",
+          "Configurar saudação automática e catálogo assim que o número estiver confirmado"
+        ]
+      },
+      {
+        "url": "Google Meu Negócio — Rei do Pano / grupo",
+        "purpose": "Perfil de buscas locais (Vilhena, Colorado do Oeste, Cerejeiras)",
+        "status_expected": "Completude de categoria, horários, fotos atualizadas, posts ativos e resposta a avaliações",
+        "verify_checklist": [
+          "Confirmar categoria, horários e fotos atualizados",
+          "Verificar existência de um perfil GMB próprio e ativo para a Rainha Modas",
+          "Conferir se há rotina de resposta às avaliações"
+        ]
+      }
+    ]
+  },
+  "quick_wins": [
+    {
+      "action": "Confirmar se o número de WhatsApp central (65) 99927-9546 é o correto e ativo; se não for, substituir pelo número certo com DDD 69 em todos os canais",
+      "channel": "whatsapp",
+      "time_estimate": "30min",
+      "expected_impact": "Elimina o risco de o lead desconfiar do número ou tentar contato num canal errado logo no momento de decisão de compra",
+      "who_does_it": "operator",
+      "steps": [
+        "Perguntar diretamente a Luiz/Terezinha qual é o número oficial de atendimento central",
+        "Corrigir o número no site, na bio do Instagram e no perfil do GMB, se divergente",
+        "Testar enviando uma mensagem de teste para confirmar que o número responde"
+      ]
+    },
+    {
+      "action": "Trocar o @ das duas marcas para formato limpo, a foto de perfil para o símbolo isolado (coroa/tiara) e a categoria de perfil (Compras e Varejo / Moda, Calçados e Acessórios)",
+      "channel": "instagram",
+      "time_estimate": "1h",
+      "expected_impact": "Facilita busca e memorização, e melhora a indexação no Google (Instagram é indexado pelo Google desde julho de 2025)",
+      "who_does_it": "client",
+      "steps": [
+        "Acessar as configurações de cada perfil (Rei do Pano e Rainha Modas)",
+        "Trocar o nome de usuário para o formato limpo recomendado",
+        "Trocar a categoria de cada perfil",
+        "Trocar a foto de perfil pela versão em símbolo isolado do Manual de Marca"
+      ]
+    },
+    {
+      "action": "Reescrever as bios das duas marcas com a estrutura já redigida na auditoria original (autoridade → posicionamento → diferencial → CTA)",
+      "channel": "instagram",
+      "time_estimate": "30min",
+      "expected_impact": "Comunica proposta de valor e chamada para ação em vez de horário de funcionamento ou lista de categorias",
+      "who_does_it": "client",
+      "steps": [
+        "Copiar a bio sugerida para o Rei do Pano",
+        "Copiar a bio sugerida para a Rainha Modas",
+        "Publicar e conferir a exibição em mobile"
+      ]
+    },
+    {
+      "action": "Instalar Pixel Meta + Google Tag Manager + GA4 na landing page e confirmar o disparo dos eventos antes de qualquer campanha",
+      "channel": "site",
+      "time_estimate": "2h",
+      "expected_impact": "Destrava o rastreamento real do funil — pré-requisito documentado para qualquer campanha de mídia paga futura",
+      "who_does_it": "client_team",
+      "steps": [
+        "Criar/conferir a conta do Gerenciador de Negócios Meta",
+        "Instalar o GTM no head da landing page",
+        "Configurar as tags de Pixel (PageView, Contact, ViewContent) e o GA4",
+        "Validar o disparo com o Meta Pixel Helper e o Tag Assistant do Google"
+      ]
+    },
+    {
+      "action": "Reduzir os destaques da Rainha Modas de 17 para no máximo 7 (nomes completos) e reorganizar os destaques do Rei do Pano na ordem Como Comprar → Avaliações → Novidades → Dicas → Vendedoras",
+      "channel": "instagram",
+      "time_estimate": "2h",
+      "expected_impact": "Facilita a navegação do perfil e cria uma sequência clara de conversão para quem chega vindo de um anúncio ou indicação",
+      "who_does_it": "designer",
+      "steps": [
+        "Definir os 7 destaques finais da Rainha Modas",
+        "Criar capas iconográficas consistentes com o Manual de Marca",
+        "Reordenar os destaques do Rei do Pano na sequência sugerida",
+        "Publicar prints reais de avaliações/WhatsApp no destaque 'Avaliações'"
+      ]
+    }
+  ],
+  "key_insight": {
+    "headline": "O maior ponto de fuga não é falta de tráfego — é confiança quebrada bem no meio do caminho: Instagram sem prova social e WhatsApp com DDD de outro estado, na hora exata em que o cliente já decidiu comprar e só falta escolher onde.",
+    "context": "O público principal das duas marcas já está no nível 3 de consciência (sabe que quer renovar o enxoval ou se vestir melhor, ainda não decidiu onde) — ou seja, os anúncios futuros não precisam criar desejo do zero, precisam apresentar o grupo como a escolha óbvia. Mas hoje, exatamente na etapa em que essa decisão é tomada, a Rainha Modas mostra fotos de perfume de terceiros que 'passam o ar de golpe', o Rei do Pano não usa a nota 4,6/327 do Google como prova social no Instagram, e o WhatsApp central tem um número com DDD de outro estado.",
+    "numbered_reasons": [
+      "(1) O feed da Rainha Modas é dominado por fotos de banco de imagem de perfumes de marcas terceiras, sem nenhuma prova de que o produto existe fisicamente na loja",
+      "(2) O número de WhatsApp central encontrado tem DDD 65 (Mato Grosso), divergente da região de operação (Rondônia, DDD 69) — sem confirmação de que é o número correto",
+      "(3) Corrigir bio, destaques, fotos e o número de WhatsApp são ações de baixo esforço e alto impacto, executáveis antes mesmo de qualquer campanha paga subir"
+    ],
+    "discussion_anchor": "Ponto para Luiz e Terezinha decidirem: aprovar agora esses ajustes de confiança (bio, destaques, fotos reais, número de WhatsApp) enquanto o Pixel/GTM é instalado em paralelo — sem isso, qualquer verba de mídia paga futura vai jogar tráfego frio contra uma vitrine digital que ainda gera desconfiança na etapa decisiva."
+  },
+  "honesty_alert": "Esta auditoria foi reconstruída a partir de documentos brutos (PDF/DOCX) produzidos em maio de 2026 e da due diligence/handoff de 13/09/2026 — não houve screenshots novos analisados nem acesso direto aos perfis/ferramentas nesta rodada (screenshots_analyzed: false em todos os canais). Os scores por canal são leituras qualificadas da evidência textual disponível, não medições diretas de plataforma. Dois achados exigem validação prioritária com o cliente antes de qualquer decisão de investimento: (1) o número de WhatsApp central tem DDD de outro estado (65, Mato Grosso, em vez de 69, Rondônia) — pode ser erro de captura ou número de fato incorreto; (2) a filial Colorado do Oeste mantém Instagram e Facebook próprios (@reidopano.colorado), o que contradiz a decisão documentada no Manual de Marca de unificar as 3 lojas num único perfil. Nenhum dos dois pontos foi confirmado como resolvido nos materiais disponíveis."
+}

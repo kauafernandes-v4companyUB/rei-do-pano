@@ -1,0 +1,363 @@
+{
+  "client_name": "Rei do Pano & Rainha Modas",
+  "summary": "A landing page do grupo já está publicada e ativa em https://rei-do-pano.vercel.app/, com 14 blocos confirmados ao vivo em 13/09/2026 (header/nav, hero 'Construindo um Novo Reinado', vantagens, Nossa História, mix de 4 categorias de produto, segmentação B2C/B2B, galeria, depoimentos com 4,6/5,0 em 327 avaliações, presença regional com 3 lojas, formulário de cotação de 6 campos, FAQ de 6 perguntas, CTA final, footer e modal de confirmação) — uma estrutura que expande as 5 seções originalmente previstas no Briefing Mestre. A LP é inteiramente dedicada ao Rei do Pano (a Rainha Modas aparece só como grupo na narrativa institucional), e segue pendente a confirmação de quais eventos (clique no WhatsApp e/ou envio do formulário) estão configurados como conversão no Pixel/GTM.",
+  "summary_headline": "LP do Rei do Pano no ar com 14 blocos reais (o planejado previa 5) — tracking de conversão no Pixel/GTM ainda não confirmado.",
+  "summary_highlights": [
+    {
+      "category": "posicao",
+      "label": "Status da entrega",
+      "value": "Publicada e ativa em produção",
+      "subtext": "https://rei-do-pano.vercel.app/ — 14 blocos verificados ao vivo (WebFetch, 13/09/2026), hospedada na Vercel.",
+      "tone": "green"
+    },
+    {
+      "category": "maturidade",
+      "label": "Estrutura entregue vs. planejada",
+      "value": "14 blocos publicados x 5 previstos no Briefing Mestre",
+      "subtext": "Mantém hero, categorias, vantagens, prova social e geo do plano original e adiciona Nossa História, Segmentação B2C/B2B, Galeria, FAQ e Formulário de Cotação estruturado.",
+      "tone": "green"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Geração de lead",
+      "value": "2 canais de conversão simultâneos",
+      "subtext": "CTA de WhatsApp direto + Formulário de Cotação (Nome, WhatsApp, Cidade, UF, Categoria, Mensagem) — evolução em relação ao objetivo original de só 'coletar lead ou direcionar ao WhatsApp'.",
+      "tone": "green"
+    },
+    {
+      "category": "risco",
+      "label": "Tracking de conversão",
+      "value": "Não confirmado no Pixel/GTM",
+      "subtext": "Não está confirmado se o clique no WhatsApp e/ou o envio do formulário estão configurados como evento de conversão — pré-requisito antes de atribuir qualquer lead da LP a uma campanha.",
+      "tone": "red"
+    },
+    {
+      "category": "risco",
+      "label": "WhatsApp central — DDD divergente",
+      "value": "(65) 99927-9546 usa DDD de MT, não de RO",
+      "subtext": "Handoff sinaliza que o DDD 65 é do Mato Grosso, enquanto a operação é em Rondônia (DDD 69) — confirmar se o número está correto/ativo antes de usá-lo como destino de campanha paga.",
+      "tone": "yellow"
+    },
+    {
+      "category": "janela",
+      "label": "Rainha Modas sem LP própria",
+      "value": "A LP publicada é 100% Rei do Pano",
+      "subtext": "Rainha Modas aparece só como grupo/holding em Nossa História e no Footer ('Grupo Rainha Modas') — sem seção de produto, formulário ou FAQ dedicados à marca de moda nesta página.",
+      "tone": "yellow"
+    }
+  ],
+  "summary_key_findings": [
+    {
+      "category": "vantagem",
+      "text": "A LP publicada tem 14 blocos reais (verificados ao vivo em 13/09/2026), superando os 5 blocos originalmente previstos no Briefing Mestre — mantém hero, categorias, vantagens, prova social e geo, e adiciona Nossa História, Segmentação B2C/B2B, Galeria, FAQ e Formulário de Cotação estruturado."
+    },
+    {
+      "category": "contexto",
+      "text": "O Formulário de Cotação foi confirmado ao vivo com os 6 campos exatos (Nome, WhatsApp, Cidade, UF, Categoria de Interesse, Mensagem/Produto Específico), as 5 opções reais do dropdown de Categoria (incluindo 'Abertura de Crediário Próprio') e o aviso 'Seus dados estão protegidos'."
+    },
+    {
+      "category": "contexto",
+      "text": "A landing page publicada é inteiramente dedicada ao Rei do Pano — a Rainha Modas aparece apenas na narrativa de grupo ('Grupo Rainha Modas', seção Nossa História e Footer), sem seção de produto, formulário ou FAQ próprios; não existe uma segunda LP nem uma versão para a marca de moda."
+    },
+    {
+      "category": "ameaca",
+      "text": "Não está confirmado quais eventos de conversão — clique no botão de WhatsApp e/ou envio do Formulário de Cotação — estão de fato configurados no Pixel Meta/GTM desta página. Isso bloqueia a atribuição confiável de leads da LP a campanhas específicas, e é pré-requisito já citado no diagnóstico e no forecast de mídia (ee-s3-forecast-midia) antes de qualquer otimização por conversão."
+    },
+    {
+      "category": "acao",
+      "text": "Confirmar se o WhatsApp central exibido na LP e no formulário — (65) 99927-9546, com DDD de Mato Grosso — é de fato o número correto/ativo da operação em Rondônia (DDD 69), antes de usá-lo como destino de cliques pagos."
+    }
+  ],
+  "sections": [
+    {
+      "name": "hero",
+      "headline": "Construindo um Novo Reinado",
+      "subheadline": "A maior variedade de tecidos e decoração, agora a um clique de você.",
+      "body": "Há mais de 30 anos vestindo e decorando lares no atacado e varejo. Qualidade impecável com as facilidades exclusivas do nosso crediário próprio.",
+      "cta_primary": "Falar com um Vendedor no WhatsApp ↗",
+      "cta_secondary": "Ver Vantagens",
+      "stats": [
+        { "number": "30+", "label": "Anos de História" },
+        { "number": "3", "label": "lojas (Vilhena, Colorado e Cerejeiras)" },
+        { "number": "3.000m²", "label": "Estrutura Física Sede" }
+      ]
+    },
+    {
+      "name": "solution",
+      "eyebrow": "Vantagens",
+      "headline": "Por que comprar com o Rei do Pano?",
+      "benefits": [
+        {
+          "icon": "credit-card",
+          "title": "Crediário próprio em até 6x sem juros",
+          "body": "Facilitamos sua compra direto na loja, sem burocracias de bancos e sem comprometer o limite do seu cartão de crédito. É a nossa maneira tradicional de apoiar suas conquistas."
+        },
+        {
+          "icon": "crown",
+          "title": "História e tradição sólida",
+          "body": "Há mais de 30 anos (completando 40 anos de grupo regional) de portas abertas. Um patrimônio local que garante procedência, variedade e compromisso autêntico com a região."
+        },
+        {
+          "icon": "heart-handshake",
+          "title": "Atendimento caloroso e humano",
+          "body": "Aqui você é tratado com carinho especial e proximidade. Valorizamos cada cliente como parte da nossa família, proporcionando resoluções simples e descomplicadas."
+        }
+      ],
+      "cta": "Falar com Nossos Vendedores ↗"
+    },
+    {
+      "name": "authority",
+      "eyebrow": "Nossa Trajetória",
+      "headline": "Estrutura de Grande Porte.",
+      "body": "Unindo a tradição de quase 40 anos do Rei do Pano com a força do Grupo Rainha Modas, consolidamos a maior e mais completa estrutura de tecidos, cama, mesa, banho e utilidades do Cone Sul de Rondônia. Com mais de 3.000m² de área física, equipada com escada e elevador para seu total conforto, garantimos uma experiência de compra excepcional e o crediário próprio familiar facilitado que você já conhece e confia.",
+      "bullets": [
+        "Estrutura moderna e acessível com 3.000m², escada e elevador",
+        "O maior crediário próprio regional, sem juros em até 6x",
+        "Atendimento caloroso e próximo que valoriza você",
+        "Preço justo direto do atacado para tapeceiros, costureiras e artesãos"
+      ],
+      "unavailable_reason": "Não há credenciais/timeline de formação neste bloco (não é seção de autoridade pessoal-física) — o bloco real é institucional/de trajetória de marca, por isso 'credentials[]' foi omitido em vez de inventado."
+    },
+    {
+      "name": "deliverables",
+      "eyebrow": "Produtos",
+      "items": [
+        {
+          "title": "Cama, Mesa & Banho",
+          "benefit": "Enxovais completos de alto padrão, toalhas macias, lençóis de alta contagem de fios e jogos de mesa coordenados para renovar o aconchego do seu lar.",
+          "cta": "Ver Cama, Mesa & Banho →"
+        },
+        {
+          "title": "Tecidos & Aviamentos",
+          "benefit": "Milhares de opções de tecidos por metro (tricoline, linho, cetim, sarja) e itens de armarinho completos para costureiras, artesãos e tapeceiros.",
+          "cta": "Ver Tecidos & Aviamentos →"
+        },
+        {
+          "title": "Eletros & Utilidades",
+          "benefit": "Eletrodomésticos modernos, panelas e jogo de louças premium para trazer praticidade, design de ponta e facilidade para o dia a dia na sua cozinha.",
+          "cta": "Ver Eletros & Utilidades →"
+        },
+        {
+          "title": "Cortinas Sob Medida",
+          "benefit": "Confecção exclusiva sob medida para a sua janela. Tecidos de alta qualidade, acabamento primoroso e caimento perfeito feito por especialistas.",
+          "cta": "Cotar Cortina Sob Medida →"
+        }
+      ],
+      "unavailable_reason": "Headline textual específica deste bloco na página ao vivo não foi capturada pela extração (só os títulos, descrições e CTAs de cada categoria) — não inventado; 'eyebrow' usa o rótulo real do menu de navegação ('Produtos')."
+    },
+    {
+      "name": "secondary_audience",
+      "eyebrow": "Quem Atendemos",
+      "segments": [
+        {
+          "title": "B2C — Dona de Casa e Famílias",
+          "body": "Para quem quer renovar o quarto dos filhos, montar o enxoval de casamento ou trazer um eletrodoméstico moderno para facilitar a rotina da casa. Facilitamos sua compra no crediário em até 6x sem juros para que você realize o seu sonho sem burocracia."
+        },
+        {
+          "title": "B2B — Costureiras e Tapeceiros",
+          "body": "Profissionais de confecção, estofaria e decoração encontram em nossas lojas uma enorme variedade de tecidos premium por metro e aviamentos completos. Oferecemos preços competitivos de atacado e prazo de crediário para impulsionar o seu negócio regional."
+        }
+      ],
+      "unavailable_reason": "Headline textual específica deste bloco não foi capturada pela extração (só os textos de cada segmento) — não inventado; 'eyebrow' usa o rótulo real do menu de navegação ('Quem Atendemos')."
+    },
+    {
+      "name": "social_proof",
+      "unavailable_reason": "Headline textual deste bloco na página ao vivo não foi capturada pela extração (só o conteúdo dos depoimentos e a nota agregada) — não inventado. Conteúdo completo dos depoimentos está no campo raiz 'social_proof'."
+    },
+    {
+      "name": "location",
+      "eyebrow": "Nossas Lojas",
+      "units": [
+        {
+          "name": "Vilhena (Sede)",
+          "address": "Av. Major Amarante, 3295 – Centro, Vilhena - RO",
+          "phone": "(69) 3321-4080 / (69) 3321-2146",
+          "whatsapp": "(65) 99927-9546",
+          "note": "Loja ampla com 3.000m², elevador e escada para seu conforto."
+        },
+        {
+          "name": "Colorado do Oeste",
+          "address": "Avenida Solimões, 4140 – Centro, Colorado do Oeste - RO",
+          "phone": "(69) 3341-2623",
+          "whatsapp": "(69) 3341-2623",
+          "note": "Atendimento próximo e aconchegante para a comunidade de Colorado."
+        },
+        {
+          "name": "Cerejeiras",
+          "address": "Centro, Cerejeiras - RO",
+          "phone": null,
+          "whatsapp": "(65) 99927-9546",
+          "note": "Praticidade e agilidade com suporte direto de vendedoras experientes.",
+          "unavailable_reason": "Número de telefone fixo/endereço completo (rua/número) de Cerejeiras não confirmado nem no site nem no handoff — só 'Centro, Cerejeiras - RO' está disponível; não inventado."
+        }
+      ],
+      "unavailable_reason": "Headline textual específica deste bloco não foi capturada pela extração — não inventado; 'eyebrow' usa o rótulo real do menu de navegação/footer ('Nossas Lojas')."
+    },
+    {
+      "name": "final_cta",
+      "eyebrow": "O Novo Reinado",
+      "headline": "O Novo Reinado",
+      "subheadline": "Renove a sua casa com a maior variedade regional.",
+      "body": "Fale agora mesmo com as nossas vendedoras via WhatsApp comercial e faça as suas compras de tecidos e utilidades no crediário facilitado.",
+      "cta_primary": "Falar no WhatsApp Comercial ↗"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Como funciona o crediário próprio do Rei do Pano?",
+      "answer": "O crediário é facilitado e sem burocracia, feito diretamente em uma de nossas lojas físicas em Vilhena, Colorado do Oeste ou Cerejeiras. Você pode parcelar suas compras em até 6x sem juros, permitindo renovar sua casa sem estourar o limite do seu cartão de crédito."
+    },
+    {
+      "question": "Posso comprar tecidos por metro pelo WhatsApp?",
+      "answer": "Com certeza! Pelo nosso atendimento de WhatsApp comercial, você pode solicitar fotos e vídeos dos tecidos disponíveis por metro (como tricoline, linho, cetim e outros), consultar estampas e fechar sua compra diretamente com a nossa equipe."
+    },
+    {
+      "question": "Vocês fazem cortinas sob medida?",
+      "answer": "Sim, fazemos! Você pode passar as dimensões aproximadas da sua janela no WhatsApp, escolher o tecido e nós fazemos a confecção completa e personalizada da cortina perfeita para o seu ambiente."
+    },
+    {
+      "question": "Quais são os canais de atendimento e lojas físicas?",
+      "answer": "Possuímos nossa loja física principal (sede) com 3.000m² em Vilhena - RO, e duas filiais ativas em Colorado do Oeste - RO e Cerejeiras - RO. Você pode entrar em contato com a loja mais próxima usando os botões da nossa seção geográfica acima."
+    },
+    {
+      "question": "Costureiras e tapeceiros têm condições especiais?",
+      "answer": "Sim! Oferecemos preços especiais no atacado e prazos diferenciados no crediário para profissionais locais de confecção e estofamento que adquirem tecidos e aviamentos de forma regular. Fale com um vendedor pelo formulário e peça suporte profissional."
+    },
+    {
+      "question": "Quais as formas de pagamento aceitas?",
+      "answer": "Aceitamos o nosso crediário próprio facilitado, cartões de crédito e débito, PIX e pagamento em espécie diretamente no caixa de nossas unidades físicas."
+    }
+  ],
+  "social_proof": {
+    "testimonials": [
+      {
+        "name": "Maria Eduarda S.",
+        "role": null,
+        "text": "Adoro comprar no Rei do Pano! A loja de Vilhena é gigante, com elevador e escada, e o atendimento é impecável. Fiz todo o enxoval da minha filha no crediário próprio, sem juros. Facilitou demais a nossa vida!",
+        "source": "Landing page publicada (rei-do-pano.vercel.app)",
+        "rating": 5,
+        "neighborhood": "Vilhena / RO"
+      },
+      {
+        "name": "Tereza F.",
+        "role": "Costureira profissional (B2B)",
+        "text": "Sou costureira profissional e compro tecidos por metro e aviamentos lá. A variedade é incrível, sempre tem novidades e o preço no atacado é ótimo. O atendimento no WhatsApp me poupa muito tempo.",
+        "source": "Landing page publicada (rei-do-pano.vercel.app)",
+        "rating": 5,
+        "neighborhood": "Colorado do Oeste / RO"
+      },
+      {
+        "name": "Valéria M.",
+        "role": null,
+        "text": "A melhor loja para artigos de casa no Cone Sul! Eu moro em Cerejeiras e sempre peço pelo WhatsApp. Elas mandam fotos dos lençóis e panelas, e entregam bem rápido na minha cidade.",
+        "source": "Landing page publicada (rei-do-pano.vercel.app)",
+        "rating": 5,
+        "neighborhood": "Cerejeiras / RO"
+      }
+    ],
+    "stats": [
+      { "number": "4,6/5,0", "label": "avaliação média no Google Meu Negócio (327 avaliações)" }
+    ]
+  },
+  "meta": {
+    "title": "Rei do Pano | Tecidos, Decoração e Crediário Próprio",
+    "title_live_full": "Rei do Pano | Tecidos, Decoração e Crediário Próprio em Vilhena - RO",
+    "title_length_note": "O title tag real em produção tem 68 caracteres (acima do limite de 60 do padrão desta skill). O campo 'title' acima foi truncado de forma fiel ao texto real (sem inventar palavras) para respeitar o limite do schema; 'title_live_full' guarda o texto exato como está publicado.",
+    "description": "unavailable_reason: meta description não exposta pela extração (converte para markdown, não expõe <head>); confirmar no código-fonte publicado.",
+    "og_title": "unavailable_reason: tag og:title não inspecionada (WebFetch não expõe meta tags do <head>); não confirmado se existe ou se replica o title tag.",
+    "og_description": "unavailable_reason: tag og:description não inspecionada pelo mesmo motivo do og:title; não confirmado nem inventado.",
+    "og_type": "website"
+  },
+  "deploy_url": "https://rei-do-pano.vercel.app/",
+  "whatsapp_link": "https://wa.me/5565999279546?text=Ol%C3%A1!%20Vi%20a%20p%C3%A1gina%20do%20Rei%20do%20Pano%20e%20quero%20saber%20mais%20sobre%20os%20produtos%20e%20o%20credi%C3%A1rio%20pr%C3%B3prio.",
+  "whatsapp_number_note": "Número usado no botão/formulário é o WhatsApp central real exibido na LP e no footer: (65) 99927-9546. Divergência já sinalizada em handoff-account-manager.md (seção 1): DDD 65 é do Mato Grosso, enquanto a operação é em Rondônia (DDD 69) — não corrigido aqui por não ser confirmação de erro, apenas registro fiel do dado publicado; recomenda-se validar com o cliente antes de vincular este número a mídia paga.",
+  "navigation": {
+    "menu_items": ["Início", "Vantagens", "Produtos", "Quem Atendemos", "História", "Nossas Lojas"],
+    "cta": "Solicitar Cotação",
+    "unavailable_reason": "Itens listados foram confirmados ao vivo na navegação do footer (WebFetch, 13/09/2026). O menu do header pode ter o item adicional 'FAQ' e rótulo 'Clientes' em vez de outro, conforme descrito em base-de-conhecimento/06-landing-page-copy-criativos.md (bloco 1), mas isso não foi reconfirmado byte a byte no header ao vivo — registrar como pendência menor, não inventar a lista definitiva do header."
+  },
+  "gallery": [
+    { "theme": "Vitrine", "description": "Vitrine sofisticada com almofadas douradas e cortinas vermelhas elegantes" },
+    { "theme": "Enxoval", "description": "Toalhas macias com bordado dourado e textura de spa" },
+    { "theme": "Confecção", "description": "Máquina de costura costurando tecido de cetim vermelho em detalhe" },
+    { "theme": "Mesa Posta", "description": "Mesa de jantar elegante decorada com caminhos de mesa de linho vermelho" },
+    { "theme": "Sob Medida", "description": "Mãos de costureira ajustando o caimento de uma cortina sob medida" }
+  ],
+  "quote_form": {
+    "fields": [
+      { "name": "Seu Nome", "type": "texto", "required": true },
+      { "name": "WhatsApp", "type": "telefone", "required": true },
+      { "name": "Cidade", "type": "texto", "required": true },
+      { "name": "UF", "type": "texto", "required": true },
+      {
+        "name": "Categoria de Interesse",
+        "type": "dropdown",
+        "required": true,
+        "options": [
+          "Selecione um segmento",
+          "Tecidos por Metro & Aviamentos",
+          "Cama, Mesa & Banho",
+          "Eletros & Utilidades Domésticas",
+          "Cortinas Sob Medida",
+          "Abertura de Crediário Próprio"
+        ]
+      },
+      { "name": "Mensagem / Produto Específico", "type": "textarea", "required": true }
+    ],
+    "privacy_notice": "Seus dados estão protegidos",
+    "submit_cta": "Falar com um Vendedor no WhatsApp →",
+    "conversion_tracking": {
+      "status": "não confirmado",
+      "description": "Não está confirmado se o envio deste formulário está configurado como evento de conversão (ex.: 'Lead') no Pixel Meta/GTM da página — mesma pendência já registrada para o clique no botão de WhatsApp.",
+      "fonte": "base-de-conhecimento/06-landing-page-copy-criativos.md (seção 3); handoff-account-manager.md (seção 18)"
+    }
+  },
+  "footer": {
+    "brand_lockup": "REI DO PANO RAINHA MODAS",
+    "tagline": "Há mais de 30 anos vestindo e decorando lares no Cone Sul de Rondônia. Loja de grande porte com variedade absoluta no atacado e varejo.",
+    "menu_items": ["Início", "Vantagens", "Produtos", "Quem Atendemos", "História", "Nossas Lojas"],
+    "contact": {
+      "whatsapp_central": "(65) 99927-9546",
+      "email": "contato@reidopanooficial.com.br"
+    },
+    "units_listed": [
+      "Vilhena (Sede) — Av. Major Amarante, 3295 · Centro",
+      "Colorado do Oeste — Avenida Solimões, 4140 · Centro",
+      "Cerejeiras — Centro"
+    ],
+    "copyright": "© 2026 Rei do Pano (Grupo Rainha Modas) · Todos os direitos reservados. Orgulhosamente atendendo Vilhena, Colorado e Cerejeiras",
+    "final_link": "Fale Conosco"
+  },
+  "confirmation_modal": {
+    "headline": "Mensagem Enviada",
+    "body": "Sua solicitação de cotação foi enviada! O atendimento comercial do Rei do Pano iniciará a conversa no WhatsApp para te dar todo o suporte e enviar as imagens dos produtos.",
+    "cta": "Voltar ao site"
+  },
+  "page_structure_full": [
+    { "order": 1, "block": "Header/Navegação", "maps_to": "campo raiz 'navigation'" },
+    { "order": 2, "block": "Hero", "maps_to": "sections[0] (name: hero)" },
+    { "order": 3, "block": "Vantagens", "maps_to": "sections[] (name: solution)" },
+    { "order": 4, "block": "Nossa História / Trajetória", "maps_to": "sections[] (name: authority)" },
+    { "order": 5, "block": "Mix de Produtos", "maps_to": "sections[] (name: deliverables)" },
+    { "order": 6, "block": "Segmentação de Clientes B2C/B2B", "maps_to": "sections[] (name: secondary_audience)" },
+    { "order": 7, "block": "Galeria Visual", "maps_to": "campo raiz 'gallery'" },
+    { "order": 8, "block": "Depoimentos/Provas Sociais", "maps_to": "sections[] (name: social_proof) + campo raiz 'social_proof'" },
+    { "order": 9, "block": "Presença Regional / Lojas", "maps_to": "sections[] (name: location)" },
+    { "order": 10, "block": "Formulário de Cotação", "maps_to": "campo raiz 'quote_form'" },
+    { "order": 11, "block": "FAQ (6 perguntas)", "maps_to": "campo raiz 'faq'" },
+    { "order": 12, "block": "CTA Final", "maps_to": "sections[] (name: final_cta)" },
+    { "order": 13, "block": "Footer", "maps_to": "campo raiz 'footer'" },
+    { "order": 14, "block": "Modal de confirmação", "maps_to": "campo raiz 'confirmation_modal'" }
+  ],
+  "planned_vs_delivered": {
+    "planned_source": "Briefing Mestre, seção '04 — Landing Page B2C/B2B' (5 blocos: Hero, Categorias, Vantagens Competitivas, Prova Social, Direcionamento Geográfico)",
+    "delivered_source": "Verificação ao vivo de https://rei-do-pano.vercel.app/ (WebFetch, 13/09/2026) + base-de-conhecimento/06-landing-page-copy-criativos.md",
+    "conclusion": "A LP publicada cumpre e expande a estrutura originalmente prevista: mantém hero, categorias, vantagens, prova social e direcionamento geográfico como planejado, e adiciona Nossa História, Segmentação B2C/B2B, Galeria, FAQ e um Formulário de Cotação estruturado que não estava detalhado no briefing original."
+  },
+  "code_location": null,
+  "code_location_unavailable_reason": "A LP não tem pasta de código-fonte dentro deste projeto (clientes/rei-do-pano/) — foi publicada diretamente na Vercel a partir de um repositório/processo externo ao workspace desta Estruturação Estratégica. Nenhum diretório 'landing-rei-do-pano' ou 'semana-4' com o código foi localizado; não inventado.",
+  "tech_stack_unavailable_reason": "Stack técnica exata (framework, fontes carregadas via código, forma de build) não confirmada — apenas o resultado publicado foi verificado via WebFetch, sem acesso ao código-fonte ou ao repositório de deploy.",
+  "local_test_unavailable_reason": "Não há registro de teste local (build/preview) nos materiais — a LP já foi publicada por um fluxo anterior ao processo formal desta skill; apenas a verificação em produção (HTTP ao vivo) foi realizada nesta formalização.",
+  "completed_at_original_unavailable_reason": "Data original de deploy/aprovação da LP não está registrada em nenhuma fonte disponível (client.json traz 'completed_at: null' para ee-s3-landing-page); apenas a data desta formalização é conhecida com certeza.",
+  "formalized_at": "2026-09-13"
+}

@@ -1,0 +1,372 @@
+{
+  "client_name": "Rei do Pano & Rainha Modas",
+  "summary": "Este Manual de Marca formaliza, no schema oficial de 5 blocos, o conteúdo já produzido e aprovado no Manual de Marca/Key Visual entregue pela V4 em parceria com o estúdio Kuri & Co. (31 páginas, PDF em `05/KV - Rei do Pano.pdf`) — não há criação de conteúdo novo, apenas reorganização e formalização. Cobre as duas marcas do grupo (Rei do Pano e Rainha Modas) sob o conceito guarda-chuva 'O Novo Reinado', preservando explicitamente a divergência já sinalizada na fonte sobre os Pilares e Valores da Rainha Modas.",
+  "summary_headline": "Manual de Marca formaliza 'O Novo Reinado' (Rei do Pano + Rainha Modas): manifesto, DNA, arquétipos e paleta já aprovados — com 1 divergência de conteúdo pendente de correção.",
+  "summary_highlights": [
+    {"category": "posicao", "label": "Conceito de marca", "value": "O Novo Reinado", "subtext": "Duas marcas, dois 'tronos digitais', um só grupo — decisão narrativa já aprovada em kick-off", "tone": "blue"},
+    {"category": "maturidade", "label": "Escopo do manual", "value": "Established", "subtext": "30+ anos, base ativa (Linx) — Blocos 1-3 completos + Bloco 4 ampliado (papelaria, digital, redes, uniforme, veículo, fachada)", "tone": "gray"},
+    {"category": "oportunidade", "label": "Paleta formalizada", "value": "Rei do Pano: vermelho #c20605 + dourado #c6a000 · Rainha Modas: cinza #b2b2b2 + dourado #c6a000", "subtext": "Hex exatos confirmados na fonte; RGB/CMYK calculados, Pantone/HSL não levantados", "tone": "green"},
+    {"category": "risco", "label": "Fonte de títulos 'Dunkerque'", "value": "Não disponível no Google Fonts", "subtext": "Fonte comercial (DaFont/MadFonts) já em uso nas peças aprovadas — diverge da regra de Google Fonts obrigatório desta skill; substituto recomendado só para uso digital: Anton", "tone": "red"},
+    {"category": "risco", "label": "Pilares e Valores — Rainha Modas", "value": "Conteúdo inválido, pendente de correção", "subtext": "Slide reutiliza texto literal do Rei do Pano ('40 anos', '3.000 m²') — sinalizado como erro de produção, não como posicionamento da Rainha Modas", "tone": "red"},
+    {"category": "acao", "label": "Regras de marca (nunca fazer)", "value": "4 regras de conteúdo formalizadas", "subtext": "Sem legenda · música dessincronizada · marca d'água CapCut · username em formato de domínio", "tone": "yellow"}
+  ],
+  "summary_key_findings": [
+    {"category": "vantagem", "text": "O sistema de identidade já parte de um ativo forte e coerente: a metáfora do 'reinado' (coroa para o Rei do Pano, tiara para a Rainha Modas) amarra manifesto, arquétipos, logo e storytelling numa única narrativa, já aprovada em kick-off e validada como decisão vigente para manter os dois perfis de Instagram separados."},
+    {"category": "contexto", "text": "As duas marcas compartilham uma base real de atributos (Confiável, Familiar, Consultiva, Completa, Humana) e a cor dourada, mas têm núcleos de personalidade e paletas de suporte propositalmente distintos (vermelho/institucional para Rei do Pano; cinza/sóbrio para Rainha Modas) — essa duplicidade foi preservada neste manual em vez de forçada numa identidade única."},
+    {"category": "ameaca", "text": "A fonte de títulos 'Dunkerque', já usada nas peças aprovadas pelo estúdio Kuri & Co., não está disponível no Google Fonts (é uma fonte comercial hospedada em DaFont/MadFonts) — isso diverge da regra obrigatória desta skill para tipografia digital. Documentado como pendência, com substituto recomendado (Anton) apenas para propriedades web, sem descartar o Dunkerque original das peças já produzidas."},
+    {"category": "acao", "text": "O slide 'Pilares e Valores' da Rainha Modas no Manual de Marca original reutiliza o texto literal do Rei do Pano (incluindo '40 anos', '3.000 m²' e linguagem de tecidos/casa) — isso está marcado neste manual como conteúdo PENDENTE DE CORREÇÃO, não como pilar válido da Rainha Modas. Ação recomendada: confirmar com o estúdio Kuri & Co./cliente se existe versão customizada para moda antes de usar essa peça em qualquer comunicação."},
+    {"category": "acao", "text": "As 4 regras de 'nunca fazer' já identificadas na auditoria de comunicação (sem legenda, música dessincronizada, marca d'água CapCut, username em formato de domínio) foram formalizadas no campo de usos incorretos deste manual, junto com 2 aprendizados adicionais de performance orgânica (Reels na horizontal, banco de imagens de terceiros no feed) — nenhuma delas exige produção nova, apenas correção de execução do que já é feito."}
+  ],
+  "scope": "established",
+  "block1_strategic_foundations": {
+    "presentation": {
+      "opening_letter": null,
+      "opening_letter_note": "unavailable_reason: os materiais-fonte (base-de-conhecimento/03-posicionamento-e-manual-de-marca.md e handoff-account-manager.md) não registram uma carta de abertura assinada por Luiz ou Terezinha — apenas o Manifesto oficial, que está preenchido em manifesto_narrative.",
+      "manifesto_short": "Há mais de 30 anos, cuidamos da sua família e do seu lar com atendimento humano e crediário facilitado — nunca como um número.",
+      "manifesto_narrative": "Há quatro décadas, nascemos com a missão de acolher e cuidar do que você tem de mais sagrado: a sua família e o seu lar. Crescemos, conquistamos as províncias do Cone Sul e nos tornamos a maior referência da região. Mas o mercado mudou. As grandes redes trouxeram o autoatendimento frio, onde você é apenas mais um número. Nós acreditamos no oposto. Acreditamos que o cliente é o nosso maior patrimônio e que cada pessoa merece um atendimento humano, com o carinho de quem te conhece pelo nome. Acreditamos que reformar a casa ou vestir a família não deve ser um peso, mas a realização de um sonho facilitado pelo nosso crediário próprio. Para que a nossa presença digital tenha a mesma imponência física dos nossos castelos, o reino se expandiu. Agora, o Rei do Pano e a Rainha Modas ocupam tronos separados na internet. Duas marcas focadas exclusivamente nos seus desejos, mas unidas pelo mesmo compromisso de sempre.",
+      "manifesto_narrative_source_note": "Manifesto oficial reproduzido verbatim do Manual de Marca (fonte: base-de-conhecimento/03-posicionamento-e-manual-de-marca.md, seção 1). Divergência de tempo de mercado já documentada em outra fonte ('mais de 30 anos' vs. 'quatro décadas' — ver client.json.briefing.identification.years_in_market); mantida aqui como no original, sem correção, por ser citação direta do manifesto aprovado.",
+      "navigation_instructions": "Este manual tem 5 blocos: 1) Fundamentos Estratégicos — o conceito 'O Novo Reinado', a essência e o posicionamento das duas marcas, para quem decide comunicação e parcerias; 2) Identidade Verbal — tom de voz, vocabulário e regras de diga/não diga, para quem escreve (social media, atendimento, futuros scripts de SDR); 3) Identidade Visual Core — o sistema de logo (coroa/tiara), paleta e tipografia, briefing para o designer; 4) Aplicações — onde o sistema aparece no dia a dia físico e digital das três lojas; 5) Governança — quem aprova o quê. Como as duas marcas têm paleta e tom parcialmente distintos, cada bloco sinaliza explicitamente onde o conteúdo é do grupo, do Rei do Pano ou da Rainha Modas."
+    },
+    "essence": {
+      "purpose": "Cuidar do que a família tem de mais sagrado — a casa (Rei do Pano) e a própria imagem (Rainha Modas) — com atendimento humano e crediário facilitado, no lugar do autoatendimento frio das grandes redes.",
+      "vision": "unavailable_reason: os materiais-fonte não registram uma declaração formal de visão de futuro (horizonte temporal, ambição de mercado) para o grupo — o mais próximo é a leitura de posicionamento desejado em base-de-conhecimento/03-posicionamento-e-manual-de-marca.md, seção 2: 'referência absoluta (Top of Mind) no Cone Sul de Rondônia em tecidos e artigos para o lar, unindo crediário facilitado + presença digital humanizada'.",
+      "mission": "Ser a referência regional em tecidos, cama/mesa/banho e utilidades domésticas (Rei do Pano) e em moda feminina acessível (Rainha Modas), sustentando o diferencial do crediário próprio sem juros e do atendimento humanizado que redes nacionais como a Havan não replicam.",
+      "values": [
+        {"name": "Atendimento humano e proximidade", "behavior_yes": "Chamar o cliente pelo nome, resolver trocas e problemas sem burocracia, absorver o prejuízo quando necessário", "behavior_no": "Tratar o cliente como número, empurrar política de troca rígida ou terceirizar o atendimento para um bot sem humano por trás"},
+        {"name": "Facilidade sem letra miúda", "behavior_yes": "Explicar o crediário próprio de forma simples, sem juros escondidos, com condição igual para quem compra pela loja ou pelo WhatsApp", "behavior_no": "Criar burocracia ou condição diferente para quem tenta comprar por canal digital"},
+        {"name": "Variedade com propósito", "behavior_yes": "Ter, num só lugar, do menor aviamento ao enxoval completo (Rei do Pano) ou do infantil ao adulto (Rainha Modas)", "behavior_no": "Reduzir o mix a apenas os itens de giro mais rápido, perdendo o argumento de 'tudo em um só lugar'"},
+        {"name": "Tradição que se moderniza", "behavior_yes": "Usar os 30+ anos de história como prova, ao mesmo tempo em que investe em identidade digital e mídia paga pela primeira vez", "behavior_no": "Tratar 'tradição' como desculpa para não modernizar a comunicação, ou abandonar a história ao tentar parecer 'moderno demais'"}
+      ],
+      "promise": "Você nunca será tratado como mais um número — o crediário próprio e o atendimento de quem te conhece pelo nome tornam renovar a casa ou o guarda-roupa mais fácil do que em qualquer rede nacional.",
+      "big_idea": "Enquanto as grandes redes vendem autoatendimento frio, o Rei do Pano e a Rainha Modas vendem o carinho de um reinado que te conhece pelo nome — com crediário próprio que nenhuma rede nacional ou e-commerce consegue replicar.",
+      "brand_pillars": [
+        {"name": "Atendimento Humano e Acolhimento", "description": "Relacionamento próximo de décadas com o cliente, atendimento consultivo nas lojas e resolução ágil de trocas — um cuidado regional que redes grandes não conseguem imitar."},
+        {"name": "Autonomia e Facilidade (Crediário Próprio)", "description": "Crediário próprio em até 6x sem juros, com baixa inadimplência (1,5%–2,5%) graças à confiança direta com a comunidade — a família renova a casa ou o guarda-roupa sem depender do limite do cartão."},
+        {"name": "Autoridade e Tradição em Variedade", "description": "Mais de 30 anos como referência do Cone Sul de Rondônia, com 3.000 m² e mix que vai do menor aviamento ao enxoval completo, para consumidor final e para o público profissional B2B (costureiras, ateliês, tapeçarias)."},
+        {"name": "Duas Marcas, Um Reinado", "description": "Rei do Pano e Rainha Modas crescem em 'tronos separados' — cada um com sua persona (Luís e Terezinha) e sua audiência — mas unidos pelo mesmo compromisso de atendimento e crediário facilitado."}
+      ],
+      "brand_pillars_by_brand_note": "IMPORTANTE — divergência sinalizada e preservada, não corrigida silenciosamente: no Manual de Marca original (fonte visual em 05/KV - Rei do Pano.pdf), o slide 'Pilares e Valores' da RAINHA MODAS reutiliza o texto literal dos 3 pilares do REI DO PANO (incluindo '40 anos', '3.000 m²' e 'do menor aviamento ao enxoval completo, para o consumidor final e para profissionais B2B') — conceitos que pertencem à categoria de tecidos/casa, não à moda. Isso tem aparência de erro de produção/cópia do fornecedor de design (Kuri & Co.), não de posicionamento intencional. Os 4 brand_pillars acima usam apenas o conteúdo genuinamente válido e compartilhável entre as duas marcas (atendimento, crediário, tradição, dualidade de marcas) — NÃO reproduzem o conteúdo copiado indevidamente. PENDENTE: confirmar com o cliente/fornecedor se existe uma versão customizada dos 'Pilares e Valores' específica da Rainha Modas (falando de moda, tendência, autoestima) antes de usar essa peça específica em qualquer material."
+    },
+    "positioning": {
+      "statement": "Para famílias e profissionais do Cone Sul de Rondônia que precisam renovar a casa (Rei do Pano) ou o guarda-roupa (Rainha Modas) sem estourar o orçamento, o grupo Rei do Pano & Rainha Modas é a única referência regional que combina crediário próprio sem juros com atendimento humanizado de mais de 30 anos — diferencial que nem a Havan (megastore nacional, sem crediário próprio e sem especialidade em tecidos) nem as Lojas Avenida (comunicação 100% promocional, sem atendimento consultivo) conseguem replicar.",
+      "statement_note": "unavailable_reason: não existe um Canvas de Posicionamento formal (ee-s2-posicionamento) nem uma matriz PUV validada nos materiais-fonte — ver base-de-conhecimento/03-posicionamento-e-manual-de-marca.md, seção 9, lacuna documentada. O statement acima é uma síntese formal (não invenção) construída a partir de dados já validados: real_differential e why_choose_us em client.json.briefing.competition, e a leitura de posicionamento atual/desejado da seção 2 da mesma fonte.",
+      "territory": "O território de marca é 'O Novo Reinado': tradição de décadas que se moderniza sem perder o atendimento humano, sustentada pelo crediário próprio como ativo não replicável digitalmente por concorrentes nacionais ou e-commerce. Rei do Pano ocupa o território de autoridade em tecidos e casa; Rainha Modas ocupa o território de desejo e autoestima em moda acessível — ambos sob o mesmo guarda-chuva de confiança e crediário facilitado.",
+      "archetype_dominant": {
+        "name": "Governante",
+        "justification": "Autoridade e liderança de quem domina o segmento há décadas — a marca evoca poder, estabilidade e soberania de mercado para ser a referência absoluta na mente do consumidor regional. Presente nas duas marcas: no Rei do Pano como autoridade em variedade/tradição, na Rainha Modas como autoridade de curadoria e qualidade em moda (\"a autoridade de quem dita tendências na região\")."
+      },
+      "archetype_secondary": {
+        "name": "Companheiro (Rei do Pano)",
+        "justification": "Remove a frieza corporativa e traz calor humano: trata cada cliente pelo nome, oferece crediário sem juros baseado em confiança, garante acolhimento familiar de décadas."
+      },
+      "archetype_secondary_rainha_modas_note": "A Rainha Modas usa um arquétipo secundário DIFERENTE do Rei do Pano: 'Amante', não 'Companheiro'. Justificativa da fonte: desperta autoestima, desejo e celebração da identidade feminina — cria uma atmosfera de atração e sofisticação onde cada peça é um convite para a cliente se sentir única e poderosa. Preservado aqui como nota separada porque o schema só admite um arquétipo secundário por manual, e as duas marcas divergem nesse ponto (fonte: base-de-conhecimento/03-posicionamento-e-manual-de-marca.md, seção 4).",
+      "competitive_matrix": {
+        "axis_x": "Porte/alcance (Regional → Nacional)",
+        "axis_y": "Especialização na categoria — tecidos/casa para Rei do Pano, moda para Rainha Modas (Baixa → Alta)",
+        "client_position": "Regional, alta especialização — Rei do Pano sem concorrência direta em tecidos por metro em Vilhena; Rainha Modas especializada em moda com o diferencial do crediário próprio",
+        "competitors": [
+          {"name": "Havan", "quadrant": "Nacional, mix amplo (casa/moda/eletro/ferramentas), baixa especialização em qualquer categoria específica — \"presente em tudo, especialista em nada\", sem crediário próprio"},
+          {"name": "Lojas Avenida", "quadrant": "Regional/nacional popular, moda genérica e comunicação 100% promocional, sem especialidade em tecidos nem crediário próprio (usa Cartão Avenida)"}
+        ]
+      },
+      "puv": "unavailable_reason: não há uma PUV formal no formato fixo '[Marca] combina [diferencial 1] com [diferencial 2] e [bônus exclusivo] para resolver [dor central], eliminando [problema do mercado]' nos materiais-fonte (Canvas de Posicionamento não foi produzido como skill formal — ver ee-s2-pesquisa-mercado nos 4Ps, base-de-conhecimento/03-posicionamento-e-manual-de-marca.md, seção 8). O equivalente mais próximo documentado na própria fonte é o Manifesto e o storytelling 'O Novo Reinado' (ver manifesto_narrative acima), explicitamente citados na lacuna 1 dessa fonte como 'a peça mais próxima de uma PUV narrativa'."
+    },
+    "audience_persona": {
+      "primary_persona": {
+        "name": "Dona Aparecida (Rei do Pano)",
+        "photo_description": "unavailable_reason: a fonte (base-de-conhecimento/01-persona-icp-jtbd.md) descreve idade, classe social, ocupação, estado civil e comportamento de compra da persona, mas não inclui nenhuma descrição física/visual de referência para foto.",
+        "age": "48 anos",
+        "income": "Classe C",
+        "occupation": "Dona de casa e auxiliar administrativo, casada, 2 filhos — Vilhena (RO)",
+        "main_pain": "Precisa renovar o enxoval/casa ou comprar tecido sem comprometer o orçamento, mas não sabe que a Rei do Pano anuncia online, tem medo de parcelar no cartão e desconfia da entrega/pós-venda de lojas de fora vistas no Instagram.",
+        "purchase_motivators": "Crediário próprio sem juros (usa há mais de 5 anos), atendimento humanizado de décadas, prova social (vizinhas/amigas usando o produto), cupom de primeira compra, variedade completa em um só lugar."
+      },
+      "secondary_persona": {
+        "name": "Camila (Rainha Modas)",
+        "age": "35 anos",
+        "occupation": "Professora, solteira — Vilhena (RO), classe B/C",
+        "main_pain": "Não conhece bem a Rainha Modas (associa o grupo mais ao Rei do Pano de tecidos), sente as opções de moda em Vilhena limitadas, e já se arrependeu de compras em lojas online de fora quando o produto chegou diferente do esperado.",
+        "purchase_motivators": "Moda acessível parcelada sem juros no crediário próprio, atendimento consultivo (não autoatendimento), looks completos sugeridos no feed/WhatsApp, sentir-se bonita e atualizada.",
+        "note": "Persona secundária tratada com o mesmo nível de profundidade do JTBD (Job Funcional/Emocional/Social) que a persona primária na fonte original — rebaixada a 'secondary' aqui apenas porque o schema exige uma única primary_persona e o Rei do Pano é a operação-âncora do grupo (3 lojas físicas vs. 1 para Rainha Modas)."
+      },
+      "anti_persona": null,
+      "anti_persona_note": "unavailable_reason: os materiais-fonte não definem um anti-persona explícito (perfil que a marca deliberadamente não quer atender) para nenhuma das duas marcas — apenas personas-alvo positivas (Dona Aparecida, Camila, e o segmento B2B de costureiras/ateliês/tapeçarias).",
+      "buyer_journey_summary": "Nível de consciência predominante: 'Consciente da Solução' (nível 3 da escala de 5 usada na fonte) — o público já sabe que quer renovar o enxoval, comprar tecido ou se vestir melhor, mas ainda não decidiu onde comprar. Jornada mapeada: Anúncio (Meta/Google, ainda não ativo) → WhatsApp ou Landing Page → Atendimento na loja física → Crediário próprio → Venda → registro no Linx (hoje não integrado ao funil comercial, atribuição manual). Pontos de perda identificados: Pixel Meta e GTM/GA4 ainda não instalados; setor de WhatsApp dedicado ainda em estruturação."
+    },
+    "history_culture": {
+      "origin": "Grupo regional do Cone Sul de Rondônia, sede em Vilhena (Av. Major Amarante, 3295), com filiais em Colorado do Oeste e Cerejeiras. Rei do Pano (tecidos, cama/mesa/banho, utilidades domésticas) e Rainha Modas (moda feminina) operam sob a mesma gestão familiar, com Luiz à frente do Rei do Pano e Terezinha à frente da Rainha Modas.",
+      "milestones": [
+        "30+ anos de operação como referência regional em tecidos e artigos para o lar (divergência de fonte já documentada: 'mais de 30 anos' no Briefing Mestre vs. 'quatro décadas' no Manifesto do Manual de Marca — ver client.json.briefing.identification.years_in_market)",
+        "Expansão da loja sede de Vilhena para 3.000 m², com elevador, e abertura das filiais em Colorado do Oeste e Cerejeiras",
+        "Consolidação da nota 4,6/5,0 no Google Meu Negócio com 327+ avaliações",
+        "Decisão de estruturação digital das duas marcas com perfis de Instagram separados ('dois tronos'), formalizada no Manual de Marca/Key Visual (2026)"
+      ],
+      "culture": "Cultura de atendimento humanizado e resolução de problemas sem burocracia ('o cliente é o nosso maior patrimônio, absorvemos o problema'), com decisões concentradas nos sócios-gestores de cada marca (Luiz e Terezinha) e equipe V4 (Leal Vieira & Co.) apoiando a estruturação digital.",
+      "legacy": "Referência regional consolidada em tecidos por metro sem concorrência direta em Vilhena, e base histórica de clientes cadastrados no sistema Linx — ativo de relacionamento ainda subutilizado digitalmente."
+    }
+  },
+  "block2_verbal_identity": {
+    "personality": {
+      "scales": [
+        {"trait_low": "Frio/Corporativo", "trait_high": "Caloroso/Familiar", "position": 9, "note": "Idêntico nas duas marcas — atributo 'Familiar' aparece no anel externo de ambas as rodas de personalidade."},
+        {"trait_low": "Genérico", "trait_high": "Especialista/Autoridade", "position": 9, "note": "Rei do Pano: autoridade em variedade de tecidos (30+ anos, sem concorrência direta). Rainha Modas: autoridade de curadoria em moda regional."},
+        {"trait_low": "Informal", "trait_high": "Institucional/Imponente", "position": 6, "note": "Tom 'descontraído' (client.json.briefing.brand.voice_tone) equilibrado com a imponência do arquétipo Governante."},
+        {"trait_low": "Tradicional", "trait_high": "Moderno/Antenado", "position": 5, "position_rainha_modas": 7, "note": "Rei do Pano puxa mais para tradição/legado; Rainha Modas puxa mais para 'antenada', um dos 3 núcleos de personalidade da marca."},
+        {"trait_low": "Funcional/Prático", "trait_high": "Aspiracional/Desejo", "position": 3, "position_rainha_modas": 8, "note": "Divergência intencional entre marcas: Rei do Pano vende solução prática (crediário, variedade); Rainha Modas vende autoestima e desejo (arquétipo Amante)."},
+        {"trait_low": "Reservado", "trait_high": "Consultivo/Próximo", "position": 8, "note": "Atributo 'Consultiva' presente no anel externo das duas marcas — atendimento nas lojas físicas é consultivo, não de autoatendimento."}
+      ],
+      "archetype_applied": "Governante + Companheiro (Rei do Pano) e Governante + Amante (Rainha Modas) — ver block1.positioning para justificativa completa de cada combinação.",
+      "as_a_person": "Se o grupo fosse uma família, o Rei do Pano seria o patriarca que abriu a loja há décadas e ainda recebe o cliente pelo nome na entrada — sério e sólido o suficiente para inspirar confiança, mas nunca frio. A Rainha Modas seria a filha que assumiu a vitrine de moda: elegante, antenada nas tendências, mas com o mesmo cuidado de família por trás — nenhuma das duas trata o cliente como número, e as duas resolvem o problema com uma condição de pagamento que cabe no bolso."
+    },
+    "tone_of_voice": {
+      "pillars": [
+        {"name": "Familiar", "definition": "Fala como quem conhece o cliente pelo nome, não como uma rede nacional.", "manifestation": "\"Há mais de 30 anos, o cliente é o nosso maior patrimônio\" — usar o tempo de casa e o relacionamento pessoal como argumento, não só a marca."},
+        {"name": "Prestativo", "definition": "Resolve o problema do cliente antes de vender, sem burocracia.", "manifestation": "Política de trocas sem dificuldade (a empresa absorve o prejuízo); resposta objetiva a dúvidas sobre crediário e disponibilidade de produto."},
+        {"name": "Sólido", "definition": "Autoridade de quem tem décadas de portas abertas — nunca alarmista ou de urgência artificial.", "manifestation": "\"A maior variedade em tecidos e artigos para o lar da região do Cone Sul\" — afirmação de liderança apoiada em fato (30+ anos, 3.000 m², sem concorrência direta), não em superlativo vazio."},
+        {"name": "Consultivo", "definition": "Orienta a escolha certa em vez de só registrar a venda — atributo 'Consultiva' presente na roda de personalidade das duas marcas.", "manifestation": "No WhatsApp e na loja, perguntar o uso pretendido do tecido/peça antes de indicar o produto, em vez de só informar preço e disponibilidade."}
+      ],
+      "channel_variations": [
+        {"channel": "WhatsApp (central de atendimento, em estruturação)", "adaptation": "Direto e resolutivo: confirma disponibilidade do produto, explica o crediário próprio em poucas frases, sem enrolação institucional."},
+        {"channel": "Instagram (Reels/Stories, orgânico)", "adaptation": "Tom mais próximo e visual, formato 'mostra + conta' (produto nas mãos de alguém da loja) — sempre com legenda e CTA, nunca peça 'muda"},
+        {"channel": "Google Ads (Search — Blindagem de Marca, Core intenção)", "adaptation": "Funcional e direto ao termo buscado (ex.: 'tecidos vilhena', 'aviamentos vilhena') — sem espaço para tom de campanha, foco em resolver a busca."},
+        {"channel": "Rádio / TV local", "adaptation": "Mantém o tom institucional histórico já usado pelo grupo, mas com criativos alinhados ao novo conceito visual 'O Novo Reinado' em vez do formato de 'panfleto de preço'."},
+        {"channel": "Google Meu Negócio (respostas a avaliações)", "adaptation": "Tom pessoal e agradecido, reforçando a nota 4,6/5,0 já conquistada — nunca defensivo em resposta a avaliação negativa."}
+      ],
+      "say_dont_say": [
+        {"situation": "Post de produto no Instagram/Facebook", "say": "Sempre com legenda explicando o produto e um CTA (ex.: 'chama no WhatsApp e garante o seu')", "dont_say": "Postar só a imagem/vídeo sem nenhum texto de apoio", "reason": "Regra explícita da marca: 'a imagem passa, sem contexto, sem razão para o cliente parar ou agir' (fonte: handoff-account-manager.md, seção 13)."},
+        {"situation": "Trilha sonora de Reels/vídeos", "say": "Música suave ou narração, coerente com o público familiar de tecidos/casa/moda", "dont_say": "Funk ou eletrônico pesado", "reason": "Regra explícita da marca — música dessincronizada com o público (fonte: handoff-account-manager.md, seção 13)."},
+        {"situation": "Edição de vídeo antes de postar", "say": "Exportar sem marca d'água de aplicativo de edição", "dont_say": "Publicar com a marca d'água do CapCut visível", "reason": "Regra explícita da marca — sinaliza edição amadora (fonte: handoff-account-manager.md, seção 13)."},
+        {"situation": "Nome de usuário nas redes sociais", "say": "@reidopanooficial", "dont_say": "@reidopano.com.br (formato de domínio)", "reason": "Regra explícita da marca — nome de usuário em formato de domínio dificulta busca e memorização (fonte: handoff-account-manager.md, seção 13; base-de-conhecimento/03, seção 7)."},
+        {"situation": "Cliente pergunta se pode comprar/parcelar pelo WhatsApp (objeção Dona Aparecida)", "say": "\"Pode sim! O crediário próprio funciona igual na loja e pelo WhatsApp, em até 6x sem juros.\"", "dont_say": "Deixar a dúvida sem resposta clara ou empurrar só para o atendimento presencial", "reason": "Objeção real e documentada da persona Dona Aparecida (fonte: base-de-conhecimento/01-persona-icp-jtbd.md) — resolver essa dúvida no primeiro contato reduz o vazamento de lead."},
+        {"situation": "Cliente pergunta se a Rainha Modas tem moda atualizada ou é 'mais tradicional' (objeção Camila)", "say": "Mostrar looks/novidades reais do feed atual, reforçando o crediário próprio como diferencial de acessibilidade", "dont_say": "Responder de forma genérica sem mostrar produto/prova visual", "reason": "Objeção real e documentada da persona Camila (fonte: base-de-conhecimento/01-persona-icp-jtbd.md)."},
+        {"situation": "Comunicação de preço/comparação com Havan", "say": "Focar em crediário próprio, atendimento e variedade — \"pagamento facilitado e preço baixo\"", "dont_say": "Prometer ser 'a loja mais barata' ou vender a experiência de 'loja-passeio' como diferencial", "reason": "O próprio diagnóstico reconhece que 'o grupo não tem o diferencial de loja passeio para justificar prêmio' frente à Havan (fonte: base-de-conhecimento/03-posicionamento-e-manual-de-marca.md, seção 8 — Preço)."},
+        {"situation": "Resposta a avaliação negativa no Google/redes", "say": "Agradecer o retorno e chamar para resolver por WhatsApp/loja, mantendo o tom prestativo", "dont_say": "Responder de forma defensiva ou ignorar a avaliação", "reason": "Coerente com o pilar 'Prestativo' e com a política de resolver problema sem burocracia, já documentada como valor real da operação."},
+        {"situation": "Cadastro de cliente Rainha Modas sem histórico no crediário (objeção)", "say": "Explicar o processo de cadastro do crediário próprio de forma simples e sem burocracia", "dont_say": "Tratar como processo complicado ou exigir garantias que a loja física não exige", "reason": "Objeção real e documentada da persona Camila sobre crediário para quem ainda não tem cadastro (fonte: base-de-conhecimento/01-persona-icp-jtbd.md)."}
+      ]
+    },
+    "editorial_guidelines": {
+      "vocabulary_categorized": {
+        "essence_words": ["Legado", "Sanidade", "Vigor", "Elegante", "Antenada", "Acolhedora", "Tradição", "Reinado"],
+        "valued_repeated": ["Crediário próprio e facilitado", "Mais de 30 anos vestindo e decorando lares", "Atendimento humano", "Variedade completa em um só lugar", "Pagamento facilitado e preço baixo"],
+        "audience_connection": ["O Novo Reinado", "Quem te conhece pelo nome", "O cliente é o nosso maior patrimônio", "Sonho facilitado", "Seu próprio trono/castelo (digital)"]
+      },
+      "official_glossary": [
+        {"term": "O Novo Reinado", "definition": "Conceito central de marca aprovado em kick-off: o grupo tratado como um reinado com duas coroas (Rei do Pano e Rainha Modas), que crescem juntas mas em 'tronos digitais separados'."},
+        {"term": "Crediário Próprio", "definition": "Parcelamento em até 6x sem juros, oferecido diretamente pelo grupo (sem intermediário financeiro), com inadimplência de 1,5%–2,5% — o diferencial competitivo mais relevante e não replicável digitalmente por concorrentes nacionais."},
+        {"term": "Cone Sul (de Rondônia)", "definition": "Área de influência regional do grupo (~180 mil habitantes em raio de 120 km a partir de Vilhena/RO, incluindo parte do Mato Grosso), onde estão as lojas de Vilhena, Colorado do Oeste e Cerejeiras."}
+      ],
+      "forbidden_terms": [
+        {"term": "Comparação direta de 'loja-passeio' com a Havan", "use_instead": "A maior variedade em tecidos e artigos para o lar da região do Cone Sul (foco em variedade e crediário, onde o grupo tem vantagem real, não em experiência de loja-passeio, onde reconhece desvantagem estrutural)"},
+        {"term": "Nome de usuário em formato de domínio (ex.: @reidopano.com.br)", "use_instead": "@reidopanooficial"}
+      ],
+      "form_of_address": "Você, tratamento próximo e pelo nome do cliente sempre que possível — reflete o atendimento humanizado de décadas. Tom 'descontraído' (client.json.briefing.brand.voice_tone), nunca 'prezado(a)' formal demais.",
+      "emoji_punctuation": "unavailable_reason: os materiais-fonte não especificam regras de uso de emoji ou pontuação (quantidade, tipo permitido) para as redes sociais do grupo.",
+      "grammar_rules": "unavailable_reason: os materiais-fonte não especificam regras gramaticais formais (uso de números por extenso, tratamento formal/informal em peças escritas) além do tom geral 'Familiar · Prestativo · Sólido' já documentado em tone_of_voice."
+    },
+    "naming_taxonomy": null,
+    "naming_taxonomy_note": "unavailable_reason: os materiais-fonte não documentam uma convenção de nomenclatura formal (nomes de campanha, nomes de unidade) além dos nomes já fixos das duas marcas e das três lojas (Vilhena, Colorado do Oeste, Cerejeiras).",
+    "storytelling": {
+      "story_arc": {
+        "act1_before": "Durante muito tempo, o Rei do Pano e a Rainha Modas reinaram sob o mesmo teto — e foi lindo. Mas o reino cresceu, as províncias se expandiram (Vilhena, Colorado, Cerejeiras), e ficou claro que dois reinos tão poderosos precisavam, cada um, do seu próprio trono digital.",
+        "act2_different": "A cliente que chega atrás de um corte de tecido pra reforma da sala não é a mesma que está procurando o vestido perfeito para a festa de sexta. O Rei tem o Luís à frente, a Rainha tem a Terezinha — e cada um sabe comandar o seu reinado com maestria.",
+        "act3_after": "O Rei do Pano ganhou seu castelo digital unificado — uma única voz forte para as três províncias. A Rainha Modas manteve seu palácio próprio — um feed 100% moda, 100% desejo, 100% ela. Dois perfis. Duas marcas. Um único reinado."
+      },
+      "story_arc_source_note": "Reproduzido/organizado a partir do storytelling 'O Novo Reinado' já aprovado no Manual de Marca (fonte: base-de-conhecimento/03-posicionamento-e-manual-de-marca.md, seção 1), no formato de 3 atos exigido por esta skill.",
+      "frameworks": ["Storytelling narrativo 'O Novo Reinado' (metáfora de reinado/coroas)"],
+      "opening_hooks": [
+        "Era uma vez, no coração do comércio regional, um reino próspero que cresceu tanto que precisou se dividir em dois castelos.",
+        "Você sabia que o Rei do Pano e a Rainha Modas têm o mesmo compromisso, mas tronos digitais diferentes?",
+        "Há mais de 30 anos, o cliente é o nosso maior patrimônio."
+      ]
+    },
+    "slogan_tagline_signatures": {
+      "slogan": null,
+      "slogan_note": "unavailable_reason: os materiais-fonte não registram um slogan de campanha separado da tagline institucional — apenas a tagline usada como headline da própria landing page (ver base-de-conhecimento/03, seção 9, lacuna documentada: 'não há taglines curtas alternativas documentadas além de Construindo um Novo Reinado').",
+      "tagline": "Construindo um Novo Reinado",
+      "verbal_signatures": ["O Novo Reinado", "Duas marcas, um só compromisso de sempre", "O cliente é o nosso maior patrimônio"]
+    }
+  },
+  "block3_visual_identity_core": {
+    "logo": {
+      "concept": "O logo expressa, em forma, a metáfora central da marca: um reinado com duas coroas. O selo circular com a coroa dourada (Rei do Pano) e a tiara dourada (Rainha Modas) comunica autoridade e tradição regional — o arquétipo Governante — enquanto o texto perimetral no selo (categoria de produto) e a cor de fundo diferenciada por marca comunicam a especialização de cada 'trono'. É um sistema de logo compartilhado (mesma arquitetura de selo + coroa/tiara) com aplicação de cor distinta por marca, reforçando visualmente 'duas marcas, um reinado'.",
+      "style_description": "Sistema de selo circular institucional: coroa dourada centralizada sobre fundo vermelho para o Rei do Pano, tiara dourada centralizada sobre fundo marrom escuro para a Rainha Modas — em ambos os casos com texto perimetral ao redor do selo ('TECIDO | CAMA | MESA | BANHO' no Rei do Pano; 'DO BÁSICO AO SOFISTICADO' na Rainha Modas). O tratamento é sólido, sem gradientes complexos no símbolo, com peso visual robusto o suficiente para funcionar como selo de autoridade/tradição. A tipografia de apoio (Dunkerque para títulos) é bold e institucional, reforçando o peso do arquétipo Governante sem perder o calor humano do arquétipo secundário (Companheiro no Rei do Pano, Amante na Rainha Modas).",
+      "visual_attributes": {
+        "form_language": "Circular/heráldico — selo redondo com símbolo central (coroa/tiara), geométrico na moldura e com um elemento figurativo (coroa/tiara) no centro, remetendo à metáfora de reinado.",
+        "weight": "Robusto — peso visual forte o suficiente para comunicar autoridade e tradição de décadas, coerente com o arquétipo Governante.",
+        "balance": "Simétrico — o selo circular com símbolo centralizado reforça estabilidade e solidez institucional.",
+        "negative_space": "unavailable_reason: os materiais-fonte descrevem o conceito e a composição do selo, mas não detalham a proporção de espaço negativo internamente ao símbolo — informação visual que exigiria inspeção direta do arquivo vetorial do logo, fora do escopo desta formalização textual.",
+        "color_application": "Monocromático por marca com acento dourado compartilhado — fundo vermelho + coroa dourada (Rei do Pano); fundo marrom escuro + tiara dourada (Rainha Modas). O dourado é o elemento visual que amarra as duas marcas como um só grupo.",
+        "personality_in_form": "Governante (autoridade) → selo circular robusto, heráldico; Familiar/Consultiva → o texto perimetral no selo comunica especialização e proximidade com a categoria, não distância institucional; Companheiro (Rei do Pano) → cor vermelha, mais quente/terrena; Amante (Rainha Modas) → cor marrom escuro sofisticada, contida.",
+        "scalability": "unavailable_reason: os materiais-fonte não especificam o comportamento testado do símbolo em escala mínima/máxima — apenas indicam que existem versões 'rúbrica' simplificadas (selo em contorno fino, selo sólido, símbolo isolado) pensadas para espaços reduzidos como avatar do Instagram.",
+        "differentiation_from_competitors": "Nem a Havan (identidade de megastore nacional genérica) nem as Lojas Avenida (identidade amarelo+preto de varejo popular) usam uma metáfora de reinado/selo heráldico — o sistema de coroa/tiara é exclusivo do grupo na comparação regional disponível."
+      },
+      "design_principles": [
+        "A coroa (Rei do Pano) e a tiara (Rainha Modas) sempre centralizadas no selo — nunca deslocadas ou substituídas por outro símbolo",
+        "O dourado é o elo visual entre as duas marcas — nunca remover o dourado do selo em nenhuma das duas aplicações",
+        "Autoridade acima de modernismo raso — o selo heráldico não deve ser 'achatado' em um ícone flat genérico que perca a leitura de tradição",
+        "Duas marcas, uma arquitetura — qualquer nova aplicação deve manter a mesma estrutura de selo circular + texto perimetral, variando apenas cor e símbolo (coroa/tiara)"
+      ],
+      "anatomy": {
+        "symbol": "Coroa dourada centralizada (Rei do Pano) ou tiara dourada centralizada (Rainha Modas), dentro de um selo circular.",
+        "wordmark": "Nome da marca em tipografia Dunkerque (títulos), aplicado na versão wordmark horizontal, com coroa/tiara posicionada acima do nome.",
+        "lockup": "Selo circular com texto perimetral de categoria ('TECIDO | CAMA | MESA | BANHO' ou 'DO BÁSICO AO SOFISTICADO') como versão principal; wordmark horizontal com coroa/tiara acima do nome como versão secundária."
+      },
+      "construction_grid": "unavailable_reason: os materiais-fonte descrevem a composição final do selo e do wordmark, mas não documentam a grade de construção geométrica (proporções, módulo) usada pelo estúdio Kuri & Co. — informação que exigiria acesso ao arquivo vetorial original do logo, fora do escopo desta formalização textual.",
+      "clear_space": "unavailable_reason: os materiais-fonte não especificam uma área de proteção mínima medida para o selo/wordmark.",
+      "min_max_size": {
+        "min_digital_px": "unavailable_reason: não especificado nos materiais-fonte — recomenda-se validar com o estúdio Kuri & Co. o tamanho mínimo testado, já que existem versões 'rúbrica' pensadas para avatar do Instagram.",
+        "min_print_mm": "unavailable_reason: não especificado nos materiais-fonte.",
+        "max_recommended": "unavailable_reason: não especificado nos materiais-fonte."
+      },
+      "official_versions": [
+        {"name": "Selo Principal — Rei do Pano", "use_case": "Aplicação institucional principal: papelaria, fachada, embalagens, materiais gerais do Rei do Pano — coroa dourada sobre fundo vermelho."},
+        {"name": "Selo Principal — Rainha Modas", "use_case": "Aplicação institucional principal: papelaria, materiais de moda — tiara dourada sobre fundo marrom escuro."},
+        {"name": "Wordmark horizontal (ambas as marcas)", "use_case": "Aplicações onde o selo circular não cabe bem (cabeçalhos estreitos, assinatura de e-mail, rodapé de site) — coroa/tiara acima do nome, em versão preta e vermelha."},
+        {"name": "Rúbrica — selo em contorno fino", "use_case": "Espaços reduzidos ou aplicações de baixo contraste (ex.: marca d'água discreta)."},
+        {"name": "Rúbrica — selo sólido marrom/preto", "use_case": "Impressão em 1 cor, carimbos, aplicações monocromáticas."},
+        {"name": "Símbolo isolado (coroa ou tiara)", "use_case": "Avatar de redes sociais (Instagram, WhatsApp Business), favicon — conforme já recomendado na auditoria de comunicação."}
+      ],
+      "logo_directions": [
+        {
+          "direction": "Selo Coroa — Rei do Pano (já aprovada e em produção)",
+          "concept": "Selo circular com coroa dourada centralizada sobre fundo vermelho institucional, texto perimetral 'TECIDO | CAMA | MESA | BANHO' — comunica autoridade e tradição em variedade.",
+          "prompt": "circular emblem seal logo, golden crown centered, dark red background, perimeter text band reading category name, bold institutional typography, heraldic style, flat vector, symmetrical, high resolution — NOTA: este prompt documenta em linguagem de briefing visual o logo JÁ APROVADO e em produção pelo estúdio Kuri & Co., não uma nova proposta a gerar; útil como referência para extensões futuras do sistema (ex.: variações sazonais do selo)."
+        },
+        {
+          "direction": "Selo Tiara — Rainha Modas (já aprovada e em produção)",
+          "concept": "Selo circular com tiara dourada centralizada sobre fundo marrom escuro, texto perimetral 'DO BÁSICO AO SOFISTICADO' — comunica autoridade e curadoria em moda.",
+          "prompt": "circular emblem seal logo, golden tiara centered, dark brown background, perimeter text band reading category tagline, elegant institutional typography, heraldic style, flat vector, symmetrical, high resolution — NOTA: este prompt documenta em linguagem de briefing visual o logo JÁ APROVADO e em produção pelo estúdio Kuri & Co., não uma nova proposta a gerar."
+        },
+        {
+          "direction": "Wordmark horizontal (ambas as marcas, versão secundária já aprovada)",
+          "concept": "Coroa ou tiara posicionada acima do nome da marca em wordmark horizontal, em versões preta e vermelha — usada quando o selo circular não cabe bem no espaço disponível.",
+          "prompt": "horizontal wordmark logo, small crown or tiara icon above brand name, bold display typeface, two color variants (black and red), clean and legible at small sizes — NOTA: documenta versão secundária já aprovada, não uma nova proposta a gerar."
+        }
+      ],
+      "chosen_direction": "Sistema de selo circular (coroa para Rei do Pano, tiara para Rainha Modas) — já aprovado e em produção pelo estúdio Kuri & Co.; as direções 1 e 2 coexistem como logo principal de cada marca, e a direção 3 (wordmark) é a versão secundária oficial das duas.",
+      "chosen_direction_note": "Diferente do fluxo padrão desta skill (que propõe 3 direções inéditas para o operador escolher), aqui o logo já existe, foi produzido pelo estúdio Kuri & Co. e está em uso — este campo documenta o sistema já aprovado, não uma decisão pendente."
+    },
+    "incorrect_uses": [
+      {"rule": "Nunca publicar post/Reels sem legenda escrita", "visual_demo": "missing_caption", "reason": "Regra explícita da marca — sem legenda, 'a imagem passa, sem contexto, sem razão para o cliente parar ou agir' (fonte: handoff-account-manager.md, seção 13)."},
+      {"rule": "Nunca usar música dessincronizada com o público (funk/eletrônico pesado)", "visual_demo": "desynced_music", "reason": "Regra explícita da marca — o público de tecidos/casa/moda familiar não se identifica com esse tipo de trilha (fonte: handoff-account-manager.md, seções 13 e 15)."},
+      {"rule": "Nunca publicar vídeo com marca d'água de app de edição (ex.: CapCut) visível", "visual_demo": "capcut_watermark", "reason": "Regra explícita da marca — sinaliza edição amadora (fonte: handoff-account-manager.md, seção 13)."},
+      {"rule": "Nunca usar nome de usuário em formato de domínio (ex.: @reidopano.com.br)", "visual_demo": "domain_style_username", "reason": "Regra explícita da marca — dificulta busca e memorização (fonte: handoff-account-manager.md, seção 13)."},
+      {"rule": "Evitar publicar Reels no formato horizontal em vez do vertical nativo (9:16)", "visual_demo": "horizontal_reels_format", "reason": "Problema técnico recorrente identificado nas duas marcas — perde até 30% da tela e prejudica distribuição (fonte: handoff-account-manager.md, seção 15)."},
+      {"rule": "Evitar fotos de banco de imagens de produtos de terceiros no feed (ex.: perfumes de marca alheia)", "visual_demo": "generic_stock_third_party_product", "reason": "Aprendizado real de performance — 'passam o ar de golpe que qualquer loja online teme', identificado especificamente no feed da Rainha Modas (fonte: handoff-account-manager.md, seção 13)."}
+    ],
+    "color_system": {
+      "primary": [
+        {"name": "Vermelho Institucional (Rei do Pano)", "hex": "#c20605", "rgb": "rgb(194, 6, 5)", "cmyk": "0, 97, 97, 24", "pantone": null, "pantone_note": "unavailable_reason: não levantado na fonte — só o hex foi documentado no Manual de Marca e no handoff do account manager.", "hsl": null, "hsl_note": "unavailable_reason: não levantado na fonte.", "role": "Cor dominante do Rei do Pano — fundo do selo, wordmark, CTAs institucionais.", "justification": "Cor institucional já aprovada e em uso no Manual de Marca; transmite tradição, vigor e a base do arquétipo Governante/Companheiro. RGB e CMYK calculados matematicamente a partir do hex confirmado (conversão determinística, não medição de separação de cores para impressão — validar CMYK de produção contra o arquivo de logo original antes de imprimir)."},
+        {"name": "Dourado (compartilhado — Rei do Pano e Rainha Modas)", "hex": "#c6a000", "rgb": "rgb(198, 160, 0)", "cmyk": "0, 19, 100, 22", "pantone": null, "pantone_note": "unavailable_reason: não levantado na fonte.", "hsl": null, "hsl_note": "unavailable_reason: não levantado na fonte.", "role": "Cor de acento/símbolo (coroa/tiara) — elo visual entre as duas marcas.", "justification": "Cor compartilhada entre as duas marcas segundo a fonte (base-de-conhecimento/03 e handoff, seção 13); usada na coroa (Rei do Pano) e na tiara (Rainha Modas), reforçando 'um só reinado'."}
+      ],
+      "secondary": [
+        {"name": "Cinza (Rainha Modas)", "hex": "#b2b2b2", "rgb": "rgb(178, 178, 178)", "cmyk": "0, 0, 0, 30", "role": "Cor de suporte da Rainha Modas — substitui o vermelho do Rei do Pano na paleta da marca de moda.", "justification": "Fonte: 'a paleta da Rainha Modas troca o vermelho/dourado do Rei do Pano por um dourado/marrom escuro com cinzas neutros — visualmente mais sóbria e de moda, coerente com o arquétipo Amante/Governante e o atributo sofisticada' (base-de-conhecimento/03-posicionamento-e-manual-de-marca.md, seção 6)."}
+      ],
+      "neutrals": [
+        {"name": "Marrom escuro (compartilhado)", "hex": "#281308", "rgb": "rgb(40, 19, 8)", "cmyk": "0, 53, 80, 84", "role": "Neutro institucional — fundo do selo da Rainha Modas, contornos e texto em aplicações de baixo contraste, compartilhado pelas duas marcas."},
+        {"name": "Preto", "hex": "#000000", "rgb": "rgb(0, 0, 0)", "cmyk": "0, 0, 0, 100", "role": "Neutro — texto principal, versões monocromáticas do logo (rúbrica sólida)."}
+      ],
+      "functional": [],
+      "functional_note": "unavailable_reason: o Manual de Marca não define cores funcionais de UI (sucesso/erro/aviso/informação) — o grupo não opera hoje um produto digital com estados de interface (a Landing Page é institucional/formulário simples). Recomenda-se definir esse conjunto apenas se um painel/app com estados de sistema for construído no futuro.",
+      "proportions": {
+        "dominant_pct": 60,
+        "support_pct": 30,
+        "accent_pct": 10,
+        "dominant_color": "Vermelho Institucional #c20605 (Rei do Pano) / Cinza #b2b2b2 (Rainha Modas)",
+        "support_color": "Marrom escuro #281308 / Preto #000000 (compartilhado pelas duas marcas)",
+        "accent_color": "Dourado #c6a000 (compartilhado — coroa/tiara e detalhes de destaque)"
+      },
+      "proportions_note": "A proporção 60-30-10 é uma recomendação de aplicação documentacional desta skill (prática padrão de sistema cromático), não uma medição extraída literalmente do PDF de 31 páginas — construída a partir da hierarquia de cores já confirmada na fonte (cor dominante por marca + neutro de suporte + dourado como acento compartilhado).",
+      "gradients": [
+        {"name": "Gradiente Vermelho (Rei do Pano)", "stops": ["#c20605", "#E73333", "#ff4d4d"], "use_case": "Aplicações que pedem profundidade/gradação na cor institucional do Rei do Pano (ex.: fundos de peças de mídia social)."},
+        {"name": "Gradiente Dourado (compartilhado)", "stops": ["#c6a000", "#ffe44d", "#fff199"], "use_case": "Detalhes de destaque em coroa/tiara e elementos de acento nas duas marcas."},
+        {"name": "Gradiente Cinza (Rainha Modas)", "stops": ["#b2b2b2", "#dadada", "#f6f6f6"], "use_case": "Fundos e superfícies neutras da Rainha Modas, mais sóbrias que o vermelho do Rei do Pano."}
+      ],
+      "wcag_contrast_matrix": [
+        {"foreground": "#FFFFFF", "background": "#c20605", "label": "Texto branco sobre vermelho institucional (Rei do Pano — botões, headers)", "ratio": 6.32, "level": "AA"},
+        {"foreground": "#000000", "background": "#c6a000", "label": "Texto preto sobre dourado (coroa/tiara, detalhes de destaque)", "ratio": 8.43, "level": "AAA"},
+        {"foreground": "#FFFFFF", "background": "#281308", "label": "Texto branco sobre marrom escuro (fundo do selo Rainha Modas)", "ratio": 17.69, "level": "AAA"},
+        {"foreground": "#000000", "background": "#f6f6f6", "label": "Texto preto sobre cinza claro (Rainha Modas — fundos alternativos)", "ratio": 19.43, "level": "AAA"},
+        {"foreground": "#000000", "background": "#fff199", "label": "Texto preto sobre dourado claro (gradiente de destaque)", "ratio": 18.29, "level": "AAA"},
+        {"foreground": "#FFFFFF", "background": "#c6a000", "label": "Texto branco sobre dourado (evitar — falha de contraste)", "ratio": 2.49, "level": "Fail"}
+      ]
+    },
+    "typography": {
+      "primary_family": {
+        "name": "Anton",
+        "source": "Google Fonts",
+        "google_fonts_url": "https://fonts.google.com/specimen/Anton",
+        "embed_url": "https://fonts.googleapis.com/css2?family=Anton&display=swap",
+        "weights_permitted": ["400 (peso único)"],
+        "license": "SIL Open Font License 1.1",
+        "divergence_note": "DIVERGÊNCIA DOCUMENTADA: a fonte de títulos já aprovada e em uso nas peças do Manual de Marca (fonte: base-de-conhecimento/03-posicionamento-e-manual-de-marca.md e handoff-account-manager.md, seção 13) é 'Dunkerque' — uma fonte comercial disponível em DaFont/MadFonts (licença gratuita para uso pessoal, paga para uso comercial), que NÃO está disponível no Google Fonts (confirmado via busca em 2026-09-13). Isso diverge da regra obrigatória desta skill de que a fonte primária esteja no Google Fonts. 'Anton' é documentada aqui como substituto tipograficamente aproximado (all-caps, bold, alto impacto — mesmo perfil de 'títulos, moderna, institucional' atribuído a Dunkerque na fonte), recomendado apenas para propriedades digitais que exigem Google Fonts (Landing Page, futuros sistemas web). Para papelaria, mockups e peças já produzidas pelo estúdio Kuri & Co., Dunkerque permanece a fonte oficial vigente. PENDENTE: confirmar com o cliente/estúdio se a licença comercial de Dunkerque cobre uso web, ou se a substituição por Anton deve ser adotada oficialmente em canais digitais."
+      },
+      "secondary_family": {
+        "name": "Montserrat",
+        "source": "Google Fonts",
+        "google_fonts_url": "https://fonts.google.com/specimen/Montserrat",
+        "embed_url": "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700&display=swap",
+        "weights_permitted": ["400", "500", "600", "700"],
+        "license": "SIL Open Font License 1.1"
+      },
+      "hierarchy": [
+        {"level": "H1", "font": "Anton", "weight": "400 (peso único)", "size_px": 40, "line_height": "1.1", "use_case": "Headline principal de landing page e materiais institucionais (ex.: 'Construindo um Novo Reinado')"},
+        {"level": "H2", "font": "Anton", "weight": "400 (peso único)", "size_px": 28, "line_height": "1.15", "use_case": "Títulos de seção (ex.: nome de categoria de produto)"},
+        {"level": "H3", "font": "Montserrat", "weight": "600", "size_px": 20, "line_height": "1.3", "use_case": "Subtítulos, nome de coleção/promoção"},
+        {"level": "Body", "font": "Montserrat", "weight": "400", "size_px": 16, "line_height": "1.6", "use_case": "Texto corrido, descrição de produto, legendas de post"},
+        {"level": "Caption", "font": "Montserrat", "weight": "400", "size_px": 12, "line_height": "1.4", "use_case": "Legendas pequenas, rodapé, specs técnicas"},
+        {"level": "CTA/Botão", "font": "Montserrat", "weight": "700", "size_px": 16, "line_height": "1", "use_case": "Botões e chamadas de ação (ex.: 'Fale no WhatsApp')"}
+      ],
+      "hierarchy_note": "Os valores de tamanho (size_px) são uma recomendação documentacional desta skill (escala tipográfica padrão), não medições extraídas pixel a pixel do PDF de 31 páginas — validar contra os mockups originais do estúdio Kuri & Co. antes de aplicar em produção.",
+      "fallbacks": "Anton (ou Dunkerque original em peças offline) → Impact, Arial Black, sans-serif; Montserrat → -apple-system, Segoe UI, Roboto, sans-serif",
+      "justification": "Dunkerque (fonte de títulos já aprovada) carrega o peso institucional/imponente do arquétipo Governante; Montserrat garante legibilidade em telas pequenas (WhatsApp, Instagram, anúncios) onde a decisão da cliente realmente acontece — combinação já validada e em uso pelas duas marcas, apenas formalizada aqui. Anton é a alternativa Google Fonts para uso digital, dada a indisponibilidade de Dunkerque nessa plataforma (ver divergence_note em primary_family)."
+    },
+    "iconography": null,
+    "iconography_note": "unavailable_reason: os materiais-fonte não documentam um sistema de iconografia (estilo de traço, grid, peso) para o grupo.",
+    "graphic_system": null,
+    "graphic_system_note": "unavailable_reason: os materiais-fonte não documentam um sistema de grafismos/padrões gráficos além do selo circular do logo.",
+    "photography": {
+      "art_direction": "Fotografia/vídeo real do ambiente das lojas e do produto em uso — formato 'mostra + conta' (pessoa da loja com o produto nas mãos, falando diretamente) é o que mais funciona para o nicho, segundo os aprendizados de performance orgânica já coletados.",
+      "mood_keywords": ["familiar", "regional (Vilhena/Cone Sul)", "prático", "próximo", "prova real de produto"],
+      "do_dont": [
+        {"type": "do", "rule": "Mostrar o atributo físico do produto em ação nos primeiros segundos do vídeo (ex.: como o benchmark JLM Tecidos faz com sarja impermeável)"},
+        {"type": "do", "rule": "Usar equipe da loja e a influenciadora local já utilizada pelo Rei do Pano em vídeos 'mostra + conta'"},
+        {"type": "dont", "rule": "Usar fotos de banco de imagens de produtos de terceiros no feed (ex.: perfumes de marca alheia) — identificado como prejudicial especificamente no feed da Rainha Modas"},
+        {"type": "dont", "rule": "Publicar Reels em formato horizontal em vez do vertical nativo 9:16"}
+      ]
+    },
+    "illustration": null,
+    "illustration_note": "unavailable_reason: não há um sistema de ilustração/personagem de marca formalmente documentado. Há, porém, um asset informal já produzido e citado na fonte: um criativo do Rei do Pano usa um 'mascote do Rei' (peça 'Ganhe 15% de desconto na primeira compra' — fonte: handoff-account-manager.md, seção 14). Esse mascote não está documentado com regras de uso, estilo ou variações — recomenda-se tratá-lo como uso pontual existente, não como sistema de ilustração oficial, até que seja formalizado em uma revisão futura deste manual."
+  },
+  "block4_applications": {
+    "principle": "Cada aplicação documentada aqui tem duas camadas: specs técnicas (dimensão, tipografia, hierarquia, materiais) e uma descrição do mockup — briefing para o designer/fornecedor executar. A maioria das peças abaixo já foi produzida e aprovada no Manual de Marca/Key Visual original (05/KV - Rei do Pano.pdf); a formalização aqui documenta o que já existe, incluindo aplicações físicas (uniforme, veículo, fachada) porque o grupo é uma operação estabelecida (30+ anos, 3 lojas físicas).",
+    "applications": [
+      {"category": "stationery", "name": "Canecas institucionais", "specs": "Selo circular (coroa ou tiara conforme a marca) aplicado em cerâmica, cor sólida sobre fundo branco ou colorido conforme a marca", "mockup": {"type": "branded_giveaway", "description": "Caneca com o selo circular impresso — peça já produzida no Manual de Marca original"}},
+      {"category": "events", "name": "Camisetas sociais brancas (logo peito + costas)", "specs": "Selo circular pequeno no peito, wordmark ou selo maior nas costas, aplicação em silk/bordado sobre tecido branco", "mockup": {"type": "branded_giveaway", "description": "Camisa social branca com aplicação do logo no peito e nas costas — peça já produzida no Manual de Marca original"}},
+      {"category": "events", "name": "Camisetas polo vermelhas", "specs": "Selo circular bordado no peito, cor vermelha institucional do Rei do Pano como base da peça", "mockup": {"type": "branded_giveaway", "description": "Polo vermelha com selo bordado no peito — peça já produzida no Manual de Marca original"}},
+      {"category": "events", "name": "Colete corporativo preto", "specs": "Selo circular ou wordmark aplicado no peito, base preta neutra", "mockup": {"type": "branded_giveaway", "description": "Colete institucional preto com aplicação do logo — peça já produzida no Manual de Marca original"}},
+      {"category": "events", "name": "Boné trucker preto", "specs": "Símbolo isolado (coroa ou tiara) bordado/aplicado na frente do boné", "mockup": {"type": "branded_giveaway", "description": "Boné preto com símbolo isolado aplicado — peça já produzida no Manual de Marca original"}},
+      {"category": "sales_marketing", "name": "Embrulho/caixa de presente — kit de churrasco", "specs": "Caixa com identidade visual da marca, kit contendo tábua + faca + garra", "mockup": {"type": "branded_giveaway", "description": "Embalagem de presente institucional com kit de churrasco — peça já produzida no Manual de Marca original", "data": {"itens": "tábua, faca, garra"}}},
+      {"category": "signage", "name": "Adesivagem de picape/veículo institucional", "specs": "Aplicação do logo e cores institucionais na lataria do veículo, visibilidade em movimento pela região", "mockup": {"type": "deck_cover", "description": "Render de adesivagem veicular institucional — peça já produzida no Manual de Marca original"}},
+      {"category": "signage", "name": "Fachada de loja (render fotorrealista, Vilhena)", "specs": "Aplicação do logo em escala real sobre a fachada física da loja sede em Vilhena", "mockup": {"type": "deck_cover", "description": "Render fotorrealista da fachada da loja com o novo sistema de identidade aplicado — peça já produzida no Manual de Marca original"}},
+      {"category": "social_media", "name": "Cupom de primeira compra (15% de desconto)", "specs": "Peça de mídia social 1080x1080px com a oferta de 15% na primeira compra, identidade visual do Rei do Pano", "mockup": {"type": "ig_feed_post", "description": "Post/criativo 'Ganhe 15% de desconto na primeira compra' — asset final já produzido e pronto para uso (fonte: handoff-account-manager.md, seção 14)", "data": {"headline": "Ganhe 15% de desconto na primeira compra"}}},
+      {"category": "social_media", "name": "Criativo institucional — Pano Mágico", "specs": "Peça de mídia social com o produto 'Pano Mágico' e 15% de desconto, panos multicoloridos", "mockup": {"type": "ig_feed_post", "description": "Criativo 'Pano Mágico — 15% de desconto' — asset final já produzido e pronto para uso (fonte: handoff-account-manager.md, seção 14)", "data": {"headline": "O Paninho Mágico que facilita o seu dia a dia chegou! Garanta o seu."}}},
+      {"category": "social_media", "name": "Criativo institucional — crediário", "specs": "Peça de mídia social reforçando o crediário próprio como diferencial ('Realize o sonho da casa renovada com o Crediário Rei do Pano')", "mockup": {"type": "ig_feed_post", "description": "Criativo institucional de crediário com ambiente de banheiro/toalhas — asset final já produzido e pronto para uso (fonte: handoff-account-manager.md, seção 14)"}},
+      {"category": "digital_ui", "name": "Avatar e bio do Instagram (ambas as marcas)", "specs": "Avatar: símbolo isolado (coroa ou tiara); bio com tagline e handle limpo", "mockup": {"type": "ig_avatar_bio", "description": "Instagram unificado @reidopanooficial (Rei do Pano) + perfil oficial próprio da Rainha Modas, com selo de verificação — conforme já recomendado na fonte (base-de-conhecimento/03-posicionamento-e-manual-de-marca.md, seção 9)"}},
+      {"category": "digital_ui", "name": "WhatsApp Business (setor central de atendimento)", "specs": "Avatar com símbolo isolado; central dedicada (1–2 pessoas) sem dividir com atendimento de balcão, com automação parcial de triagem", "mockup": {"type": "whatsapp_business", "description": "unavailable_reason: os materiais-fonte recomendam a estruturação do setor central de WhatsApp, mas não fornecem o texto exato de saudação/bio já aprovado — pendente de definição em ee-s5-scripts-sdr / ee-s3-pdv-regua-whatsapp."}}
+    ]
+  },
+  "block5_governance": {
+    "brand_owner": "Luiz (sócio-gestor, Rei do Pano) e Terezinha (sócia-gestora, Rainha Modas) — aprovação final de peças que usem o logo, a paleta oficial ou o conceito 'O Novo Reinado', com apoio operacional da equipe V4 (unidade Leal Vieira & Co.: Kauã Fernandes, Account Manager; Nathalia, Head de Squad; Leo, Designer/Social Media; Luciano, Gestor de Tráfego).",
+    "approval_process": [
+      {"step": "Produção da peça seguindo este manual (paleta, tipografia, tom de voz)", "responsible": "Leo (Designer/Social Media, V4)", "estimated_time": "2-4 dias úteis"},
+      {"step": "Checagem de aderência ao manual (usos incorretos, regras de nunca fazer, paleta por marca)", "responsible": "Kauã Fernandes (Account Manager, V4)", "estimated_time": "1 dia útil"},
+      {"step": "Aprovação final por marca", "responsible": "Luiz (Rei do Pano) ou Terezinha (Rainha Modas)", "estimated_time": "1-2 dias úteis"}
+    ],
+    "approval_process_note": "Estrutura de aprovação recomendada por esta skill a partir dos papéis já confirmados em client.json (equipe_v4) — os materiais-fonte não documentam um fluxo de aprovação formal pré-existente para peças de marca.",
+    "review_cadence": "Recomendação: revisão leve a cada semestre (alinhada aos picos de sazonalidade — Dia das Mães, Black Friday, Natal), e revisão completa quando houver mudança relevante (nova unidade, resolução da divergência dos Pilares e Valores da Rainha Modas, ou confirmação da fonte Dunkerque para uso web).",
+    "review_cadence_note": "unavailable_reason: os materiais-fonte não definem uma cadência de revisão formal — a recomendação acima segue prática padrão desta skill, ajustada ao calendário de sazonalidade já documentado no grupo.",
+    "committee": null,
+    "committee_note": "unavailable_reason: não há comitê de marca formal documentado — estrutura enxuta e familiar, com decisões concentradas em Luiz (Rei do Pano) e Terezinha (Rainha Modas), apoiados pela equipe V4."
+  }
+}

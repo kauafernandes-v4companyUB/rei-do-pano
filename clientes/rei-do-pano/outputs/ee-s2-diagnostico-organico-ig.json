@@ -1,0 +1,293 @@
+{
+  "client_name": "Rei do Pano & Rainha Modas",
+
+  "metodologia_nota": "Este diagnostico NAO foi gerado via Instagram Graph API / business_discovery (fluxo padrao da skill ee-s2-diagnostico-organico-ig). Foi formalizado a partir de uma auditoria manual/qualitativa ja feita e aprovada, entregue em PDF ('02/02 - EE - REI DO PANO - ANALISE DE SOCIAL MEDIA.pdf.pdf'), consolidada em base-de-conhecimento/04-auditoria-comunicacao-redes-sociais.md e no handoff-account-manager.md (secoes 13 e 15). Convencao usada neste arquivo para dado ausente: campos numericos obrigatorios sem fonte = '-1' (sentinela explicito de 'nao disponivel', nunca um valor real); campos string obrigatorios sem fonte = 'unavailable_reason: <motivo>'. NENHUM numero de seguidores, likes, comentarios, engagement_proxy ou cadencia de posts foi inventado — onde o documento-fonte da apenas uma faixa aproximada ou qualitativa, isso e citado textualmente nos campos de insight/nota, nao nos campos numericos estruturados.",
+
+  "summary": "Diagnostico organico qualitativo (nao Graph API) de Rei do Pano (@reidopano.com.br) e Rainha Modas (rainhamodas.com.br), Vilhena-RO: ambas as marcas tem volume real de producao de Reels ('o esforco existe'), mas carregam os mesmos 6 problemas tecnicos recorrentes (musica desalinhada, marca d'agua CapCut, cortes abruptos, formato horizontal, sem texto na tela, sem legenda) e handles/bios/categorias de perfil mal configurados. O concorrente mais estudado no material-fonte, Lojas Avenida, ja domina padroes ausentes no cliente (bio de resposta em 3 segundos, hashtag propria, Reels POV com preco fixo na tela); a acao prioritaria e corrigir a execucao tecnica dos Reels e a estrutura de perfil (bio/destaques/categoria) antes de aumentar volume.",
+
+  "summary_headline": "Rei do Pano e Rainha Modas gravam Reels com frequencia real, mas os mesmos 6 erros tecnicos (audio, marca d'agua, corte, formato, texto, legenda) anulam o esforco — dado quantitativo indisponivel (auditoria manual, sem Graph API).",
+
+  "summary_highlights": [
+    {"category": "maturidade", "label": "Nivel de maturidade digital organico", "value": "V0 - Estruturacao", "subtext": "Classificacao do doc. de Trafego Pago (05-diagnostico-midia-trafego-pago.md), igual para as duas marcas: pixel/GTM/GA4 nao configurados; organico descrito como 'maduro mas desestruturado'.", "tone": "yellow"},
+    {"category": "risco", "label": "Problemas tecnicos recorrentes em Reels", "value": "6 problemas", "subtext": "Musica desalinhada, marca d'agua CapCut, cortes abruptos, formato horizontal (perde ate 30% da tela), sem texto na tela, sem legenda — presentes nas DUAS marcas.", "tone": "red"},
+    {"category": "oportunidade", "label": "Padrao que ja funciona e pode ser amplificado", "value": "'Mostra + conta'", "subtext": "Pessoa da loja com produto nas maos, falando diretamente — formato explicitamente citado como o que mais funciona para o nicho, ja em uso.", "tone": "green"},
+    {"category": "posicao", "label": "Destaques (Highlights) da Rainha Modas", "value": "17 destaques", "subtext": "Documento-fonte: 'ninguem ve tudo isso'; nomes cortados na exibicao ('Infantil/Enx...', 'Moda Femin...'). Recomendacao: reduzir para maximo 7.", "tone": "yellow"},
+    {"category": "competicao", "label": "Concorrente mais estudado no material", "value": "Lojas Avenida", "subtext": "Ja usa bio eficiente, hashtag propria (#NovidadeNaAvenida), Reels POV com preco fixo na tela e identidade visual amarelo+preto disciplinada — nenhum desses padroes existe hoje no cliente.", "tone": "blue"},
+    {"category": "janela", "label": "Metricas quantitativas de engajamento/seguidores", "value": "unavailable_reason: auditoria manual via PDF, sem acesso a Instagram Graph API / business_discovery", "subtext": "Nao ha numeros de seguidores, likes, comentarios ou cadencia semanal medidos no material-fonte — apenas faixas qualitativas aproximadas citadas nos campos de insight.", "tone": "gray"}
+  ],
+
+  "summary_key_findings": [
+    {"category": "vantagem", "text": "O formato 'mostra + conta' (alguem da loja com o produto nas maos, falando diretamente) e explicitamente citado como o que ja funciona para o nicho nas duas marcas, e a alta frequencia de captacao de Reels e um ponto forte real e existente — 'o esforco existe, a estrategia falta'."},
+    {"category": "contexto", "text": "As duas marcas usam nome de usuario em formato de dominio (@reidopano.com.br / rainhamodas.com.br), o que prejudica busca e memorizacao; o Instagram passou a ser indexado pelo Google desde jul/2025, tornando nome de exibicao e categoria de perfil campos de ranqueamento relevantes que hoje nao usam palavra-chave."},
+    {"category": "ameaca", "text": "O feed da Rainha Modas e dominado por fotos de banco de imagem de perfumes de marcas terceiras (Carolina Herrera, Olympea, 212 VIP, Calvin Klein) — segundo o documento-fonte, isso 'passa exatamente o ar de golpe que qualquer loja online teme', pois nenhuma prova que o produto existe fisicamente na loja."},
+    {"category": "ameaca", "text": "O concorrente mais estudado no material (Lojas Avenida) ja executa padroes de alta performance ausentes nas duas marcas do cliente: bio que responde em 3 segundos 'o que e e por que seguir', hashtag propria recorrente, posts fixados para ancorar promocoes e Reels em formato POV com etiqueta de preco fixa na tela."},
+    {"category": "acao", "text": "Prioridade imediata e corrigir os 6 problemas tecnicos recorrentes dos Reels (nao aumentar volume) e reestruturar bio/destaques/categoria de perfil das duas marcas, conforme roadmap ja definido no Briefing Mestre (Semanas 1-2)."}
+  ],
+
+  "period": {
+    "start": "unavailable_reason: a auditoria de origem (PDF de Analise de Social Media) e uma revisao qualitativa pontual do estado do perfil, nao uma extracao de posts com janela de 90 dias via Graph API — o documento-fonte nao registra data de inicio de coleta.",
+    "end": "unavailable_reason: mesma razao do campo 'start' — nao ha data de fim de coleta registrada no documento-fonte.",
+    "days": -1
+  },
+
+  "client_account": {
+    "username": "reidopano.com.br",
+    "name": "unavailable_reason: texto literal do nome de exibicao atual nao citado no documento-fonte — a auditoria apenas descreve que o campo 'nao teria a palavra-chave que o cliente busca' e recomenda incluir 'Tecidos, Cama, Mesa e Banho'.",
+    "biography": "unavailable_reason: texto literal da bio atual nao citado no documento-fonte — a auditoria descreve apenas que a bio atual e 'usada com horario de funcionamento' (informacao pos-decisao, nao pre-venda), sem transcrever o texto completo.",
+    "website": "https://rei-do-pano.vercel.app/",
+    "followers_count": -1,
+    "follows_count": -1,
+    "media_count_total": -1,
+    "posts_90d": -1,
+    "permalink": "https://www.instagram.com/reidopano.com.br/",
+    "data_quality_note": "followers_count, follows_count, media_count_total e posts_90d = -1 (sentinela de 'nao disponivel'). O documento-fonte descreve apenas que a conta 'segue quase metade de quem te segue' (proporcao desfavoravel, sem numero exato) e, no contexto do debate sobre unificacao das 3 lojas (Vilhena/Colorado do Oeste/Cerejeiras), cita '1 perfil de 6k+ seguidores > 3 perfis de ~2k cada' — faixa aproximada usada para argumentar a favor da unificacao, nao um numero confirmado especificamente para o handle @reidopano.com.br isolado. Nao foi usada como valor estruturado para evitar apresentar uma estimativa como metrica real."
+  },
+
+  "client_account_rainha_modas": {
+    "_nota": "Campo estendido (fora do required do schema oficial) adicionado para cobrir separadamente o segundo perfil auditado, conforme instrucao explicita de cobrir as duas marcas. Rainha Modas NAO e concorrente do Rei do Pano — e a marca-irma do mesmo grupo, com perfil proprio.",
+    "username": "rainhamodas.com.br",
+    "name": "Rainha Modas Vilhena RO",
+    "biography": "Confeccao, Calcados, Relogio, Acessorios, Utensilios, Perfumaria, Eletrodomesticos",
+    "followers_count": -1,
+    "follows_count": -1,
+    "media_count_total": -1,
+    "posts_90d": -1,
+    "permalink": "https://www.instagram.com/rainhamodas.com.br/",
+    "data_quality_note": "Nenhum numero de seguidores/seguindo/posts foi registrado no documento-fonte para este perfil. Bio e nome de exibicao acima sao citados de forma proxima ao literal no documento-fonte (04-auditoria-comunicacao-redes-sociais.md), diferente do perfil do Rei do Pano, onde apenas a descricao qualitativa da bio esta disponivel."
+  },
+
+  "competitor_accounts": [
+    {
+      "username": "unavailable_reason: handle real do Instagram da Lojas Avenida nao citado no documento-fonte (concorrente descrito apenas pelo nome da marca e pelos padroes de conteudo observados).",
+      "name": "Lojas Avenida",
+      "biography": "loja mais alegre do Brasil / aqui tem promocao, produto e muito humor",
+      "followers_count": -1,
+      "follows_count": -1,
+      "media_count_total": -1,
+      "posts_90d": -1,
+      "data_quality_note": "Concorrente indireto (moda popular), citado no doc. 02-mercado-swot-concorrentes.md como 'o concorrente mais estudado no doc. de Social Media'. O material cita proporcao seguindo/seguidores 'muito favoravel' com uma referencia de '26 seguindo para 1,5 a 1,7 milhao de seguidores em contas benchmark do genero' — mas essa cifra e apresentada como referencia generica de categoria, nao como numero confirmado e atribuido de forma inequivoca ao perfil da Lojas Avenida, por isso nao foi usada nos campos numericos estruturados (followers_count = -1)."
+    },
+    {
+      "username": "unavailable_reason: handle real do Instagram da Havan nao citado no documento-fonte (concorrente direto descrito por nome, categoria de perfil e volume de midia paga, nao por auditoria propria de posts organicos).",
+      "name": "Havan",
+      "followers_count": -1,
+      "follows_count": -1,
+      "media_count_total": -1,
+      "posts_90d": -1,
+      "data_quality_note": "Concorrente direto (megastore nacional). Doc.-fonte cita apenas categoria de perfil recomendada ('Compras e Varejo', a mesma sugerida para o Rei do Pano) e 'proporcao seguindo/seguidores muito favoravel', sem numeros exatos atribuidos especificamente ao perfil da Havan. Dados de midia paga da Havan (pixel, GTM, GA4, +1.100 anuncios Meta) existem no doc. 02-mercado-swot-concorrentes.md mas sao de trafego pago, fora do escopo deste diagnostico organico."
+    }
+  ],
+
+  "format_distribution": {
+    "by_account": [
+      {"username": "reidopano.com.br", "counts": {}, "qualitative_note": "Sem contagem exata disponivel. Documento-fonte indica volume real de Reels ('grava com frequencia') e cita que 3 dos ultimos posts observados eram fotos de placas de promocao fotografadas na loja fisica — sinal qualitativo de mistura de formatos sem padrao, nao uma contagem total por tipo."},
+      {"username": "rainhamodas.com.br", "counts": {}, "qualitative_note": "Sem contagem exata disponivel. Feed descrito como 'dominado por fotos de perfume de marcas terceiras' em estetica de banco de imagem — sinal qualitativo de concentracao em imagem estatica de produto de fabricante, nao uma contagem por tipo."},
+      {"username": "Lojas Avenida", "counts": {}, "qualitative_note": "Sem contagem exata disponivel. Documento-fonte descreve 'criativos em carrossel com preco visivel' e Reels em formato POV como padroes recorrentes, mas nao fornece contagem total por formato."},
+      {"username": "Havan", "counts": {}, "qualitative_note": "Sem contagem exata disponivel para posts organicos — o unico dado quantitativo de volume disponivel para a Havan e de midia PAGA (+1.100 anuncios Meta, ~4.000 Google Ads), fora do escopo deste diagnostico organico."}
+    ],
+    "insight": "Nao ha contagem numerica por formato (FEED_IMAGE/CAROUSEL/REELS/VIDEO) disponivel para nenhuma das 4 contas nesta auditoria manual. Leitura qualitativa possivel: o cliente (ambas as marcas) ja produz Reels com frequencia real, mas mistura formatos sem identidade visual consistente (arte grafica de entrega, foto de produto, video de influenciadora, cartaz de preco fotografado, no caso do Rei do Pano; fotos de banco de imagem de terceiros, no caso da Rainha Modas). O concorrente mais estudado (Lojas Avenida) usa carrossel com preco visivel e Reels POV com etiqueta de preco fixa na tela — um padrao de execucao mais disciplinado do que o observado no cliente, ainda que sem numero de posts para comparar cadencia real."
+  },
+
+  "cadence": {
+    "by_account": [
+      {"username": "reidopano.com.br", "posts_per_week": -1, "preferred_weekday": "unavailable_reason: nao medido nesta auditoria manual", "preferred_hour": "unavailable_reason: nao medido nesta auditoria manual"},
+      {"username": "rainhamodas.com.br", "posts_per_week": -1, "preferred_weekday": "unavailable_reason: nao medido nesta auditoria manual", "preferred_hour": "unavailable_reason: nao medido nesta auditoria manual"},
+      {"username": "Lojas Avenida", "posts_per_week": -1, "preferred_weekday": "unavailable_reason: nao medido nesta auditoria manual", "preferred_hour": "unavailable_reason: nao medido nesta auditoria manual"},
+      {"username": "Havan", "posts_per_week": -1, "preferred_weekday": "unavailable_reason: nao medido nesta auditoria manual", "preferred_hour": "unavailable_reason: nao medido nesta auditoria manual"}
+    ],
+    "insight": "Cadencia atual (posts/semana) nao foi medida em nenhuma das 4 contas — a auditoria de origem e qualitativa/estrutural, nao uma extracao de posts com timestamp. O que o documento-fonte define e uma cadencia-ALVO recomendada, identica para as duas marcas do cliente: 4 a 5 posts por semana (2 Reels, 2 estaticos/carrosseis, 1 post leve de relacionamento/prova social) — 'consistencia vale mais que volume'. Essa e uma meta prescrita pelo roadmap, nao uma medicao do estado atual, por isso nao foi usada como valor de posts_per_week."
+  },
+
+  "engagement_benchmark": {
+    "by_account": [
+      {"username": "reidopano.com.br", "avg_likes": -1, "avg_comments": -1, "avg_engagement_proxy": -1, "best_format_by_engagement": "unavailable_reason: nao medido nesta auditoria manual"},
+      {"username": "rainhamodas.com.br", "avg_likes": -1, "avg_comments": -1, "avg_engagement_proxy": -1, "best_format_by_engagement": "unavailable_reason: nao medido nesta auditoria manual"},
+      {"username": "Lojas Avenida", "avg_likes": -1, "avg_comments": -1, "avg_engagement_proxy": -1, "best_format_by_engagement": "unavailable_reason: nao medido nesta auditoria manual"},
+      {"username": "Havan", "avg_likes": -1, "avg_comments": -1, "avg_engagement_proxy": -1, "best_format_by_engagement": "unavailable_reason: nao medido nesta auditoria manual"}
+    ],
+    "insight": "Nenhuma metrica de engajamento (likes, comentarios, engagement_proxy) foi extraida via Graph API nesta rodada — a fonte e uma auditoria qualitativa em PDF. O melhor proxy disponivel no material e o diagnostico de maturidade digital do doc. de Trafego Pago (05-diagnostico-midia-trafego-pago.md), que classifica as duas marcas como Nivel V0 - Estruturacao: organico descrito como 'maduro mas desestruturado' (ha esforco e frequencia de producao, mas sem estrategia, identidade ou correcao tecnica), enquanto midia paga e inexistente para ambas. Prova social disponivel fora do Instagram: nota 4,6/5,0 no Google com 327+ avaliacoes (Google Meu Negocio, nao Instagram)."
+  },
+
+  "top_posts": [
+    {
+      "username": "reidopano.com.br",
+      "permalink": "unavailable_reason: nenhum post individual especifico foi citado com URL no documento-fonte para este padrao — a auditoria descreve o formato de forma agregada como 'o que ja funciona', sem apontar um post exemplar unico.",
+      "embed_url": "unavailable_reason: dependente do campo permalink, tambem indisponivel.",
+      "media_type": "VIDEO",
+      "format": "REELS",
+      "timestamp": "unavailable_reason: nao ha data de post individual associada a este padrao no documento-fonte.",
+      "caption": "unavailable_reason: nao ha caption literal de um post especifico citada no documento-fonte para este padrao.",
+      "like_count": -1,
+      "comments_count": -1,
+      "engagement_proxy": -1,
+      "diagnosis": "Formato 'mostra + conta' (alguem da loja com o produto nas maos, falando diretamente) e explicitamente citado no documento-fonte como o padrao que ja funciona para o nicho do Rei do Pano — reforca autoridade e prova fisica do produto sem exigir producao cara.",
+      "gap_para_cliente": false
+    },
+    {
+      "username": "Lojas Avenida",
+      "permalink": "unavailable_reason: nenhum permalink de post individual foi registrado no documento-fonte — o padrao e descrito de forma agregada como caracteristica recorrente do perfil, nao de um post especifico.",
+      "embed_url": "unavailable_reason: dependente do campo permalink, tambem indisponivel.",
+      "media_type": "VIDEO",
+      "format": "REELS",
+      "timestamp": "unavailable_reason: nao ha data de post individual associada a este padrao no documento-fonte.",
+      "caption": "unavailable_reason: exemplo generico citado no documento-fonte ('montando looks com as bermudas que encontrei na Avenida'), sem indicar se e uma legenda literal de post ou uma descricao do formato.",
+      "like_count": -1,
+      "comments_count": -1,
+      "engagement_proxy": -1,
+      "diagnosis": "Reels em formato POV (ex.: 'montando looks com as bermudas que encontrei na Avenida') com etiquetas de preco fixas na tela — resolve exatamente o problema de 'sem texto/contexto na tela' identificado no cliente, mostrando produto + preco + uso em um so video.",
+      "gap_para_cliente": true
+    },
+    {
+      "username": "JLM Tecidos",
+      "permalink": "unavailable_reason: referencia de benchmark de criativo citada no doc. 02-mercado-swot-concorrentes.md sem permalink — nao classificada formalmente como concorrente, apenas como referencia de boas praticas de conteudo.",
+      "embed_url": "unavailable_reason: dependente do campo permalink, tambem indisponivel.",
+      "media_type": "VIDEO",
+      "format": "VIDEO",
+      "timestamp": "unavailable_reason: nao ha data associada a este exemplo no documento-fonte.",
+      "caption": "unavailable_reason: nao citada no documento-fonte.",
+      "like_count": -1,
+      "comments_count": -1,
+      "engagement_proxy": -1,
+      "diagnosis": "Anuncio de demonstracao de produto (sarja impermeavel) citado como referencia: mostra o atributo fisico do tecido em acao nos primeiros segundos, prova visual antes da prova verbal — padrao diretamente aplicavel ao mix de tecidos do Rei do Pano.",
+      "gap_para_cliente": true
+    },
+    {
+      "username": "Linda Casa",
+      "permalink": "unavailable_reason: referencia de benchmark de criativo citada no doc. 02-mercado-swot-concorrentes.md sem permalink — nao classificada formalmente como concorrente, apenas como referencia de boas praticas de conteudo.",
+      "embed_url": "unavailable_reason: dependente do campo permalink, tambem indisponivel.",
+      "media_type": "IMAGE",
+      "format": "FEED_IMAGE",
+      "timestamp": "unavailable_reason: nao ha data associada a este exemplo no documento-fonte.",
+      "caption": "unavailable_reason: nao citada no documento-fonte.",
+      "like_count": -1,
+      "comments_count": -1,
+      "engagement_proxy": -1,
+      "diagnosis": "Perfil de enxoval/cama com UGC estilo indicacao e identidade visual disciplinada (icone + cor em todos os destaques): prova social real de cliente usando o produto, o oposto do padrao de foto de banco de imagem hoje usado no feed da Rainha Modas.",
+      "gap_para_cliente": true
+    }
+  ],
+
+  "bottom_posts": [
+    {
+      "username": "reidopano.com.br",
+      "permalink": "unavailable_reason: post citado apenas pelo tema ('Reels do kit de bebe') no documento-fonte, sem URL.",
+      "embed_url": "unavailable_reason: dependente do campo permalink, tambem indisponivel.",
+      "media_type": "VIDEO",
+      "format": "REELS",
+      "timestamp": "unavailable_reason: nao ha data registrada no documento-fonte.",
+      "caption": "unavailable_reason: nao ha caption literal citada no documento-fonte.",
+      "like_count": -1,
+      "comments_count": -1,
+      "engagement_proxy": -1,
+      "diagnosis": "Reels do 'kit de bebe' citado como exemplo direto do problema 'sem texto/contexto na tela' — o cliente ve o video mas nao entende o que fazer com a informacao (falta CTA e contexto escrito na tela)."
+    },
+    {
+      "username": "reidopano.com.br",
+      "permalink": "unavailable_reason: post citado apenas pelo tema ('Reels dos ursos') no documento-fonte, sem URL.",
+      "embed_url": "unavailable_reason: dependente do campo permalink, tambem indisponivel.",
+      "media_type": "VIDEO",
+      "format": "REELS",
+      "timestamp": "unavailable_reason: nao ha data registrada no documento-fonte.",
+      "caption": "unavailable_reason: nao ha caption literal citada no documento-fonte.",
+      "like_count": -1,
+      "comments_count": -1,
+      "engagement_proxy": -1,
+      "diagnosis": "Reels 'dos ursos', citado junto ao do kit de bebe como segundo exemplo do mesmo problema — falta de texto/contexto na tela impede que quem assiste entenda a acao esperada."
+    },
+    {
+      "username": "rainhamodas.com.br",
+      "permalink": "unavailable_reason: posts descritos de forma agregada ('fotos de perfume de marcas terceiras') no documento-fonte, sem URLs individuais.",
+      "embed_url": "unavailable_reason: dependente do campo permalink, tambem indisponivel.",
+      "media_type": "IMAGE",
+      "format": "FEED_IMAGE",
+      "timestamp": "unavailable_reason: nao ha data registrada no documento-fonte.",
+      "caption": "unavailable_reason: nao ha caption literal citada no documento-fonte.",
+      "like_count": -1,
+      "comments_count": -1,
+      "engagement_proxy": -1,
+      "diagnosis": "Fotos de banco de imagem/divulgacao de fabricante de perfumes de terceiros (Carolina Herrera, Olympea, 212 VIP, Calvin Klein) — segundo o documento-fonte, 'nenhuma delas prova que o produto existe fisicamente na Rainha Modas', o que passa 'exatamente o ar de golpe que qualquer loja online teme'."
+    }
+  ],
+
+  "competitor_patterns_missing": [
+    {
+      "pattern": "Bio que responde em 3 segundos 'o que e' e 'por que seguir', sem gastar espaco com horario/endereco",
+      "seen_in_count": 1,
+      "seen_in_competitors": ["Lojas Avenida"],
+      "why_works": "Documento-fonte cita a bio 'loja mais alegre do Brasil / aqui tem promocao, produto e muito humor' como exemplo eficiente — comunica posicionamento e motivo para seguir imediatamente, sem desperdicar os 150 caracteres com informacao pos-decisao (como horario de funcionamento, que e exatamente o erro atual da bio do Rei do Pano).",
+      "how_to_apply": "Aplicar o framework ja esbocado no documento-fonte (autoridade -> posicionamento -> diferencial -> CTA) nas bios sugeridas para Rei do Pano e Rainha Modas, cortando qualquer linha de horario/endereco."
+    },
+    {
+      "pattern": "Hashtag propria recorrente como ativo de marca",
+      "seen_in_count": 1,
+      "seen_in_competitors": ["Lojas Avenida"],
+      "example_permalinks": [],
+      "why_works": "#NovidadeNaAvenida funciona como um ativo de marca reconhecivel e recorrente, facilitando indexacao interna do Instagram e criando um padrao editorial identificavel.",
+      "how_to_apply": "Criar uma hashtag propria por marca (ex.: algo ligado a 'reinado'/coroa, territorio ja usado no posicionamento) e aplicar de forma consistente nos posts de novidade/chegada de produto."
+    },
+    {
+      "pattern": "Reels em formato POV com etiqueta de preco fixa na tela",
+      "seen_in_count": 1,
+      "seen_in_competitors": ["Lojas Avenida"],
+      "why_works": "Resolve diretamente o problema 'sem texto/contexto na tela' hoje presente nos Reels do cliente (ex.: kit de bebe, ursos) — o espectador ve o preco e o produto ao mesmo tempo, sem precisar perguntar nos comentarios.",
+      "how_to_apply": "Adicionar texto na tela (preco, nome do produto, forma de pagamento) em todo Reels de produto, seguindo o mesmo principio POV ja usado organicamente pela equipe (alguem mostrando o produto)."
+    },
+    {
+      "pattern": "Identidade visual de cor aplicada com disciplina em todos os pontos de contato (feed, destaques, artes, ate sacolas em video)",
+      "seen_in_count": 1,
+      "seen_in_competitors": ["Lojas Avenida"],
+      "why_works": "Torna a marca reconhecivel 'mesmo sem logo explicita' — o oposto do feed atual do Rei do Pano, descrito como sem padrao (arte grafica de entrega, foto de produto, video de influenciadora, cartaz de preco fotografado misturados).",
+      "how_to_apply": "Aplicar a paleta ja definida no Manual de Marca (vermelho/dourado Rei do Pano; dourado/cinza Rainha Modas) de forma consistente em capas de destaque, artes de post e ate nos elementos fisicos mostrados em video (embalagens, sacolas)."
+    },
+    {
+      "pattern": "Prova visual do atributo fisico do produto nos primeiros segundos, antes da prova verbal",
+      "seen_in_count": 1,
+      "seen_in_competitors": ["JLM Tecidos"],
+      "why_works": "Demonstracao direta (ex.: sarja impermeavel em acao) convence pela evidencia sensorial do produto, algo especialmente relevante para tecidos, onde textura/caimento sao dificeis de comunicar so por texto.",
+      "how_to_apply": "Abrir os Reels de tecido do Rei do Pano mostrando o tecido em uso/contato (agua escorrendo, caimento no corpo, textura ao toque) nos 2-3 primeiros segundos, antes de qualquer fala."
+    },
+    {
+      "pattern": "UGC estilo indicacao / prova social real de cliente usando o produto",
+      "seen_in_count": 1,
+      "seen_in_competitors": ["Linda Casa"],
+      "why_works": "Prova que o produto existe e e usado de verdade — o oposto direto do problema atual da Rainha Modas (fotos de banco de imagem de perfumes de terceiros que 'passam ar de golpe').",
+      "how_to_apply": "Substituir fotos de fabricante por fotos/videos reais de clientes ou da equipe usando o produto dentro da loja; usar os destaques de 'Avaliacoes' (ja recomendados no roadmap) como vitrine desse conteudo."
+    }
+  ],
+
+  "client_winning_patterns": [
+    {
+      "pattern": "Formato 'mostra + conta' (produto nas maos de alguem da loja, falando diretamente)",
+      "seen_in_count": -1,
+      "recommendation": "Documento-fonte cita este formato explicitamente como o que ja funciona para o nicho nas duas marcas ('mostra + conta' para Rei do Pano; equivalente implicito nos formatos sugeridos de 'POV: montando um look' para Rainha Modas). Nao ha contagem exata de quantos posts usam o padrao (auditoria qualitativa), mas a recomendacao e amplificar: aumentar a proporcao de Reels nesse formato dentro da cadencia-alvo de 4-5 posts/semana."
+    },
+    {
+      "pattern": "Alta frequencia real de captacao/gravacao de Reels",
+      "seen_in_count": -1,
+      "recommendation": "O documento-fonte descreve isso como 'ponto forte real' — a equipe ja grava com regularidade e usa uma influenciadora local. A recomendacao explicita e nao pedir mais volume, e sim corrigir a execucao tecnica (os 6 problemas recorrentes) mantendo o ritmo de producao ja existente."
+    },
+    {
+      "pattern": "Organizacao tematica dos destaques da Rainha Modas (Infantil, Novidade, Campanhas, Bolsas, Moda Feminina, Eletrodomesticos)",
+      "seen_in_count": -1,
+      "recommendation": "Documento-fonte reconhece que isso 'mostra intencao de organizacao, que ja e melhor que a maioria dos perfis do nicho'. Recomendacao: manter a logica tematica, mas reduzir de 17 para no maximo 7 destaques com nomes completos e capas com identidade visual consistente."
+    }
+  ],
+
+  "instagram_compliance": {
+    "aspect_ratio_issues_count": -1,
+    "notes": "Nao foi possivel quantificar o numero exato de posts com problema de aspect ratio nesta auditoria manual (sem extracao de frames via Graph API/media_url). O documento-fonte identifica qualitativamente que Reels sao publicados na horizontal em vez do formato vertical nativo (9:16) como um problema RECORRENTE (um dos 6 problemas tecnicos listados, presente nas duas marcas), com a consequencia estimada de perda de ate 30% da tela e menor distribuicao pelo algoritmo — mas sem contagem de quantos posts especificos apresentam o problema."
+  },
+
+  "next_actions": [
+    {"action": "Corrigir os 6 problemas tecnicos recorrentes dos Reels nas duas marcas: musica alinhada ao publico (nada de funk/eletronico pesado), remover marca d'agua do CapCut, eliminar cortes/transicoes abruptas, gravar e publicar em vertical (9:16), adicionar texto/contexto na tela e sempre escrever legenda", "impact": "alto", "effort": "medio", "priority": 1},
+    {"action": "Fazer a limpeza de seguindo do Instagram do Rei do Pano (deixar de seguir contas aleatorias em lotes de 50, mantendo so fornecedores/parceiros/referencias do nicho) para restaurar autoridade de proporcao seguindo/seguidores", "impact": "medio", "effort": "baixo", "priority": 2},
+    {"action": "Otimizar o perfil das duas marcas: trocar @ para formato limpo (ex. @reidopanooficial), foto de perfil (simbolo/coroa isolado para Rei do Pano; logo centralizada para Rainha Modas) e categoria (\"Compras e Varejo\" / \"Moda, Calcados e Acessorios\")", "impact": "alto", "effort": "baixo", "priority": 3},
+    {"action": "Reescrever a bio das duas marcas com o framework autoridade -> posicionamento -> diferencial -> CTA ja sugerido no documento-fonte, removendo informacao pos-decisao (horario/endereco) e listas de categoria sem proposta de valor", "impact": "alto", "effort": "baixo", "priority": 4},
+    {"action": "Reestruturar os destaques (Highlights): Rei do Pano seguindo a ordem Como Comprar -> Avaliacoes -> Novidades -> Dicas -> Vendedoras; Rainha Modas reduzindo de 17 para no maximo 7, com nomes completos", "impact": "medio", "effort": "medio", "priority": 5},
+    {"action": "Substituir as fotos de banco de imagem de perfumes de marcas terceiras no feed da Rainha Modas por fotos/videos reais do produto dentro da loja, idealmente com UGC/prova social (padrao Linda Casa)", "impact": "alto", "effort": "medio", "priority": 6},
+    {"action": "Adotar a linha editorial recomendada de 4-5 posts/semana por marca (2 Reels, 2 estaticos/carrosseis, 1 post leve de relacionamento/prova social), priorizando o formato 'mostra + conta' ja validado", "impact": "medio", "effort": "medio", "priority": 7},
+    {"action": "Testar padroes do concorrente mais estudado (Lojas Avenida) e dos benchmarks de criativo (JLM Tecidos, Linda Casa): hashtag propria, Reels POV com preco fixo na tela e prova visual do atributo fisico do produto nos primeiros segundos", "impact": "medio", "effort": "medio", "priority": 8}
+  ],
+
+  "completed_at": "2026-09-13T00:00:00-04:00"
+}

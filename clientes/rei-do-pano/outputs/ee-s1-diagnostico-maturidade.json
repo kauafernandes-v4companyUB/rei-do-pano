@@ -1,0 +1,322 @@
+{
+  "client_name": "Rei do Pano & Rainha Modas",
+  "summary": "Rei do Pano & Rainha Modas tem 28,5/100 de maturidade digital geral (Baixo) — GMB é o único ativo forte (nota 4,6/5,0, 327+ avaliações) num quadro V0 onde Mídia Paga (15) e CRM (14) estão praticamente zerados por ausência total de Pixel, GTM, GA4 e histórico de campanhas pagas.",
+  "summary_headline": "Rei do Pano & Rainha Modas tem 28,5/100 de maturidade digital — V0 total em Mídia e CRM, GMB forte (4,6/327) isolado, ausência de tracking trava a ativação de mídia já planejada.",
+  "summary_highlights": [
+    {
+      "category": "maturidade",
+      "label": "Score Geral",
+      "value": "28,5/100",
+      "subtext": "Classificação: Baixo (V0 — Estruturação)",
+      "tone": "red"
+    },
+    {
+      "category": "risco",
+      "label": "Pilar mais fraco",
+      "value": "CRM — 14/100",
+      "subtext": "Sem CRM de marketing, sem réguas, Linx não confirmado",
+      "tone": "red"
+    },
+    {
+      "category": "maturidade",
+      "label": "Pilar mais forte",
+      "value": "CRO — 46/100",
+      "subtext": "LP publicada e completa, mas sem tracking configurado",
+      "tone": "yellow"
+    },
+    {
+      "category": "posicao",
+      "label": "vs Benchmark Varejo Físico",
+      "value": "-1,5 pts",
+      "subtext": "28,5 vs média do setor (30) — Mídia e CRM ficam bem abaixo até desse piso baixo",
+      "tone": "yellow"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Ativo subutilizado",
+      "value": "GMB 4,6/5,0 (327+ avaliações)",
+      "subtext": "Único sinal forte do diagnóstico; otimização local incompleta",
+      "tone": "green"
+    },
+    {
+      "category": "risco",
+      "label": "Investimento sem rastreio",
+      "value": "R$0 histórico / R$2K planejado",
+      "subtext": "0 campanhas confirmadas via V4MOS; Pixel/GTM/GA4 ainda não instalados",
+      "tone": "red"
+    }
+  ],
+  "summary_key_findings": [
+    {
+      "category": "vantagem",
+      "text": "GMB já é um ativo forte e comprovado — nota 4,6/5,0 com 327+ avaliações — o único pilar com sinal de mercado real e positivo em todo o diagnóstico, ainda com otimização local incompleta (categoria, posts, Q&A)."
+    },
+    {
+      "category": "ameaca",
+      "text": "Zero Pixel Meta, zero GTM, zero GA4 e zero campanha paga histórica em ambas as marcas — confirmado pelo briefing e por fetch real do V4MOS (0 campanhas em 12/06–10/09/2026) — qualquer real investido hoje entraria 'no escuro', sem aprendizado de algoritmo."
+    },
+    {
+      "category": "contexto",
+      "text": "O grupo já entregou a base estrutural que normalmente falta num V0: Manual de Marca completo, Landing Page publicada com 14 blocos (mais completa que o planejado), 3 criativos finais do Rei do Pano prontos e copy completa de Google Ads para as duas marcas — a maturidade baixa está concentrada em rastreamento, CRM e execução técnica de conteúdo, não em ausência de posicionamento ou peças."
+    },
+    {
+      "category": "acao",
+      "text": "Antes de subir qualquer campanha ou aumentar o R$2.000/mês já aprovado, instalar Pixel Meta + GTM + GA4 é o pré-requisito não-negociável — é o gargalo citado de forma independente tanto no diagnóstico de mídia quanto no cruzamento da auditoria de comunicação."
+    },
+    {
+      "category": "ameaca",
+      "text": "Rainha Modas está sistematicamente atrás do Rei do Pano — sem persona B2B aprofundada, sem criativos finais, com Pilares/Valores copiados do Rei do Pano no Manual de Marca — e fora do escopo do primeiro piloto de mídia paga (R$2.000/mês concentrado só no Rei do Pano/Vilhena)."
+    }
+  ],
+  "data_source": "mixed",
+  "overall_score": 28.5,
+  "overall_classification": "low",
+  "pillar_scores": [
+    {
+      "pillar": "midia_paga",
+      "score": 15,
+      "classification": "critical",
+      "highlight": "Zero Pixel, GTM, GA4 e histórico de campanhas em ambas as marcas — confirmado tanto pelo briefing quanto pelo fetch real do V4MOS (0 campanhas, 12/06–10/09/2026), apesar de a estrutura de campanhas e o forecast já estarem modelados e aprovados.",
+      "estimated": true,
+      "details": {
+        "strengths": [
+          "Estrutura de campanhas já modelada e documentada: Lead via WhatsApp + Engajamento (Meta) e Blindagem de Marca + Core + Conquista (Google), pronta para ativação assim que o rastreamento estiver no ar",
+          "Forecast de 6 meses aprovado com o operador (R$2.000/mês, 80% Meta/20% Google, Rei do Pano/Vilhena) — projeção de ~1.011 leads e CAC de mídia decrescente de R$90,90 a R$32,26",
+          "~410 buscas/mês de intenção de compra em Vilhena com 0 concorrentes ativos anunciando nesses termos — espaço aberto no Google Ads"
+        ],
+        "weaknesses": [
+          "Pixel Meta não instalado, Google Tag Manager e GA4 não configurados em nenhuma das duas marcas",
+          "Nenhuma conta de anúncios confirmada como criada (Meta Business Manager, Google Ads) — passo 1 do roadmap ainda não confirmado como concluído",
+          "0 campanhas, 0 gasto, 0 cliques confirmados via fetch V4MOS no período 12/06–10/09/2026 — sem nenhum dado real de performance para calibrar segmentação ou budget"
+        ],
+        "metrics": {
+          "google_ads_campanhas_v4mos": 0,
+          "facebook_ads_campanhas_v4mos": 0,
+          "gasto_total_v4mos_periodo_brl": 0,
+          "periodo_v4mos": "2026-06-12 a 2026-09-10",
+          "buscas_mensais_estimadas_categoria": 410,
+          "concorrentes_ativos_google_ads": 0,
+          "forecast_budget_mensal_aprovado_brl": 2000
+        },
+        "unavailable_reason": "Score é estimado por leitura qualitativa do documento-fonte (classificação declarada 'V0 — Estruturação'), não por auditoria de conta ativa — não existe conta de mídia paga real para aplicar os critérios granulares do framework (estrutura, segmentação ao vivo, budget allocation real)."
+      }
+    },
+    {
+      "pillar": "criativos",
+      "score": 34,
+      "classification": "low",
+      "highlight": "Volume de produção orgânica é ponto forte real, mas 6 problemas técnicos recorrentes nos Reels e a ausência de copy de Meta Ads travam o pilar; Rainha Modas ainda não tem nenhum criativo pago finalizado.",
+      "estimated": true,
+      "details": {
+        "strengths": [
+          "3 criativos estáticos finais já produzidos e aprovados para o Rei do Pano (desconto na primeira compra, crediário/toalhas, 'Pano Mágico')",
+          "Volume de produção de conteúdo orgânico é alto e consistente nas duas marcas — 'o esforço existe, a estratégia falta'",
+          "Copy de Google Ads completa e pronta para as duas marcas (10 títulos + 3 descrições + 4 sitelinks cada)"
+        ],
+        "weaknesses": [
+          "6 problemas técnicos recorrentes nos Reels: música desalinhada, marca d'água do CapCut, edições abruptas, formato horizontal em vez de vertical, sem texto na tela, sem legenda escrita",
+          "Copy de Meta Ads ausente — seção truncada no documento-fonte, sem nenhuma copy de anúncio Meta finalizada",
+          "Rainha Modas sem nenhum criativo pago finalizado — briefing de 3 criativos existe só em texto, nenhum arquivo de imagem localizado"
+        ],
+        "metrics": {
+          "criativos_pagos_finalizados_rei_do_pano": 3,
+          "criativos_pagos_finalizados_rainha_modas": 0,
+          "frequencia_posts_organicos_semana_alvo": "4-5 por marca",
+          "problemas_tecnicos_recorrentes_reels": 6
+        },
+        "unavailable_reason": "Sem biblioteca de anúncios ativa para medir CTR/CPA por criativo (nenhuma campanha paga rodou ainda) — avaliação é baseada na auditoria de conteúdo orgânico e nos criativos estáticos já produzidos, não em performance real de mídia."
+      }
+    },
+    {
+      "pillar": "cro",
+      "score": 46,
+      "classification": "medium",
+      "highlight": "Landing Page publicada e mais completa que o planejado originalmente (14 blocos, prova social forte), mas sem confirmação de que os eventos de conversão estão configurados no Pixel/GTM.",
+      "estimated": true,
+      "details": {
+        "strengths": [
+          "LP ao vivo em https://rei-do-pano.vercel.app/ com proposta de valor clara na primeira dobra ('Construindo um Novo Reinado' + crediário, tradição, atendimento)",
+          "Prova social forte já integrada: nota 4,6/5,0 com 327+ avaliações, depoimentos, presença regional das 3 lojas com endereço",
+          "FAQ com 6 perguntas e formulário de cotação (Nome, WhatsApp, Cidade, UF, Categoria, Mensagem) já no ar"
+        ],
+        "weaknesses": [
+          "Não está confirmado quais eventos de conversão (clique em WhatsApp e/ou envio do formulário) estão de fato configurados no Pixel/GTM da página — item obrigatório antes de atribuir qualquer lead a uma campanha",
+          "Formulário de cotação tem 6 campos — acima do recomendado para topo de funil, pode elevar fricção",
+          "Nenhuma auditoria técnica formal de velocidade/mobile/heatmap foi realizada até o momento"
+        ],
+        "metrics": {
+          "blocos_lp": 14,
+          "campos_formulario": 6,
+          "faq_perguntas": 6,
+          "avaliacoes_google": "4,6/5,0 (327+)"
+        },
+        "unavailable_reason": "Não há diagnóstico técnico dedicado de CRO (skill ee-s2-diagnostico-cro ainda não executada) nem acesso a Google Analytics/Search Console/heatmap — velocidade, taxa de conversão real e eventos de tracking configurados são inferidos do conteúdo da LP, não medidos diretamente."
+      }
+    },
+    {
+      "pillar": "crm",
+      "score": 14,
+      "classification": "critical",
+      "highlight": "Linx é citado como ERP/PDV mas o uso formal não está confirmado e não há nenhuma integração com o funil de mídia — hoje a triagem de lead e a atribuição de venda são 100% manuais.",
+      "estimated": true,
+      "details": {
+        "strengths": [
+          "Base de clientes de 30+ anos existe dentro do Linx — apontada em múltiplas fontes como o ativo mais valioso e subutilizado do grupo (nível 4 de consciência, já compraram antes)",
+          "Uso planejado já desenhado: upload como audiência personalizada e lookalike (1% e 2%) no Meta, exclusão de compradores recentes, campanha de reengajamento por segmento"
+        ],
+        "weaknesses": [
+          "Linx citado como ERP nos documentos pós-briefing, mas o próprio pré-kick-off respondeu apenas 'computador, celular' na pergunta sobre sistemas de gestão — uso formal não confirmado",
+          "Nenhuma integração entre Linx e mídia paga — qualquer 'cliente atendido' ou CAC reportado hoje é estimativa cruzada manualmente, não dado de sistema",
+          "Sem pipeline comercial formalizado, sem scripts de vendas (has_scripts: false) e sem nenhuma régua de follow-up ou pós-venda ativa"
+        ],
+        "metrics": {
+          "vendedores_ativos_confirmados": null,
+          "has_scripts": false,
+          "regua_pos_venda_ativa": false
+        },
+        "unavailable_reason": "Não há acesso ao Linx nem confirmação formal de que é o sistema em uso nas 3 lojas + Rainha Modas — score reflete a ausência de CRM de marketing estruturado descrita no briefing e no handoff, não uma auditoria direta do sistema."
+      }
+    },
+    {
+      "pillar": "seo",
+      "score": 29,
+      "classification": "low",
+      "highlight": "Google Meu Negócio é o único ativo forte do diagnóstico (4,6/5,0, 327+ avaliações), mas é o único sinal positivo dentro de um pilar SEO no restante vazio: sem blog, sem conteúdo indexado, sem dados de Search Console.",
+      "estimated": true,
+      "details": {
+        "strengths": [
+          "GMB com nota 4,6/5,0 e mais de 327 avaliações — ativo forte e comprovado, mas ainda pouco explorado digitalmente (posts, Q&A e categorias não confirmados como otimizados)",
+          "Zero concorrentes ativos anunciando nos termos de busca de categoria em Vilhena (~410 buscas/mês combinadas) — espaço aberto, embora isso seja mais sinal de mídia paga que de SEO orgânico",
+          "Site publicado com estrutura básica (14 blocos), o que dá uma base mínima para indexação"
+        ],
+        "weaknesses": [
+          "Nenhum blog ou conteúdo orgânico indexado identificado — aquisição orgânica hoje depende quase 100% do GMB",
+          "Sem acesso ao Google Search Console — não é possível confirmar keywords orgânicas rankeadas, impressões ou posição real",
+          "Otimização local do GMB (categoria, posts semanais, perguntas e respostas) não confirmada como completa"
+        ],
+        "metrics": {
+          "gmb_nota": 4.6,
+          "gmb_avaliacoes": "327+",
+          "gmb_reivindicado": true,
+          "buscas_mensais_categoria": 410,
+          "concorrentes_ativos_busca_paga": 0
+        },
+        "unavailable_reason": "Sem acesso ao Google Search Console e sem auditoria técnica de SEO on-page — score é estimado a partir do briefing, da pesquisa pública sobre o GMB e da ausência documentada de blog/conteúdo, não de uma auditoria de keywords real."
+      }
+    }
+  ],
+  "executive_summary": "Rei do Pano & Rainha Modas tem 28,5 em 100 de maturidade digital — Baixo, segundo o framework de scoring da V4, e consistente com a classificação que o próprio material do projeto já usa: 'V0 — Estruturação'. Na prática, isso significa que o grupo está deixando dinheiro na mesa não porque falte estratégia — o Manual de Marca, a Landing Page e o forecast de mídia já estão prontos — mas porque a fundação técnica que faz qualquer real investido em anúncio valer mais amanhã do que hoje (Pixel, GTM, GA4) simplesmente não existe. Cada real gasto em mídia paga sem essa fundação é dinheiro pago para o algoritmo aprender do zero, de novo, na próxima campanha.\n\nOs dois maiores gaps que travam resultado agora: primeiro, o pilar de Mídia Paga (15/100, Crítico) — zero Pixel, zero GTM, zero GA4, zero histórico de campanha em ambas as marcas, confirmado tanto no briefing quanto no fetch direto do V4MOS (0 campanhas entre 12/06 e 10/09/2026) — mesmo com a estrutura de campanhas, o forecast (R$2.000/mês) e os criativos do Rei do Pano já prontos para subir. Segundo, o CRM (14/100, Crítico) — o Linx é citado como ERP/PDV mas seu uso formal nunca foi confirmado no pré-kick-off, não há nenhuma integração com o funil de mídia, e não existe pipeline, scripts ou régua de follow-up: hoje, todo 'cliente atendido' reportado é estimativa manual da equipe, não dado de sistema.\n\nOs dois pontos fortes que precisam ser acelerados: o Google Meu Negócio, com nota 4,6/5,0 e mais de 327 avaliações, é o único pilar com sinal de mercado forte e comprovado em todo o diagnóstico — e segue amplamente subaproveitado (SEO geral em 29/100, puxado só por esse ativo). E a Landing Page (CRO, 46/100, o pilar mais alto do diagnóstico), publicada com 14 blocos — mais completa que o planejamento original — já reúne proposta de valor clara, prova social forte e formulário de cotação; falta apenas confirmar os eventos de conversão no Pixel/GTM para que ela pare de ser uma vitrine e passe a ser, de fato, mensurável.",
+  "priorities": [
+    {
+      "rank": 1,
+      "action": "Instalar Pixel Meta + Google Tag Manager + GA4 nas duas marcas, com evento Contact disparado no clique do WhatsApp",
+      "rationale": "É o pré-requisito não-negociável citado de forma independente em três fontes (diagnóstico de mídia, auditoria de comunicação, handoff) — sem ele, qualquer real investido em anúncio entra 'no escuro' e o algoritmo nunca aprende com dado real.",
+      "effort": "medium",
+      "pillar": "midia_paga",
+      "dependencies": [
+        "Confirmação de que as contas Meta Business Manager e Google Ads foram criadas"
+      ]
+    },
+    {
+      "rank": 2,
+      "action": "Subir a primeira campanha 'Lead via WhatsApp' (Meta, público frio, segmentação 120km/mulheres 30-60/interesses costura-moda) usando os 3 criativos já finalizados do Rei do Pano",
+      "rationale": "Caminho de menor fricção para o estágio V0 — não depende de pixel/LP maduros, aproveita ativos já prontos e gera o primeiro dado real para recalibrar o forecast de R$2.000/mês.",
+      "effort": "low",
+      "pillar": "midia_paga",
+      "dependencies": [
+        "Pixel Meta e GTM instalados (prioridade 1)"
+      ]
+    },
+    {
+      "rank": 3,
+      "action": "Confirmar formalmente se o Linx é o ERP em uso nas 3 lojas + Rainha Modas e estruturar um pipeline comercial mínimo com critério de avanço",
+      "rationale": "CRM está em 14/100 — sem essa confirmação, a promessa de reativação da base de clientes (o ativo mais valioso subutilizado do grupo) não tem viabilidade técnica comprovada, e nenhuma venda pode ser atribuída à mídia de forma confiável.",
+      "effort": "high",
+      "pillar": "crm",
+      "dependencies": [
+        "Acesso direto ao Linx",
+        "Financeiro/TI do cliente"
+      ]
+    },
+    {
+      "rank": 4,
+      "action": "Corrigir os 6 problemas técnicos recorrentes dos Reels (música, marca d'água do CapCut, edição abrupta, formato horizontal, sem texto na tela, sem legenda) e finalizar os criativos pagos pendentes da Rainha Modas",
+      "rationale": "O volume de produção já é bom — o ganho rápido está em execução, não em produzir mais; e a Rainha Modas não pode subir mídia paga sem ter nenhum criativo finalizado.",
+      "effort": "low",
+      "pillar": "criativos",
+      "dependencies": []
+    },
+    {
+      "rank": 5,
+      "action": "Confirmar quais eventos de conversão (clique WhatsApp, envio de formulário) estão de fato configurados no Pixel/GTM da Landing Page",
+      "rationale": "Sem essa confirmação, a LP (o pilar mais maduro do diagnóstico, 46/100) não pode provar sua própria conversão nem alimentar o algoritmo do Meta/Google com dado de qualidade.",
+      "effort": "low",
+      "pillar": "cro",
+      "dependencies": [
+        "Pixel/GTM instalado (prioridade 1)"
+      ]
+    },
+    {
+      "rank": 6,
+      "action": "Otimizar o Google Meu Negócio (categoria, posts semanais, perguntas e respostas, fotos) para aproveitar o único ativo com sinal de mercado forte já comprovado",
+      "rationale": "GMB (4,6/5,0, 327+ avaliações) é o pilar mais forte do diagnóstico e o de menor esforço para melhorar — está sendo deixado praticamente parado enquanto puxa sozinho o pilar de SEO.",
+      "effort": "low",
+      "pillar": "seo",
+      "dependencies": []
+    }
+  ],
+  "sector_benchmark": {
+    "sector": "Varejo físico",
+    "sector_average": 30,
+    "comparison": "at_average",
+    "pillar_comparison": [
+      {
+        "pillar": "midia_paga",
+        "client_score": 15,
+        "sector_average": 30,
+        "gap": -15,
+        "position": "critical_gap"
+      },
+      {
+        "pillar": "criativos",
+        "client_score": 34,
+        "sector_average": 28,
+        "gap": 6,
+        "position": "above"
+      },
+      {
+        "pillar": "cro",
+        "client_score": 46,
+        "sector_average": 38,
+        "gap": 8,
+        "position": "above"
+      },
+      {
+        "pillar": "crm",
+        "client_score": 14,
+        "sector_average": 25,
+        "gap": -11,
+        "position": "below"
+      },
+      {
+        "pillar": "seo",
+        "client_score": 29,
+        "sector_average": 40,
+        "gap": -11,
+        "position": "below"
+      }
+    ],
+    "key_insight": "O score geral (28,5) fica perto da média de Varejo Físico (30) — mas essa proximidade esconde o quadro real: Mídia Paga está 15 pontos abaixo até desse piso já baixo (0 campanhas rodadas), e CRM está 11 pontos abaixo. O que segura a média são CRO e Criativos, acima de benchmarks aproximados (o framework de scoring não lista 'Varejo Físico' para esses dois pilares; usamos Lead Gen/Serviços e Serviços Locais como proxy mais próximo), puxados por uma Landing Page e um Manual de Marca já entregues — trabalho de posicionamento que a maioria das contas V0 nesse estágio ainda não tem."
+  },
+  "key_insight": {
+    "headline": "Ausência total de Pixel/GTM/GA4 é o gargalo sistêmico: sem rastreamento, Mídia Paga (15/100) não pode aprender e a Landing Page (CRO, 46/100) não consegue provar a própria conversão.",
+    "context": "As duas marcas partem de maturidade digital zero em rastreamento — nenhum evento é capturado hoje, nem pelo Meta nem pelo Google, nem na própria Landing Page. Isso não é um problema pontual de um pilar: é o pré-requisito do qual dependem a estrutura de campanhas já modelada, os 3 criativos prontos do Rei do Pano e a copy completa de Google Ads para funcionar de verdade.",
+    "numbered_reasons": [
+      "(1) Pixel Meta, GTM e GA4 não instalados em nenhuma das duas marcas — confirmado pelo briefing e pelo fetch V4MOS (0 campanhas, 12/06–10/09/2026).",
+      "(2) Sem esse rastreamento, mesmo a Landing Page já publicada (CRO, o pilar mais maduro do diagnóstico) não consegue confirmar quais eventos de conversão estão de fato disparando.",
+      "(3) Instalar essa camada é o único pré-requisito de custo zero — depois dele, a estrutura de campanhas, o forecast de R$2.000/mês e os criativos já prontos podem começar a gerar dado real em vez de estimativa."
+    ],
+    "discussion_anchor": "Antes de decidir qualquer aumento de verba de mídia ou aprovar novos criativos, o stakeholder precisa priorizar a instalação de Pixel/GTM/GA4 — é o ponto que trava a leitura confiável de todos os outros pilares."
+  },
+  "honesty_alert": "3 dos 5 pilares estão na faixa Crítica ou Baixa (Mídia Paga 15, CRM 14, SEO 29) e nenhum pilar chega a 'Bom' — o diagnóstico confirma a classificação 'V0 — Estruturação' que o próprio material do projeto já usa, sem espaço para otimismo prematuro. O único ativo com sinal de mercado forte e comprovado é o GMB (4,6/5,0, 327+ avaliações) — isolado, não é suficiente para sustentar aquisição digital sozinho. Nenhum CPL/CAC/ROAS de mídia paga reportado neste ou em qualquer outro documento do projeto é dado real: o histórico é zero, e o forecast de R$2.000/mês é simulação [E], não resultado de campanha. Além disso, não existe ticket médio, margem nem faturamento confirmados — mesmo que o funil de mídia funcione tecnicamente, é impossível hoje validar se o CAC resultante será lucrativo."
+}

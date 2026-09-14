@@ -1,0 +1,667 @@
+{
+  "client_name": "Rei do Pano & Rainha Modas",
+  "summary": "Rei do Pano & Rainha Modas têm o diferencial mais defensável do varejo regional de Vilhena — crediário próprio sem juros, especialidade em tecidos sem concorrência direta e prova social de 4,6/5,0 com 327+ avaliações — mas entram no digital em maturidade V0 (zero Pixel/GTM/GA4, zero histórico de mídia paga), enquanto a Havan já opera anúncios em escala nacional.",
+  "summary_headline": "Rei do Pano tem crediário próprio e zero concorrência em tecidos, mas está em V0 digital enquanto a Havan roda +1.100 anúncios — a janela de CPC mínimo no Google segue aberta, mas não é permanente.",
+  "summary_highlights": [
+    {
+      "category": "posicao",
+      "label": "Forças vs fraquezas",
+      "value": "6 forças / 6 fraquezas",
+      "subtext": "Diferencial estrutural forte (crediário), execução digital ainda V0",
+      "tone": "yellow"
+    },
+    {
+      "category": "competicao",
+      "label": "Scorecard geral (0-10) [E]",
+      "value": "Cliente 4,4 vs Havan 8,0",
+      "subtext": "Gap concentrado em mídia paga e tracking, não em diferencial de produto",
+      "tone": "red"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Zero concorrentes no Google",
+      "value": "~410 buscas/mês, 0 concorrentes anunciando",
+      "subtext": "CPC mínimo possível na 1ª posição nos termos de categoria",
+      "tone": "green"
+    },
+    {
+      "category": "risco",
+      "label": "Maior ameaça",
+      "value": "Havan (megastore nacional)",
+      "subtext": "+1.100 anúncios Meta ativos, ~4.000 Google Ads ativos",
+      "tone": "red"
+    },
+    {
+      "category": "janela",
+      "label": "Janela de CPC mínimo",
+      "value": "Aberta, mas não permanente",
+      "subtext": "Fecha assim que algum concorrente decidir disputar os termos",
+      "tone": "yellow"
+    },
+    {
+      "category": "maturidade",
+      "label": "Maturidade digital",
+      "value": "V0 — Estruturação",
+      "subtext": "Zero Pixel/GTM/GA4, zero histórico de mídia paga nas 2 marcas",
+      "tone": "red"
+    }
+  ],
+  "summary_key_findings": [
+    {
+      "category": "vantagem",
+      "text": "O crediário próprio sem juros (até 6x, inadimplência de 1,5%-2,5%) é o diferencial estrutural que nem a Havan (sem crediário próprio) nem o e-commerce nacional conseguem replicar digitalmente."
+    },
+    {
+      "category": "contexto",
+      "text": "O grupo entra no digital em maturidade V0 (zero Pixel Meta, GTM, GA4 e histórico de campanha paga em ambas as marcas), confirmado tanto pelo diagnóstico de maturidade quanto pelo fetch V4MOS (0 campanhas no período 12/06–10/09/2026)."
+    },
+    {
+      "category": "ameaca",
+      "text": "A Havan, concorrente direto de porte nacional, já opera com Pixel/GTM/GA4 ativos, +1.100 anúncios ativos no Meta e ~4.000 no Google Ads — maturidade digital muito superior à do grupo, ainda que sem vínculo regional nem crediário próprio."
+    },
+    {
+      "category": "acao",
+      "text": "Instalar o Pixel Meta via GTM e o GA4/GTM na Landing Page é o pré-requisito de custo zero mais crítico antes de escalar o piloto de mídia paga de R$2.000/mês já aprovado com o operador."
+    }
+  ],
+  "competitor_scorecard": [
+    {
+      "name": "Rei do Pano & Rainha Modas (cliente)",
+      "type": "cliente",
+      "scores": {
+        "site": 6,
+        "seo": 3,
+        "midia_paga": 0,
+        "social": 4,
+        "gmn": 7,
+        "reputacao": 8,
+        "comunicacao": 3
+      },
+      "evidence": {
+        "site": "LP publicada em rei-do-pano.vercel.app com 14 blocos (hero, vantagens, prova social, FAQ, formulário de cotação) — estrutura completa e mais ampla que o planejado, mas sem confirmação de quais eventos de conversão estão de fato configurados no Pixel/GTM.",
+        "seo": "SEO orgânico não trabalhado — o Google Meu Negócio é hoje o único ativo de busca local do grupo (handoff, seção 16).",
+        "midia_paga": "briefing.digital_situation.paid_traffic: false e accesses.meta_business/google_ads: false; fetch V4MOS (12/06–10/09/2026) confirmou 0 campanhas em Google Ads e Facebook Ads.",
+        "social": "Volume de produção de conteúdo já bom (Reels frequentes, uso de influenciadora local — 'o esforço existe, falta a estratégia'), mas feed sem identidade visual consistente e Reels com 6 problemas técnicos recorrentes (auditoria de comunicação).",
+        "gmn": "Nota 4,6/5,0 com 327+ avaliações no Google Meu Negócio, mas otimização para busca local ainda incompleta (handoff, seção 16).",
+        "reputacao": "4,6/5,0 com 327+ avaliações somado a inadimplência baixíssima do crediário próprio (1,5%-2,5%), sinalizando relação de confiança sólida com a base de clientes.",
+        "comunicacao": "Instagram descrito nos materiais como 'extensão de panfleto de mercado', ausência de legenda na maioria dos posts, nome de usuário em formato de domínio (@reidopano.com.br) dificultando busca e memorização."
+      },
+      "overall": 4.4
+    },
+    {
+      "name": "Havan",
+      "type": "direto",
+      "scores": {
+        "site": null,
+        "seo": null,
+        "midia_paga": 9,
+        "social": 8,
+        "gmn": null,
+        "reputacao": null,
+        "comunicacao": 7
+      },
+      "evidence": {
+        "site": "unavailable_reason: materiais não trazem avaliação específica da qualidade/estrutura do site da Havan — só a menção de que site e aplicativo funcionam como canal de conversão direto nos anúncios Meta (doc. Estruturação de Tráfego Pago).",
+        "seo": "unavailable_reason: presença de busca orgânica da Havan não foi auditada nos materiais disponíveis.",
+        "midia_paga": "Pixel Meta ativo (1 evento), Google Tag Manager ativo (GTM-MSRC), GA4 ativo (G-SDEH2SZNKR), Google Ads ativo (AW-985015144); +1.100 anúncios ativos no Meta Ads e ~4.000 anúncios ativos no Google Ads (Search, Display, Shopping, Vídeo e Local).",
+        "social": "Categoria de perfil 'Compras e Varejo' (a mesma recomendada para o Rei do Pano), proporção seguindo/seguidores muito favorável, estratégia de influenciadora (Camylla Miranda) para conteúdo gerado por consumidor e alcance orgânico.",
+        "gmn": "unavailable_reason: perfil de Google Meu Negócio da Havan não foi auditado nos materiais disponíveis.",
+        "reputacao": "unavailable_reason: reputação/avaliações da Havan não foram auditadas nos materiais disponíveis.",
+        "comunicacao": "Posicionamento de megastore nacional (moda, casa, eletro, ferramentas e mais), imagem do dono (Luciano Hang) fortemente associada à marca, experiência de loja física como destino de passeio."
+      },
+      "overall": 8.0
+    },
+    {
+      "name": "Lojas Avenida",
+      "type": "indireto",
+      "scores": {
+        "site": null,
+        "seo": null,
+        "midia_paga": 6,
+        "social": 8,
+        "gmn": null,
+        "reputacao": null,
+        "comunicacao": 5
+      },
+      "evidence": {
+        "site": "unavailable_reason: site da Lojas Avenida não foi auditado especificamente nos materiais disponíveis.",
+        "seo": "unavailable_reason: presença de busca orgânica não auditada; Google Tag Manager (2 containers) e GA4 (2 propriedades) indicam maturidade de tracking, não necessariamente de SEO.",
+        "midia_paga": "Pixel Meta não instalado; +110 anúncios ativos no Meta e ~200 anúncios ativos no Google Ads, com conversões ativas no Google Ads — volume bem menor que o da Havan.",
+        "social": "Bio eficiente ('loja mais alegre do Brasil' + 'aqui tem promoção, produto e muito humor'), hashtag própria (#NovidadeNaAvenida), identidade visual amarelo+preto aplicada com disciplina em feed/destaques/artes/sacolas, proporção seguindo/seguidores muito favorável, Reels em formato POV com preço fixo na tela — concorrente mais estudado na Análise de Social Media.",
+        "gmn": "unavailable_reason: perfil de Google Meu Negócio da Lojas Avenida não foi auditado nos materiais disponíveis.",
+        "reputacao": "unavailable_reason: reputação/avaliações da Lojas Avenida não foram auditadas nos materiais disponíveis.",
+        "comunicacao": "Comunicação 100% promocional ('tempo limitado', 'a partir de R$49'), CTA genérico ('vem conferir na Avenida mais próxima') sem especificar próximo passo para quem não tem loja perto — feed descrito nos materiais como 'panfleto digital, sem identidade nem storytelling', apesar da disciplina visual."
+      },
+      "overall": 6.3
+    },
+    {
+      "name": "Lojas Torra",
+      "type": "aspiracional",
+      "note": "Benchmark de criativo citado na Análise de Social Media, NÃO classificado nos materiais-fonte como concorrente direto ou indireto — a leitura se limita a um anúncio específico de Dia das Mães, não a uma auditoria de canais. unavailable_reason (dimensões não pontuadas): benchmark de criativo pontual, sem auditoria de canais completos; confirmar com o cliente se compete de fato pelo mesmo cliente em Vilhena antes de tratar como concorrente formal.",
+      "scores": {
+        "site": null,
+        "seo": null,
+        "midia_paga": null,
+        "social": null,
+        "gmn": null,
+        "reputacao": null,
+        "comunicacao": null
+      },
+      "evidence": {
+        "comunicacao": "[Benchmark de criativo, não concorrente confirmado] Oferta 'Leve 3 pague 2' (multiplica valor percebido sem desconto direto em R$), paleta terracota exclusiva da campanha sazonal, casting mãe e filha, CTA emocional ('Gostou? Presente de Dia das Mães é na Torra'), parcelamento '10x fixas, última parcela grátis'.",
+        "site": "unavailable_reason: benchmark limitado a um criativo específico, não a auditoria de canais completos.",
+        "seo": "unavailable_reason: benchmark de criativo, não concorrente confirmado — sem auditoria de busca orgânica.",
+        "midia_paga": "unavailable_reason: benchmark de criativo, não concorrente confirmado — sem auditoria de investimento em mídia paga.",
+        "social": "unavailable_reason: benchmark de criativo pontual (1 anúncio), não auditoria de perfil completo.",
+        "gmn": "unavailable_reason: não aplicável — benchmark de criativo, não concorrente confirmado.",
+        "reputacao": "unavailable_reason: benchmark de criativo, não concorrente confirmado — sem dado de reputação."
+      },
+      "overall": null
+    },
+    {
+      "name": "Linda Casa",
+      "type": "aspiracional",
+      "note": "Benchmark de criativo/perfil citado na Análise de Social Media, NÃO classificado como concorrente direto/indireto nos materiais-fonte.",
+      "scores": {
+        "site": null,
+        "seo": null,
+        "midia_paga": null,
+        "social": null,
+        "gmn": null,
+        "reputacao": null,
+        "comunicacao": null
+      },
+      "evidence": {
+        "comunicacao": "[Benchmark de criativo, não concorrente confirmado] Perfil de enxoval/cama com identidade visual disciplinada (ícone + cor em todos os destaques) e prova social real de cliente usando o produto (UGC estilo indicação).",
+        "site": "unavailable_reason: benchmark de criativo/perfil, não concorrente confirmado — sem auditoria de site.",
+        "seo": "unavailable_reason: benchmark de criativo/perfil, não concorrente confirmado — sem auditoria de busca orgânica.",
+        "midia_paga": "unavailable_reason: benchmark de criativo/perfil, não concorrente confirmado — sem auditoria de investimento em mídia.",
+        "social": "unavailable_reason: análise limitada a padrões de identidade visual e UGC, não a uma auditoria de perfil completa (seguidores, frequência, engajamento).",
+        "gmn": "unavailable_reason: não aplicável — benchmark de criativo, não concorrente confirmado.",
+        "reputacao": "unavailable_reason: benchmark de criativo, não concorrente confirmado — sem dado de reputação."
+      },
+      "overall": null
+    },
+    {
+      "name": "JLM Tecidos",
+      "type": "aspiracional",
+      "note": "Benchmark de criativo citado na Análise de Social Media, NÃO classificado como concorrente direto/indireto nos materiais-fonte.",
+      "scores": {
+        "site": null,
+        "seo": null,
+        "midia_paga": null,
+        "social": null,
+        "gmn": null,
+        "reputacao": null,
+        "comunicacao": null
+      },
+      "evidence": {
+        "comunicacao": "[Benchmark de criativo, não concorrente confirmado] Anúncio de demonstração de produto (sarja impermeável): prova visual do atributo físico do tecido em ação nos primeiros segundos, antes da prova verbal.",
+        "site": "unavailable_reason: benchmark de criativo pontual, não concorrente confirmado — sem auditoria de site.",
+        "seo": "unavailable_reason: benchmark de criativo pontual, não concorrente confirmado — sem auditoria de busca orgânica.",
+        "midia_paga": "unavailable_reason: benchmark de criativo pontual, não concorrente confirmado — sem auditoria de investimento em mídia.",
+        "social": "unavailable_reason: análise limitada a 1 anúncio de demonstração de produto, não a auditoria de perfil completa.",
+        "gmn": "unavailable_reason: não aplicável — benchmark de criativo, não concorrente confirmado.",
+        "reputacao": "unavailable_reason: benchmark de criativo, não concorrente confirmado — sem dado de reputação."
+      },
+      "overall": null
+    },
+    {
+      "name": "Mundo do Enxoval",
+      "type": "aspiracional",
+      "note": "Benchmark de criativo citado na Análise de Social Media, NÃO classificado como concorrente direto/indireto nos materiais-fonte.",
+      "scores": {
+        "site": null,
+        "seo": null,
+        "midia_paga": null,
+        "social": null,
+        "gmn": null,
+        "reputacao": null,
+        "comunicacao": null
+      },
+      "evidence": {
+        "comunicacao": "[Benchmark de criativo, não concorrente confirmado] Estático 'Outlet Cama, Mesa e Banho' (60% off): hierarquia visual em blocos (categoria → oferta → marca), paleta neutra que não parece liquidação barata.",
+        "site": "unavailable_reason: benchmark de criativo pontual, não concorrente confirmado — sem auditoria de site.",
+        "seo": "unavailable_reason: benchmark de criativo pontual, não concorrente confirmado — sem auditoria de busca orgânica.",
+        "midia_paga": "unavailable_reason: benchmark de criativo pontual, não concorrente confirmado — sem auditoria de investimento em mídia.",
+        "social": "unavailable_reason: análise limitada a 1 peça estática, não a auditoria de perfil completa.",
+        "gmn": "unavailable_reason: não aplicável — benchmark de criativo, não concorrente confirmado.",
+        "reputacao": "unavailable_reason: benchmark de criativo, não concorrente confirmado — sem dado de reputação."
+      },
+      "overall": null
+    },
+    {
+      "name": "comercialtextilstore",
+      "type": "aspiracional",
+      "note": "Benchmark de perfil editorial citado na Análise de Social Media, NÃO classificado como concorrente direto/indireto nos materiais-fonte.",
+      "scores": {
+        "site": null,
+        "seo": null,
+        "midia_paga": null,
+        "social": null,
+        "gmn": null,
+        "reputacao": null,
+        "comunicacao": null
+      },
+      "evidence": {
+        "comunicacao": "[Benchmark de criativo/perfil, não concorrente confirmado] Perfil de referência para linha editorial de tecidos: estrutura de temas (tapetes, cortinas, enxovais) como categorias reais buscadas pelo cliente.",
+        "site": "unavailable_reason: benchmark de perfil editorial, não concorrente confirmado — sem auditoria de site.",
+        "seo": "unavailable_reason: benchmark de perfil editorial, não concorrente confirmado — sem auditoria de busca orgânica.",
+        "midia_paga": "unavailable_reason: benchmark de perfil editorial, não concorrente confirmado — sem auditoria de investimento em mídia.",
+        "social": "unavailable_reason: análise limitada à estrutura de temas do perfil, não a uma auditoria completa (seguidores, frequência, engajamento).",
+        "gmn": "unavailable_reason: não aplicável — benchmark de criativo, não concorrente confirmado.",
+        "reputacao": "unavailable_reason: benchmark de criativo, não concorrente confirmado — sem dado de reputação."
+      },
+      "overall": null
+    }
+  ],
+  "strengths": [
+    {
+      "title": "Crediário próprio, familiar, sem juros — ativo estrutural não replicável digitalmente",
+      "description": "Parcelamento em até 6x sem juros, com inadimplência de apenas 1,5%-2,5% — indicando relação de confiança sólida com a base. Nem a Havan (depende 100% de cartão de terceiros) nem o e-commerce nacional (Shopee, Shein) replicam esse modelo.",
+      "implication": "Deve ser o argumento central de qualquer comunicação de aquisição, ancorado antes de qualquer outro atributo — é o diferencial verdadeiramente defensável do grupo.",
+      "source": "briefing"
+    },
+    {
+      "title": "Referência regional consolidada há 30+ anos, sem concorrência direta em tecidos por metro",
+      "description": "Saturação do nicho de tecidos em Vilhena é baixa — o Rei do Pano não enfrenta concorrência direta nesse segmento específico, ao contrário do nicho de moda popular (saturação média, disputado com Lojas Avenida).",
+      "implication": "Permite investir em mídia paga sem guerra de preço no segmento principal — a estratégia pode focar em capturar demanda latente, não em disputar por desconto.",
+      "source": "briefing"
+    },
+    {
+      "title": "Prova social forte já construída, ainda pouco explorada digitalmente",
+      "description": "Nota 4,6/5,0 no Google Meu Negócio, com mais de 327 avaliações — ativo de confiança relevante que hoje aparece pouco na comunicação ativa das duas marcas.",
+      "implication": "Amplificar essa prova social nos destaques do Instagram, na Landing Page e nos criativos de mídia paga tem custo baixo e retorno direto em confiança na fase de consideração.",
+      "source": "briefing"
+    },
+    {
+      "title": "Estrutura física robusta e presença em 3 unidades no Cone Sul",
+      "description": "Loja sede de 3.000 m² com elevador, mais unidades em Colorado do Oeste e Cerejeiras — porte físico relevante numa região onde poucos concorrentes oferecem escala equivalente, somado à possibilidade de visualização e tato físico do produto antes da compra.",
+      "implication": "Reforça o argumento de 'loja destino' contra concorrentes de autoatendimento, e sustenta a narrativa de variedade completa em um só lugar.",
+      "source": "briefing"
+    },
+    {
+      "title": "Volume de produção de conteúdo orgânico já existente — esforço presente, falta só estratégia",
+      "description": "Reels frequentes nas duas marcas e uso de influenciadora local já em prática, segundo a auditoria de comunicação — o volume de captação é considerado ponto forte real, mesmo com problemas de execução técnica.",
+      "implication": "A correção é de execução (formato, legenda, edição), não de esforço ou investimento adicional em produção — ganho rápido e de baixo custo.",
+      "source": "diagnostico"
+    },
+    {
+      "title": "Atendimento humanizado com resolução de problemas sem burocracia",
+      "description": "A empresa absorve o prejuízo quando necessário; discurso interno de que 'o cliente é o nosso maior patrimônio' — coerente com 30+ anos de relacionamento e com a baixa inadimplência do crediário.",
+      "implication": "Diferencial defensável frente a redes nacionais de autoatendimento (Havan) e frente ao e-commerce, que não oferece esse tipo de resolução pessoal de problema.",
+      "source": "briefing"
+    }
+  ],
+  "weaknesses": [
+    {
+      "title": "Maturidade digital V0 (Estruturação) nas duas marcas",
+      "description": "Sem Pixel Meta instalado, sem Google Tag Manager, sem GA4 e sem histórico de campanhas pagas em nenhuma das duas marcas — confirmado tanto pelo briefing (`paid_traffic: false`) quanto pelo fetch V4MOS (0 campanhas no período 12/06–10/09/2026).",
+      "implication": "Sem correção, o algoritmo de mídia opera 'no escuro', elevando custo e reduzindo desempenho mesmo com verba aprovada — instalar o Pixel é a intervenção mais crítica antes de escalar qualquer investimento.",
+      "severity": "critical",
+      "source": "diagnostico"
+    },
+    {
+      "title": "Feed do Instagram sem identidade visual consistente",
+      "description": "Mistura de estilos (arte gráfica de entrega, foto de produto, vídeo de influenciadora, cartaz de preço fotografado) — descrito nos próprios materiais como 'extensão de panfleto de mercado'.",
+      "implication": "Compromete a percepção de marca justamente no canal que já tem volume de produção — risco de continuar investindo esforço sem ganho de autoridade; mitigar com linha editorial e identidade visual formalizadas.",
+      "severity": "high",
+      "source": "diagnostico"
+    },
+    {
+      "title": "Reels com 6 problemas técnicos recorrentes",
+      "description": "Marca d'água do CapCut, música desalinhada com o público, edições abruptas, formato horizontal em vez de vertical nativo, ausência de texto em tela e ausência de legenda/contexto na maioria dos posts.",
+      "implication": "Reduz alcance orgânico e credibilidade mesmo com bom volume de produção; risco de amplificar esses mesmos erros ao subir como criativo pago se não corrigidos antes.",
+      "severity": "medium",
+      "source": "diagnostico"
+    },
+    {
+      "title": "Dados financeiros críticos ausentes (faturamento, ticket médio, margem atual)",
+      "description": "Campos deixados em branco no formulário de pré-kick-off e não localizados em nenhuma fonte pública — impede dimensionar com precisão metas de crescimento e orçamento de mídia.",
+      "implication": "Sem esse dado, qualquer CPL/CAC projetado não pode ser validado como lucrativo — é uma pendência que precisa ser resolvida diretamente com o financeiro do cliente antes de qualquer escala de investimento.",
+      "severity": "high",
+      "source": "briefing"
+    },
+    {
+      "title": "Nome de usuário do Instagram em formato de domínio e baixa autoridade de perfil",
+      "description": "Handles @reidopano.com.br / rainhamodas.com.br dificultam busca e memorização; o Instagram do Rei do Pano tem proporção seguindo/seguidores desfavorável ('segue quase metade de quem te segue'), sinalizando baixa autoridade.",
+      "implication": "Troca de handle para formato limpo já foi recomendada internamente, mas confirmado que ainda não foi aplicada — correção rápida e de custo zero.",
+      "severity": "medium",
+      "source": "diagnostico"
+    },
+    {
+      "title": "Base de clientes no Linx subutilizada e não confirmada como operacionalmente viável",
+      "description": "O sistema Linx é citado em documentos pós-briefing como ERP/PDV do grupo e como fonte para reativação de clientes inativos, mas o pré-kick-off original não confirma seu uso formal (respondeu apenas 'computador, celular' na pergunta sobre sistemas de gestão) — divergência não resolvida.",
+      "implication": "Antes de prometer prazo de reativação de base ao cliente, é preciso confirmar se o Linx é de fato o sistema em uso nas 3 lojas + Rainha Modas e se a exportação de dados é viável (formato, LGPD, frequência) — sem isso, a estratégia de remarketing/lookalike não tem base técnica confirmada.",
+      "severity": "high",
+      "source": "briefing"
+    }
+  ],
+  "opportunities": [
+    {
+      "title": "Zero concorrentes disputando lances nos termos de busca de categoria",
+      "description": "Nenhum concorrente identificado está disputando lances no Google Ads nos termos específicos de tecidos/moda em Vilhena no momento da análise, mesmo com ~410 buscas/mês combinadas de intenção de compra mensurável.",
+      "implication": "Qualquer investimento, por menor que seja, coloca o grupo na primeira posição com CPC mínimo — janela que se fecha assim que um concorrente decidir anunciar.",
+      "time_sensitivity": "urgent",
+      "source": "market_trend"
+    },
+    {
+      "title": "Crescimento demográfico de Vilhena expande continuamente a base potencial",
+      "description": "Vilhena é polo regional de saúde, comércio e educação universitária, atraindo constantemente novos moradores sem vínculo com loja local, dentro de uma área de influência de ~180 mil habitantes em raio de 120 km.",
+      "implication": "Sustenta demanda de aquisição constante, independente de campanhas sazonais pontuais — vale manter presença de captação ativa ao longo do ano, não só em picos.",
+      "time_sensitivity": "medium_term",
+      "source": "briefing"
+    },
+    {
+      "title": "WhatsApp consolidado como canal natural de vendas no varejo regional pós-pandemia",
+      "description": "Comportamento de mercado já identificado: cliente pesquisa no Instagram e manda mensagem no WhatsApp antes de buscar o produto na loja — modelo que o grupo já domina no atendimento físico.",
+      "implication": "Direcionar anúncios para WhatsApp é o caminho de menor fricção para o primeiro lead, sem depender de Pixel/LP maduros.",
+      "time_sensitivity": "medium_term",
+      "source": "briefing"
+    },
+    {
+      "title": "Aviamentos é a única categoria com crescimento expressivo de busca (+57% YoY)",
+      "description": "Enquanto a maioria dos termos de categoria tem volume zero mensurável em Vilhena, 'aviamentos vilhena' cresceu 57% ano a ano — sinal de digitalização crescente do público B2B (costureiras, ateliês, tapeçarias).",
+      "implication": "Justifica uma frente de campanha e criativos dedicados ao segmento profissional, com CTA direto para WhatsApp e proposta de 'conta profissional'.",
+      "time_sensitivity": "urgent",
+      "source": "market_trend"
+    },
+    {
+      "title": "Sazonalidade previsível permite planejamento antecipado de campanhas",
+      "description": "Calendário anual consolidado com picos em Maio (Dia das Mães), Novembro (Black Friday) e Dezembro (Natal/Enxoval), e alta relevância em Julho (Férias/Inverno) e Outubro (Formandos).",
+      "implication": "Permite reservar orçamento e produção de criativos com antecedência para os meses de maior retorno esperado, em vez de reagir de última hora.",
+      "time_sensitivity": "medium_term",
+      "source": "briefing"
+    },
+    {
+      "title": "Captura de demanda por showrooming com canal digital de conversão direto",
+      "description": "Cliente que hoje experimenta o produto na loja física e finaliza a compra em marketplace (Shopee, Shein) poderia ser retido com um canal digital de conversão direto (WhatsApp/LP) somado ao crediário próprio.",
+      "implication": "A resposta estratégica não é reduzir preço — é reforçar o crediário e a entrega imediata sem risco de produto diferente do esperado, algo que o e-commerce nacional não replica.",
+      "time_sensitivity": "medium_term",
+      "source": "briefing"
+    }
+  ],
+  "threats": [
+    {
+      "title": "Havan como concorrente direto de porte nacional com maturidade digital muito superior",
+      "description": "Pixel Meta, GTM e GA4 ativos, +1.100 anúncios ativos no Meta Ads e ~4.000 anúncios ativos no Google Ads — impacta tanto o Rei do Pano (cama/mesa/banho, decoração, tecidos) quanto a Rainha Modas (moda, calçados).",
+      "implication": "Neutralizar não pela escala (impossível no curto prazo), mas pela especialização (tecidos) e pelo crediário próprio, que a Havan não replica.",
+      "probability": "high",
+      "impact": "high",
+      "source": "briefing"
+    },
+    {
+      "title": "Avanço do e-commerce nacional via showrooming",
+      "description": "Shopee, Shein e concorrentes similares operam como 'ameaça difusa' — sem CNPJ ou endereço físico identificável, competindo por preço e conveniência enquanto o cliente experimenta o produto fisicamente na loja do grupo.",
+      "implication": "A defesa documentada nos materiais não é reduzir preço, e sim reforçar crediário próprio, atendimento humanizado e entrega imediata como fatores que o e-commerce nacional não oferece.",
+      "probability": "high",
+      "impact": "medium",
+      "source": "briefing"
+    },
+    {
+      "title": "Lojas Avenida como concorrente indireto de moda popular",
+      "description": "Atinge diretamente a Rainha Modas (moda, calçados, acessórios populares) e, secundariamente, o Rei do Pano (categorias de casa com preço agressivo), usando o Cartão Avenida como âncora de fidelização.",
+      "implication": "A brecha identificada é a ausência de especialidade em tecidos e de crediário próprio da Avenida, além de comunicação genérica sem conexão regional — pontos que a Rainha Modas pode explorar com mais desejo e proximidade.",
+      "probability": "medium",
+      "impact": "medium",
+      "source": "briefing"
+    },
+    {
+      "title": "Dependência do modelo tradicional de loja física ('passeio')",
+      "description": "O modelo de loja-passeio vem perdendo espaço para o autoatendimento de grandes redes, movimento já observado no comportamento de consumo regional.",
+      "implication": "Reforça a urgência de construir um canal digital de conversão complementar (WhatsApp/LP), sem abandonar o diferencial da experiência física.",
+      "probability": "medium",
+      "impact": "medium",
+      "source": "briefing"
+    },
+    {
+      "title": "Risco de confusão de marca com lojas homônimas, incluindo achado não confirmado em Cerejeiras",
+      "description": "Existe uma empresa 'O Rei do Pano' em Cerejeiras/RO (CNPJ 15.825.557/0001-39, razão social João Alves Querubim — mesmo sobrenome de família de Luiz, mas pessoa/CNPJ distintos), que pode ser filial operada por parente ou loja homônima não relacionada — achado ainda a validar com o cliente. Há também múltiplas lojas de tecido com o mesmo nome 'Rei do Pano' em outras cidades (Cacoal/RO, Pimenta Bueno/RO, Rondonópolis/MT, Cuiabá/MT, Sinop/MT, Colíder/MT, Nova Brasilândia D'Oeste/RO), sem nenhuma relação com o grupo.",
+      "implication": "Antes de tratar a unidade de Cerejeiras como parte do grupo em qualquer comunicação, contrato ou peça institucional, é necessário validar formalmente com o cliente — o risco é de confusão pública de marca ou de usar dado/CNPJ errado em material oficial.",
+      "probability": "medium",
+      "impact": "low",
+      "source": "briefing"
+    }
+  ],
+  "strategic_synthesis": {
+    "leverage": "A combinação mais assimétrica do negócio é o crediário próprio sem juros e a ausência de concorrência direta em tecidos por metro (forças) somados à janela de zero concorrentes disputando lances nos termos de busca de categoria em Vilhena (oportunidade). Essa combinação permite ao grupo assumir a primeira posição em buscas de intenção de compra com CPC mínimo, exatamente no momento em que o público de aviamentos B2B já mostra sinal de digitalização (+57% YoY) e em que o crescimento demográfico de Vilhena renova continuamente a base potencial. É a aposta principal: usar o diferencial que nenhum concorrente nacional replica para ocupar um espaço de busca que hoje está literalmente vazio.",
+    "protection": "A fraqueza que mais amplifica risco é a maturidade digital V0 (zero Pixel, GTM, GA4, zero histórico de mídia paga) combinada com a ausência de dados financeiros críticos (faturamento, ticket médio, margem) — sob a ameaça de um concorrente (Havan) que já opera com tracking maduro e volume de mídia em escala nacional. Se o Pixel não for instalado antes de escalar o piloto de mídia paga já aprovado, o algoritmo aprende 'no escuro' e qualquer resultado do primeiro mês tende a ficar abaixo do projetado; e sem ticket médio/margem confirmados, não há como validar se o CAC projetado é de fato lucrativo, mesmo que o volume de leads cresça.",
+    "recommended_strategy": "Nos próximos 90 dias, a prioridade é: (1) instalar o Pixel Meta via GTM e o GA4/GTM na Landing Page como pré-requisito de custo zero antes de qualquer escala de investimento; (2) executar o piloto de mídia paga já aprovado (R$2.000/mês, Rei do Pano, Vilhena, split 80% Meta/20% Google) explorando a janela de zero concorrência nos termos de busca; e (3) corrigir a execução técnica dos Reels e a identidade visual do Instagram, aproveitando o volume de conteúdo que já existe. Só depois disso faz sentido avançar para a reativação da base Linx e para uma frente dedicada de aviamentos B2B, que dependem de confirmações operacionais ainda pendentes (viabilidade de exportação do Linx, LGPD)."
+  },
+  "tows_matrix": {
+    "description": "Cruzamento estratégico dos quadrantes SWOT: onde o grupo ataca, investe, protege e minimiza dano nos próximos 90 dias.",
+    "so_strategies": [
+      {
+        "id": "SO1",
+        "strategy": "Lançar o piloto de mídia paga (Google Ads, termos de categoria) para ocupar a primeira posição com CPC mínimo, ancorando a comunicação no crediário próprio e na especialidade em tecidos sem concorrência direta",
+        "rationale": "Usa a força mais defensável (F1, crediário) e a especialidade sem concorrência (F2) para capturar a oportunidade mais urgente e mais barata (O1, zero concorrentes disputando lances)",
+        "expected_outcome": "Primeiras posições em buscas de intenção de compra a custo mínimo, antes que qualquer concorrente perceba a janela"
+      },
+      {
+        "id": "SO2",
+        "strategy": "Direcionar anúncios de Meta Ads para WhatsApp, aproveitando o volume de conteúdo orgânico já produzido e o hábito já consolidado do público de migrar do Instagram para o WhatsApp",
+        "rationale": "Usa o volume de produção de conteúdo já existente (F5) para capturar a oportunidade de um canal de conversão que o grupo já domina no atendimento físico (O3)",
+        "expected_outcome": "Primeiro lead gerado sem depender de Pixel/LP maduros, aproveitando o caminho de menor fricção"
+      },
+      {
+        "id": "SO3",
+        "strategy": "Estruturar campanha e criativos dedicados ao segmento B2B de aviamentos, com CTA direto para WhatsApp e proposta de 'conta profissional'",
+        "rationale": "Usa a variedade e o porte físico do grupo (F4) para capturar o único termo de busca em crescimento expressivo (O4)",
+        "expected_outcome": "Nova frente de receita com ticket potencialmente maior e concorrência ainda mais baixa que o varejo B2C"
+      }
+    ],
+    "wo_strategies": [
+      {
+        "id": "WO1",
+        "strategy": "Instalar Pixel Meta via GTM e GA4/GTM na Landing Page antes de escalar qualquer investimento em mídia paga",
+        "rationale": "Elimina a fraqueza mais crítica (W1, maturidade V0) para não desperdiçar a janela de CPC mínimo (O1) com um algoritmo operando sem dado",
+        "expected_outcome": "Mídia paga aprendendo com dado real desde o Mês 1, reduzindo o custo de aprendizado do algoritmo"
+      },
+      {
+        "id": "WO2",
+        "strategy": "Corrigir identidade visual e execução técnica do Instagram (formato vertical, legenda, remoção de marca d'água) para capturar melhor o público novo que chega a Vilhena",
+        "rationale": "Sem consistência visual (W2, W3) o crescimento demográfico contínuo (O2) encontra uma marca que parece 'panfleto', reduzindo a conversão de quem descobre o perfil pela primeira vez",
+        "expected_outcome": "Maior retenção e conversão do público que já está sendo alcançado organicamente, sem custo adicional de mídia"
+      },
+      {
+        "id": "WO3",
+        "strategy": "Confirmar formalmente a viabilidade operacional do Linx (cobertura das 3 lojas + Rainha Modas, formato de exportação, LGPD) antes de prometer prazo de reativação de base ao cliente",
+        "rationale": "Resolve a divergência sobre o Linx (W6) antes de comprometer a estratégia de reativação com o ativo mais valioso subutilizado do grupo",
+        "expected_outcome": "Base técnica confirmada para upload de audiência personalizada/lookalike no Meta Ads, sem promessa em falso ao cliente"
+      }
+    ],
+    "st_strategies": [
+      {
+        "id": "ST1",
+        "strategy": "Usar o crediário próprio sem juros como escudo de comunicação direta contra a Havan (sem crediário próprio) e contra o e-commerce nacional (showrooming)",
+        "rationale": "A força mais difícil de copiar (F1) neutraliza diretamente a ameaça de maior porte (T1) e a ameaça difusa do e-commerce (T2)",
+        "expected_outcome": "Desloca a comparação de 'quem tem mais variedade/escala' para 'quem facilita mais o pagamento e resolve o pós-venda'"
+      },
+      {
+        "id": "ST2",
+        "strategy": "Reforçar a especialidade em tecidos por metro como contraponto direto ao posicionamento genérico da Havan ('presente em tudo, especialista em nada')",
+        "rationale": "A ausência de concorrência direta em tecidos (F2) é a resposta natural à ameaça de escala nacional da Havan (T1), que não tem profundidade nesse nicho específico",
+        "expected_outcome": "Reforça a percepção de autoridade especializada, difícil de replicar por uma rede generalista"
+      },
+      {
+        "id": "ST3",
+        "strategy": "Usar o atendimento humanizado e a resolução sem burocracia como argumento de retenção frente à comunicação genérica e promocional da Lojas Avenida",
+        "rationale": "A força de relacionamento de longo prazo (F6) protege contra a ameaça da Avenida (T3), cuja comunicação é descrita nos materiais como sem storytelling nem conexão regional",
+        "expected_outcome": "Reduz a migração de clientes de moda popular para a Avenida em momentos de decisão por proximidade/atendimento, não só por preço"
+      }
+    ],
+    "wt_strategies": [
+      {
+        "id": "WT1",
+        "strategy": "Priorizar a correção da execução técnica dos criativos (Reels, identidade visual) antes de competir por atenção paga com concorrentes que já têm volume de mídia muito maior",
+        "rationale": "Subir um criativo com marca d'água/edição amadora (W3) contra o volume de anúncios da Havan e da Avenida (T1, T3) desperdiça a pouca verba disponível",
+        "expected_outcome": "Criativos prontos para competir por atenção antes de qualquer escala de investimento pago"
+      },
+      {
+        "id": "WT2",
+        "strategy": "Validar formalmente a situação da unidade de Cerejeiras (CNPJ distinto) e das demais lojas homônimas nacionais antes de qualquer comunicação ou expansão de marca",
+        "rationale": "Tratar uma loja homônima não confirmada (W-Cerejeiras) como parte do grupo, sob o risco de confusão pública de marca (T5), pode gerar problema reputacional ou jurídico evitável",
+        "expected_outcome": "Comunicação institucional e contratos usando apenas a razão social/CNPJ efetivamente confirmados com o cliente"
+      },
+      {
+        "id": "WT3",
+        "strategy": "Levantar faturamento, ticket médio e margem atual junto ao financeiro do cliente antes de qualquer decisão de aumento de verba de mídia",
+        "rationale": "Sem esse dado (W4), escalar investimento para competir com concorrentes de maior porte (T1, T3) é decisão sem validação de lucratividade real",
+        "expected_outcome": "Decisões de escala de budget apoiadas em CAC/margem real, não apenas em volume de leads projetado"
+      }
+    ]
+  },
+  "priority_actions": [
+    {
+      "action": "Instalar o Pixel Meta (via GTM, evento Contact no clique do WhatsApp) e o GA4/GTM na Landing Page, confirmando também a criação formal das contas de Meta Business Manager e Google Ads",
+      "swot_basis": "Mitiga W1, executa WO1, protege contra T1 (Havan já opera com tracking maduro)",
+      "impact": "high",
+      "suggested_timeline": "Semana 1 — pré-requisito não-negociável antes de escalar o piloto de mídia já aprovado",
+      "dependencies": ["ee-s2-diagnostico-midia", "ee-s3-crm-setup"],
+      "financial_impact": {
+        "investment": 0,
+        "expected_return_90d": null,
+        "payback_days": null,
+        "roi_multiple": null,
+        "note": "Sem custo monetário direto (configuração técnica) — é infraestrutura de medição, pré-requisito explícito do forecast de mídia já aprovado (R$2.000/mês), não uma ação de receita direta isolada."
+      },
+      "risk_adjusted_score": {
+        "impact": 9,
+        "probability_of_success": 9,
+        "reversibility": 10,
+        "score": 9.3
+      }
+    },
+    {
+      "action": "Executar o piloto de mídia paga já aprovado (R$2.000/mês, 6 meses, só Rei do Pano/Vilhena, split 80% Meta/20% Google), explorando a ausência de concorrentes disputando lances nos termos de busca de categoria",
+      "swot_basis": "Alavanca F1 e F2, captura O1, executa SO1",
+      "impact": "high",
+      "suggested_timeline": "Já aprovado — em execução conforme cronograma do forecast (Mês 1 a Mês 6)",
+      "dependencies": ["ee-s3-forecast-midia", "ee-s3-copy-anuncios", "ee-s3-criativos-anuncios"],
+      "financial_impact": {
+        "investment": 6000,
+        "expected_return_90d": null,
+        "payback_days": null,
+        "roi_multiple": null,
+        "note": "Investimento de R$2.000/mês × 3 meses (verba já aprovada em conversa com o operador). Projeção de funil (não financeira, pois briefing.product.ticket é null): ~424 leads e CAC de mídia caindo de R$90,90 (M1) para R$48,78 (M3), segundo outputs/ee-s3-forecast-midia.json."
+      },
+      "risk_adjusted_score": {
+        "impact": 9,
+        "probability_of_success": 7,
+        "reversibility": 6,
+        "score": 8.3
+      }
+    },
+    {
+      "action": "Corrigir os 6 problemas técnicos recorrentes dos Reels (marca d'água do CapCut, música desalinhada, edições abruptas, formato horizontal, ausência de texto em tela e de legenda) sem aumentar o volume de produção",
+      "swot_basis": "Mitiga W2 e W3, executa WT1, aproveita F5 (volume de conteúdo já existente)",
+      "impact": "high",
+      "suggested_timeline": "Semana 1-2 (quick win, sem custo adicional de produção)",
+      "dependencies": [],
+      "financial_impact": {
+        "investment": 0,
+        "expected_return_90d": null,
+        "payback_days": null,
+        "roi_multiple": null,
+        "note": "Custo zero — correção de execução sobre conteúdo já produzido, não produção adicional."
+      },
+      "risk_adjusted_score": {
+        "impact": 7,
+        "probability_of_success": 9,
+        "reversibility": 10,
+        "score": 8.2
+      }
+    },
+    {
+      "action": "Trocar os handles do Instagram para formato limpo (ex.: @reidopanooficial) e reescrever bios com proposta de valor/CTA, conforme já recomendado internamente mas ainda não aplicado",
+      "swot_basis": "Mitiga W5, executa WO2",
+      "impact": "medium",
+      "suggested_timeline": "Semana 1 (quick win imediato, sem custo)",
+      "dependencies": [],
+      "financial_impact": {
+        "investment": 0,
+        "expected_return_90d": null,
+        "payback_days": null,
+        "roi_multiple": null,
+        "note": "Custo zero — ação administrativa dentro do próprio Instagram."
+      },
+      "risk_adjusted_score": {
+        "impact": 6,
+        "probability_of_success": 9,
+        "reversibility": 10,
+        "score": 7.8
+      }
+    },
+    {
+      "action": "Validar formalmente com o cliente a situação da unidade 'O Rei do Pano' em Cerejeiras (CNPJ 15.825.557/0001-39, razão social João Alves Querubim) e o risco de confusão com lojas homônimas em outras cidades, antes de usar esse dado em comunicação, contrato ou material institucional",
+      "swot_basis": "Mitiga a ameaça de confusão de marca (T5), executa WT2",
+      "impact": "medium",
+      "suggested_timeline": "Semana 1 (quick win, requer apenas confirmação direta com o cliente)",
+      "dependencies": [],
+      "financial_impact": {
+        "investment": 0,
+        "expected_return_90d": null,
+        "payback_days": null,
+        "roi_multiple": null,
+        "note": "Custo zero — ação de validação/confirmação, sem investimento monetário."
+      },
+      "risk_adjusted_score": {
+        "impact": 5,
+        "probability_of_success": 9,
+        "reversibility": 10,
+        "score": 7.3
+      }
+    },
+    {
+      "action": "Confirmar a viabilidade operacional do Linx (cobertura das 3 lojas + Rainha Modas, formato de exportação, conformidade LGPD, frequência de atualização) e, se viável, iniciar a extração da base de clientes inativos para campanha de reativação/lookalike no Meta Ads",
+      "swot_basis": "Mitiga W6, executa WO3, captura O2 (base subutilizada)",
+      "impact": "high",
+      "suggested_timeline": "Semana 2-3, condicionado à confirmação do sistema com o cliente",
+      "dependencies": ["ee-s3-crm-setup", "ee-s3-pdv-base-ativa"],
+      "financial_impact": {
+        "investment": 0,
+        "expected_return_90d": null,
+        "payback_days": null,
+        "roi_multiple": null,
+        "note": "Sem projeção monetária disponível — briefing.product.ticket e margem atual são nulos, então o retorno da reativação de base não pode ser quantificado; os materiais apenas descrevem esse ativo como 'o mais valioso que o grupo já tem', ainda subutilizado."
+      },
+      "risk_adjusted_score": {
+        "impact": 8,
+        "probability_of_success": 6,
+        "reversibility": 7,
+        "score": 6.8
+      }
+    },
+    {
+      "action": "Estruturar campanha e criativos dedicados ao segmento B2B de aviamentos (costureiras, ateliês, tapeçarias), com CTA direto para WhatsApp e proposta de 'conta profissional'",
+      "swot_basis": "Alavanca F4, captura O4, executa SO3",
+      "impact": "medium",
+      "suggested_timeline": "Semana 3-4, junto com a produção de copy e criativos de anúncios",
+      "dependencies": ["ee-s3-copy-anuncios", "ee-s3-criativos-anuncios"],
+      "financial_impact": {
+        "investment": null,
+        "expected_return_90d": null,
+        "payback_days": null,
+        "roi_multiple": null,
+        "note": "unavailable_reason: não há budget específico definido para essa frente nos materiais — o forecast de mídia aprovado (R$2.000/mês) cobre o Rei do Pano de forma geral, sem alocação isolada para o segmento B2B de aviamentos."
+      },
+      "risk_adjusted_score": {
+        "impact": 6,
+        "probability_of_success": 6,
+        "reversibility": 8,
+        "score": 6.2
+      }
+    }
+  ],
+  "key_insight": {
+    "headline": "O Rei do Pano é o único do Cone Sul de Rondônia com crediário próprio sem juros e zero concorrência direta em tecidos — e mesmo assim está entrando no digital praticamente sozinho, sem nenhum concorrente disputando lance nos termos de busca da própria categoria.",
+    "context": "Enquanto a Havan compensa a ausência de vínculo regional e de crediário próprio com escala nacional de mídia (+1.100 anúncios Meta, ~4.000 Google Ads), o grupo tem o argumento mais defensável do mercado (crediário sem juros, inadimplência de 1,5%-2,5%, especialidade em tecidos) parado numa maturidade digital V0, sem Pixel nem histórico de campanha.",
+    "numbered_reasons": [
+      "(1) O crediário próprio sem juros é um ativo estrutural que nem a Havan (sem crediário próprio) nem o e-commerce nacional conseguem replicar digitalmente",
+      "(2) Zero concorrentes estão disputando lances nos termos de busca de categoria em Vilhena, mesmo havendo ~410 buscas/mês de intenção de compra mensurável",
+      "(3) Essa janela de CPC mínimo não é permanente — fecha assim que qualquer concorrente perceber a oportunidade e começar a anunciar"
+    ],
+    "discussion_anchor": "Ponto para Luiz e Terezinha decidirem: priorizar a instalação do Pixel e a execução do piloto de mídia já aprovado agora, enquanto a janela de zero concorrência ainda está aberta, em vez de esperar mais dados financeiros que hoje não existem?"
+  },
+  "honesty_alert": "Os scores 0-10 do scorecard de concorrentes (client, Havan, Lojas Avenida) são leituras qualitativas [E] derivadas das evidências descritas nos materiais-fonte (volume de anúncios, presença de tracking, auditoria de perfil), não uma auditoria numérica formal ponto a ponto — tratar como direcional, não como medição exata. Os cinco benchmarks de criativo (Lojas Torra, Linda Casa, JLM Tecidos, Mundo do Enxoval, comercialtextilstore) não são concorrentes confirmados nos materiais — aparecem apenas como referências pontuais de boas práticas e devem ser validados com o cliente antes de qualquer tratamento como concorrência real. Além disso, dados financeiros centrais (faturamento, ticket médio, margem atual) estão ausentes em todas as fontes, o que impede qualquer projeção de ROI/ROAS nesta análise — os únicos números de retorno disponíveis vêm do forecast operacional de funil de mídia (leads, CPL, CAC), não de faturamento. Por fim, a situação da unidade em Cerejeiras (CNPJ distinto) segue como achado não confirmado com o cliente."
+}

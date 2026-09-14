@@ -1,0 +1,175 @@
+{
+  "client_name": "Rei do Pano & Rainha Modas",
+  "summary": "Formalização (não geração nova) do que já existe de criativos de anúncio: os 3 criativos do Rei do Pano ('Ganhe 15% de desconto na primeira compra', 'Crediário Rei do Pano', 'Pano Mágico') estão finalizados em PNG 1080×1080 e prontos para uso; os 3 conceitos da Rainha Modas ('O melhor da moda', 'As melhores marcas', 'Vestido com renda') existem só como headline/subheadline/CTA no Briefing Mestre, sem nenhuma arte produzida.",
+  "summary_headline": "Rei do Pano: 3 criativos finalizados (1080×1080) prontos para subir; Rainha Modas: 3 conceitos só em texto, arte pendente",
+  "summary_highlights": [
+    {
+      "category": "producao",
+      "label": "Criativos finalizados (Rei do Pano)",
+      "value": "3/3",
+      "subtext": "PNG 1080×1080 em 05/Criativos KV-assets/001-003.png, correspondem 1:1 aos 3 objetivos do briefing original (aquisição, institucional, reengajamento)",
+      "tone": "green"
+    },
+    {
+      "category": "risco",
+      "label": "Arte finalizada (Rainha Modas)",
+      "value": "0/3 produzida",
+      "subtext": "Apenas headline/subheadline/CTA em texto no Briefing Mestre — nenhum arquivo de imagem localizado no projeto",
+      "tone": "red"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Hospedagem pública",
+      "value": "0 URLs publicadas",
+      "subtext": "Os 3 PNGs do Rei do Pano ainda não foram publicados em landing-rei-do-pano/public/photos/criativos/ — por isso o bloco produced_creatives não foi preenchido (evita inventar URL)",
+      "tone": "yellow"
+    },
+    {
+      "category": "maturidade",
+      "label": "CTR/CPC de referência",
+      "value": "1,54%–2,05% / R$0,86–1,48",
+      "subtext": "Faixa projetada no forecast de mídia (ee-s3-forecast-midia.json, Meta blended Mês 1-6) — conta em maturidade V0, sem histórico real de campanha para benchmark próprio",
+      "tone": "blue"
+    },
+    {
+      "category": "risco",
+      "label": "Divergência de marca (Rainha Modas)",
+      "value": "Slide institucional copiado do Rei do Pano",
+      "subtext": "Handoff (seção 13) alerta para não reutilizar o slide 'Pilares e Valores' da Rainha Modas em novos criativos sem antes confirmar versão customizada",
+      "tone": "yellow"
+    }
+  ],
+  "summary_key_findings": [
+    {
+      "category": "vantagem",
+      "text": "Os 3 criativos do Rei do Pano já cobrem os 3 objetivos de funil documentados no Briefing Mestre — aquisição/oferta-âncora (mascote, 15% na primeira compra), institucional/autoridade (Crediário) e reengajamento de base inativa (Pano Mágico) — e estão prontos para subir assim que Pixel Meta/GTM forem instalados (ver handoff seção 27)."
+    },
+    {
+      "category": "contexto",
+      "text": "Nenhum dos 6 conceitos documentados (3 Rei do Pano + 3 Rainha Modas) usa hook de dor explícito — todos são ofertas ou claims institucionais positivos. A ausência da categoria 'dor' neste output reflete o material de origem, não um erro de extração."
+    },
+    {
+      "category": "ameaca",
+      "text": "A Rainha Modas segue sistematicamente atrás do Rei do Pano em criativos (consistente com handoff seção 26): sem arte finalizada e com claims genéricos sem dado concreto ('O melhor da moda', 'As melhores marcas') — o tipo de headline que a própria metodologia desta skill evita ('nenhum item genérico') quando gera conteúdo novo."
+    },
+    {
+      "category": "acao",
+      "text": "Publicar os 3 PNGs do Rei do Pano em clientes/rei-do-pano/landing-rei-do-pano/public/photos/criativos/ para permitir preencher produced_creatives com URL real no próximo ciclo desta skill."
+    },
+    {
+      "category": "acao",
+      "text": "Confirmar com o cliente/fornecedor de design (Kuri & Co.) se os 3 conceitos da Rainha Modas já foram produzidos em arte e só não anexados ao projeto, ou se seguem pendentes de produção do zero — pendência aberta desde a due diligence (handoff seção 14 e checklist seção 543)."
+    }
+  ],
+  "schema_reconciliation_note": "O schema desta skill exige exatamente 5 itens em 'variations' (minItems/maxItems=5). O material real de origem tem 6 conceitos de criativo (3 Rei do Pano finalizados + 3 Rainha Modas só em briefing). Para não perder nenhum dado nem inventar um 6º slot fora do schema, os 3 conceitos do Rei do Pano (integrais, pois já finalizados) e 2 dos 3 conceitos da Rainha Modas foram estruturados como 'variations'. O 3º conceito da Rainha Modas — 'Vestido com renda' / '10% de desconto no crediário da loja' / CTA não informado no briefing original — não teve variação dedicada porque é o mais redundante estruturalmente com os outros dois (mesma lógica de oferta com desconto no crediário) e também não tem arte nem copy adicional; está registrado aqui na íntegra e em summary_key_findings para não ser perdido.",
+  "variations": [
+    {
+      "hook_type": "urgencia",
+      "brand": "Rei do Pano",
+      "production_status": "finalizado",
+      "naming": "bofu_oferta-ancora_feedsquare_v1",
+      "hook_text": "Ganhe 15% de desconto na primeira compra",
+      "short_copy": "unavailable_reason: fonte original (asset 001.png + Briefing Mestre seção 05) documenta apenas headline e CTA da peça; nenhuma copy curta separada foi escrita para este criativo.",
+      "medium_copy": "unavailable_reason: peça é 100% gráfica (mascote + 3 fotos de produto), sem copy longa associada no material de origem.",
+      "headline": "Ganhe 15% de desconto",
+      "description": "Apresente este post na loja.",
+      "button_cta": "Apresente este post na loja",
+      "visual_concept": "Peça 1080×1080 já finalizada (05/Criativos KV-assets/001.png): fundo vermelho sólido com faixas amarelas curvas decorativas nos cantos superior-esquerdo e inferior-direito. Logo 'REI DO PANO' com coroa dourada centralizado no topo, subtítulo 'TECIDO | CAMA | MESA | BANHO'. Headline branca bold 'GANHE 15%' em destaque, seguida de 'DE DESCONTO NA PRIMEIRA COMPRA'. Três fotos de produto em molduras arredondadas lado a lado (jogo de cama estampado floral, closeup de toalhas empilhadas com o mascote ao fundo, roupa de cama azul-marinho). Mascote 3D do Rei do Pano — personagem sorridente, coroa dourada, manto vermelho e dourado com gola de pelúcia branca — em pose de boas-vindas com os braços abertos, ocupando a metade inferior da peça. CTA em pílula amarela 'APRESENTE ESTE POST NA LOJA' com texto vermelho, sobreposto ao peito do mascote.",
+      "recommended_format": "feed_square",
+      "midjourney_prompt": "unavailable_reason: peça já foi produzida externamente pelo fornecedor de design (Kuri & Co.), sem prompt de geração por IA registrado no material de origem.",
+      "ideogram_prompt": "unavailable_reason: mesmo motivo — arte finalizada por designer humano, sem prompt de IA documentado.",
+      "canva_guide": "unavailable_reason: montagem final não foi feita no Canva (produção externa via fornecedor de design); não há guia de montagem documentado na fonte."
+    },
+    {
+      "hook_type": "resultado",
+      "brand": "Rei do Pano",
+      "production_status": "finalizado",
+      "naming": "tofu_institucional-crediario_feedsquare_v1",
+      "hook_text": "Realize o sonho da casa renovada com o Crediário",
+      "short_copy": "unavailable_reason: fonte original (asset 002.png + Briefing Mestre seção 05) documenta apenas headline e CTA da peça; nenhuma copy curta separada foi escrita para este criativo.",
+      "medium_copy": "unavailable_reason: peça é 100% fotográfica + tipografia, sem copy longa associada no material de origem.",
+      "headline": "Crediário Rei do Pano",
+      "description": "Realize o sonho da casa renovada com o Crediário Rei do Pano.",
+      "button_cta": "Comprar agora",
+      "visual_concept": "Peça 1080×1080 já finalizada (05/Criativos KV-assets/002.png): foto real still-life de toalhas de banho dobradas e empilhadas (tons de cinza, marrom e branco) sobre um banco de madeira, em ambiente de banheiro com parede de azulejo cinza-claro e uma toalha bege pendurada à esquerda. Selo circular vermelho e dourado 'REI DO PANO — TECIDO CAMA MESA BANHO' sobreposto no canto superior central. Faixa vermelha horizontal com o texto 'Realize o sonho da casa renovada com o'. Abaixo, headline branca bold em duas linhas 'CREDIÁRIO REI DO PANO' sobre fundo marrom escuro/preto. Botão em pílula amarela 'COMPRAR AGORA' com texto vermelho, centralizado no rodapé.",
+      "recommended_format": "feed_square",
+      "midjourney_prompt": "unavailable_reason: peça já foi produzida externamente pelo fornecedor de design (Kuri & Co.), sem prompt de geração por IA registrado no material de origem.",
+      "ideogram_prompt": "unavailable_reason: mesmo motivo — arte finalizada por designer humano, sem prompt de IA documentado.",
+      "canva_guide": "unavailable_reason: montagem final não foi feita no Canva (produção externa via fornecedor de design); não há guia de montagem documentado na fonte."
+    },
+    {
+      "hook_type": "curiosidade",
+      "brand": "Rei do Pano",
+      "production_status": "finalizado",
+      "naming": "mofu_reengajamento-base-inativa_feedsquare_v1",
+      "hook_text": "Pano Mágico — 15% de desconto",
+      "short_copy": "unavailable_reason: fonte original (asset 003.png + Briefing Mestre seção 05) documenta apenas headline e CTA da peça; nenhuma copy curta separada foi escrita para este criativo.",
+      "medium_copy": "unavailable_reason: peça é 100% fotográfica + tipografia, sem copy longa associada no material de origem.",
+      "headline": "Pano Mágico",
+      "description": "15% de desconto. Não precisa de produtos químicos.",
+      "button_cta": "Comprar agora",
+      "visual_concept": "Peça 1080×1080 já finalizada (05/Criativos KV-assets/003.png): still-life de 3 panos de microfibra multicoloridos (laranja, verde e azul) dobrados e sobrepostos em leque, sobre uma mesa de madeira clara. Texto rotacionado na diagonal, no canto superior direito, em branco: 'Não precisa de produtos químicos.'. Faixa amarela horizontal seguida de bloco vermelho com headline branca bold 'PANO MÁGICO' e subheadline '15% DE DESCONTO'. Botão em pílula amarela 'COMPRAR AGORA'. Logo 'REI DO PANO — TECIDO CAMA MESA BANHO' centralizado no rodapé sobre fundo vermelho.",
+      "recommended_format": "feed_square",
+      "midjourney_prompt": "unavailable_reason: peça já foi produzida externamente pelo fornecedor de design (Kuri & Co.), sem prompt de geração por IA registrado no material de origem.",
+      "ideogram_prompt": "unavailable_reason: mesmo motivo — arte finalizada por designer humano, sem prompt de IA documentado.",
+      "canva_guide": "unavailable_reason: montagem final não foi feita no Canva (produção externa via fornecedor de design); não há guia de montagem documentado na fonte."
+    },
+    {
+      "hook_type": "social_proof",
+      "brand": "Rainha Modas",
+      "production_status": "pendente_producao",
+      "naming": "bofu_oferta-ancora_pendente_v1",
+      "hook_text": "O melhor da moda",
+      "short_copy": "unavailable_reason: Briefing Mestre (seção 05, tabela 'Criativos Rainha Modas') registra apenas headline, subheadline e CTA — nenhuma copy curta foi escrita, e a peça também não chegou a ser produzida em arte.",
+      "medium_copy": "unavailable_reason: idem — não existe copy média nem arte finalizada para este conceito; apenas o briefing textual original (Briefing Mestre seção 05).",
+      "headline": "O melhor da moda",
+      "description": "15% de desconto na compra de duas peças.",
+      "button_cta": "Pedir agora",
+      "visual_concept": "unavailable_reason: nenhuma arte foi produzida para este conceito — apenas headline/subheadline/CTA existem em texto no Briefing Mestre. Nenhum arquivo de imagem correspondente foi localizado no projeto (ver handoff-account-manager.md, seção 14: 'Rainha Modas sem assets finais').",
+      "recommended_format": "feed_square",
+      "recommended_format_note": "Recomendação (não fato documentado) — segue o padrão 1080×1080 já usado nos 3 criativos finalizados do Rei do Pano, para manter consistência visual entre as duas marcas do grupo quando a arte for de fato produzida.",
+      "midjourney_prompt": "unavailable_reason: direção de arte ainda não foi definida para este conceito — gerar um prompt aqui exigiria inventar composição/estilo visual não briefado nem aprovado pelo fornecedor de design (Kuri & Co.).",
+      "ideogram_prompt": "unavailable_reason: mesmo motivo — sem direção de arte definida para esta peça.",
+      "canva_guide": "unavailable_reason: não há arte produzida para montar; um guia de montagem só pode ser escrito depois que a direção visual for definida com o fornecedor de design."
+    },
+    {
+      "hook_type": "resultado",
+      "brand": "Rainha Modas",
+      "production_status": "pendente_producao",
+      "naming": "tofu_institucional-crediario_pendente_v1",
+      "hook_text": "As melhores marcas",
+      "short_copy": "unavailable_reason: Briefing Mestre (seção 05, tabela 'Criativos Rainha Modas') registra apenas headline, subheadline e CTA — nenhuma copy curta foi escrita, e a peça também não chegou a ser produzida em arte.",
+      "medium_copy": "unavailable_reason: idem — não existe copy média nem arte finalizada para este conceito; apenas o briefing textual original (Briefing Mestre seção 05).",
+      "headline": "As melhores marcas",
+      "description": "No crediário.",
+      "button_cta": "Pedir agora",
+      "visual_concept": "unavailable_reason: nenhuma arte foi produzida para este conceito — apenas headline/subheadline/CTA existem em texto no Briefing Mestre. Nenhum arquivo de imagem correspondente foi localizado no projeto (ver handoff-account-manager.md, seção 14: 'Rainha Modas sem assets finais').",
+      "recommended_format": "feed_square",
+      "recommended_format_note": "Recomendação (não fato documentado) — segue o padrão 1080×1080 já usado nos 3 criativos finalizados do Rei do Pano, para manter consistência visual entre as duas marcas do grupo quando a arte for de fato produzida.",
+      "midjourney_prompt": "unavailable_reason: direção de arte ainda não foi definida para este conceito — gerar um prompt aqui exigiria inventar composição/estilo visual não briefado nem aprovado pelo fornecedor de design (Kuri & Co.).",
+      "ideogram_prompt": "unavailable_reason: mesmo motivo — sem direção de arte definida para esta peça.",
+      "canva_guide": "unavailable_reason: não há arte produzida para montar; um guia de montagem só pode ser escrito depois que a direção visual for definida com o fornecedor de design."
+    }
+  ],
+  "rainha_modas_conceito_nao_estruturado": {
+    "headline": "Vestido com renda",
+    "subheadline": "10% de desconto no crediário da loja",
+    "button_cta": "unavailable_reason: Briefing Mestre não informa CTA para este conceito (célula vazia na tabela original, seção 05).",
+    "fonte": "base-de-conhecimento/06-landing-page-copy-criativos.md, seção 5, tabela 'Criativos Rainha Modas (briefing original)'",
+    "motivo_fora_de_variations": "Ver campo 'schema_reconciliation_note' — o schema desta skill limita 'variations' a exatamente 5 itens; este é o 6º conceito real de origem (redundante em estrutura com os outros 2 da Rainha Modas: mesma lógica de desconto no crediário) e também está sem arte finalizada."
+  },
+  "ab_test_guide": {
+    "combinations": [
+      "Rodar os 3 criativos já finalizados do Rei do Pano (oferta-âncora/aquisição, institucional/crediário e reengajamento/base inativa) simultaneamente assim que Pixel Meta e WhatsApp Business estiverem configurados (pré-requisito ainda pendente, ver handoff seção 27) — comparar qual objetivo de funil gera mais clique no público frio de Vilhena.",
+      "Rainha Modas não entra neste teste nesta rodada: nenhum dos 3 conceitos ('O melhor da moda', 'As melhores marcas', 'Vestido com renda') tem arte finalizada para subir como anúncio."
+    ],
+    "success_metrics": {
+      "ctr_min": "1,54% (CTR blended Meta projetado para o Mês 1 em ee-s3-forecast-midia.json — não há CTR histórico real da conta, que está em maturidade digital V0 sem campanhas pagas anteriores em nenhuma das duas marcas)",
+      "cpc_max": "R$1,48 (CPC blended Meta projetado para o Mês 1, mesma fonte)"
+    },
+    "test_duration": "7 dias (mínimo recomendado pela metodologia desta skill — não há histórico próprio da conta para calibrar um prazo diferente)",
+    "cut_criteria": "Pausar a variação cujo CPL supere R$18,02 (CPL blended projetado do Mês 1 em ee-s3-forecast-midia.json) após volume mínimo de teste, ou cujo CTR fique abaixo de 1,54% após 1.000 impressões — critério baseado em projeção, não em benchmark histórico próprio, por a conta estar em maturidade V0."
+  },
+  "total_pieces": 15,
+  "total_pieces_note": "15 = 5 variações estruturadas neste output × 3 formatos de exportação (1080×1080, 1080×1350, 1080×1920), conforme metodologia padrão da skill. Isso é o escopo pleno do pacote, não o que já foi de fato produzido: hoje existem apenas 3 peças reais e finalizadas (as do Rei do Pano, todas em 1080×1080/feed_square) — nenhuma foi ainda exportada em 1080×1350 ou 1080×1920, e a Rainha Modas não tem nenhuma peça produzida (0/3)."
+}

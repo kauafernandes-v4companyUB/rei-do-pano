@@ -1,0 +1,261 @@
+{
+  "client_name": "Rei do Pano & Rainha Modas",
+  "summary": "Formalização do material já existente para Rei do Pano & Rainha Modas: Google Ads está 100% completo e pronto pra subir (2 RSAs — 10 títulos + 3 descrições + 4 sitelinks por marca, 26 elementos textuais no total), mas a copy de Meta Ads está integralmente ausente porque a seção 08 do documento-fonte ('Copy para Meta Ads') chegou truncada — só o cabeçalho sobreviveu. Este output é EXTRAÇÃO do que já foi produzido, não geração nova.",
+  "summary_headline": "Google Ads completo e pronto pra subir para as 2 marcas (2 RSAs, 26 elementos); Meta Ads 100% ausente — seção truncada na fonte original",
+  "summary_highlights": [
+    {
+      "category": "maturidade",
+      "label": "Cobertura por plataforma",
+      "value": "Google Ads 100% · Meta Ads 0%",
+      "subtext": "Google Ads foi extraído integralmente da seção 07 do documento-fonte; Meta Ads (seção 08) chegou truncada — só o título da seção sobreviveu",
+      "tone": "yellow"
+    },
+    {
+      "category": "oportunidade",
+      "label": "RSAs prontos pra subir",
+      "value": "2 (Rei do Pano + Rainha Modas)",
+      "subtext": "10 títulos + 3 descrições + 4 sitelinks por marca, todos com contagem de caracteres validada dentro dos limites do Google Ads",
+      "tone": "green"
+    },
+    {
+      "category": "janela",
+      "label": "Concorrência nos termos de busca",
+      "value": "0 concorrentes ativos",
+      "subtext": "~410 buscas/mês combinadas em Vilhena sem nenhum concorrente disputando lance (ver base-de-conhecimento/05-diagnostico-midia-trafego-pago.md, seção 5)",
+      "tone": "green"
+    },
+    {
+      "category": "risco",
+      "label": "Copy de Meta Ads ausente",
+      "value": "0 variações — seção truncada na fonte",
+      "subtext": "Confirmado em duas fontes independentes: 05-diagnostico-midia-trafego-pago.md (seção 6) e handoff-account-manager.md (seção 14)",
+      "tone": "red"
+    },
+    {
+      "category": "risco",
+      "label": "Funil BOFU (Lead via WhatsApp) sem copy Meta",
+      "value": "Campanha prioritária sem texto pronto",
+      "subtext": "A campanha 'Lead via WhatsApp' é a primeira a subir no Meta (ativa desde o dia 1, menor fricção) mas não tem nenhuma variação de copy disponível na fonte",
+      "tone": "red"
+    }
+  ],
+  "summary_key_findings": [
+    {
+      "category": "vantagem",
+      "text": "O Google Ads das duas marcas está completo e consistente: ambos os RSAs abrem com o nome da marca + Vilhena (blindagem), incluem o crediário próprio sem juros em pelo menos 3 dos 10 títulos, e fecham com CTA de menor fricção (WhatsApp) tanto em título quanto em sitelink — coerente com a estratégia de campanhas 'Blindagem de Marca' e 'Core — Intenção de Compra' descrita na fonte."
+    },
+    {
+      "category": "contexto",
+      "text": "A ausência de copy de Meta Ads não é uma lacuna de execução da V4 — é uma limitação física do arquivo-fonte. O PDF 'Estruturação Estratégica de Tráfego Pago' lista a seção '08 COPY' na navegação, mas o export termina logo após o cabeçalho 'Copy para Meta Ads', sem nenhum texto de anúncio visível. Isso é confirmado de forma independente no handoff de account management (seção 14: 'Copy de Meta Ads ausente — a seção correspondente do documento-fonte está truncada')."
+    },
+    {
+      "category": "ameaca",
+      "text": "Sem copy de Meta Ads, a campanha 'Lead via WhatsApp' — que o próprio plano de mídia trata como a primeira a subir, por não depender de pixel/LP maduros — fica sem nenhum texto pronto. Isso pode atrasar a ativação real do piloto de R$2.000/mês (80% Meta / 20% Google) descrito em ee-s3-forecast-midia caso o gestor de tráfego não produza copy nova antes de subir a conta."
+    },
+    {
+      "category": "acao",
+      "text": "Recomenda-se reexecutar esta skill (ee-s3-copy-anuncios) assim que houver: (a) acesso ao PDF original completo e não-truncado, ou (b) autorização do operador para gerar copy de Meta Ads nova a partir do zero (usando ee-s1-persona-icp, ee-s2-posicionamento e ee-s3-manual-marca como base), já que o documento-fonte original não pode mais ser recuperado neste projeto."
+    }
+  ],
+  "how_to_read_this_doc": {
+    "title": "Como usar este manual de copy",
+    "intro": "Este documento tem uma característica importante: ele é a FORMALIZAÇÃO de um trabalho que já foi entregue em formato de documento bruto (PDF), não uma copy gerada do zero. Por isso ele está deliberadamente incompleto — o Google Ads das duas marcas (Rei do Pano e Rainha Modas) está 100% presente, com títulos, descrições e sitelinks prontos pra subir. Já a copy de Meta Ads simplesmente não existe neste projeto: a seção correspondente do PDF original chegou truncada, com apenas o cabeçalho da seção sobrevivendo à exportação. Nenhuma copy de Meta foi inventada para preencher essa lacuna — o campo aparece com 'unavailable_reason' em vez de texto.",
+    "structure": [
+      {
+        "section": "funnel_stages",
+        "what": "As 4 fases do funil (topo, meio, fundo, remarketing). Apenas 'fundo_de_funil' tem copy real (Google Ads) — as demais têm apenas a plataforma Meta Ads marcada como indisponível.",
+        "why": "O documento-fonte organiza o Google Ads por tipo de campanha (Blindagem de Marca, Core, Conquista), não por fase de funil de consciência — todas essas campanhas são de busca com intenção já formada, por isso foram mapeadas em 'fundo_de_funil', que é onde a lógica de captura de intenção (vs. criação de demanda do Meta) se encaixa segundo o próprio documento."
+      },
+      {
+        "section": "funnel_stages[].platforms[].unavailable_reason",
+        "what": "Campo adicionado (fora do template do schema) em toda entrada de 'meta_ads' deste documento, explicando por que não há copy.",
+        "why": "Evita que o operador confunda 'sem dado' com 'esquecemos de preencher' — a ausência é rastreável a uma causa específica e documentada."
+      },
+      {
+        "section": "funnel_stages[].platforms[].variations[].sitelinks",
+        "what": "Campo adicional (fora do schema padrão) com os 4 sitelinks reais de cada marca, extraídos literalmente da fonte.",
+        "why": "Sitelinks fazem parte do anúncio completo no Google Ads e não têm campo dedicado no schema desta skill — foram preservados aqui para não perder informação real já produzida."
+      },
+      {
+        "section": "char_limits_reference",
+        "what": "Limites oficiais de caracteres por plataforma.",
+        "why": "Todos os títulos e descrições de Google Ads deste documento foram recontados caractere a caractere e confirmados dentro do limite antes da entrega."
+      },
+      {
+        "section": "test_strategy",
+        "what": "Framework padrão de teste da V4 (duração mínima, budget por adset, critérios de matar/escalar) — não são números históricos do cliente, porque a conta é V0 (zero campanha paga rodada até hoje).",
+        "why": "Sem histórico de campanha, não existe benchmark real do cliente para calibrar critérios — os valores aqui são o ponto de partida padrão, a recalibrar assim que houver 2-4 semanas de dado real (mesma lógica aplicada ao forecast de mídia)."
+      },
+      {
+        "section": "copy_rules_applied",
+        "what": "As 5 regras identificáveis na copy de Google Ads já produzida.",
+        "why": "Ajuda o operador a entender a lógica por trás do que já foi feito, mesmo sem ter participado da produção original."
+      }
+    ],
+    "workflow_recommended": [
+      "1) Confirmar com o cliente/operador se existe alguma cópia não-truncada do PDF 'Estruturação Estratégica de Tráfego Pago — Rei do Pano & Rainha Modas' antes de assumir que a copy de Meta Ads está definitivamente perdida.",
+      "2) Caso não exista, decidir com o operador se a copy de Meta Ads deve ser gerada do zero (nova rodada desta skill, usando persona/posicionamento/manual de marca como base) ou se a skill segue 'in_progress' até então.",
+      "3) Validar o Google Ads já pronto com o gestor de tráfego (Luciano) antes de subir — checar destination_url e se as contas Google Ads das duas marcas já foram de fato criadas (accesses.google_ads ainda é false em client.json).",
+      "4) Subir os 2 RSAs (Rei do Pano, Rainha Modas) nas campanhas 'Core — Intenção de Compra' e 'Blindagem de Marca' descritas em base-de-conhecimento/05-diagnostico-midia-trafego-pago.md.",
+      "5) Sem Pixel/GTM instalado ainda, não há campanha de remarketing possível — reforça por que a fase 'remarketing' deste documento está vazia por dependência técnica, além da lacuna de copy."
+    ]
+  },
+  "funnel_stages": [
+    {
+      "name": "topo_de_funil",
+      "objective": "Consciência do problema — no plano de mídia da fonte, este papel é do Meta Ads ('Meta Ads: criamos a demanda'), via campanhas de Engajamento de Publicação (ativa desde o dia 1) e Reconhecimento de Marca (fase futura)",
+      "tone": "Educativo, empático, sem vender (tom recomendado na fonte para esta fase; nenhum texto de anúncio foi produzido)",
+      "platforms": [
+        {
+          "name": "meta_ads",
+          "variations": [],
+          "unavailable_reason": "seção truncada no documento-fonte original — nunca foi gerada/recuperada"
+        }
+      ]
+    },
+    {
+      "name": "meio_de_funil",
+      "objective": "Consideração — a fonte não detalha uma campanha específica de consideração; o Meta Ads trata isso via Engajamento e o Google Ads não segmenta por esta fase",
+      "tone": "Educativo + prova social (tom padrão da skill; nenhum texto real disponível para esta fase específica)",
+      "platforms": [
+        {
+          "name": "meta_ads",
+          "variations": [],
+          "unavailable_reason": "seção truncada no documento-fonte original — nunca foi gerada/recuperada"
+        }
+      ]
+    },
+    {
+      "name": "fundo_de_funil",
+      "objective": "Conversão — no documento-fonte, todo o Google Ads (Blindagem de Marca + Core — Intenção de Compra + Conquista) é descrito como captura de demanda com intenção já formada ('Google Ads: capturamos a demanda que já existe'), por isso mapeado integralmente aqui. No Meta, esta fase corresponde à campanha 'Lead via WhatsApp' (ativa desde o dia 1), sem copy disponível.",
+      "tone": "Direto, com CTA de menor fricção (WhatsApp) e ancoragem no crediário próprio — tom real observado na copy de Google Ads já produzida",
+      "platforms": [
+        {
+          "name": "meta_ads",
+          "variations": [],
+          "unavailable_reason": "seção truncada no documento-fonte original — nunca foi gerada/recuperada (esta é a copy que alimentaria a campanha prioritária 'Lead via WhatsApp')"
+        },
+        {
+          "name": "google_ads",
+          "variations": [
+            {
+              "type": "responsive_search",
+              "brand": "Rei do Pano",
+              "match_intent": "transacional (campanhas Blindagem de Marca + Core — Intenção de Compra, ver base-de-conhecimento/05-diagnostico-midia-trafego-pago.md, seção 5)",
+              "headlines": [
+                "Rei do Pano — Vilhena",
+                "Tecidos e Aviamentos",
+                "Crediário Próprio Sem Juros",
+                "Maior Variedade da Região",
+                "Cortinas Sob Medida",
+                "30 Anos de Tradição",
+                "Aviamentos e Materiais",
+                "Loja Física em Vilhena",
+                "Fale pelo WhatsApp Agora",
+                "Atendimento Especializado"
+              ],
+              "descriptions": [
+                "A maior loja de tecidos do Cone Sul. Crediário próprio sem juros. Visite-nos em Vilhena.",
+                "Tecidos por metro, aviamentos, enxoval e cortinas sob medida. Atendimento humanizado.",
+                "30 anos em Vilhena. Crediário próprio e sem juros. Entre em contato pelo WhatsApp."
+              ],
+              "char_count_headlines": [21, 20, 27, 25, 19, 19, 22, 22, 24, 25],
+              "char_count_descriptions": [88, 85, 82],
+              "sitelinks": [
+                { "title": "Falar no WhatsApp", "description": "tire dúvidas e veja os produtos disponíveis", "char_count_title": 17, "char_count_description": 43 },
+                { "title": "Como Chegar", "description": "endereço e horário", "char_count_title": 11, "char_count_description": 18 },
+                { "title": "Crediário Próprio", "description": "parcele sem juros com aprovação rápida", "char_count_title": 17, "char_count_description": 38 },
+                { "title": "Cortinas Sob Medida", "description": "orçamento sem compromisso pelo WhatsApp", "char_count_title": 19, "char_count_description": 39 }
+              ]
+            },
+            {
+              "type": "responsive_search",
+              "brand": "Rainha Modas",
+              "match_intent": "transacional (campanhas Blindagem de Marca + Core — Intenção de Compra, ver base-de-conhecimento/05-diagnostico-midia-trafego-pago.md, seção 5)",
+              "headlines": [
+                "Rainha Modas — Vilhena",
+                "Moda Feminina e Calçados",
+                "Crediário Próprio Sem Juros",
+                "Roupas e Calçados Femininos",
+                "Moda para Todas as Idades",
+                "Loja de Moda em Vilhena",
+                "Novidades Toda Semana",
+                "Compre no Crediário",
+                "Atendimento pelo WhatsApp",
+                "Moda Feminina com Crediário"
+              ],
+              "descriptions": [
+                "Roupas femininas, calçados e muito mais. Crediário próprio sem juros em Vilhena.",
+                "Encontre moda feminina com atendimento humanizado. Parcele no crediário sem juros.",
+                "Loja física em Vilhena com variedade de roupas e calçados. Fale pelo WhatsApp agora."
+              ],
+              "char_count_headlines": [22, 24, 27, 27, 25, 23, 21, 19, 25, 27],
+              "char_count_descriptions": [80, 82, 84],
+              "sitelinks": [
+                { "title": "Falar no WhatsApp", "description": "veja as novidades e tire dúvidas agora", "char_count_title": 17, "char_count_description": 38 },
+                { "title": "Como Chegar", "description": "endereço e horário", "char_count_title": 11, "char_count_description": 18 },
+                { "title": "Crediário Próprio", "description": "parcele roupas e calçados sem juros", "char_count_title": 17, "char_count_description": 35 },
+                { "title": "Ver Coleção", "description": "confira as novidades da temporada", "char_count_title": 11, "char_count_description": 33 }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "remarketing",
+      "objective": "Reengajamento — descrito na fonte como campanha 'Remarketing — Reengajamento' no Meta Ads, ativa a partir do Mês 2, condicionada a volume mínimo de audiência quente (engajamento Instagram ≥1.000 pessoas OU visitantes únicos do pixel ≥500 eventos)",
+      "tone": "Direto, distinto da copy fria — a fonte descreve a intenção ('criativo distinto da campanha de aquisição, não apresenta a loja, oferece razão específica para voltar') mas não contém nenhum texto de anúncio real",
+      "platforms": [
+        {
+          "name": "meta_ads",
+          "variations": [],
+          "unavailable_reason": "seção truncada no documento-fonte original — nunca foi gerada/recuperada. Além disso, esta campanha depende de Pixel Meta instalado e de volume mínimo de audiência quente, nenhum dos dois confirmado como ativo em client.json (accesses.meta_business: false)"
+        }
+      ]
+    }
+  ],
+  "copy_rules_applied": [
+    "Blindagem de marca: os dois RSAs abrem o primeiro título com o nome da marca + 'Vilhena' (Rei do Pano — Vilhena / Rainha Modas — Vilhena), protegendo o clique de aparecer para concorrentes quando alguém busca diretamente pelo nome do grupo.",
+    "Diferencial competitivo ancorado no crediário: 'Crediário Próprio Sem Juros' aparece como título idêntico nas duas marcas, e reforçado em pelo menos 2 outros títulos e em todas as 3 descrições de cada marca — coerente com a diretriz do handoff de nunca ancorar em preço, sempre no crediário.",
+    "CTA de menor fricção (WhatsApp) presente em pelo menos 1 título por marca ('Fale pelo WhatsApp Agora' / 'Atendimento pelo WhatsApp') e no primeiro sitelink das duas marcas, alinhado à jornada BOFU descrita na fonte (WhatsApp como canal de conversão de menor fricção para uma conta V0).",
+    "Nenhuma copy usa os termos de exclusão obrigatória do plano de mídia (grátis, online, atacado, fábrica, delivery, etc.) nem promete desconto ou preço baixo — coerente com a restrição documentada de nunca competir em preço com Havan/e-commerce nacional.",
+    "Sitelinks cobrem os 4 pilares operacionais reais do negócio (contato via WhatsApp, localização física, crediário, produto-âncora de cada marca — cortinas sob medida no Rei do Pano, coleção/novidades na Rainha Modas), evitando link genérico de 'saiba mais'."
+  ],
+  "total_variations": 2,
+  "variations_breakdown": {
+    "meta_ads": 0,
+    "google_ads_rsa": 2,
+    "google_ads_textual_elements": 26,
+    "note": "1 Google RSA = 1 anúncio completo (mesmo com 10 headlines + 3 descriptions rotacionando dentro). 2 RSAs = Rei do Pano + Rainha Modas. 0 anúncios Meta porque a copy correspondente não existe em nenhuma fonte deste projeto — não é uma contagem pendente, é ausência confirmada."
+  },
+  "char_limits_reference": {
+    "meta_ads": {
+      "primary_text_max": 125,
+      "headline_max": 40,
+      "description_max": 30,
+      "note": "Limites de referência da plataforma — nenhuma copy de Meta Ads deste cliente foi produzida para ser medida contra eles ainda."
+    },
+    "google_ads": {
+      "headline_max": 30,
+      "description_max": 90,
+      "note": "Todos os 20 títulos (10 por marca) e as 6 descrições (3 por marca) foram recontados caractere a caractere: maior título tem 27 caracteres, maior descrição tem 88 — ambos dentro do limite."
+    }
+  },
+  "test_strategy": {
+    "duration_min_days": 7,
+    "min_budget_per_adset_brl": 30,
+    "kpis_kill_criteria": [
+      "CTR abaixo de 1% após 1.000 impressões (referência padrão de conta em fase de aprendizado — sem histórico próprio do cliente para calibrar, já que a conta é V0)",
+      "Nenhuma conversão de WhatsApp em 5-7 dias de veiculação com o orçamento mínimo do adset"
+    ],
+    "kpis_winners": [
+      "CTR igual ou acima de 1,8% (referência padrão — a recalibrar com dado real assim que a campanha rodar)",
+      "Pelo menos 1 conversão de WhatsApp a um CPL dentro da faixa projetada em ee-s3-forecast-midia para o mês correspondente"
+    ]
+  },
+  "sheets_url": null,
+  "sheets_url_reason": "Ferramenta gog CLI para criar o Google Sheets não foi executada nesta formalização — a copy completa está neste JSON e deve ser exportada manualmente pelo gestor de tráfego, se desejado.",
+  "destination_url": "https://rei-do-pano.vercel.app/",
+  "whatsapp_link_reason": "Não foi incluído link de WhatsApp pronto (wa.me): o único número institucional central localizado no site do cliente tem DDD 65 (Mato Grosso), divergente da região do grupo (Vilhena/RO, DDD 69) — ver handoff-account-manager.md, seção 1. Confirmar o número correto com o cliente antes de usá-lo em qualquer anúncio."
+}

@@ -1,0 +1,307 @@
+{
+  "client_name": "Rei do Pano & Rainha Modas",
+  "summary": "O ICP do grupo cobre dois perfis B2C nomeados com JTBD completo — Dona Aparecida (48 anos, Rei do Pano, tecidos/casa) e Camila (35 anos, Rainha Modas, moda) — mais um segmento B2B de profissionais têxteis (costureiras, ateliês, tapeçarias) sem persona nomeada com a mesma profundidade. Ambas as personas B2C já estão no nível 3 da escada de consciência (sabem que precisam comprar, não decidiram onde) e a dor mais recorrente nas duas é desconhecimento de que as marcas anunciam online — não falta de produto, crediário ou atendimento. Dados financeiros (ticket médio, faturamento, margem) permanecem ausentes em todas as fontes consultadas, inclusive em pesquisa pública feita em 13/09/2026.",
+  "summary_headline": "Dona Aparecida usa o crediário do Rei do Pano há 5 anos e nem sabe que a marca anuncia online — o gargalo do ICP não é produto, crediário ou preço: é descoberta.",
+  "summary_highlights": [
+    {
+      "category": "posicao",
+      "label": "Personas nomeadas",
+      "value": "Dona Aparecida (48) e Camila (35)",
+      "subtext": "Rei do Pano (tecidos/casa) e Rainha Modas (moda), classes B/C",
+      "tone": "blue"
+    },
+    {
+      "category": "competicao",
+      "label": "B2B sem persona própria",
+      "value": "Gap reconhecido na fonte",
+      "subtext": "Profissionais têxteis sem JTBD com a mesma profundidade",
+      "tone": "yellow"
+    },
+    {
+      "category": "janela",
+      "label": "Nível de consciência",
+      "value": "Nível 3 — Consciente da Solução",
+      "subtext": "Já sabe que quer comprar, não decidiu onde",
+      "tone": "blue"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Crescimento B2B",
+      "value": "Aviamentos +57% YoY",
+      "subtext": "Único termo de busca com crescimento expressivo",
+      "tone": "green"
+    },
+    {
+      "category": "risco",
+      "label": "Dado financeiro ausente",
+      "value": "Ticket médio / faturamento: não informado",
+      "subtext": "Confirmado ausente até em pesquisa pública (13/09/2026)",
+      "tone": "red"
+    }
+  ],
+  "summary_key_findings": [
+    {
+      "category": "vantagem",
+      "text": "O crediário próprio sem juros (inadimplência de apenas 1,5%-2,5%) já resolve o job funcional das duas personas B2C e é o único diferencial que nenhum concorrente nacional ou e-commerce replica digitalmente."
+    },
+    {
+      "category": "contexto",
+      "text": "O público principal de ambas as marcas está no nível 3 da escada de consciência (Awareness Ladder) — já sabe que quer comprar, ainda não decidiu onde — o que prioriza campanhas de captura de intenção e reengajamento sobre criação de desejo do zero."
+    },
+    {
+      "category": "ameaca",
+      "text": "A persona Dona Aparecida não sabe que o Rei do Pano anuncia online e só descobre a marca passando na frente da loja ou por indicação — um problema de descoberta agravado pela ausência de Pixel/GTM (maturidade V0), que impede medir onde esse lead se perde."
+    },
+    {
+      "category": "acao",
+      "text": "Nomear persona e JTBD do segmento B2B (profissionais têxteis) com a mesma profundidade das personas B2C — gap explicitamente reconhecido em base-de-conhecimento/01-persona-icp-jtbd.md e listado como pendência no handoff de conta."
+    }
+  ],
+  "icp": {
+    "demographics": {
+      "type": "mixed",
+      "age_range": "ICP amplo (Briefing Mestre): 35-60 anos. Persona-âncora Rei do Pano: 48 anos ('Dona Aparecida'). Persona-âncora Rainha Modas: 35 anos ('Camila'). Segmento B2B: faixa etária não documentada na fonte.",
+      "income_or_revenue": "Classes B/C nas duas marcas B2C. Segmento B2B: faturamento/porte não documentado — apenas descrito qualitativamente como 'pequeno porte' (ateliês, confecções pequenas).",
+      "location": "Vilhena/RO (sede) + filiais Rei do Pano em Colorado do Oeste e Cerejeiras. Área de influência de ~180 mil habitantes num raio de 120 km.",
+      "company_size": "unavailable_reason: segmento B2B (costureiras autônomas, ateliês, tapeçarias, confecções de pequeno porte) descrito qualitativamente na fonte, sem número de funcionários ou faturamento associado.",
+      "decision_maker_role": "B2C: a própria cliente decide a compra (rotina doméstica ou pessoal), sem processo de comitê. B2B: dono(a)/responsável do ateliê, tapeçaria ou confecção decide a compra de matéria-prima — cargo específico não detalhado na fonte.",
+      "education": "unavailable_reason: nível de escolaridade não documentado nas fontes para nenhum dos dois perfis B2C nem para o segmento B2B.",
+      "other": {
+        "rei_do_pano_b2c": "Dona Aparecida — 48 anos, Vilhena/RO, classe C, casada, 2 filhos, dona de casa e auxiliar administrativo, compra 3-4x/ano, usa o crediário próprio há mais de 5 anos.",
+        "rainha_modas_b2c": "Camila — 35 anos, Vilhena/RO, classe B/C, professora, solteira, segue perfis de moda no Instagram, compra 1-2x/mês, usa cartão mas prefere parcelar sem juros.",
+        "segmento_b2b": "Costureiras autônomas, ateliês de costura, tapeçarias automotivas e de móveis, alfaiates, confecções de pequeno porte e cortineiras — compram tecidos de alto padrão, tricoline, aviamentos. Alta concentração desse perfil em Vilhena e região. Sem persona nomeada nem JTBD estruturado com a mesma profundidade das personas B2C — gap identificado explicitamente na fonte (base-de-conhecimento/01-persona-icp-jtbd.md, seção 6)."
+      }
+    },
+    "behavior": {
+      "decision_process": "B2C: decisão individual, guiada por prova social (ver vizinhas/amigas usando o produto) e pela confiança já construída no crediário próprio; mais racional/planejada no Rei do Pano (renovação de casa) e com componente emocional mais forte na Rainha Modas (moda/autoestima). B2B: decisão do próprio profissional ou dono do negócio, baseada em condições comerciais (preço e prazo para cliente profissional).",
+      "research_channels": [
+        "Instagram (perfis de moda seguidos por Camila/Rainha Modas)",
+        "Indicação boca a boca / vizinhas e conhecidas (Rei do Pano)",
+        "Passagem física em frente à loja",
+        "WhatsApp, quando decide tirar dúvida antes de ir até a loja"
+      ],
+      "main_objections": [
+        "Rei do Pano: \"Posso comprar por WhatsApp mesmo? E o crediário, funciona assim?\"",
+        "Rei do Pano: \"Será que o produto que vi no anúncio está disponível mesmo na loja?\"",
+        "Rei do Pano: \"Prefiro ver pessoalmente antes de decidir o tecido.\"",
+        "Rainha Modas: \"A Rainha Modas tem moda atualizada ou é mais básica/tradicional?\"",
+        "Rainha Modas: \"Os preços são competitivos com as lojas online?\"",
+        "Rainha Modas: \"Vocês têm meu número? Como funciona o crediário para quem ainda não tem cadastro?\""
+      ],
+      "switching_triggers": "A fonte não detalha um gatilho específico de troca de fornecedor — descreve apenas a ameaça estrutural de showrooming: a cliente experimenta o tecido/produto fisicamente na loja, mas finaliza a compra em marketplaces nacionais (Shopee/Shein) quando julga mais barato ou mais prático.",
+      "purchase_frequency": "Rei do Pano ('Dona Aparecida'): 3 a 4 vezes por ano. Rainha Modas ('Camila'): 1 a 2 vezes por mês. Segmento B2B: descrito como 'alta frequência e volume', sem número exato documentado."
+    },
+    "jobs": {
+      "functional": "Rei do Pano ('Dona Aparecida'): Quando precisa renovar o enxoval, comprar tecido para costurar ou montar o ambiente da casa, ela quer encontrar os melhores tecidos e produtos de casa com crédito acessível, para que consiga fazer isso sem comprometer o orçamento — o crediário próprio sem juros é o que nenhum concorrente regional consegue igualar. Rainha Modas ('Camila'): Quando quer renovar o guarda-roupa, ela quer se vestir bem sem pagar caro e sem complicação, para que o parcelamento sem juros do crediário próprio resolva o mesmo job funcional que no lar — sem burocracia, com um limite que ela já conhece e confia.",
+      "emotional": "Rei do Pano: ela quer sentir que está cuidando bem do seu lar e da sua família — a compra é um ritual de cuidado, e ela quer sair da loja com a sensação de que fez uma boa escolha e foi bem atendida. Rainha Modas: ela quer se sentir bonita, atualizada e confiante — moda é autoestima, e ela quer ser atendida por alguém que entende do produto e ajuda a escolher, não uma gôndola de autoatendimento.",
+      "social": "Rei do Pano: ela quer ser reconhecida como alguém que cuida da casa com bom gosto — o enxoval bonito e o tecido certo para a costura são formas de expressar identidade diante das visitas. Rainha Modas: ela quer ser vista como alguém que se cuida e acompanha as tendências — em cidade menor, 'o que você está usando' tem peso social alto, e ela quer o comentário 'onde você comprou?'."
+    },
+    "pains": [
+      {
+        "pain": "[Rei do Pano] Não sabe que a Rei do Pano anuncia online — só entra na loja quando passa na frente ou alguém indica.",
+        "intensity": "critical",
+        "current_workaround": "Só descobre a loja fisicamente (passando na frente) ou por indicação de conhecidos; não associa a marca a anúncios digitais."
+      },
+      {
+        "pain": "[Rei do Pano] Vê produtos no Instagram de outras lojas de fora, mas não confia na entrega e no pós-venda.",
+        "intensity": "high",
+        "current_workaround": "Evita concluir compra fora da região mesmo quando o produto parece interessante no feed."
+      },
+      {
+        "pain": "[Rei do Pano] Tem medo de parcelar no cartão de crédito — prefere o crediário, mas não sabe como funciona pelo WhatsApp.",
+        "intensity": "high",
+        "current_workaround": "Prefere resolver dúvidas de crediário presencialmente em vez de usar o WhatsApp."
+      },
+      {
+        "pain": "[Rainha Modas] Compra em lojas online de fora, mas se arrepende quando o produto chega diferente do esperado.",
+        "intensity": "high",
+        "current_workaround": "Continua comparando online mesmo após experiências ruins, por falta de opção percebida na região."
+      },
+      {
+        "pain": "[Rainha Modas] Sente que as opções de moda em Vilhena são limitadas e sem novidade frequente.",
+        "intensity": "medium",
+        "current_workaround": "Acompanha perfis de moda no Instagram para compensar a sensação de falta de novidade local."
+      }
+    ],
+    "gains": [
+      {
+        "gain": "[Rei do Pano] Ver as novidades de tecido, cama, mesa e banho sem precisar ir à loja toda semana.",
+        "type": "tangible"
+      },
+      {
+        "gain": "[Rei do Pano] Conseguir fazer uma compra pelo WhatsApp e parcelar no crediário sem complicação.",
+        "type": "tangible"
+      },
+      {
+        "gain": "[Rei do Pano] Sentir que a loja 'pensa nela' com produto e preço personalizados.",
+        "type": "intangible"
+      },
+      {
+        "gain": "[Rainha Modas] Ver looks completos com sugestão de combinação — não só a peça isolada.",
+        "type": "tangible"
+      },
+      {
+        "gain": "[Rainha Modas] Parcelar sem juros em uma loja local de confiança, sem depender de cartão.",
+        "type": "tangible"
+      }
+    ]
+  },
+  "persona": {
+    "name": "Dona Aparecida (Rei do Pano)",
+    "photo_description": "unavailable_reason: nenhuma descrição visual (idade aparente, expressão, vestuário, contexto de foto) foi produzida nos documentos-fonte para esta persona — a Estruturação de Tráfego Pago documenta apenas dados demográficos e JTBD, sem briefing de imagem.",
+    "story": "Aos 48 anos, Dona Aparecida mora em Vilhena (RO), é casada e mãe de 2 filhos, e concilia o papel de dona de casa com um trabalho de auxiliar administrativo. Compra na Rei do Pano de 3 a 4 vezes por ano e usa o crediário próprio da loja há mais de 5 anos — mas fora dessas idas presenciais, não sabe que a marca também anuncia online: só entra na loja quando passa na frente ou quando alguém indica, e fica sem saber das novidades de tecido e enxoval entre uma visita e outra. Vê produtos de outras lojas no Instagram, mas não confia na entrega nem no pós-venda de quem não conhece, e tem receio de comprar pelo WhatsApp sem entender direito como o crediário funcionaria por esse canal. Ela quer renovar o enxoval ou encontrar o tecido certo para costurar sem comprometer o orçamento da casa, e o crediário sem juros — que ela já usa e em que já confia — é o que resolve isso sem a burocracia do cartão de crédito.",
+    "quote": "Posso comprar por WhatsApp mesmo? E o crediário, funciona assim?"
+  },
+  "_nota_estrutura_publico": "O schema desta skill prevê um único objeto 'persona'. Como o ICP real do grupo cobre DUAS marcas com personas B2C nomeadas distintas mais um segmento B2B, a persona principal acima (Dona Aparecida, Rei do Pano) é complementada pelos campos adicionais 'persona_secundaria_rainha_modas' e 'segmento_b2b_perfil' logo abaixo, para preservar a estrutura completa sem simplificar para uma persona só.",
+  "persona_secundaria_rainha_modas": {
+    "name": "Camila (Rainha Modas)",
+    "photo_description": "unavailable_reason: nenhuma descrição visual (idade aparente, expressão, vestuário, contexto de foto) foi produzida nos documentos-fonte para esta persona — a Estruturação de Tráfego Pago documenta apenas dados demográficos e JTBD, sem briefing de imagem.",
+    "story": "Aos 35 anos, Camila é professora, solteira, mora em Vilhena (RO) e segue perfis de moda no Instagram. Compra roupas de 1 a 2 vezes por mês, prefere pagar no cartão mas busca sempre parcelar sem juros. Hoje ela associa mais o grupo à loja de tecidos do que à moda, sente que as opções de moda em Vilhena são limitadas e sem novidade frequente, e já comprou em lojas online de fora — se arrependendo quando o produto chegou diferente do esperado. Ela quer ser atendida por alguém que entende de moda, não por uma atendente que só registra a venda, e às vezes sente vergonha de entrar numa loja e sair sem comprar nada.",
+    "quote": "A Rainha Modas tem moda atualizada ou é mais básica/tradicional?"
+  },
+  "segmento_b2b_perfil": {
+    "description": "Segmento B2B do grupo (aplicável majoritariamente ao Rei do Pano), sem persona nomeada nem JTBD com a mesma profundidade das personas B2C — gap reconhecido explicitamente na fonte (base-de-conhecimento/01-persona-icp-jtbd.md, seção 6: 'Não há persona nomeada/JTBD estruturado para o segmento B2B').",
+    "quem_sao": "Costureiras autônomas, ateliês de costura, tapeçarias automotivas e de móveis, alfaiates, confecções de pequeno porte e cortineiras. Alta concentração desse perfil em Vilhena e região.",
+    "dor_principal": "Margem de lucro apertada e dificuldade de encontrar fornecedores variados na mesma região.",
+    "gatilho_de_compra": "Condições diferenciadas (preço e prazo) para cliente profissional.",
+    "por_que_sao_valiosos": "Compram em volume, com alta frequência, em categorias específicas (tricoline, percal, tecido automotivo, aviamentos). Ticket médio maior e fidelidade alta quando a loja tem estoque consistente e crédito disponível.",
+    "como_abordar_no_trafego_pago": "Segmentação por interesse profissional (costura, decoração, artesanato) e por cargo/atividade. Criativos com produto específico do nicho (aviamentos, tecidos técnicos) e chamada direta para o WhatsApp com proposta de conta profissional."
+  },
+  "where_to_find": {
+    "digital_channels": [
+      "Instagram @reidopano.com.br (Rei do Pano) e @rainhamodas.com.br (Rainha Modas) — perfis próprios por marca",
+      "WhatsApp como central de atendimento (em estruturação no momento do briefing)",
+      "Google Meu Negócio — nota 4,6/5,0 com mais de 327 avaliações",
+      "Segmentação por interesse profissional (costura, decoração, artesanato) no Meta Ads, recomendada para alcançar o público B2B"
+    ],
+    "keywords": [
+      "tecidos por metro em Vilhena — categoria com ~410 buscas/mês combinadas no Google e zero concorrentes anunciando (fonte: client.json, research.market)",
+      "aviamentos — único termo de busca do segmento B2B com crescimento expressivo de +57% YoY (fonte: client.json, product.growth_potential)"
+    ],
+    "influencers": [
+      "Influenciadora local já utilizada no conteúdo orgânico do Rei do Pano — não nomeada nos materiais-fonte (fonte: handoff-account-manager.md, seção 15)"
+    ],
+    "communities": [
+      "Rede de indicação boca a boca entre vizinhas e conhecidas (Rei do Pano)",
+      "Costureiras autônomas, ateliês, tapeçarias automotivas e de móveis, alfaiates, confecções de pequeno porte e cortineiras concentrados em Vilhena e região (segmento B2B profissional)"
+    ]
+  },
+  "buyer_journey": {
+    "description": "Jornada reconstruída a partir da Escada de Consciência (Awareness Ladder) documentada em base-de-conhecimento/01-persona-icp-jtbd.md e da 'Jornada de venda' / 'Jornada digital' descritas em handoff-account-manager.md (seções 6 e 17). Não há, na fonte, dado de duração típica por etapa — campo omitido onde ausente.",
+    "stages": [
+      {
+        "stage": "Gatilho (Não Consciente / Consciente do Problema)",
+        "trigger": "Necessidade de renovar enxoval/casa ou comprar tecido pontual (Rei do Pano), ou vontade de renovar o guarda-roupa (Rainha Modas).",
+        "mental_state": "Necessidade latente ainda não direcionada a uma marca específica ('Público Frio', nível 1-2 da escada de consciência).",
+        "primary_channel": "Rotina doméstica/pessoal, sem canal digital ativo nesta fase.",
+        "dominant_question": "Preciso resolver isso — mas onde?",
+        "client_intervention": "Nenhuma intervenção digital ativa mapeada nesta fase na fonte.",
+        "friction_today": "A persona não associa a necessidade a nenhuma comunicação da marca, porque o Instagram é usado como 'panfleto de preços', sem estratégia."
+      },
+      {
+        "stage": "Consciente da Solução (Público Principal)",
+        "trigger": "Já sabe que precisa comprar tecido, renovar o enxoval ou se vestir melhor — falta decidir onde.",
+        "mental_state": "Nível 3 da escada de consciência — decisão em aberto, sem urgência criada artificialmente.",
+        "primary_channel": "Instagram, indicação boca a boca, passagem física em frente à loja.",
+        "dominant_question": "Onde eu compro isso com confiança e crediário fácil?",
+        "client_intervention": "Presença orgânica no Instagram (com identidade visual ainda inconsistente, segundo auditoria de comunicação) e Google Meu Negócio.",
+        "friction_today": "Dona Aparecida relata não saber que a Rei do Pano anuncia online — só descobre passando na frente da loja ou por indicação."
+      },
+      {
+        "stage": "Primeiro contato",
+        "trigger": "Decide tirar dúvida sobre produto, disponibilidade ou crediário antes de ir até a loja.",
+        "mental_state": "Ansiedade/desconfiança sobre disponibilidade real do produto e sobre como o crediário funciona por canal digital.",
+        "primary_channel": "WhatsApp (central de atendimento descrita como 'em estruturação' no briefing).",
+        "dominant_question": "Posso comprar por WhatsApp mesmo? O crediário funciona assim?",
+        "client_intervention": "Atendimento via WhatsApp, sem SLA nem scripts formalizados (has_scripts: false, briefing).",
+        "friction_today": "Canal em estruturação, sem processo padronizado de resposta documentado."
+      },
+      {
+        "stage": "Atendimento consultivo / Consideração",
+        "trigger": "Vai até a loja física para ver e tocar o produto antes de decidir.",
+        "mental_state": "Preferência por avaliar o tecido/produto pessoalmente antes de fechar.",
+        "primary_channel": "Loja física (Vilhena, Colorado do Oeste ou Cerejeiras).",
+        "dominant_question": "Este é mesmo o produto/qualidade que eu vi ou que preciso?",
+        "client_intervention": "Atendimento humanizado presencial, loja de 3.000 m² com elevador na sede.",
+        "friction_today": "Ameaça de showrooming: cliente experimenta o produto na loja física e pode finalizar a compra em marketplaces nacionais (Shopee/Shein)."
+      },
+      {
+        "stage": "Decisão / Fechamento via crediário",
+        "trigger": "Decide fechar a compra usando o crediário próprio até 6x sem juros.",
+        "mental_state": "Confiança no crediário como instrumento que não compromete o limite do cartão de crédito.",
+        "primary_channel": "Atendimento presencial ou WhatsApp.",
+        "dominant_question": "Cabe no meu orçamento sem comprometer meu limite de cartão?",
+        "client_intervention": "Crediário próprio familiar, sem juros, em até 6x — inadimplência de 1,5% a 2,5%.",
+        "friction_today": "Nenhuma fricção específica documentada nesta etapa além da falta de clareza sobre como o crediário funciona por WhatsApp (ver etapa de Primeiro contato)."
+      },
+      {
+        "stage": "Pós-compra / Recompra",
+        "trigger": "Nova necessidade surge após 3-4 meses (Rei do Pano) ou dentro do mesmo mês (Rainha Modas).",
+        "mental_state": "Cliente já convertida, nível 4 da escada de consciência ('Base Fiel') se estiver na base ativa, ou inativa se não recomprou recentemente.",
+        "primary_channel": "Base de clientes no sistema Linx (uso formal e cobertura das 3 lojas + Rainha Modas não confirmados).",
+        "dominant_question": "A loja vai lembrar de mim quando chegar a novidade que eu queria?",
+        "client_intervention": "Reativação da base de clientes inativos via Linx planejada (upload como audiência personalizada/lookalike no Meta Ads), mas não confirmada como operacional.",
+        "friction_today": "Linx citado como ERP/PDV em documentos posteriores ao pré-kick-off, mas uso formal, cobertura das 3 lojas + Rainha Modas e viabilidade de exportação (LGPD, formato, frequência) não confirmados."
+      }
+    ],
+    "critical_leakage_point": "O vazamento mais evidenciado na fonte está entre as etapas de Consciente da Solução e Primeiro Contato: a persona relata não saber que a Rei do Pano anuncia online e ficar sem novidades entre visitas à loja, enquanto a central de WhatsApp segue 'em estruturação', sem SLA nem scripts formalizados (has_scripts: false) — e a ausência de Pixel/GTM/GA4 (maturidade V0, confirmada em handoff-account-manager.md) impede hoje medir exatamente onde esse lead se perde entre o anúncio e o atendimento."
+  },
+  "willingness_to_pay": {
+    "description": "unavailable_reason: nenhum dado de ticket médio, faixa de preço percebida como justa ou teto premium foi informado pelo cliente em nenhuma fonte consultada — client.json (briefing.product.ticket = null) e 00-empresa-e-contexto.md confirmam os campos de faturamento/ticket/margem deixados em branco no pré-kick-off; handoff-account-manager.md (seção 1) confirma essa ausência também em pesquisa pública realizada em 13/09/2026 ('não existe esse dado em nenhum registro ou fonte aberta'). As categorias de produto abaixo são reais (fonte: portfólio do grupo), mas sem nenhum dado de precificação associado.",
+    "services": [
+      {
+        "service": "Tecidos por metro (Rei do Pano)"
+      },
+      {
+        "service": "Cama, mesa e banho (Rei do Pano)"
+      },
+      {
+        "service": "Eletrodomésticos e utilidades domésticas (Rei do Pano)"
+      },
+      {
+        "service": "Decoração e cortinas sob medida (Rei do Pano)",
+        "pricing_lever": "Categoria apontada como a mais rentável do grupo — margem elevada e posicionamento premium (fonte: client.json, briefing.product.most_profitable; handoff-account-manager.md, seção 5)."
+      },
+      {
+        "service": "Roupas femininas, calçados e acessórios (Rainha Modas)"
+      },
+      {
+        "service": "Aviamentos B2B (linha, zíper, botões, tecido técnico)",
+        "pricing_lever": "Maior potencial de crescimento do grupo — único termo de busca com crescimento expressivo de +57% YoY (fonte: client.json, briefing.product.growth_potential)."
+      }
+    ]
+  },
+  "key_message": {
+    "chosen_message": "Parcele em até 6x sem juros no crediário próprio — sem cartão, sem burocracia.",
+    "approach": "functional",
+    "usage_context": "Ancoragem de toda comunicação de aquisição (anúncios, WhatsApp, headline de landing page) — o handoff de conta reforça explicitamente que 'toda comunicação de aquisição deve ancorar nele [crediário] antes de qualquer outro atributo' (handoff-account-manager.md, seção 11). Nota: esta escolha formaliza a ênfase estratégica já documentada de forma consistente em todas as fontes da conta; não há registro de uma decisão interativa formal desta mensagem específica com o operador dentro do fluxo desta skill.",
+    "alternatives": [
+      {
+        "message": "Parcele em até 6x sem juros no crediário próprio — sem cartão, sem burocracia.",
+        "approach": "functional",
+        "rationale": "É o único diferencial estrutural que nenhum concorrente nacional (Havan) ou e-commerce (Shopee/Shein) consegue replicar digitalmente — inadimplência de apenas 1,5%-2,5% comprova a solidez da relação de confiança."
+      },
+      {
+        "message": "Aqui você é atendida com o carinho de quem te conhece há mais de 30 anos.",
+        "approach": "emotional",
+        "rationale": "Reflete o Job Emocional das duas personas (sentir-se cuidada / sentir-se confiante), mas é um território também reivindicado por concorrentes regionais como Lojas Avenida ('proximidade'), tornando-o menos exclusivo que o crediário."
+      },
+      {
+        "message": "Leve para casa o tecido (ou o look) que todo mundo vai notar.",
+        "approach": "social",
+        "rationale": "Reflete o Job Social das duas personas (ser vista com bom gosto / estar antenada), mas depende de prova visual (fotos, criativos) que hoje tem gaps de execução documentados na auditoria de comunicação (04-auditoria-comunicacao-redes-sociais.md)."
+      }
+    ]
+  },
+  "key_insight": {
+    "headline": "O público de ambas as marcas já está no nível 3 de consciência — sabe que quer comprar, só não decidiu onde — mas a Rei do Pano só é descoberta quando a cliente passa na frente da loja, porque a marca nunca apareceu para ela no digital.",
+    "context": "As personas nomeadas (Dona Aparecida, Rei do Pano; Camila, Rainha Modas) revelam que a maior dor não é preço, variedade ou crediário — é desconhecimento de que o grupo já resolve exatamente o problema delas. O crediário próprio sem juros, com mais de 30 anos de relação de confiança, é o diferencial que nenhum concorrente replica, mas hoje só é descoberto presencialmente.",
+    "numbered_reasons": [
+      "(1) O público principal (nível 3 — Consciente da Solução) já sabe que precisa comprar; a comunicação não precisa criar desejo do zero, só aparecer como escolha óbvia (fonte: 01-persona-icp-jtbd.md, seção 4).",
+      "(2) A dor mais citada nas duas personas é não saber que a marca anuncia online / não receber novidades entre visitas — um problema de descoberta, não de produto ou preço.",
+      "(3) O crediário próprio (inadimplência de apenas 1,5%-2,5%) já resolve o job funcional de ambas as personas, mas a comunicação atual ('Instagram como panfleto de preços') não comunica isso de forma consistente."
+    ],
+    "discussion_anchor": "Ponto para validar com Luiz/Terezinha: antes de escalar verba de mídia, vale confirmar se o gargalo real é aquisição (gerar desejo do zero) ou descoberta/lembrança (a base já existe e já confia no crediário, só não sabe que pode comprar pelo WhatsApp) — isso muda a prioridade entre campanhas de topo de funil e reativação da base Linx."
+  },
+  "honesty_alert": "Este output tem duas fragilidades herdadas diretamente da fonte, preservadas aqui sem resolução arbitrária: (1) o segmento B2B (profissionais têxteis) é tratado no ICP sem persona nomeada nem JTBD estruturado com a mesma profundidade dos perfis B2C — a própria fonte reconhece essa lacuna ('Não há persona nomeada/JTBD estruturado para o segmento B2B', base-de-conhecimento/01-persona-icp-jtbd.md, seção 6); (2) não existe nenhum dado de ticket médio, faturamento ou margem em nenhuma fonte, inclusive pesquisa pública de 13/09/2026, o que impede validar se o WTP real do ICP sustenta a meta de +30% em vendas em 12 meses. Adicionalmente, este output não inclui os blocos de anti-persona nem de objection_library com respostas testadas (bad_response/good_response), porque a fonte confirma explicitamente a ausência de scripts de vendas/atendimento formalizados (client.json: sales_module.has_scripts = false) e nenhum documento define quem é 'anti-cliente' para este grupo — preencher esses blocos exigiria inventar conteúdo inexistente na fonte, o que viola a regra de não-invenção desta formalização."
+}

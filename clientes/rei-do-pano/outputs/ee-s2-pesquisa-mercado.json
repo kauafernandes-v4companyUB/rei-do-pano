@@ -1,0 +1,317 @@
+{
+  "client_name": "Rei do Pano & Rainha Modas",
+  "summary": "A pesquisa de mercado formaliza o que já constava nos materiais originais do cliente: Rei do Pano é o único especialista em tecidos por metro do Cone Sul de Rondônia (~180 mil habitantes em raio de 120 km a partir de Vilhena), sem concorrência direta nesse nicho e com zero concorrentes anunciando nos termos de busca de categoria — enquanto Havan (direto, nacional) e Lojas Avenida (indireto, moda popular) disputam por preço/volume, não por especialização ou crediário próprio. TAM/SAM/SOM em R$ não puderam ser calculados: os materiais-fonte não trazem faturamento, ticket médio ou margem do cliente, lacuna já documentada no próprio material original (base-de-conhecimento/02-mercado-swot-concorrentes.md, seção 5).",
+  "summary_headline": "Rei do Pano é o único especialista em tecidos do Cone Sul de RO (~180 mil hab., 0 concorrentes anunciando) — Havan e Avenida disputam preço, não especialização.",
+  "summary_highlights": [
+    {
+      "category": "posicao",
+      "label": "Especialista sem rival direto",
+      "value": "0 concorrentes diretos",
+      "subtext": "Nicho de tecidos por metro — saturação baixa em Vilhena/RO",
+      "tone": "green"
+    },
+    {
+      "category": "competicao",
+      "label": "Concorrentes mapeados",
+      "value": "2 formais + 1 ameaça difusa",
+      "subtext": "Havan (direto) e Lojas Avenida (indireto), citados no pré-kick-off",
+      "tone": "yellow"
+    },
+    {
+      "category": "janela",
+      "label": "Zero anunciantes na categoria",
+      "value": "0 concorrentes no Google Ads",
+      "subtext": "Termos de tecidos/casa em Vilhena sem disputa — CPC mínimo agora",
+      "tone": "blue"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Aviamentos B2B em alta",
+      "value": "+57% YoY",
+      "subtext": "Único termo de busca com crescimento expressivo (90 buscas/mês)",
+      "tone": "green"
+    },
+    {
+      "category": "risco",
+      "label": "Gap de maturidade digital",
+      "value": "Havan: +1.100 Meta / ~4.000 Google Ads",
+      "subtext": "Pixel/GTM/GA4 ativos no concorrente — grupo ainda em nível V0",
+      "tone": "red"
+    },
+    {
+      "category": "oportunidade",
+      "label": "Área de influência",
+      "value": "~180 mil habitantes",
+      "subtext": "Raio de 120 km a partir de Vilhena — polo regional em crescimento demográfico",
+      "tone": "blue"
+    }
+  ],
+  "summary_key_findings": [
+    {
+      "category": "vantagem",
+      "text": "Rei do Pano é referência regional há 30+ anos no nicho de tecidos por metro, sem concorrência direta em Vilhena/RO, com crediário próprio sem juros (até 6x) que nem a Havan (depende de cartão de terceiros) nem o e-commerce nacional replicam."
+    },
+    {
+      "category": "contexto",
+      "text": "A demanda de categoria mensurável no Google ainda é pequena (~410 buscas/mês combinadas entre Rei do Pano e Rainha Modas, mai/2025-abr/2026) e concentrada em poucos termos — sinal de que a maior parte do público regional ainda compra por hábito, indicação ou memória de marca, não por busca digital."
+    },
+    {
+      "category": "ameaca",
+      "text": "Havan opera com maturidade digital muito superior (Pixel Meta, GTM e GA4 ativos, +1.100 anúncios no Meta Ads e ~4.000 no Google Ads) e o avanço do e-commerce nacional (Shopee, Shein) captura vendas via showrooming — duas frentes competitivas às quais o grupo ainda não responde digitalmente (maturidade nível V0)."
+    },
+    {
+      "category": "acao",
+      "text": "Nenhum concorrente identificado está disputando lances nos termos de busca de categoria (tecidos, cortinas, enxoval) em Vilhena — ocupar esse espaço agora garante CPC mínimo e primeira posição; o termo 'aviamentos vilhena' já cresce +57% YoY, sinalizando digitalização do público B2B (costureiras, ateliês, tapeçarias)."
+    }
+  ],
+  "segment": "Varejo (B2C) e atacado/profissional (B2B) de tecidos por metro, cama/mesa/banho, utilidades domésticas e eletrodomésticos (Rei do Pano) + moda feminina, calçados e acessórios (Rainha Modas)",
+  "region": "Vilhena/RO (sede, 3.000 m²) com filiais em Colorado do Oeste e Cerejeiras — área de influência de ~180 mil habitantes em raio de 120 km, cobrindo o Cone Sul de Rondônia e parte do Mato Grosso (municípios citados: Colorado do Oeste, Cerejeiras, Pimenta Bueno, Chupinguaia); Vilhena é polo regional de saúde, comércio e educação universitária",
+  "tam_sam_som": {
+    "methodology": "top-down",
+    "tam": {
+      "value_brl": 0,
+      "description": "TAM em R$ não pôde ser calculado a partir dos materiais originais do cliente. unavailable_reason: ausência de faturamento anual, ticket médio e dados setoriais em reais no briefing (client.json: briefing.identification.annual_revenue = null, briefing.product.ticket = null) — a Pesquisa de Mercado original também não calculou TAM/SAM/SOM (ver base-de-conhecimento/02-mercado-swot-concorrentes.md, seção 5, 'Lacunas identificadas'). O único proxy geográfico/demográfico disponível nas fontes é a área de influência: ~180 mil habitantes em raio de 120 km a partir de Vilhena/RO (Cone Sul de Rondônia + parte do Mato Grosso), com Vilhena como polo regional de saúde, comércio e educação universitária em crescimento demográfico contínuo (fonte: base-de-conhecimento/00-empresa-e-contexto.md, seção 10; handoff-account-manager.md, seção 3). IMPORTANTE: o valor 0 abaixo é um marcador técnico de dado indisponível, não uma medição real de mercado nulo."
+    },
+    "sam": {
+      "value_brl": 0,
+      "description": "SAM em R$ não pôde ser calculado pelo mesmo motivo do TAM (ausência de ticket médio/faturamento nas fontes). unavailable_reason: ver tam.description. O que as fontes efetivamente documentam sobre o mercado endereçável é qualitativo/comportamental, não monetário: saturação por nicho (tecidos: baixa, sem concorrência direta; moda popular: média, compete com Lojas Avenida) e um sinal de demanda digital mensurável de ~410 buscas/mês combinadas (Google Keyword Planner, Vilhena/RO, mai/2025-abr/2026), com 0 concorrentes ativos anunciando nesses termos específicos no Google Ads no momento da análise (fonte: base-de-conhecimento/02-mercado-swot-concorrentes.md, seção 1). O valor 0 abaixo é um marcador técnico de dado indisponível.",
+      "filters": [
+        "Geografia: raio de ~120 km a partir de Vilhena/RO (Cone Sul de Rondônia + parte do Mato Grosso), ~180 mil habitantes de área de influência",
+        "Nicho tecidos (Rei do Pano): saturação baixa, sem concorrência direta identificada em Vilhena",
+        "Nicho moda popular (Rainha Modas): saturação média, compete com Lojas Avenida e lojas locais",
+        "Sinal de demanda digital mensurável: ~410 buscas/mês combinadas (Google Keyword Planner, mai/2025-abr/2026), com 0 concorrentes ativos anunciando nesses termos no Google Ads"
+      ]
+    },
+    "som": {
+      "value_brl": 0,
+      "description": "SOM em R$ não pôde ser calculado: não há triangulação possível pelos 3 métodos do framework (capacidade operacional, market share top-down, segmento) porque faltam os dados-base — faturamento anual, ticket médio, margem de contribuição atual e headcount de capacidade comercial estão todos em branco no formulário de pré-kick-off (fonte: base-de-conhecimento/00-empresa-e-contexto.md, seção 5, tabela de indicadores comerciais). unavailable_reason: ausência de dados financeiros-base no briefing original; a Pesquisa de Mercado original entregue ao cliente também não calculou SOM (ver base-de-conhecimento/02-mercado-swot-concorrentes.md, seção 5). IMPORTANTE: o valor 0 abaixo é um marcador técnico de dado indisponível, não uma medição real, e NÃO deve ser confundido com a meta comercial da cliente (registrada separadamente em 'related_but_separate' abaixo, que é percentual, não um teto de mercado).",
+      "assumptions": [
+        "SOM em R$ não calculável por ausência de faturamento anual, ticket médio e margem de contribuição atual no briefing (client.json: product.ticket = null, identification.annual_revenue = null)",
+        "A meta comercial declarada pelo cliente é percentual (crescer 30% em 12 meses), não um valor absoluto — por isso foi registrada separadamente em 'related_but_separate' e não usada para derivar o SOM",
+        "Sinal indireto disponível para triangulação futura, ainda não convertido em R$: aviamentos B2B é o único termo de busca com crescimento expressivo (+57% YoY, 90 buscas/mês), indicando digitalização crescente da demanda do segmento profissional (costureiras autônomas, ateliês, tapeçarias, alfaiates, confecções pequenas, cortineiras)"
+      ],
+      "related_but_separate": {
+        "client_annual_revenue_goal_brl_v4mos": null,
+        "client_annual_revenue_goal_source_v4mos": "unavailable_reason: não há valor de meta em R$ absolutos registrado no V4MOS nem no briefing — client.json/connectors não traz campo de meta de faturamento, apenas dados de mídia paga (0 campanhas no período consultado)",
+        "client_monthly_revenue_goal_kickoff": "Meta declarada: crescer as vendas do grupo em 'pelo menos 30%' nos próximos 12 meses — convergente entre o formulário de Pré-kick-off ('objetivo principal... com a V4 Company') e a Pesquisa de Mercado original ('aumentar as vendas do grupo em 30% nos próximos 12 meses'), fonte: base-de-conhecimento/00-empresa-e-contexto.md, seção 5",
+        "note": "A meta de 30% é percentual sobre uma base de faturamento não informada (annual_revenue = null no briefing) — portanto não é possível converter essa meta em R$ absolutos nem compará-la ao SOM. Trata-se de aspiração comercial declarada pelo cliente, distinta do SOM de mercado (que aqui também não pôde ser calculado por falta de dados-base). Margem líquida alvo declarada em paralelo: 8%-10%, com foco em elevar margem em decoração, cortinas sob medida e aviamentos (fonte: mesma seção)."
+      }
+    },
+    "sources": [
+      {
+        "name": "Base de conhecimento interna — Mercado, SWOT e Concorrentes (dados de busca Google Keyword Planner, saturação por nicho, lacuna de TAM/SAM/SOM documentada)",
+        "url": "base-de-conhecimento/02-mercado-swot-concorrentes.md",
+        "year": 2026
+      },
+      {
+        "name": "Base de conhecimento interna — Empresa e Contexto (área de influência, indicadores comerciais em branco)",
+        "url": "base-de-conhecimento/00-empresa-e-contexto.md",
+        "year": 2026
+      },
+      {
+        "name": "Handoff Account Manager — Área geográfica, Portfólio e Concorrência",
+        "url": "handoff-account-manager.md",
+        "year": 2026
+      },
+      {
+        "name": "client.json — briefing (identification, product, digital_situation)",
+        "url": "client.json",
+        "year": 2026
+      }
+    ]
+  },
+  "competitors": [
+    {
+      "name": "Havan",
+      "positioning": "Megastore nacional de moda, casa, eletro, ferramentas e mais; imagem do dono (Luciano Hang) fortemente associada à marca; loja física como destino de passeio (grande diferencial de espaço); mix amplo sem profundidade — 'presente em tudo, especialista em nada'.",
+      "channels": [
+        "Google Ads (Search, Display, Shopping, Vídeo e Local)",
+        "Meta Ads",
+        "Site institucional e aplicativo próprio como canal de conversão direto",
+        "Estratégia de influenciador (Camylla Miranda) para conteúdo gerado por consumidor e alcance orgânico"
+      ],
+      "strengths": [
+        "Maturidade digital alta: Pixel Meta ativo (1 evento), Google Tag Manager ativo (GTM-MSRC), GA4 ativo (G-SDEH2SZNKR) e Google Ads ativo (AW-985015144)",
+        "+1.100 anúncios ativos no Meta Ads e ~4.000 anúncios ativos no Google Ads",
+        "Experiência de loja física como destino de passeio (grande diferencial de espaço)",
+        "Marca nacional forte, associada à figura pública do dono"
+      ],
+      "weaknesses": [
+        "Marca nacional sem vínculo com Vilhena (zero conexão regional)",
+        "Sem crediário próprio — depende 100% de cartão de crédito de terceiros",
+        "Não é especialista em tecidos — segmento inteiro em aberto para o Rei do Pano"
+      ],
+      "estimated_pricing": "unavailable_reason: os materiais do cliente concentraram a análise da Havan em volume de mídia e rastreamento digital (Pixel/GTM/GA4/Ads), sem levantar ticket médio ou tabela de preços",
+      "digital_score": 9,
+      "digital_details": {
+        "website": "Site institucional e aplicativo próprio usados como canal de conversão direto nos anúncios do Meta",
+        "instagram": "Categoria de perfil 'Compras e Varejo' (a mesma recomendada para o Rei do Pano); proporção seguindo/seguidores muito favorável",
+        "google": "Google Tag Manager (GTM-MSRC) e GA4 (G-SDEH2SZNKR) ativos; Google Ads ativo (AW-985015144)",
+        "active_ads": "+1.100 anúncios ativos no Meta Ads; ~4.000 anúncios ativos no Google Ads (Search, Display, Shopping, Vídeo e Local)"
+      }
+    },
+    {
+      "name": "Lojas Avenida",
+      "positioning": "Moda popular e varejo com foco em produto + preço + sazonalidade; comunicação 100% promocional ('tempo limitado', 'a partir de R$49'); Cartão Avenida como âncora de fidelização e parcelamento.",
+      "channels": [
+        "Meta Ads",
+        "Google Ads",
+        "Instagram orgânico com identidade visual disciplinada"
+      ],
+      "strengths": [
+        "Bio eficiente no Instagram: 'loja mais alegre do Brasil' + 'aqui tem promoção, produto e muito humor' — comunica o que é e por que seguir em segundos",
+        "Identidade visual amarelo + preto aplicada com disciplina em feed, destaques, artes e até nas sacolas mostradas em vídeos",
+        "Hashtag própria (#NovidadeNaAvenida) funcionando como ativo de marca recorrente",
+        "Proporção seguindo/seguidores muito favorável (referência citada nos materiais: 26 seguindo para 1,5-1,7 milhão de seguidores em contas benchmark do gênero)",
+        "Reels em formato POV (ex.: 'montando looks com as bermudas que encontrei na Avenida') com etiquetas de preço fixas na tela"
+      ],
+      "weaknesses": [
+        "Pixel Meta não instalado",
+        "Sem especialidade em tecidos",
+        "Sem crediário próprio",
+        "Feed descrito nos materiais como 'panfleto digital', sem identidade nem storytelling",
+        "CTA genérico nos criativos ('vem conferir na Avenida mais próxima') sem especificar próximo passo para quem não tem loja perto"
+      ],
+      "estimated_pricing": "A partir de R$49 (padrão recorrente de comunicação promocional identificado nos criativos analisados)",
+      "digital_score": 6,
+      "digital_details": {
+        "website": "unavailable_reason: os materiais do cliente não auditaram o site institucional da Lojas Avenida, apenas Instagram e ferramentas de rastreamento",
+        "instagram": "Bio eficiente, identidade visual amarelo+preto disciplinada, hashtag própria #NovidadeNaAvenida, posts fixados ancorando promoções vigentes no topo do perfil",
+        "google": "Google Tag Manager com 2 containers; GA4 com 2 propriedades; Google Ads com conversões ativas; Pixel Meta não instalado",
+        "active_ads": "+110 anúncios ativos no Meta; ~200 anúncios ativos no Google Ads"
+      }
+    },
+    {
+      "name": "Lojas Torra (benchmark de criativos — não classificado formalmente como concorrente direto/indireto nos materiais originais)",
+      "positioning": "Rede de moda íntima/vestuário usada nos materiais do cliente apenas como referência de boas práticas de criativo sazonal (Dia das Mães), não como concorrente mapeado geograficamente.",
+      "channels": [
+        "unavailable_reason: materiais do cliente analisaram apenas 1 criativo específico (campanha de Dia das Mães), sem auditoria de canais de aquisição"
+      ],
+      "strengths": [
+        "Criativo de Dia das Mães analisado em detalhe: oferta 'Leve 3 pague 2' (multiplica valor percebido sem desconto direto em R$)",
+        "Paleta terracota consistente e exclusiva da campanha sazonal, casting mãe e filha, CTA emocional ('Gostou? Presente de Dia das Mães é na Torra')",
+        "Parcelamento '10x fixas, última parcela grátis' como argumento de conversão"
+      ],
+      "weaknesses": [
+        "unavailable_reason: materiais do cliente não auditaram fraquezas da Torra — ela foi usada exclusivamente como benchmark positivo de criativo, não como concorrente avaliado"
+      ],
+      "estimated_pricing": "unavailable_reason: materiais do cliente não levantaram ticket médio da Torra, apenas a mecânica promocional do criativo analisado ('Leve 3 pague 2', parcelamento 10x)",
+      "digital_score": 5,
+      "digital_details": {
+        "website": "unavailable_reason: não auditado — Torra não é tratada como concorrente formal nos materiais, apenas como referência de criativo",
+        "instagram": "unavailable_reason: não auditado como perfil completo — apenas 1 criativo específico foi analisado",
+        "google": "unavailable_reason: não auditado",
+        "active_ads": "unavailable_reason: não auditado — apenas o criativo de Dia das Mães foi analisado em detalhe. NOTA DE TRANSPARÊNCIA: o campo digital_score acima (5) é um valor neutro de preenchimento obrigatório do schema, não uma avaliação real de maturidade digital — os materiais originais não classificam a Torra como concorrente nem auditam sua presença digital. Ver honesty_alert."
+      }
+    }
+  ],
+  "competitive_map": {
+    "axis_x": "Generalista (mix amplo) → Especialista (tecidos/casa)",
+    "axis_y": "Preço/conveniência genérica → Confiança regional + crediário próprio",
+    "positions": [
+      {
+        "name": "Havan",
+        "quadrant": "Generalista / preço-conveniência (mix amplo, sem crediário próprio, sem vínculo regional)"
+      },
+      {
+        "name": "Lojas Avenida",
+        "quadrant": "Generalista (moda popular) / preço-conveniência (comunicação 100% promocional, sem crediário próprio)"
+      },
+      {
+        "name": "Rei do Pano (posição atual)",
+        "quadrant": "Especialista (tecidos) / confiança regional alta mas ainda pouco comunicada digitalmente (maturidade V0)"
+      },
+      {
+        "name": "Rei do Pano (posição recomendada)",
+        "quadrant": "Especialista / confiança regional + crediário ativamente comunicados — quadrante hoje vazio"
+      }
+    ],
+    "empty_spaces": "Especialista em tecidos + crediário próprio + atendimento humanizado regional comunicados digitalmente de forma consistente — nenhum concorrente mapeado ocupa esse espaço; o Rei do Pano já tem os ativos (30+ anos, crediário sem juros, nota 4,6/5,0 no Google), mas ainda não os comunica de forma estruturada no digital.",
+    "crowded_spaces": "Preço/promoção genérica sem especialização — Havan (mix amplo) e Lojas Avenida (moda popular promocional) disputam esse espaço, ambas sem crediário próprio e sem vínculo declarado com a comunidade de Vilhena."
+  },
+  "trends": [
+    {
+      "trend": "Aviamentos B2B é a única categoria com crescimento expressivo de busca digital",
+      "evidence": "+57% YoY no termo 'aviamentos vilhena' (90 buscas/mês, concorrência baixa) — Google Keyword Planner, Vilhena/RO, mai/2025-abr/2026 (fonte: base-de-conhecimento/02-mercado-swot-concorrentes.md)"
+    },
+    {
+      "trend": "Crescimento demográfico contínuo de Vilhena como polo regional",
+      "evidence": "Vilhena descrita como polo de saúde, comércio e educação universitária, atraindo constantemente novos moradores 'sem vínculo com loja local' — área de influência de ~180 mil habitantes em raio de 120 km (fonte: base-de-conhecimento/00-empresa-e-contexto.md, seção 10)"
+    },
+    {
+      "trend": "WhatsApp consolidado como canal natural de vendas no varejo regional pós-pandemia",
+      "evidence": "Comportamento identificado nos materiais: cliente pesquisa no Instagram → manda mensagem no WhatsApp → busca o produto na loja — modelo que o grupo já domina no atendimento físico (fonte: base-de-conhecimento/00-empresa-e-contexto.md, seção 10; 02-mercado-swot-concorrentes.md, seção 2)"
+    },
+    {
+      "trend": "Comportamento de showrooming em ascensão (pesquisa física, compra online)",
+      "evidence": "Cliente experimenta o produto na loja física e finaliza a compra em marketplaces nacionais (Shopee, Shein) — citado como 'ameaça difusa' em múltiplas fontes (base-de-conhecimento/00-empresa-e-contexto.md, seção 10; 02-mercado-swot-concorrentes.md, seção 2)"
+    }
+  ],
+  "threats": [
+    {
+      "threat": "Avanço do e-commerce nacional (Shopee, Shein e afins) via showrooming",
+      "potential_impact": "Concorrência sem CNPJ ou endereço físico identificável, competindo por preço e conveniência — cliente experimenta o produto na loja física do grupo e finaliza a compra online, sem que o grupo capture a venda (fonte: base-de-conhecimento/02-mercado-swot-concorrentes.md, seção 2)"
+    },
+    {
+      "threat": "Havan como concorrente direto de porte nacional com maturidade digital muito superior",
+      "potential_impact": "Pixel Meta, GTM e GA4 ativos, +1.100 anúncios no Meta Ads e ~4.000 no Google Ads — enquanto o grupo ainda está em maturidade digital nível V0 (sem Pixel, GTM, GA4 ou histórico de campanhas pagas), risco de perda de share of voice digital nos próximos 12 meses (fonte: base-de-conhecimento/02-mercado-swot-concorrentes.md, seção 3.1; 00-empresa-e-contexto.md)"
+    },
+    {
+      "threat": "Dependência do modelo tradicional de loja física ('passeio')",
+      "potential_impact": "Modelo vem perdendo espaço para o modelo de autoatendimento de grandes redes (ex. Havan) — pressão estrutural sobre o fator 'passeio/comodidade' que hoje sustenta parte do tráfego físico do grupo (fonte: base-de-conhecimento/02-mercado-swot-concorrentes.md, seção 2; 00-empresa-e-contexto.md, seção 7)"
+    }
+  ],
+  "unexploited_opportunity": {
+    "description": "Ocupar o território 'o único especialista em tecidos por metro do Cone Sul de Rondônia' — o nicho de tecidos tem saturação baixa em Vilhena e zero concorrentes identificados disputando lances nos termos de busca de categoria no Google Ads no momento da análise.",
+    "why_nobody_does_it": "(1) A Havan tem mix amplo (moda, casa, eletro, ferramentas) mas não é especialista em tecidos — reposicionar-se como especialista exigiria abandonar sua proposta de megastore nacional. (2) A Lojas Avenida atua em moda popular e preço, sem operação nem estoque de tecidos por metro — está fora do seu modelo de negócio. (3) Nenhum concorrente identificado está disputando lances nos termos de busca de categoria (tecidos, cortinas sob medida, enxoval) em Vilhena — a demanda ainda não foi digitalizada; ocupar esse espaço agora garante CPC mínimo e primeira posição.",
+    "feasibility": "alta"
+  },
+  "market_jtbd": {
+    "current_solutions": "A maioria dos moradores da região ainda resolve a necessidade de tecidos/casa e moda indo fisicamente à loja, por hábito, indicação ou memória de marca — a maior parte dos termos de busca de categoria aparece com volume zero em Vilhena, o que os materiais interpretam como 'demanda ainda não digitalizada', não inexistente (fonte: base-de-conhecimento/02-mercado-swot-concorrentes.md, seção 1).",
+    "alternatives": [
+      {
+        "type": "direct",
+        "description": "Concorrentes regionais com modelo de loja física: Havan (direto, mix amplo) e Lojas Avenida (indireto, moda popular)"
+      },
+      {
+        "type": "indirect",
+        "description": "E-commerce nacional (Shopee, Shein e afins) via showrooming — cliente experimenta o produto na loja física e finaliza a compra online"
+      }
+    ],
+    "cost_of_inaction": "Continuar dependendo do modelo tradicional de loja física ('passeio'), perdendo espaço para o modelo de autoatendimento das grandes redes, e permanecer exposto ao showrooming do e-commerce nacional sem uma contrapartida digital que capture essa venda (fonte: base-de-conhecimento/00-empresa-e-contexto.md, seção 7 e 10)."
+  },
+  "real_differentials": [
+    {
+      "differential": "Crediário próprio, familiar e sem juros, parcelado em até 6x",
+      "status": "confirmed",
+      "icp_relevance": "Resolve a objeção mais recorrente do ICP (dúvida sobre como funciona o crediário/compra pelo WhatsApp) e atende diretamente o perfil que não quer comprometer o limite do cartão de crédito — inadimplência de apenas 1,5%-2,5% comprova a solidez do modelo",
+      "action_needed": "Comunicar ativamente esse diferencial nos canais digitais — hoje avaliado como pouco explorado fora do atendimento presencial"
+    },
+    {
+      "differential": "Nota 4,6/5,0 no Google Meu Negócio com mais de 327 avaliações",
+      "status": "confirmed",
+      "icp_relevance": "Prova social forte que reduz a desconfiança do ICP em comprar por canal digital sem garantia de entrega/pós-venda",
+      "action_needed": "Explorar essas avaliações ativamente em conteúdo, destaques do Instagram e criativos de anúncio — hoje pouco explorada digitalmente"
+    },
+    {
+      "differential": "Especialidade em tecidos por metro sem concorrência direta em Vilhena",
+      "status": "confirmed",
+      "icp_relevance": "Atende diretamente o job funcional de 'encontrar variedade completa em um só lugar' sem alternativa local equivalente",
+      "action_needed": "Reforçar o posicionamento de especialista nos criativos e na estruturação de busca paga, já que nenhum concorrente disputa esses termos hoje"
+    },
+    {
+      "differential": "Base histórica de clientes cadastrados no sistema Linx",
+      "status": "potential",
+      "icp_relevance": "Ativo de baixo custo para reativação/retenção de clientes que já compraram antes (nível 4 de consciência)",
+      "action_needed": "Confirmar formalmente se o Linx é de fato o sistema em uso, se cobre as 3 lojas + Rainha Modas, e se a exportação de dados de clientes é operacionalmente viável (formato, LGPD, frequência) — divergência já identificada entre o pré-kick-off e documentos posteriores"
+    },
+    {
+      "differential": "Crescimento de +57% YoY em busca por aviamentos (segmento B2B)",
+      "status": "potential",
+      "icp_relevance": "Sinaliza digitalização crescente do público profissional (costureiras autônomas, ateliês, tapeçarias, alfaiates, confecções pequenas, cortineiras), que já compra em volume e com fidelidade alta quando há estoque e crédito",
+      "action_needed": "Criativos e campanha dedicados ao público B2B, com segmentação por interesse profissional e CTA direto para WhatsApp com proposta de 'conta profissional'"
+    }
+  ],
+  "honesty_alert": "Duas limitações relevantes desta pesquisa, herdadas dos materiais originais do cliente: (1) TAM/SAM/SOM em R$ não puderam ser calculados — o briefing não traz faturamento anual, ticket médio nem margem de contribuição atual (todos em branco no pré-kick-off), e a Pesquisa de Mercado original entregue ao cliente também não calculou esses valores, apenas a área de influência demográfica (~180 mil habitantes) e o volume de busca digital (~410 buscas/mês); os valores 0 registrados em tam_sam_som são marcadores técnicos de dado indisponível, não medições reais de mercado. (2) A lista de concorrentes formalmente mapeados nos materiais originais tem apenas 2 nomes (Havan e Lojas Avenida, citados pelo próprio cliente no pré-kick-off) — o terceiro competidor incluído aqui para atender ao formato mínimo do output (Lojas Torra) é tratado nos materiais originais apenas como benchmark de criativo, não como concorrente mapeado geograficamente; seu digital_score é um valor neutro de preenchimento, não uma avaliação real. Recomenda-se validar com o cliente se algum dos demais benchmarks de criativo citados (Linda Casa, JLM Tecidos, Mundo do Enxoval, comercialtextilstore) de fato compete pelo mesmo cliente em Vilhena.",
+  "completed_at": "2026-09-13T00:00:00Z"
+}
