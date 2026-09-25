@@ -1,0 +1,22 @@
+# Configuração mínima do Supabase CLI para este projeto.
+project_id = "crediario-rei-do-pano"
+
+# As três functions validam o JWT no próprio código (401/403 com JSON e CORS),
+# então a checagem automática do gateway fica desligada.
+[functions.submit-lead]
+verify_jwt = false
+
+[functions.list-leads]
+verify_jwt = false
+
+[functions.manage-lead]
+verify_jwt = false
+
+[auth]
+site_url = "https://crediario.reidopano.com.br/leads-panel"
+additional_redirect_urls = [
+  "https://crediario.reidopano.com.br/leads-panel",
+  "https://crediario-rei-do-pano.vercel.app/leads-panel",
+  "http://localhost:5173/leads-panel",
+  "http://localhost:4173/leads-panel",
+]

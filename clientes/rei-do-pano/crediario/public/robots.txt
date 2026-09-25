@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /leads-panel
+
+Sitemap: https://crediario.reidopano.com.br/sitemap.xml

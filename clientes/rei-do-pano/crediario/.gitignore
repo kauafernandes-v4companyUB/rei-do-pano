@@ -1,0 +1,10 @@
+node_modules
+dist
+.vercel
+.env*
+!.env.example
+supabase/.temp
+.claude/
+.agents/
+skills-lock.json
+*.tsbuildinfo
