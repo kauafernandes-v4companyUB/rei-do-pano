@@ -226,3 +226,11 @@ body.show-notes .notes { display: block; }
 .photo img { height: 470px; width: auto; }
 .ig img { aspect-ratio: 1 / 0.88; }
 .chat__label { font-size: 24px; }
+
+/* Slide 2: avaliações reais do Google */
+.split--reviews { grid-template-columns: 620px 1fr; gap: 80px; }
+.reviews { display: flex; flex-direction: column; gap: 32px; }
+.review { background: #f6f1ef; border-left: 10px solid var(--v4); border-radius: 22px; padding: 36px 44px; }
+.review__stars { color: #f5b301; font-size: 34px; letter-spacing: .1em; }
+.review blockquote { font-size: 46px; font-weight: 600; line-height: 1.22; color: var(--bordo-ink); margin-top: 10px; }
+.review figcaption { font-size: 26px; color: #8a6a62; margin-top: 16px; }
