@@ -234,3 +234,7 @@ body.show-notes .notes { display: block; }
 .review__stars { color: #f5b301; font-size: 34px; letter-spacing: .1em; }
 .review blockquote { font-size: 46px; font-weight: 600; line-height: 1.22; color: var(--bordo-ink); margin-top: 10px; }
 .review figcaption { font-size: 26px; color: #8a6a62; margin-top: 16px; }
+
+/* Menu do robô (escolha da atendente) */
+.bot-options { display: flex; flex-direction: column; gap: 8px; margin-top: 12px; }
+.bot-option { display: block; text-align: center; padding: 10px 14px; border-radius: 10px; background: #fff; color: #027eb5; font-weight: 600; font-size: 28px; }

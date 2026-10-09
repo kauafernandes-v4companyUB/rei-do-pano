@@ -1,6 +1,8 @@
 (function () {
   // Preço do metro do tricoline exibido nas conversas da Situação A. Troque pelo valor real.
   const PRECO = 'R$ __';
+  // Atendentes que aparecem no menu do robô (slide da escolha). Fictícios: troque pelos nomes reais.
+  const ATENDENTES = ['Joana', 'Ana', 'Carla'];
 
   const LABELS = {
     anuncio: { name: 'Anúncio', c: '#2f7de1' },
@@ -16,6 +18,10 @@
   const notes = $('notes');
 
   document.querySelectorAll('.preco').forEach((el) => { el.textContent = PRECO; });
+  document.querySelectorAll('.bot-options').forEach((el) => {
+    el.innerHTML = ATENDENTES.map((n, i) => `<span class="bot-option">${i + 1} · ${n}</span>`).join('');
+  });
+  document.querySelectorAll('.atendente-escolhida').forEach((el) => { el.textContent = ATENDENTES[0]; });
 
   // Passos de cada slide: data-order define a ordem; data-last vai para o fim; o resto segue o DOM.
   const stepsOf = slides.map((slide) => {
