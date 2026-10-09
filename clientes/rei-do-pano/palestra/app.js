@@ -1,7 +1,5 @@
 (function () {
-  // Preço do metro do tricoline exibido nas conversas da Situação A. Troque pelo valor real.
-  const PRECO = 'R$ __';
-  // Atendentes que aparecem no menu do robô (slide da escolha). Fictícios: troque pelos nomes reais.
+  // Atendentes fictícias do menu do robô (slide da escolha).
   const ATENDENTES = ['Joana', 'Ana', 'Carla'];
 
   const LABELS = {
@@ -17,7 +15,6 @@
   const $ = (id) => document.getElementById(id);
   const notes = $('notes');
 
-  document.querySelectorAll('.preco').forEach((el) => { el.textContent = PRECO; });
   document.querySelectorAll('.bot-options').forEach((el) => {
     el.innerHTML = ATENDENTES.map((n, i) => `<span class="bot-option">${i + 1} · ${n}</span>`).join('');
   });

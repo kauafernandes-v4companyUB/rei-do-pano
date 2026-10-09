@@ -238,3 +238,8 @@ body.show-notes .notes { display: block; }
 /* Menu do robô (escolha da atendente) */
 .bot-options { display: flex; flex-direction: column; gap: 8px; margin-top: 12px; }
 .bot-option { display: block; text-align: center; padding: 10px 14px; border-radius: 10px; background: #fff; color: #027eb5; font-weight: 600; font-size: 28px; }
+
+/* Arquivo enviado no WhatsApp (tabela de preços) */
+.msg__file { display: flex; align-items: center; gap: 16px; background: rgba(0,0,0,.05); border-radius: 10px; padding: 14px 16px; margin-bottom: 10px; font-weight: 600; line-height: 1.2; }
+.msg__file small { font-weight: 400; font-size: 22px; color: #54656f; }
+.msg__file-icon { flex: none; width: 58px; height: 70px; border-radius: 6px; background: #e53935; color: #fff; font-size: 20px; font-weight: 800; display: flex; align-items: flex-end; justify-content: center; padding-bottom: 8px; }
