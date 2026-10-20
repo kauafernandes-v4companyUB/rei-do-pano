@@ -1,4 +1,4 @@
-# Tagueamento Rei do Pano: orientações para o gestor de tráfego
+]# Tagueamento Rei do Pano: orientações para o gestor de tráfego
 
 **Contêiner GTM:** `GTM-KFKG4QMG`, o mesmo nas duas páginas
 **Atualizado em:** 25/09/2026
